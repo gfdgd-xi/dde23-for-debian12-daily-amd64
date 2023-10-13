@@ -25,7 +25,7 @@ jobs:
           # 编译
           cd ~
           git clone https://$GUSER:$PASSWORD@github.com/gfdgd-xi/dde23-for-debian12-daily-amd64 --depth=1
-          mv dde23-for-debian12-daily-amd64 dde23-for-debian12-daily
+          mv dde23-for-debian12-daily-amd64 dde23-for-debian12-daily -v
           bottle="/home/runner/dde23-for-debian12-daily/run.sh"
           chmod 777 $bottle
           $bottle apt update
