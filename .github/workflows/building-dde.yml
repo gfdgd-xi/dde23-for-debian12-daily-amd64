@@ -34,7 +34,7 @@ jobs:
           $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
           $bottle rm github.sh
-          $bottle wget http://daily.deb.debiandde.gfdgdxi.top/sources/github.sh
+          $bottle wget http://amd64.daily.deb.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
           $bottle rm github.sh
           sudo cp /home/runner/dde23-for-debian12-daily/build-deb.py /home/runner/debian12-chroot
