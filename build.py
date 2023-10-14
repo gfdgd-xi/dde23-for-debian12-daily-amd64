@@ -50,7 +50,7 @@ def Write(path: str):
         <hr/>
         <h2>添加 apt 源</h2>
         <p><b>注意：需要先添加 Stable 源再添加该 daily 源，Stable 源可见：<a href='http://deb.debiandde.gfdgdxi.top'>http://deb.debiandde.gfdgdxi.top</a></b></p>
-        <pre><code>wget http://daily.deb.debiandde.gfdgdxi.top/sources/github.sh ; bash github.sh ; rm github.sh</code></pre>
+        <pre><code>wget http://amd64.daily.deb.debiandde.gfdgdxi.top/sources/github.sh ; bash github.sh ; rm github.sh</code></pre>
         <p>项目地址：<a href="https://github.com/gfdgd-xi/debian-dde/">https://github.com/gfdgd-xi/debian-dde/</a></p>
         <hr/>
         <h1 id="copyright">©2023~2023 gfdgd xi</h1>
