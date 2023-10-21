@@ -2408,6 +2408,44 @@ Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde-dock
  dock-plugin module
 
+Package: deepin-compressor
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: devel
+Maintainer: packages <packages@deepin.com>
+Installed-Size: 4715
+Depends: libarchive13 (>= 3.2.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.28.0), libkf5archive5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libminizip1 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libzip4 (>= 1.6.0), p7zip-full, deepin-shortcut-viewer, unar, rar, unrar, pigz
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-compressor/deepin-compressor_6.0.0_amd64.deb
+Size: 1792892
+MD5sum: ad4443c6d342b4656ec30a44603b99e5
+SHA1: 892c62ed52f9317bf27f335f8d598951cc06a1e9
+SHA256: 5adc8bb810cfda34466b4cb9635ec41bed18c7c92c3125869f8e70e6a044c7b5
+SHA512: 3d0ffd2185265dcc7b221ccd7859b93f614c9fed5dc9fdada7a8f0d2ebdd66ca65cc4abf3cb3ed0f8ac81571a510a8303ec1844c6bce8d78f419455fb504743d
+Description: Archive Manager is a fast and lightweight application for creating and extracting archives.
+ Archive Manager is a user-friendly and easy-to-use compressing and decompressing software, supporting multiple compressing formats such as 7z, jar, tar, tar.bz2, tar.gz, tar.lz, tar.lzm, tar.lzo, tar.Z, zip as well as encrypted compressing settings.
+
+Package: dde-polkit-agent
+Architecture: amd64
+Version: 6.0.5
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 534
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.114.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2)
+Filename: ./d/dde-polkit-agent/dde-polkit-agent_6.0.5_amd64.deb
+Size: 121772
+MD5sum: 06186b2576eee1f643a54345453234dc
+SHA1: 66335cf4c196d540372e8cfcb410ea1a29d3c744
+SHA256: 94a2713a296021ba64de8cc3f35a7fa6f6d62aff9cd75ee42af1745d97b97cb6
+SHA512: 864d1fe0142ea110c78369a6111471114f8acad2f6348331301792831e944a3fe81afda100d811d78fc775693e79b208ff6b9bf0bb37e91b5dead8a5e6530a1f
+Homepage: http://www.deepin.org/
+Description: PolicyKit agent for DDE.
+ PolicyKit agent is usually a dialog used to provide a way to let users
+ grant permission to specific actions, this package serves the role in
+ Deepin Desktop Environment.
+
 Package: dde-account-faces
 Architecture: all
 Version: 1.0.15
@@ -2465,6 +2503,25 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
  Display all installation programs, and provide access to open, uninstall, boot and start, which is convenient for users to operate quickly
+
+Package: dde-polkit-agent-dev
+Architecture: amd64
+Version: 6.0.5
+Priority: optional
+Section: devel
+Source: dde-polkit-agent
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 13
+Depends: dde-polkit-agent (= 6.0.5)
+Filename: ./d/dde-polkit-agent-dev/dde-polkit-agent-dev_6.0.5_amd64.deb
+Size: 3160
+MD5sum: c5bc7b61ba3b274d33ea7a9a009c557b
+SHA1: c1af6da3ba6834b4ff634b5f7d3e3aa6fab02275
+SHA256: a23d39f0e0d24d91a30697ce10cf9b457dd260e1dd6863d8497b38da5ab78a40
+SHA512: 60ad7e1fb24e748a5ab1a6a82f281409f86144b22f54d4e65e599932b74455523d454e4617a4a715bf437f43e77368d4a4d4c01f45ca4e0a9233e4398043f8a4
+Homepage: http://www.deepin.org/
+Description: developement files of dde-polkit-agent extensions.
+ Development files of dde-polkit-agent extensions.
 
 Package: deepin-pw-check
 Architecture: amd64
@@ -3386,11 +3443,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310352
-MD5sum: fe1652f5fb3a83aeaf336eca6ea430fe
-SHA1: 587aa28d55b7ac5f33fce8d17f293633603037cb
-SHA256: 1073e7e3dc8d256045880bbdc1c50e27533e7b5fe6873d21561e0af9aedaacdd
-SHA512: bfdfc2e50c796922b0e58091fd26fe83cb538fdbae16f5c7bc19cac2a53d1baae0219ac5614c31a59d702692e71cd5652a9cdfdb3f28197c4f6408d16aa92b31
+Size: 310456
+MD5sum: c53e277c7cdaaef9c82852e733060759
+SHA1: aa4d4eb34146b0907a3392e07522d51b2586c8b7
+SHA256: efb08dc6ffa579c026ed3a8cd708a149d1189c9a857fc8ae939b246f9a26ee60
+SHA512: a797d1a8c53ad5f814d3f8d137b517de6dfa3026798b14a2f8bea56a755f7f9ac186fe305a5b093d989af569af06c3a095f0bd513f26b6f6e72f6da6097ab94b
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
