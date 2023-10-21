@@ -1,0 +1,20 @@
+Package: dde-wayland-config
+Architecture: amd64
+Version: 2.0.1
+Priority: optional
+Section: utils
+Maintainer: ganjing <ganjing@uniontech.com>
+Installed-Size: 1370
+Depends: libc6 (>= 2.34)
+Conflicts: kelvinu
+Replaces: kelvinu
+Filename: ./d/dde-wayland-config/dde-wayland-config_2.0.1_amd64.deb
+Size: 480820
+MD5sum: c5c0d72be307c332ebab694cd02e3ce5
+SHA1: a714bc18a3e0a92f26881518f69500ab4287feff
+SHA256: 920fdde04b526c4339ff729b7e8551b53fba2dede37c304dd293a66e59f972e7
+SHA512: 0a436ed07272af6b338a1415500f87ddf56969d0ed6d10f5b8d918ecb950f855e71dd19f7154eb6bd67d1dca1249c1d8c09113f2f8776fbc6a6f3f7fcea882bd
+Homepage: https://www.deepin.org
+Description: This package is the configuration file to adapt to the wayland environment
+ some configuration
+

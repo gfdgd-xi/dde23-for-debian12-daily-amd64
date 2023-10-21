@@ -1,0 +1,22 @@
+Package: libdtknotifications-dev
+Architecture: amd64
+Version: 1.0.3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtknotifications
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 588
+Depends: libdtknotifications1 (= 1.0.3)
+Filename: ./l/libdtknotifications-dev/libdtknotifications-dev_1.0.3_amd64.deb
+Size: 386544
+MD5sum: 845b3134e9f0af5fcac75d8c10148b52
+SHA1: 0e897dc803d75160e1ac18b64137fcc011eed4cd
+SHA256: 12dcea4051614ad3bc684ae381284709ba4e400ee81d9115864914c32dbc2796
+SHA512: e31f0623c31f38f1d4171e04645a99b3bcb792d4ec3bc5bf74858e9d45c101e4e022fc82b870b75554a81ee53a93ee2c4416a5c0e7d8ce57ecdaecb3478d153e
+Homepage: https://github.com/linuxdeepin/dtknotifications
+Description: Development Tool Kit notifications librar
+ libdtknotifications is base library of Deepin Qt/C++ applications,
+ used to develop applications which want to access and control notifications.
+ This package contains the header files and static libraries.
+

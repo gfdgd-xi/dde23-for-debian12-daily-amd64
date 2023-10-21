@@ -1,0 +1,20 @@
+Package: blur-effect
+Architecture: amd64
+Version: 1.1.3-1
+Priority: optional
+Section: graphics
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 57
+Depends: libc6 (>= 2.34), libegl1, libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgles2, libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5.2)
+Filename: ./b/blur-effect/blur-effect_1.1.3-1_amd64.deb
+Size: 15732
+MD5sum: 799107d9d5875c96f7fc157f98230018
+SHA1: 13521fd6d75dfda0387b7db75ebcd9c718de088f
+SHA256: 40b5341a67ac4676ff4bd122949ad382101c10825a49cfbaed6a265816f8e705
+SHA512: 1f54ee18538664e339316a24f1c66fffc166b922154bcdd385f50ddc59db50ce3794f17bf1fc8d0cb69bf09d0520ad8dcff02c2dc89240377944ddbaed42395c
+Homepage: https://github.com/sonald/blur-effect
+Description: Offscreen Image Blurring utility
+ Blur-effect is based on efficient Gaussian blur with linear sampling.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+

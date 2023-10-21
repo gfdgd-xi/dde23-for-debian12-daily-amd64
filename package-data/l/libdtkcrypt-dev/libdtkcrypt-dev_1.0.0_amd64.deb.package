@@ -1,0 +1,20 @@
+Package: libdtkcrypt-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkcrypt
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 258
+Depends: libdtktemplate (= 1.0.0)
+Filename: ./l/libdtkcrypt-dev/libdtkcrypt-dev_1.0.0_amd64.deb
+Size: 158808
+MD5sum: 59124b32e6b2e769a80ccfb3c04b6519
+SHA1: 354c2d69eb1c422c277bfd8fed63a21e7d9e6422
+SHA256: d59954fba3515930168d2ca9565adfe6465286816c96bf79220e1cc7181fb74a
+SHA512: ee511db560016768ed93e6be871b071864fca96b14f0ebf81e6512b4403ccfb4456323c8c66b30ee8b50e715625d2b720de36330d1bd184f809cb1598f98eed1
+Description: Deepin Tool Kit template devel library
+ libdtkcrypt-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+

@@ -1,0 +1,20 @@
+Package: libdtkcrypt
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkcrypt
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 127
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
+Filename: ./l/libdtkcrypt/libdtkcrypt_1.0.0_amd64.deb
+Size: 35316
+MD5sum: b1265b2a85d7932de0f73212f7fff196
+SHA1: 10e5a10fb63c4bfca5ac8d8710746438d2ba9e48
+SHA256: 990a08cd6530aec0694b69e71d0d7cc68569db2cabaf1d0d295286a6cd1aaf25
+SHA512: 4617cb16d4ca2b8e1588d662da1bd4f6956bf19ff1f7b118a86b7999cb001f2693607f0dfe860583e6bf9bd553b14416021e1b39519901f8e80b4b494eb53d62
+Description: Deepin Tool Kit template library
+ libdtkcrypt is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

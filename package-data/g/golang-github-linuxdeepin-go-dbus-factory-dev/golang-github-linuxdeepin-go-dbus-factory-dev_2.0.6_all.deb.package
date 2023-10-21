@@ -1,0 +1,19 @@
+Package: golang-github-linuxdeepin-go-dbus-factory-dev
+Architecture: all
+Version: 2.0.6
+Priority: optional
+Section: devel
+Source: golang-github-linuxdeepin-go-dbus-factory
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4473
+Depends: golang-github-linuxdeepin-go-lib-dev, golang-github-stretchr-testify-dev
+Filename: ./g/golang-github-linuxdeepin-go-dbus-factory-dev/golang-github-linuxdeepin-go-dbus-factory-dev_2.0.6_all.deb
+Size: 199916
+MD5sum: e38584129312df11044b223c1a2004cc
+SHA1: a4f5ede3c624d39d45fab0462366a9648dc12387
+SHA256: acbcef5fb5e7c51654f450e93a6cee38fbe24cbe15ee21efe534201e4a38e0de
+SHA512: 5016b3bda53e3fccd5e8cb7005cb6cebd183a98f91f2330000c4c91e5fa86cf6fb0886d65d960b0c949aff024d97de03c3101f842474850e22ded3f6dac18f66
+Homepage: https://github.com/linuxdeepin/go-dbus-factory
+Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
+ Convenient go binding code for automatically generating DBus services
+

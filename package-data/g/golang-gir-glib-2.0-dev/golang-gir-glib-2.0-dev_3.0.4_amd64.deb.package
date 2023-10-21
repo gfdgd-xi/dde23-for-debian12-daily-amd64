@@ -1,0 +1,24 @@
+Package: golang-gir-glib-2.0-dev
+Architecture: amd64
+Version: 3.0.4
+Priority: optional
+Section: devel
+Source: go-gir-generator
+Maintainer:  Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 276
+Provides: golang-gir-glib-2.0
+Depends: libglib2.0-dev
+Conflicts: golang-gir-glib-2.0
+Breaks: golang-gir-glib-2.0 (<< 0.9.3)
+Filename: ./g/golang-gir-glib-2.0-dev/golang-gir-glib-2.0-dev_3.0.4_amd64.deb
+Size: 36788
+MD5sum: 552f4a7762d1458735aee1619c74bcaa
+SHA1: 6a3659fd57ff4ecd579bb4966f1cb90d5fa4bec9
+SHA256: 7afc8c66d8a23dbdc4f13e73726408c630b81334c2441bdcff69a4747b271a0a
+SHA512: 780ea65febeb4c39d22941b22f0e97197914dab42fc7e520afd59f97e1fdd088b528d7f9f4a20ca7ba1e80fe5213345a7ab98860893eddbbf946fe45157702fc
+Homepage: http://www.deepin.org
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development
+ .
+ glib-2.0 go bindings.
+
