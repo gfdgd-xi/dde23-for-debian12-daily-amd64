@@ -1,0 +1,20 @@
+Package: libdtkcore-dev
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 307
+Depends: libdtkcore5 (= 5.6.17), libdtkcommon-dev (>= 5.6.16)
+Filename: ./l/libdtkcore-dev/libdtkcore-dev_5.6.17_amd64.deb
+Size: 42644
+MD5sum: 01a4250919bfec0562b87e1c670442f3
+SHA1: 88e81177491421cca8f16884c26b219ebe6c4916
+SHA256: 201e78b4a0e92015edca3ec8e5510acdabe6bd9b24854ccfe4120a6dc410abfa
+SHA512: 3614b5612a4a326e4e67ad7f68b671e6fae2c9a74a6c35237816879a220e280cb3bb42fac145973c9cfb7a49472bda2c0e9e54a9f8fd580f913313dc9155cd1c
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+

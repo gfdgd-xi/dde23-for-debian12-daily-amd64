@@ -1,0 +1,21 @@
+Package: libdlmcontrolui
+Architecture: amd64
+Version: 5.3.76
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1620
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 4.1.1), curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmcontrolui/libdlmcontrolui_5.3.76_amd64.deb
+Size: 467628
+MD5sum: f1c51faa2e40da3ea51fda00a4c9cbaf
+SHA1: 89f009309b5a9986487b9789ffcb52bc57a8e633
+SHA256: 4bb1ce685e7a054f7540f0c79d6c73023f6cbfbdc09519603de3bdc438dd793c
+SHA512: e554130d53bc440828b78a68c63bf247ab6ba739952e062e2349d219c1ddb80f88ed25f561e6716cd8c409e4a1dbc0a62627bdac693e14854b04e341be606100
+Homepage: https://www.deepin.org/
+Description: download manager dlmcontrolui lib.
+ downloader for deepin desktop environment.
+

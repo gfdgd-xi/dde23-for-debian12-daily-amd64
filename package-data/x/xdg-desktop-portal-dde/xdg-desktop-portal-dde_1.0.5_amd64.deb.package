@@ -1,0 +1,21 @@
+Package: xdg-desktop-portal-dde
+Architecture: amd64
+Version: 1.0.5
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 612
+Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libkf5i18n5 (>= 5.50.0~), libkf5notifications5 (>= 5.50.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~) | libqt5gui5-gles (>= 5.11.0~), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
+Filename: ./x/xdg-desktop-portal-dde/xdg-desktop-portal-dde_1.0.5_amd64.deb
+Size: 161476
+MD5sum: f7fd8ab3ceca458542f0425932118375
+SHA1: 32781d1df46019350d89e45ad68c266ad2043052
+SHA256: c1c2910606c68a0fac67b4292731069bd3bf359fd0731d9426f2aa0430c6f776
+SHA512: 5923395057775536124a6d6db52ff971dc65b0123a172544c9885176179f57929229ff54b6ff81d3a8230962c236629fd1ba53d3e00fbc34008373a411ed605d
+Description: Dtk poortal backend for xdg-desktop-portal
+  xdg-desktop-portal-dde provide a DTK implementation for the
+  desktop-agnostic xdg-desktop-portal service. This allows sandboxed
+  applications to request services from outside the sandbox using
+  Dtk GUIs (app chooser, file chooser, print dialog) or using GNOME
+  services (session manager, screenshot provider).
+

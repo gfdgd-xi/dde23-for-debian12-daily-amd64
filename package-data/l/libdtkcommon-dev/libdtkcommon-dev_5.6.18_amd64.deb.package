@@ -1,0 +1,20 @@
+Package: libdtkcommon-dev
+Architecture: amd64
+Version: 5.6.18
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.6.18_amd64.deb
+Size: 4968
+MD5sum: 9886a8752fabafc32de01bafd79e93e5
+SHA1: f5cd7838e54d10ebc2b659df127e0cf17e9e7cb5
+SHA256: 1bb8fec235c799f8c4f4d9ac1952bf4d363e2f8276433cc98be36d9ca0d08c1b
+SHA512: fc8e0725345bcae99dd5712070b0d560ddda557cc0311cdcad152a8c1d9b04250c04d7ea2b18ce10db3492e16f4dd6f79f638cae71a10bc2902675cf8b7d78e1
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+

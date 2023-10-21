@@ -1,0 +1,19 @@
+Package: deepin-keyring
+Architecture: all
+Version: 2023.09.26
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: lilongyu <leaeasy@linuxdeepin.com>
+Installed-Size: 34
+Depends: gpgv
+Filename: ./d/deepin-keyring/deepin-keyring_2023.09.26_all.deb
+Size: 8552
+MD5sum: 02406b84a1d2291d183757a714fbd4a4
+SHA1: 93a205bdf344b60f5862e5d03a067c54001a0055
+SHA256: dae25d3f0bbac5dfb031b511a36fbc974971047a9e9ff0f8d8bc8654312acc25
+SHA512: b76c14175186172da19c65adb879981730c2e756fbf78cdac08d929a920581b3ab7fffe2dc4c6eaf6d240081afa75c2944ea0b2d6dcb85f313c121a427f7b379
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that.
+

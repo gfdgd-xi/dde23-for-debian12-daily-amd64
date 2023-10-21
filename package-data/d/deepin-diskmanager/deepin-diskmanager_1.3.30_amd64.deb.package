@@ -1,0 +1,17 @@
+Package: deepin-diskmanager
+Architecture: amd64
+Version: 1.3.30
+Priority: optional
+Section: tools
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 8918
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), smartmontools, exfat-fuse
+Filename: ./d/deepin-diskmanager/deepin-diskmanager_1.3.30_amd64.deb
+Size: 4661784
+MD5sum: 4f33601def6ed0b83bca152ca9f1ee7f
+SHA1: 022e7271b1dc4961c5116544ba722114cd31e16e
+SHA256: 7c3296b51c0043683346954631c40117163a94ab7e1017d19813ae53eae41425
+SHA512: 8e0203e914cf81d896d2e4065333e97f9f9a4e76dcf8d626bf86467fbe9acc8854074624a84d639e5ca1c4686ab984e70518069baab265c33a5b3afb23e8dbe1
+Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
+ Disk Utility is a disk management tool for disk.
+
