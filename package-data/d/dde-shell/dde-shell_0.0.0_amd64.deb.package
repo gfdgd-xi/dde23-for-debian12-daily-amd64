@@ -1,0 +1,18 @@
+Package: dde-shell
+Architecture: amd64
+Version: 0.0.0
+Multi-Arch: same
+Priority: optional
+Section: unknown
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.34), libdde-shell (= 0.0.0), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 4.1.1)
+Filename: ./d/dde-shell/dde-shell_0.0.0_amd64.deb
+Size: 9996
+MD5sum: 2384ca74c3f1348e51151d01e3b1799c
+SHA1: e2f9abd49629397bdb496602762f85d9ba139b19
+SHA256: 0173aeafa76abea77e264c58b38c15f36af8e2a965dfbaec0f31756c092d4db8
+SHA512: 592385d0f21e3b1b0c945452f8260f8fdc2f8c797cf55a94296e4fbec00bb161be83ec2a176058f4142bea6512dfc9c7fec913aa4db7670659077efd994b57b2
+Homepage: http://www.deepin.org
+Description: An wrapper for developed based on dde-shell plugin system
+

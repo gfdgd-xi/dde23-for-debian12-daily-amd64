@@ -1,0 +1,19 @@
+Package: libdde-shell-dev
+Architecture: amd64
+Version: 0.0.0
+Priority: optional
+Section: unknown
+Source: dde-shell
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 40
+Depends: libdde-shell (= 0.0.0)
+Filename: ./l/libdde-shell-dev/libdde-shell-dev_0.0.0_amd64.deb
+Size: 7284
+MD5sum: 514c21bd63c28bf98160e65f35bcb8b9
+SHA1: 7076ddadd988d3b27bc25b95ac6a94ab82840bb0
+SHA256: 5621c5023488b89b7664ae388eeb7a2f99be039dc3fd3735dfca0aa2779c4ea5
+SHA512: 9d41c146ebe4f16e28ff4d898bf8a84484b52448524ab1b771f873f32754ded74a725cdc5d51e4053f5e5e02485e9c59aa635ebb733eff520cf773e83be07d76
+Homepage: http://www.deepin.org
+Description: DDE Shell devel library
+ DDE Shell is a plugin system that integrates plugins developed based on this plugin system into DDE.
+

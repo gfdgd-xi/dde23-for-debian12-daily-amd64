@@ -1,0 +1,20 @@
+Package: libdtkdevice-dev
+Architecture: amd64
+Version: 1.0.4
+Priority: optional
+Section: libdevel
+Source: dtkdevice
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 87
+Depends: libdtkdevice1 (= 1.0.4)
+Filename: ./l/libdtkdevice-dev/libdtkdevice-dev_1.0.4_amd64.deb
+Size: 12576
+MD5sum: d0c8c23724be21034bfaf07262caf4df
+SHA1: 7d812a63a8a71b13e32adcd2f3901628e5133913
+SHA256: 4e0aed3b067cbe684f3d0451cb4247b3b19d4c1b486bc84d0e8cd069b0b2dd48
+SHA512: e6d64fa986270d0024ffe5a59edd054bc4a611b2c1963d60c67cb5a56439ceab0a428cc0eab26562925d915c7106233360f5d43373dec11efaa92266905d513d
+Description: Deepin Tool Kit template devel library
+ DtkDevice is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkDevice
+
