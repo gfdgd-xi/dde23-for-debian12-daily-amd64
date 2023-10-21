@@ -1,0 +1,19 @@
+Package: libudisks2-qt5
+Architecture: amd64
+Version: 0.0.1
+Priority: optional
+Section: admin
+Source: udisks2-qt5
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 536
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5)
+Filename: ./l/libudisks2-qt5/libudisks2-qt5_0.0.1_amd64.deb
+Size: 130424
+MD5sum: 02ad1dba8a165549dec70ce35b628d47
+SHA1: 8a4b771fb8239614afc0dd36c32672dcd1b74464
+SHA256: ec885d28f719d619a056641a1d3e5827787c36675f1d21b936b4f048ef68f64c
+SHA512: 73237ce8b769ea6b44ac172dd167d3e8c681d92a14d5a6ac519e9fe78ac2a68c619352bb6b81c3db3167a7a5d513feeb9acb22868ca40d80a7f6484563ff9b5d
+Homepage: http://github.com/linuxdeepin/udisks2-qt5
+Description: UDisks2 library with Qt5
+ UDisks2 DBus interfaces binding of Qt5.
+

@@ -1,0 +1,21 @@
+Package: libgio-qt
+Architecture: amd64
+Version: 0.0.12
+Priority: optional
+Section: libs
+Source: gio-qt
+Maintainer: Gary Wang <wzc782970009@gmail.com>
+Installed-Size: 410
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.31.8), libglibmm-2.4-1v5 (>= 2.66.5), libqt5core5a (>= 5.15.1), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 5.2)
+Conflicts: libgio-qt0
+Replaces: libgio-qt0
+Filename: ./l/libgio-qt/libgio-qt_0.0.12_amd64.deb
+Size: 75672
+MD5sum: e246e496d27a45a69356095865ecb159
+SHA1: 1b76e00fad739dbae6bacb0216f2b499e1b5e242
+SHA256: f666d1dfcd18feeea1a960ed45d6ebd60abe7b58e0f8b7e76c8e87359a0ccd3c
+SHA512: 7bb3362096e18a8eeda8139df78b2216f05bf6a00106729bd07a80fa613296afbc330b71903d6654a66281ed0a50a391640cbfea14ae1051aa6a8e8a37046fef
+Homepage: https://github.com/linuxdeepin/gio-qt
+Description: Gio wrapper for Qt.
+ A convenient way to bind gio with Qt5.
+

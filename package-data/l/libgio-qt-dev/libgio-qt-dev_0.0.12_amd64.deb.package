@@ -1,0 +1,19 @@
+Package: libgio-qt-dev
+Architecture: amd64
+Version: 0.0.12
+Priority: optional
+Section: libdevel
+Source: gio-qt
+Maintainer: Gary Wang <wzc782970009@gmail.com>
+Installed-Size: 34
+Depends: libgio-qt, libglibmm-2.4-dev
+Filename: ./l/libgio-qt-dev/libgio-qt-dev_0.0.12_amd64.deb
+Size: 5892
+MD5sum: 1d45c7b1e9ee88d37d2637bd1c9295c6
+SHA1: 0f1af1ad5235fb90adbee1563099c3e95114dd5f
+SHA256: 8678592d0cefaa31876387baeb3a5a095031400dcdf66cafb68c11980121a4b6
+SHA512: 0124b2bfd328ccb132f3fb0ffc19a1c462b264342ee5bd5adc3256025ad509c0ba217a81d14a06dfba2e511fd83724fa95a24c106beac8c4ccb81d8c80e1f16d
+Homepage: https://github.com/linuxdeepin/gio-qt
+Description: Development package for libgio-qt.
+ A convenient way to bind gio with Qt5.
+
