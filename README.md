@@ -11,7 +11,7 @@ rm github.sh
 ```
 加入 Daily 源方法：  
 ```bash
-wget http://daily.deb.debiandde.gfdgdxi.top/sources/github.sh
+wget http://amd64.daily.deb.debiandde.gfdgdxi.top/sources/github.sh
 bash github.sh
 rm github.sh
 ```
