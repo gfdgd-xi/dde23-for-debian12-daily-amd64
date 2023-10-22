@@ -1,0 +1,21 @@
+Package: libunrar-dev
+Architecture: amd64
+Version: 1:5.6.6-1
+Multi-Arch: same
+Priority: optional
+Section: non-free/libdevel
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 937
+Depends: libunrar5 (= 1:5.6.6-1)
+Filename: ./l/libunrar-dev/libunrar-dev_5.6.6-1_amd64.deb
+Size: 170984
+MD5sum: d44e155a81639e1a49096d572a021535
+SHA1: a9312d774c8a6a48522794085126089382748b36
+SHA256: fdb5561ce735370d1063e765d347f51219a65a290418bbc0a3e7fe5caae802a9
+SHA512: 671f1bc1849f723852a089524d12cc147fd6736d98986635475605d6924a07aa6cacd9b41d0b638a5668071b125ecda5851101a64f99a9ede55043babccbd466
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version) - development files
+ This package contains the static library and header files for the
+ libunrar library.
+

@@ -1,0 +1,18 @@
+Package: golang-github-cryptix-wav-dev
+Architecture: all
+Version: 0.0~git20180415.8bdace6-2
+Priority: optional
+Section: devel
+Source: golang-github-cryptix-wav
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 45
+Filename: ./g/golang-github-cryptix-wav-dev/golang-github-cryptix-wav-dev_0.0~git20180415.8bdace6-2_all.deb
+Size: 9068
+MD5sum: b474fef684bb652ce57920f55a2b0e0a
+SHA1: 8835cf25fe8598a3b6a71949dc95d53a8afc1343
+SHA256: 745ba501636e44cf96263e454ebcc0ccac121a3a473b5ed4769659092b909924
+SHA512: dbb628e565f6e8437bb8c84e7dc9a539cc693d19ea988eb8178d65a499a48aeb9caff4b899f34b6826c8677553faeb2e468245c2e337b412de91c63fc0ee73a4
+Homepage: https://github.com/cryptix/wav
+Description: Golang .wav reader and writer (development file)
+ golang-github-cryptix-wav provides .wav reader and writer for Golang.
+

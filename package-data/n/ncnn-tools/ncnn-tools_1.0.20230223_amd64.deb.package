@@ -1,0 +1,19 @@
+Package: ncnn-tools
+Architecture: amd64
+Version: 1.0.20230223
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 769
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 11)
+Filename: ./n/ncnn-tools/ncnn-tools_1.0.20230223_amd64.deb
+Size: 230368
+MD5sum: 45a5e2ec34b7a0ec4a9fe32097f74402
+SHA1: 7e4a8764aad4f95e05574766e93b8e3187813580
+SHA256: 5ccbf3eb818c61f4581114c88d1f3d9d662ea10d0a5d33ac27bbb2720dc40926
+SHA512: 8280b00eab44d77197d2ef2aa89df43fdf924e7aa0cd67999b2befa3ff2f5c60d9604f15979b8d18f62482924b26557657fe593d5a0fb664270d73a022d3dc6d
+Homepage: https://github.com/Tencent/ncnn
+Description: Miscellaneous ncnn utilities.
+ miscellaneous ncnn utilities.
+

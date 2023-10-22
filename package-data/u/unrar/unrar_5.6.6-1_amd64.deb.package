@@ -1,0 +1,21 @@
+Package: unrar
+Architecture: amd64
+Version: 1:5.6.6-1
+Priority: optional
+Section: non-free/utils
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 370
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Conflicts: rar (<= 2.60-1)
+Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
+Size: 108896
+MD5sum: 760a76cf04f4b2666578e402a1e55a9e
+SHA1: 7f40aa2749e458ba4ee64e3a2d69555553385688
+SHA256: a13d28debd86b34dd03c36254b61cba0681b86bdd4341b244447db80db17a336
+SHA512: 4caf21ac0007cd86c3ad1bad7bb421417cc8683a5127a9c32ca1a7ad399dfd5f422225b1bf6b24ce2542d3fd072a3e7174cd4f1e4144b027a1b377f132f382c1
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+

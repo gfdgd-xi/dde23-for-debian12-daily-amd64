@@ -1,3 +1,47 @@
+Package: unrar-free
+Architecture: amd64
+Version: 1:0.0.1+cvs20140707-4
+Priority: optional
+Section: utils
+Maintainer: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Installed-Size: 74
+Depends: libc6 (>= 2.34)
+Recommends: unar
+Suggests: pike8.0 | pike7.8 | pike7.6 | pike
+Conflicts: unrar-nonfree (<< 1:3.7.8-1)
+Filename: ./u/unrar-free/unrar-free_0.0.1+cvs20140707-4_amd64.deb
+Size: 23240
+MD5sum: cc6ed6edcc6969516b5374edf186a117
+SHA1: 0f07b7cad0f0f0bb14ab315fa75248ed7bdf1a96
+SHA256: 71b69361644594beb66be7e369c4d6d671072ccfad8661925881ef3153d45962
+SHA512: 46ff8007027a4ec121b7e3c708c3a07ce4e9731b1e7864013db96331d7b34543ee710f19b2fee3ba35dfcfb823c39ca6ea8c6b6e7490ea9d8e838624db4a3284
+Homepage: https://gna.org/projects/unrar/
+Description: Unarchiver for .rar files
+ Unrar can extract files from .rar archives. Can't handle some archives in
+ the RAR 3.0 format natively. Package "unar" can be used to extract those
+ archives if installed.
+
+Package: unrar
+Architecture: amd64
+Version: 1:5.6.6-1
+Priority: optional
+Section: non-free/utils
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 370
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Conflicts: rar (<= 2.60-1)
+Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
+Size: 108896
+MD5sum: 760a76cf04f4b2666578e402a1e55a9e
+SHA1: 7f40aa2749e458ba4ee64e3a2d69555553385688
+SHA256: a13d28debd86b34dd03c36254b61cba0681b86bdd4341b244447db80db17a336
+SHA512: 4caf21ac0007cd86c3ad1bad7bb421417cc8683a5127a9c32ca1a7ad399dfd5f422225b1bf6b24ce2542d3fd072a3e7174cd4f1e4144b027a1b377f132f382c1
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
 Package: xdg-desktop-portal-dde
 Architecture: amd64
 Version: 1.0.5
@@ -3304,6 +3348,49 @@ Homepage: https://github.com/linuxdeepin/go-x11-client
 Description: deepin go x11 client
  mirrored from https://cr.deepin.io/#/admin/projects/go-x11-client
 
+Package: golang-github-codegangsta-cli-dev
+Architecture: all
+Version: 1.18.0-3
+Priority: optional
+Section: devel
+Source: golang-codegangsta-cli
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 217
+Provides: golang-codegangsta-cli-dev
+Depends: golang-github-urfave-cli-dev
+Breaks: golang-codegangsta-cli-dev (<< 0.0~git20150117-2~)
+Replaces: golang-codegangsta-cli-dev (<< 0.0~git20150117-2~)
+Filename: ./g/golang-github-codegangsta-cli-dev/golang-github-codegangsta-cli-dev_1.18.0-3_all.deb
+Size: 43072
+MD5sum: c696d465f85df28c1514c999b7d95e15
+SHA1: 2084ca970ac980f9c4e72f6566b21bfcb5aa45ba
+SHA256: e79c28a3b72242f7bd665a383ca3eabee86ecbdf35a42314114e1453a33de7bc
+SHA512: 926790e2ccf465f4981bc94b560828f9155ca94d00c748871ea5f73e2117dee4248cfd95b53d22e075ef39299e35727a5ddfb5adce1c11fbc12490899835790c
+Homepage: https://github.com/codegangsta/cli
+Description: simple library for building command line apps in Go
+ cli.go is simple library for building command line apps in Go. It
+ allows is writing fast and distributable command line applications in an
+ expressive way.
+ .
+ This package contains the source.
+
+Package: golang-github-lofanmi-pinyin-dev
+Architecture: all
+Version: 2.0.0.0
+Priority: optional
+Section: utils
+Maintainer: Uniontechos THIRD Maintainers <uniontechos-third@uniontech.com>
+Installed-Size: 1006
+Filename: ./g/golang-github-lofanmi-pinyin-dev/golang-github-lofanmi-pinyin-dev_2.0.0.0_all.deb
+Size: 247532
+MD5sum: 5a5122aac413de04ed0d35b1796d3f78
+SHA1: 8880452a9dfdedae3b6b57b5ec31a532ec6f5414
+SHA256: 61278229a15fed91ddc7b86cdd1a734144cc24ce786fe8c424d6d1963278c275
+SHA512: 4e825c5b0f1e9be77452ccf9c7f99cc17550514ea9aee09780cc03d1250cb1f1e696eba3dec0b9579ef0f1522304df99a0578fa2e9a1b3e8ac88699967aa83b2
+Homepage: http://www.deepin.com
+Description: Chinese to pinyin class library
+ provide more accurate Chinese to pinyin solutions.
+
 Package: golang-gir-gudev-1.0-dev
 Architecture: amd64
 Version: 3.0.4
@@ -3373,6 +3460,24 @@ Description: Go bindings
  .
  gio-2.0 go bindings.
 
+Package: golang-github-cryptix-wav-dev
+Architecture: all
+Version: 0.0~git20180415.8bdace6-2
+Priority: optional
+Section: devel
+Source: golang-github-cryptix-wav
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 45
+Filename: ./g/golang-github-cryptix-wav-dev/golang-github-cryptix-wav-dev_0.0~git20180415.8bdace6-2_all.deb
+Size: 9068
+MD5sum: b474fef684bb652ce57920f55a2b0e0a
+SHA1: 8835cf25fe8598a3b6a71949dc95d53a8afc1343
+SHA256: 745ba501636e44cf96263e454ebcc0ccac121a3a473b5ed4769659092b909924
+SHA512: dbb628e565f6e8437bb8c84e7dc9a539cc693d19ea988eb8178d65a499a48aeb9caff4b899f34b6826c8677553faeb2e468245c2e337b412de91c63fc0ee73a4
+Homepage: https://github.com/cryptix/wav
+Description: Golang .wav reader and writer (development file)
+ golang-github-cryptix-wav provides .wav reader and writer for Golang.
+
 Package: golang-github-linuxdeepin-go-dbus-factory-dev
 Architecture: all
 Version: 2.0.6
@@ -3391,6 +3496,26 @@ SHA512: 5016b3bda53e3fccd5e8cb7005cb6cebd183a98f91f2330000c4c91e5fa86cf6fb0886d6
 Homepage: https://github.com/linuxdeepin/go-dbus-factory
 Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
  Convenient go binding code for automatically generating DBus services
+
+Package: golang-codegangsta-cli-dev
+Architecture: all
+Version: 1.18.0-3
+Priority: optional
+Section: oldlibs
+Source: golang-codegangsta-cli
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 13
+Depends: golang-github-codegangsta-cli-dev
+Filename: ./g/golang-codegangsta-cli-dev/golang-codegangsta-cli-dev_1.18.0-3_all.deb
+Size: 6836
+MD5sum: 951428936e8190649cee61126fb433ca
+SHA1: 98864c961f37e4e7a3c1c141ca97c78ddc44d885
+SHA256: 23026bd043295238db85b740485e1331bc26e251dcbf4ce2c99a5b13ff72c556
+SHA512: 64df4a76fbc2d55840cbfaef26d86bd990428480ae89f20a6c286351009d50295215888d6d3a7c725bc55bf67c418de33d1e7fd8f823bc7f91d13570d7630baf
+Homepage: https://github.com/codegangsta/cli
+Description: Transitional package for golang-github-codegangsta-cli-dev
+ This is a transitional package to ease upgrades to the
+ golang-github-codegangsta-cli-dev package. It can be safely removed.
 
 Package: golang-gir-gobject-2.0-dev
 Architecture: amd64
@@ -3655,6 +3780,27 @@ Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: tennis for seetaface
   TenniS: Tensor based Edge Neural Network Inference System
 
+Package: spark-webapp-runtime
+Architecture: amd64
+Version: 1.7.0-1
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 477
+Provides: store.spark-app.spark-webapp-runtime
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 12), libqt5gui5, libqt5concurrent5, libqt5svg5
+Conflicts: store.spark-app.spark-webapp-runtime
+Replaces: store.spark-app.spark-webapp-runtime
+Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
+Size: 159412
+MD5sum: 02d806e5dfc63f41d34a0b3c276faa50
+SHA1: 02a75c731a76281d6f045b7b6d3b978a6ff433b1
+SHA256: 272c3f74ea69f42645983d16f56f991c8f11f870e8ff7095965be43b632df81f
+SHA512: 7f4ab20eec4501448adbba93d79d6624856442daab8b612a1dc7022ecfad3afa3d5bda30fbf1f5c648aa0685605fa300492fdd7ad20cd16189deea1366a024fe
+Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
+Description: Spark WebApp Runtime
+ A simple solution for packaging web apps.
+
 Package: seetaface-authorize
 Architecture: amd64
 Version: 1.0.0.1-1+dde
@@ -3672,6 +3818,36 @@ SHA512: ac8292ab092000eb9434b7307b44cb9010f83e0466017cad7f63bd189a60319d694f3690
 Homepage: https://github.com/SeetaFace6Open/SeetaAuthorize
 Description: seetaface authorize module
  The authorize module of seetaface.
+
+Package: exfat-utils
+Architecture: amd64
+Version: 1.3.0-2
+Priority: optional
+Section: otherosfs
+Maintainer: Sven Hoexter <hoexter@debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.34)
+Recommends: exfat-fuse
+Conflicts: exfatprogs
+Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
+Size: 44596
+MD5sum: 43b4bd3b7ebefa43ef1424bf7dd74b7d
+SHA1: 4da96b711ac00d29ad9caf997c799f69c666233d
+SHA256: c65909151fff85750fe7ee71643f70422192874fe093c33fc78e28a715fb6c94
+SHA512: 9068496f0138800d12e7dd13b668f8cd89e1808c4f0ae5af884034d8eaf775d4389402bfe4ae69f4571477e883d16870d342c2d4cf0fd26e4234a2fe5f6872d6
+Homepage: https://github.com/relan/exfat
+Description: utilities to create, check, label and dump exFAT filesystem
+ Utilities to manage extended file allocation table filesystem.
+ This package provides tools to create, check, dump and label the
+ filesystem. It contains
+  - dumpexfat to dump properties of the filesystem
+  - exfatfsck / fsck.exfat to report errors found on a exFAT filesystem
+  - exfatlabel to label a exFAT filesystem
+  - mkexfatfs / mkfs.exfat to create a exFAT filesystem.
+ The tools included in this package are the exfat-utils developed
+ as an independent implementation by the exfat-fuse author, the tools
+ build by Samsung engineers for the Linux exFAT implementation are
+ available in the exfatprogs package.
 
 Package: libdlmlog
 Architecture: amd64
@@ -4254,6 +4430,25 @@ Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
 
+Package: libncnn
+Architecture: amd64
+Version: 1.0.20230223
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 13903
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 11), libvulkan1 (>= 1.2.131.2)
+Filename: ./l/libncnn/libncnn_1.0.20230223_amd64.deb
+Size: 3295128
+MD5sum: 3896e3f33a2794e779dc5a42bead128a
+SHA1: e4a0d28987307684a386b6c5c2c7e3ac0cdbefc0
+SHA256: 8e50b724c3157f87c959a2c6bf7a6334061b50ef070064ae986c18b5b9d625cd
+SHA512: d65b2c6540cbf515e011680f7797d9403eef1424bfef532bdf38ce932c85367dd385f98b1cbea03f83e8a400f1dea44964b2d6b0fb6055966fa798c44b75ace0
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
 Package: libdtkdevice-dev
 Architecture: amd64
 Version: 1.0.4
@@ -4724,6 +4919,26 @@ Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries
  DWayland provides a Qt-style Client library wrapper for
  the Wayland libraries.
+
+Package: libunrar5
+Architecture: amd64
+Version: 1:5.6.6-1
+Multi-Arch: same
+Priority: optional
+Section: non-free/libs
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 397
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
+Size: 114468
+MD5sum: a14cdc05d2a5c9207d713339a44a83d5
+SHA1: bc24c88a0a02454a3d9edf524eaf85b9b93b42fb
+SHA256: ac0c6886d406d3b3cf6dbcfd0b4d03a00e1e3d670bc63e07096ca94e0378dcfd
+SHA512: 98198381514a03ff0bf3f2e9e6ab7558ccba8847dc8b5635d4e84e4cb199c36e8e6e4ca21046b7e62485267e9bc5c90b9a9d5422a78a8f95605cdacb8c50047e
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version) - shared library
+ library for unarchiving .rar files
 
 Package: libdframeworkdbus-dev
 Architecture: amd64
@@ -6158,6 +6373,27 @@ Homepage: http://www.deepin.org/
 Description: OCR plugin manager for UOS
  OCR develop library and useful plugin management tool.
 
+Package: libunrar-dev
+Architecture: amd64
+Version: 1:5.6.6-1
+Multi-Arch: same
+Priority: optional
+Section: non-free/libdevel
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 937
+Depends: libunrar5 (= 1:5.6.6-1)
+Filename: ./l/libunrar-dev/libunrar-dev_5.6.6-1_amd64.deb
+Size: 170984
+MD5sum: d44e155a81639e1a49096d572a021535
+SHA1: a9312d774c8a6a48522794085126089382748b36
+SHA256: fdb5561ce735370d1063e765d347f51219a65a290418bbc0a3e7fe5caae802a9
+SHA512: 671f1bc1849f723852a089524d12cc147fd6736d98986635475605d6924a07aa6cacd9b41d0b638a5668071b125ecda5851101a64f99a9ede55043babccbd466
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version) - development files
+ This package contains the static library and header files for the
+ libunrar library.
+
 Package: libopencv-mobile
 Architecture: amd64
 Version: 14
@@ -6343,6 +6579,25 @@ Description: Document parser library.
 
 Package: libncnn-dev
 Architecture: amd64
+Version: 1.0.20230223
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 237
+Depends: libncnn, libvulkan-dev
+Filename: ./l/libncnn-dev/libncnn-dev_1.0.20230223_amd64.deb
+Size: 32984
+MD5sum: 9c74ad367142410724171b3a9e8b6c8a
+SHA1: 77e85c83b25bfea54aac22b7ac117cf3455719f2
+SHA256: 89bef2f19af98c2fe3673927e9bf35168469f9d5049764ef28070117fe1d908f
+SHA512: bd18660d6ee4555c516aad11fe8e39cce4b7ba943246f5b1329c84fd97b8c3b205be27fd922e81b40932a08239b9328a573b32234d7cc5b6e94138d6a38a299b
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
+Package: libncnn-dev
+Architecture: amd64
 Version: 1.0.20230223-deepin1
 Priority: optional
 Section: devel
@@ -6444,6 +6699,30 @@ SHA512: 43c4ecf15a4fc54e40ce3cc7c38a56833f3fd6b9f11b31faa3054ac0c707c402c42a37ba
 Description: Lianliankan is a puzzle game.
  Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
 
+Package: crda
+Architecture: amd64
+Version: 4.14+git20191112.9856751.1-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 280
+Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
+Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
+Size: 63380
+MD5sum: e6ef2bb7115812d688de10321b06a279
+SHA1: 20ba7d8758f08ee24f6dbb2c4c6a06044d1c2ed8
+SHA256: 307200f1ca6e7d5fd96bb96426687fae0ef1eee9ea8d8205f5fdcfabd6c671fe
+SHA512: 28823c4532e687e93eb4621a35aad363e77d7796341cad61226cc46d32978954e61bc2f2f07da580b236b11dc5542fa625df3fe77eace9dd6db29e361e0a97d9
+Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
+Description: wireless Central Regulatory Domain Agent
+ This package provides a Central Regulatory Domain Agent (CRDA) to be used by
+ the Linux kernel cfg80211 wireless subsystem to query and apply the regulatory
+ domain settings wireless devices may operate within for a given location.
+ .
+ CRDA queries operational frequency regulations stored within the regulatory
+ database provided by the wireless-regdb package.
+
 Package: org.deepin.downloader
 Architecture: amd64
 Version: 5.3.76
@@ -6497,6 +6776,25 @@ MD5sum: f141401bf2586bc64bb9e16340c932fe
 SHA1: bca4468a1c7e150dff7eae65b87a6822f0fc15af
 SHA256: 282a568c0326bf85f0f5312d54791ddf60d65b1ca10eae67f75878fb1ad7648a
 SHA512: a98b86822c83a53de42b911f79bdab67a015b5db5a230be688db04b23b7d8ae3d6d271ddb39b003eacbd71a6ff0e880b1a0b4fdd9ce5671f3519ff124a75545f
+Homepage: https://github.com/Tencent/ncnn
+Description: Miscellaneous ncnn utilities.
+ miscellaneous ncnn utilities.
+
+Package: ncnn-tools
+Architecture: amd64
+Version: 1.0.20230223
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 769
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 11)
+Filename: ./n/ncnn-tools/ncnn-tools_1.0.20230223_amd64.deb
+Size: 230368
+MD5sum: 45a5e2ec34b7a0ec4a9fe32097f74402
+SHA1: 7e4a8764aad4f95e05574766e93b8e3187813580
+SHA256: 5ccbf3eb818c61f4581114c88d1f3d9d662ea10d0a5d33ac27bbb2720dc40926
+SHA512: 8280b00eab44d77197d2ef2aa89df43fdf924e7aa0cd67999b2befa3ff2f5c60d9604f15979b8d18f62482924b26557657fe593d5a0fb664270d73a022d3dc6d
 Homepage: https://github.com/Tencent/ncnn
 Description: Miscellaneous ncnn utilities.
  miscellaneous ncnn utilities.
