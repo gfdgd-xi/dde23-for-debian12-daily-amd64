@@ -1,8 +1,8 @@
 name: Building Kernel 0
 run-name: ${{ github.actor }} is Building Kernel 0 🚀
 on:
-  schedule:
-    - cron: '0 4 * * *'
+  #  schedule:
+  # - cron: '0 4 * * *'
   workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
