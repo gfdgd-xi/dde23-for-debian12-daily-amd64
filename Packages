@@ -476,15 +476,15 @@ Version: 6.1.4
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8360
+Installed-Size: 8380
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.4_amd64.deb
-Size: 5116040
-MD5sum: 6f0ed6ab58188c3791c8f259cae25d2d
-SHA1: 765e424fd75bb85681c20615fe7e6b8ca46f065b
-SHA256: 145102b5286fb012ac7a9fa6be44a6c28e7d65391547f75760ee89e71b171007
-SHA512: 6a7b05b722ee0f34d1a2fe3766e25729bb18c3aaca082a1b3642fb6837531f5e4fb5ab13d353f0b52a8034a84a413f2808721dba13b75694eeefe716e625b122
+Size: 5121520
+MD5sum: 1c669b8bb0b3f03db51826add92dd00f
+SHA1: 0de05a4f28c0ea168d31c28010c067a33a80d348
+SHA256: cd1dccf10e585c62ce30cd8294033950f5a70e675d5fe4a874cba730bd8f4469
+SHA512: d2b96ef6b210c9bddd833e8b23ed7bf08cd049637f1c2e64bd3a8e4b72d14b049b01ea17a773814b1871997fae8d0f9bbbe8f981ebaeb66b86e846f1b46ecfcb
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -3812,11 +3812,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310328
-MD5sum: 806f6c628fea3469c55c759f301ec2b9
-SHA1: 08c959063af90fd24e11972068be6488459e8ab2
-SHA256: 23991d2e00dd63c4f85d36c898025a543d8eb2b405d79ba9420fbfa2e6e4c067
-SHA512: 668c09274ef2c6938f37cdc63f3ae1c7fdf559b98f300561e6ccdb37dd1098f43c09198eebad3cc82bb2d2ec4115b3b380984ad2963505cbb82d73137bb9fca3
+Size: 310392
+MD5sum: 76ea1f2f1b2b55f2ce9356fad6e51c12
+SHA1: 891e1b55a4c3ecc350f64280159695c077120465
+SHA256: 57e857fba069928d599e50148a3b6e5500e8065063352d31fa21e2610168cc7a
+SHA512: 9b08a4b005e736c4f1f0fa162720e7f36347f09dc082c5567798bd43dd33250a3b840d4879183ef76edbfc482109039c3907b4acd53c9acea264cc2e2fe7c50c
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -4478,11 +4478,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.4_amd64.deb
-Size: 298780
-MD5sum: 4b1be0596f5d12f97b44a0d92c3927f8
-SHA1: 46547f809874c5db5a10e4455bc078d9c7429c0d
-SHA256: fd9935b9e98371812c5fa3288e4af41dc63bd3bef64e85fded27c206067da566
-SHA512: d5dd52459aa00be795b695b1622d56264021590a73a07416fb63347731542d3cdbedeadefd4ffc19a36515f38970b05688c51c46fce9dde8adc1b157ffa89c73
+Size: 298888
+MD5sum: 54abbddb2f8cb02794b013dcbfdbcef9
+SHA1: f5aaae734a382b2dc11c76e51b05f774ff1491c1
+SHA256: 04f9c85082f5d727fd68105d03eb9fec5d785cceff9c241b5a7668af8b45f3f7
+SHA512: 6da50f10f49faa0f10cca890939d2c2a4681203d604555a378ed866e164e6ce7b36e082475471267485682d1aa55646a8426ca96724ff4abfa18c2641930e336
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -6675,11 +6675,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.4_amd64.deb
-Size: 15976
-MD5sum: 4a4ec9d8c5e7c829f734b60f03626ce9
-SHA1: bdc0b6cce630f6731b7d9e28544587b212d4c742
-SHA256: 3b808f0172b290273a4bf5484e3dc27fe0fd3d756417c9eaab62b697486463f5
-SHA512: ec5c4e91d3f3d7523e67fb90e017190b0f7a1033067bd0e15b3a698656025d96264022b6815cf91b24402a521c97f8f71dc86a8aac4f89b2f1ece63c865b883a
+Size: 15992
+MD5sum: 1f04234599e84fe2bf91c14f2cedaeb3
+SHA1: 59acadaf9ade5db582ae36559834739f1316dabd
+SHA256: 038ed246c71c26d97a2aed7eb7e18f126497b93ad466e8255578b74e954328f6
+SHA512: a556dcaeed2cf65ddeeeec8596f5d37c6aa8c0b7c0103e6b21310b0dc7f4ebfba964472e4edeb12ac5d2adae86526bfc194e7a5c305359e8c0a2399414dad5a6
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
