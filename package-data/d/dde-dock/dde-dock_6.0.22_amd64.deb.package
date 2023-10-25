@@ -4,17 +4,17 @@ Version: 6.0.22
 Priority: optional
 Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 6884
+Installed-Size: 6888
 Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxres1 (>= 2:1.2.1), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-qt5xcb-plugin (>= 5.0.25), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), qtxdg-dev-tools, dbus-bin
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dde-network-dialog
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_6.0.22_amd64.deb
-Size: 1478708
-MD5sum: 7b9eb5f09614422e37355757a90ebc81
-SHA1: 358f3ddb0c5910655d5d8c0f3da7f9948a4670c9
-SHA256: 49f17208c5e17175e2faa8e07546fbad33733814199d490cd7ac17547be0db4b
-SHA512: 9ccfea93a617d8f686220d3f51a866b53f77fe2437ec15ec336ca7c55014b91be1d6beefefdebb803f5365025d33af553fe1da0e4221f67d2dc2015b0d590cc2
+Size: 1477932
+MD5sum: 750bb8a20c380dd92395bb8db92d7c30
+SHA1: 254b596a128d6dc90df700a5a5c15d01cb752039
+SHA256: 2f2f8e69632e392c86ef8754438d989d2e07e2edc6d54f97d23834168b79b011
+SHA512: 1ad1f9e2672d4f31d32337af54aba0dd5cfa5d8ed08f9a45e31572b29d115221a0607abb72a177cf2fc12d5fe41f2d69953031299d999bfc803d3ef0b23f3970
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
