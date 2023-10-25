@@ -4,14 +4,13 @@ Version: 1.0.0
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 6924
-Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Installed-Size: 5639
 Filename: ./d/deepin-codeporting/deepin-codeporting_1.0.0_amd64.deb
-Size: 6982068
-MD5sum: c2640a7aade20e424e11dbb1646640d4
-SHA1: 9dddf07f781842306ca961c2d65e3802cbecc16c
-SHA256: e1d7644b12e1d27386efb626a3e16d1743f0ff3525c13d3b3117c11b47ebe41d
-SHA512: d64af7e49eb13b2c1def79a5619f2be550a1b515f367bba6f3b47c4355dec426fe4ea3838da6cbb32c9e5f45281a6f2c1fc4309d1cf02b02f5389de3add2950a
+Size: 1340188
+MD5sum: e6fd4b05e294fd8974b37f6cca45d5e8
+SHA1: c28789010c77c6b3033e7a8e24f9b49deeaa1eff
+SHA256: 2f312defb200bae87b347794447f627bb340923090254eb59a7809c60b356390
+SHA512: 362641282af825a7bf33afa25d8131c13ef772fe7aa822b2d392e405fa655e991e7da2e7bf384278e36d8ee4f72fb239634b7b341c62cddb52ff9969786c679a
 Homepage: <insert the upstream URL, if relevant>
 Description:
   A tool that supports multi-architecture code migration

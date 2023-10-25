@@ -1840,14 +1840,13 @@ Version: 1.0.0
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 6924
-Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Installed-Size: 5639
 Filename: ./d/deepin-codeporting/deepin-codeporting_1.0.0_amd64.deb
-Size: 6982068
-MD5sum: c2640a7aade20e424e11dbb1646640d4
-SHA1: 9dddf07f781842306ca961c2d65e3802cbecc16c
-SHA256: e1d7644b12e1d27386efb626a3e16d1743f0ff3525c13d3b3117c11b47ebe41d
-SHA512: d64af7e49eb13b2c1def79a5619f2be550a1b515f367bba6f3b47c4355dec426fe4ea3838da6cbb32c9e5f45281a6f2c1fc4309d1cf02b02f5389de3add2950a
+Size: 1340188
+MD5sum: e6fd4b05e294fd8974b37f6cca45d5e8
+SHA1: c28789010c77c6b3033e7a8e24f9b49deeaa1eff
+SHA256: 2f312defb200bae87b347794447f627bb340923090254eb59a7809c60b356390
+SHA512: 362641282af825a7bf33afa25d8131c13ef772fe7aa822b2d392e405fa655e991e7da2e7bf384278e36d8ee4f72fb239634b7b341c62cddb52ff9969786c679a
 Homepage: <insert the upstream URL, if relevant>
 Description:
   A tool that supports multi-architecture code migration
@@ -2547,15 +2546,15 @@ Version: 6.0.12
 Priority: optional
 Section: devel
 Maintainer: Packages <packages@deepin.com>
-Installed-Size: 8526
+Installed-Size: 8530
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.12_amd64.deb
-Size: 3894996
-MD5sum: 42f4e5631c271995d8b8ac4ba62476db
-SHA1: 6c7efc86906acb4a5bc9c7d16eec84669950f0ea
-SHA256: 8a626979679c12ceab31d602e1a315d8c7fb936a724330406a97c4d9c519205f
-SHA512: 52869d0592757a89b1ea9d74d539ab3410a77f13e31235210bc6218a08314e1c932c2d1f813c7b0836800c684b131e744b60d73dc21ef3959bab078e4b26aa37
+Size: 3896132
+MD5sum: 0f64d99013117a435ce8ae6acd75cc8a
+SHA1: 2f0d406811d44ce21d19ff519a33bd44e1ddfd69
+SHA256: bd76395f1b2fe650a7945fcab2756f829beb5c64f1b6457b35310d146eb2dedc
+SHA512: d2c6cdcbf1b0120cc3d3762be1e86526ee328c16ef9de9774f9b337827c943536503a67d1b2d7c089b189b69c87b7ec823fdd2df6dc41bc2264c81ba7cc4ca68
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -3196,6 +3195,27 @@ Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
 
+Package: deepin-font-manager
+Architecture: amd64
+Version: 6.0.2
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 4726
+Depends: libc6 (>= 2.34), libdde-file-manager, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.3)
+Recommends: uos-reporter, deepin-event-log
+Conflicts: deepin-font-installer
+Replaces: deepin-font-installer
+Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.2_amd64.deb
+Size: 2558292
+MD5sum: 0f522bd019d5435226563d9e79a6d997
+SHA1: 9debb59496ffe4d6ed979eb5901c748e6c7392da
+SHA256: 55db917364f543e8f683b0b282e036dd8202cc6a441824cd20ebbf8bfc0f80b4
+SHA512: a6adb231635dffdf5316ae2d5d1f1ae12ba9d1d7c966d2b91cfac791c58e7411effa9aa7abcf3c54064def88e7b892b1b13f849cd2a4f4ffb7810bbf2d8352d5
+Homepage: http://www.deepin.org
+Description: Deepin Font Manager binary
+ Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
+
 Package: deepin-kwin-wayland
 Architecture: amd64
 Version: 4:5.25.11-kwin.5.24.3
@@ -3812,11 +3832,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310392
-MD5sum: 76ea1f2f1b2b55f2ce9356fad6e51c12
-SHA1: 891e1b55a4c3ecc350f64280159695c077120465
-SHA256: 57e857fba069928d599e50148a3b6e5500e8065063352d31fa21e2610168cc7a
-SHA512: 9b08a4b005e736c4f1f0fa162720e7f36347f09dc082c5567798bd43dd33250a3b840d4879183ef76edbfc482109039c3907b4acd53c9acea264cc2e2fe7c50c
+Size: 310448
+MD5sum: 8956a4d1ba6ed3d9ec48b699e58765b5
+SHA1: 8afca796f43ad9e1024f2c19a779ed3c2dd3d9ec
+SHA256: cb849c731918d726e9d824ae7be252b8fc99eb2f65a8cdf03f1d74092a726e87
+SHA512: d6418fdd8ecb5caf5f8118ee2125a8ae1d4f55f1f4b13e85506bde3df333783aca1c05813658907ada2aeb18f98d2d5cf5f55a1ce4c9e62b08443ffda0d2b43c
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
