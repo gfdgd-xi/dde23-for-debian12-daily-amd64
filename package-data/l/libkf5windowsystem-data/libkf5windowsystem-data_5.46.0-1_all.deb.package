@@ -1,0 +1,26 @@
+Package: libkf5windowsystem-data
+Architecture: all
+Version: 5.46.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: kwindowsystem
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 315
+Breaks: libkf5windowsystem5-data
+Replaces: libkf5windowsystem5-data
+Filename: ./l/libkf5windowsystem-data/libkf5windowsystem-data_5.46.0-1_all.deb
+Size: 9372
+MD5sum: e94dd2a2ddfe4f3f297c53fd46e82bae
+SHA1: 46b88d5032cf3f78ae517182fb053b0d8fa28bc6
+SHA256: f2e2576b83a42f8204a2abb8a22c1b36bcf832cdaed6ae4139e6fec8bbccd79f
+SHA512: 51c1131f91d43e2620e52988355143bd5912487df48ff1aff3f6364214d8d40802dbecc861e0fbdf04e57d2683c7127a356ec93cb7f328b4f76990cb26a26c58
+Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
+Description: Convenience access to certain properties and features of the window manager
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ low level classes.
+ .
+ This package contains the translations.
+

@@ -1,0 +1,25 @@
+Package: libkf5windowsystem5
+Architecture: amd64
+Version: 5.46.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kwindowsystem
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 480
+Depends: libkf5windowsystem-data (= 5.46.0-1), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0~) | libqt5gui5-gles (>= 5.8.0~), libqt5widgets5 (>= 5.8.0~), libqt5x11extras5 (>= 5.8.0~), libstdc++6 (>= 11), libx11-6, libxcb-keysyms1 (>= 0.4.0), libxcb1 (>= 1.6), libxfixes3
+Recommends: kwayland-integration, qtwayland5
+Breaks: kinit (<< 5.46), kio (<< 5.46), libkf5crash5 (<< 5.46), libkf5globalaccel-bin (<< 5.46), libkf5globalaccelprivate5 (<< 5.42), libkf5kdelibs4support5 (<< 5.46), libkf5kdelibs4support5-bin (<< 5.42), libkf5khtml-bin (<< 5.46), libkf5khtml5 (<< 5.46), libkf5kiowidgets5 (<< 5.46), libkf5notifications5 (<< 5.46), libkf5plasma5 (<< 5.46), libkf5plasmaquick5 (<< 5.46), libkf5textwidgets5 (<< 5.46), libkf5wallet-bin (<< 5.46), libkf5wallet5 (<< 5.46), libkf5xmlgui5 (<< 5.46), plasma-framework (<< 5.46), qml-module-org-kde-kquickcontrols (<< 5.46), qml-module-org-kde-kwindowsystem (<< 5.46)
+Filename: ./l/libkf5windowsystem5/libkf5windowsystem5_5.46.0-1_amd64.deb
+Size: 127508
+MD5sum: c948285aa79fbecef946a5abf0c4b468
+SHA1: 660db316e28c769c34197a920198f4b52e5a74e6
+SHA256: 256bc321b4aa9a40d745ec02729b9795a238b98f873a6bc9d7ed148e4079f44f
+SHA512: 9d58ff04be01d291d6eb4d476dd914ec73c7ea9316ff16f6f7fbb103cfa6d4e43a90648dc73802fae90373768d94a1a8a41ff77be753f75c5a1b30074d4a7178
+Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
+Description: Convenience access to certain properties and features of the window manager
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ low level classes.
+

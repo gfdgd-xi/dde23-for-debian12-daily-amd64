@@ -1,0 +1,26 @@
+Package: libkf5windowsystem-dev
+Architecture: amd64
+Version: 5.46.0-1
+Priority: optional
+Section: libdevel
+Source: kwindowsystem
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 265
+Depends: libkf5windowsystem5 (= 5.46.0-1), qtbase5-dev (>= 5.8.0~)
+Recommends: libkf5windowsystem-doc (= 5.46.0-1)
+Breaks: libkf5crash-dev (<< 5.46), libkf5kdelibs4support-dev (<< 5.46), libkf5khtml-dev (<< 5.46), libkf5notifications-dev (<< 5.46), libkf5plasma-dev (<< 5.46), libkf5runner-dev (<< 5.46), libkf5textwidgets-dev (<< 5.46), libkf5wallet-dev (<< 5.46), libkf5xmlgui-dev (<< 5.46)
+Filename: ./l/libkf5windowsystem-dev/libkf5windowsystem-dev_5.46.0-1_amd64.deb
+Size: 42296
+MD5sum: 6869b84d82990c4c2100a3c2b8b705e0
+SHA1: 4ac84118800fa15c8541927d0da7604957bcc9e0
+SHA256: 6a571f21c93b848b7571b6752d46d06c88944004e81cce9f5ba6c3b3c7ce6fa0
+SHA512: 0b8380a4be101c7b2810a4d84ab7e007e6caeb8cebf8e83f0c190cb7fcb4a71e9fd3a78d732cba6b4413e0d981311ede3ba1b60581c370a3bc443293ce02d8ce
+Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
+Description: development files for kwindowsystem
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ lowlevel classes.
+ .
+ Contains development files for kwindowsystem.
+

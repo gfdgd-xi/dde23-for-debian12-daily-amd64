@@ -1,0 +1,24 @@
+Package: libkf5windowsystem-doc
+Architecture: all
+Version: 5.46.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: kwindowsystem
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 790
+Filename: ./l/libkf5windowsystem-doc/libkf5windowsystem-doc_5.46.0-1_all.deb
+Size: 438284
+MD5sum: f6a02d352518031ac074cd0aad75a76e
+SHA1: 6ecae6fdc8df371a8ef035db55a3258035c60168
+SHA256: ee6c026b35483558f382292cf9b3b2df5780f67a490502c8aa9bb104f6740482
+SHA512: 13c3f7e4313a042364c72bd01ccde4dda5a0d533bc4819d31315e6af0e95362307a94886a39d12b1f1465b36107ad2886930aeb8cac05a6a9113014f5fab767d
+Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
+Description: Convenience access to certain properties and features of the window manager
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ low level classes.
+ .
+ This package contains the qch documentation files.
+
