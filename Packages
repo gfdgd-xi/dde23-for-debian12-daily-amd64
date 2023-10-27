@@ -168,11 +168,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 309960
-MD5sum: 003bc9a3a2586efc225eb0f1c9082098
-SHA1: fdc51630a3c41044110575e24ddabdec239bcda9
-SHA256: b65d3d8dcf4f688e404ae3223225c66e27de13ba9ae3498b941d8affa04a36a5
-SHA512: 5676591483086df744d24820515194f622be9c7892061fc813e8238d16e008c562c10eefe8d20150e314a2507cfc887d24a583cd4c363d1edc0e7fa4c2c6a2bf
+Size: 310096
+MD5sum: f488c597e89b9cd2337a3a5403374ae2
+SHA1: 1e2f0e702046a5097d7fec38acef5d8c4b141c6c
+SHA256: 97d0496b892dcce83552f59a576b3f65722af010dc57d1991c67bc31b138aaf3
+SHA512: 19f3b8876c4de2ffeb4a22ab2254aa6369ec5f361980d2e7d3871dbf24621b53208906a46273d0dbea131c20e81039d710053ccbc9ffcfb8d417e1ce2cd93674
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -1147,11 +1147,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.4_amd64.deb
-Size: 15992
-MD5sum: 1f04234599e84fe2bf91c14f2cedaeb3
-SHA1: 59acadaf9ade5db582ae36559834739f1316dabd
-SHA256: 038ed246c71c26d97a2aed7eb7e18f126497b93ad466e8255578b74e954328f6
-SHA512: a556dcaeed2cf65ddeeeec8596f5d37c6aa8c0b7c0103e6b21310b0dc7f4ebfba964472e4edeb12ac5d2adae86526bfc194e7a5c305359e8c0a2399414dad5a6
+Size: 16100
+MD5sum: 6ad4873e321814a499b1341398696d4f
+SHA1: f953b368f2be071d50fabda73a367b6ca9e1e71d
+SHA256: 431b54c58edefc11a45d84f3973ca62ccb1ad69a68f2dc3e65cb7a157717f291
+SHA512: 267959535f002cabef164318d693e6b87a1ba58a26e6a088ecad7cc156e0ad746125cc1d7439d61f01e17a9ae69c09bf6459195ac98dd0eb180c2f163b332129
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
@@ -1401,17 +1401,17 @@ Priority: optional
 Section: utils
 Source: deepin-log-viewer
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 1063
+Installed-Size: 1075
 Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
 Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.4_amd64.deb
-Size: 298888
-MD5sum: 54abbddb2f8cb02794b013dcbfdbcef9
-SHA1: f5aaae734a382b2dc11c76e51b05f774ff1491c1
-SHA256: 04f9c85082f5d727fd68105d03eb9fec5d785cceff9c241b5a7668af8b45f3f7
-SHA512: 6da50f10f49faa0f10cca890939d2c2a4681203d604555a378ed866e164e6ce7b36e082475471267485682d1aa55646a8426ca96724ff4abfa18c2641930e336
+Size: 301728
+MD5sum: ce927329af64aa2d721c5a57e281bd1c
+SHA1: a256dce8ef21debfa237ff304d7e608b4416955d
+SHA256: 59e8c2a1755fd13ddc42ec5f5e3c2f5745b5ee6cb54cde149f89859fc0829b26
+SHA512: 03af88b4a46eb244c2ab52b29df8fb58469d067ec8a17f7707210687c9c81861fe3a43ed5a8caa45ec459027a616627f0fdabf3bcda394c54dabc893d60f8757
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -4867,11 +4867,11 @@ Installed-Size: 2748
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libqapt3-runtime
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.14_amd64.deb
-Size: 1050460
-MD5sum: a7a08c81af9ec76de075dd7a0f4958be
-SHA1: 575516501a8fde6f86a6aab1d6527cc3234fb4f2
-SHA256: 0ce829e6c51eb50992ddf5615ed001d42f6b807e9b9309a3d9d770a378634360
-SHA512: c69ed2feb6a3182319f99fd8a3915e9dc58332c9734155208c23c02c3e73059088caf89290e4a2515085d26d42afa5dd7941280b0b58f8432e58968c02a6e745
+Size: 1050456
+MD5sum: 59c30c195b39b12134a4d1c25c5562f0
+SHA1: 15d14bd963b0d573f836d6f7da3ee4c7fc3ee067
+SHA256: a8a11db47692e263268650faba34ff19f9c7142524ed734eef98d4e696243789
+SHA512: 5a0415f38b329ec37e3b3fd199b55badf8fb4f041be9ac3211344a8dbef4ec6c30256cc93993efcce6260bfe67c041a4ac36d7c36300c9376a7f2b5a7dce660e
 Homepage: https://www.deepin.com/
 Description: Package Installer helps users install and remove local packages.
  Package Installer is an easy-to-use .deb package management tool
@@ -5202,11 +5202,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.2_amd64.deb
-Size: 2557588
-MD5sum: 17748c75a9314f7ce64be4daa85e0c57
-SHA1: 368a45ee88bec4b3664f0e9ee020fa01ce5a50c0
-SHA256: 5ed7d04c55621b7b9bd523ccb91c5c022ff3464071ac6ef161312f0c1007cd87
-SHA512: e1f8358bcfb312dad5f9c6a828a776a8b7f7eccb48cf52bc4532b532e9b5bebe7c4837c61ea956ee693f91ba46d4cf5cd38ec7882c903021f53ddb0dc03fe3d4
+Size: 2558092
+MD5sum: e07847fec3d31a28254fbf3f5a1e1f8b
+SHA1: eb91996199cdacf8e9c6afeae1b710d036bdf92b
+SHA256: 5012d6ec58646e2c42992413cabcf272c54f4a78e99b0f65286b77ad3ec65dcc
+SHA512: 8a4205795d407aff8b745747cca8e2fb9642ac0f07123759ac43d7db27cce0ff008cd99742d196a67b98e9401e0fe8674954965500bc36aad3a1b8946ea0ce43
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -6521,15 +6521,15 @@ Version: 6.1.4
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8380
+Installed-Size: 8452
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.4_amd64.deb
-Size: 5121520
-MD5sum: 1c669b8bb0b3f03db51826add92dd00f
-SHA1: 0de05a4f28c0ea168d31c28010c067a33a80d348
-SHA256: cd1dccf10e585c62ce30cd8294033950f5a70e675d5fe4a874cba730bd8f4469
-SHA512: d2b96ef6b210c9bddd833e8b23ed7bf08cd049637f1c2e64bd3a8e4b72d14b049b01ea17a773814b1871997fae8d0f9bbbe8f981ebaeb66b86e846f1b46ecfcb
+Size: 5140284
+MD5sum: 1bb63aa61b3f165660be8d995333b60a
+SHA1: 1055ebfde91314a6a80a6fdeb39ea9945f63c12f
+SHA256: 149e0b8ee15b8babf3e0c9874d281ba3bc01d26253c2d6226979ef9b4ad56cb2
+SHA512: 2cb3a59ef1d1dd27e4ada220229d2d0af0d2214dfff70522b0c5b3996159e4c17da2db56397cfe41c2bc8d2bb004742bc91f58159fb0213d0c6e542a2e4d4f44
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
