@@ -168,11 +168,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310124
-MD5sum: 21ddbbddcb29968ac2e9d0903820f7ed
-SHA1: c2d2246aa9b17680a297ec1c9ae0ed742ddadeb2
-SHA256: d71b3a3541e3c5ef87efb39b991051fee70ef08234455a57b3dcb7fd0b545fe5
-SHA512: 959e06cb4247069ac2df6a6dea4dc87456862e613bb3fff4c98f74544c8e562d03251df2913a17e25f52e35201dfb5705b130dcc18a1fc4e935371704ffe26e7
+Size: 310260
+MD5sum: 17db4c1c41b1c03d1dcfeb26137e0c1e
+SHA1: ae27f5d83990fc7c92ea85664bf56adde7d7bada
+SHA256: 95bbdbe7d662742ce96bf6f036fd66abf72133c77f492c385afddb179bb04425
+SHA512: 4b557d1d16a1cd94c2b3de17498394e5a80981d009bb3743c533c3edfcd0aad2c1c19b816825858fc51297f9e05c14ebb5183a36b8785d26419b2ffa529808e0
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -5584,11 +5584,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.2_amd64.deb
-Size: 2557856
-MD5sum: f430144abcea6efd56609cdd037ec699
-SHA1: e03d4b2bada5be9f3a901c964278cde54194b6e9
-SHA256: df8c8c01b08de758fdd4b6d415e1bf4bd713525a86a315131e5c11a67850f314
-SHA512: ebab5fb2d91dd553d7b46cddc90ec0ee5323f309dbde639bf8f37a456de46e40467592e81c3056bd6b31c5ca77bc6ab4f7dd007c6b78855df7dc9b54a6138248
+Size: 2559140
+MD5sum: 4d2d46510721dac1a288ad8888ffbdf9
+SHA1: c84a0125357eebdc974ce92f1b0df5cda2a768c8
+SHA256: 7a8c85c7a3a7b7e6a641e7d46566191b2799229ea513ca775a0e3e07866591d3
+SHA512: fff1102ffce077c68fbf5e292d894f8443c50ed4c24619b6f7b7534e3f01cf08bc2f298b71a6bf846558439ba4999c9d9c9ce10c2e263991d12ae66ad4570e95
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -6852,6 +6852,25 @@ Description: KDE window manager x11 plugin
  .
  This package is part of the KDE base workspace module
 
+Package: deepin-voice-note
+Architecture: amd64
+Version: 6.0.14
+Priority: optional
+Section: devel
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 18550
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgstreamer1.0-0 (>= 1.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libvlc5 (>= 3.0.0), gstreamer1.0-plugins-good, vlc-plugin-base, gstreamer1.0-pulseaudio
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-voice-note/deepin-voice-note_6.0.14_amd64.deb
+Size: 13459540
+MD5sum: fa4ab9c619776007da59b1c1d85b0a4d
+SHA1: 18b8f4627f2df852a77bcbd1a420350f38d4f419
+SHA256: 91bb29c5f3f14d2eb2b35242f22e2a54976213faa810578af92ec8359d080ed1
+SHA512: 5110cbc65d53580a63ce47a2d48ce5366544978a3136a96ac14da7ad3760c88b46891a424c5351a8ad291057cc66e48a937825781ddce66107c888894ee9a6bf
+Homepage: <insert the upstream URL, if relevant>
+Description: Voice Notes is a lightweight memo tool to make text notes and voice recordings
+  Voice Notes is a simple memo software with texts and voice recordings. You are able to save the recordings as MP3 format or texts.
+
 Package: deepin-log-viewer
 Architecture: amd64
 Version: 6.1.3
@@ -6925,11 +6944,11 @@ Installed-Size: 8460
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.4_amd64.deb
-Size: 5141620
-MD5sum: 29363450450515db5105c064e94c578d
-SHA1: 7245dd27a7df296a0a63bd726a1e087d18252799
-SHA256: 291813f2ae97de240d7611d0ea520ba494f0096bac8db52dc8923dd1dab0f2eb
-SHA512: fa2cb11195a45ce84e34e0d8a5d351445af86b46f10d94164ee9a7cb7cbe14294a6bcf85a86ad97e0497200fd2c4aa1e867058e57cfa89a71775eca42c103e6f
+Size: 5140772
+MD5sum: 36f9c040bdd4b441624d4c967ef2c739
+SHA1: ede006f6e0c721979fb6e33f72eef931d7bea1ba
+SHA256: 5b5fe53c2e85d53ca69b6a902efe67944cb95f94cda036fb7bc3e511b59b3cc4
+SHA512: 92fa1bd70ad3b4106475264e0d9e8ec64d38511d74d243b7787fc7c52eafb47c2c2444a4233470eefbca0de39ccc0646f55ee7c25cc5b269adb704a4fafedadc
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
