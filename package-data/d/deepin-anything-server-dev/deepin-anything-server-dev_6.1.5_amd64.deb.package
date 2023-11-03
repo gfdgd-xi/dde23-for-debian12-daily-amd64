@@ -1,0 +1,19 @@
+Package: deepin-anything-server-dev
+Architecture: amd64
+Version: 6.1.5
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 20
+Depends: deepin-anything-server (= 6.1.5)
+Filename: ./d/deepin-anything-server-dev/deepin-anything-server-dev_6.1.5_amd64.deb
+Size: 4332
+MD5sum: a02c9888d03e6e0fed7dee7f9f791617
+SHA1: 4d535a30b52dd8e64382c45b4a75919d3b33b1df
+SHA256: e8c65190ebfddab68fc3f076b392f0a8fe9d6814fc5fb44fd1cf6d8a35f28b58
+SHA512: 1615483cd3e94686fa83c01bf3ec2bf7cc0e9b9ea499dbd9cdc67db962f8aa54e43dbaf27632fa49312bd156a4f0a4874249183a5b1cde0b2c712f064903617f
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server user interface library
+ anything server library developer package.
+
