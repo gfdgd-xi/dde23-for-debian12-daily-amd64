@@ -837,11 +837,11 @@ Provides: libqt5deepintheme-plugin
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 5), qtbase-abi-5-15-8, dde-qt5xcb-plugin
 Conflicts: libqt5deepintheme-plugin
 Filename: ./d/dde-qt5integration/dde-qt5integration_5.6.17_amd64.deb
-Size: 265684
-MD5sum: 3436f34f810e562ebcbdc3bf5e0b7fe5
-SHA1: 6f37990cd4826d26b723a7848674686e879f0a00
-SHA256: ea4520a4d9a3feb1ac30448030aec85e6e9e66d074b3ae39124e9954f1cf5b36
-SHA512: eea0b5d0e278c9c3e2788dc3a597f01bfc9fe0b969e505653c445dccb0c19ce6bd546bc53ad311388fa19cc112e674ce0d869eb0484b2a2547be58a2e351c582
+Size: 265448
+MD5sum: 6da57b96e31300768100cc53aad2c8f5
+SHA1: aa706ae3d37258b9b4ae89d019c9437138785e68
+SHA256: 0823f8bb3ed621a269b249833063d531c4b68dced42b79fefd1a920675796d07
+SHA512: e3ab5ee27cbf074c59a2000afc0659e469abaacd6600bc90227ad36f2a57ee272bd4352fbb800a3a6f731b1cb6bea4ef1158391fe28f152c7199de105969ea62
 Description: Qt platform theme integration plugins for DDE
  Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
@@ -5644,11 +5644,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.1_amd64.deb
-Size: 814848
-MD5sum: f8d4a4cbbb85f37f88614bc24bcf5ec8
-SHA1: c97ee35ece4111389abd3e3680e05893977d0b08
-SHA256: f15c15aecbf8e674f20fb54c4155816d060b41bea97da1cbc05c901389dee8ab
-SHA512: d8bd743f6c48cb6d7cf650df578755d7e2b4019113b81a92326ce88749b7056df0f51c297b058994eb2aadc9dfe985967efbe560692549f9db3b84b1a5017266
+Size: 814356
+MD5sum: f801a52ceee54180ba6ad86126c24e79
+SHA1: 123f778b30ef413064cff4f01b0f1f13735edc1d
+SHA256: e535f3d646bfca69a4b345114847136f1a12746375aa9020c22466f4d150f8fa
+SHA512: 31e801ff9413b6f9caea7afdb00b1ecac508552191a9f80c65285f84e3e65d57e1cd46ae25ed0b54f35d2029b8d3891e0cbce2ffa5cd71392f70a62a3125107a
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -8071,6 +8071,25 @@ SHA512: dbb628e565f6e8437bb8c84e7dc9a539cc693d19ea988eb8178d65a499a48aeb9caff4b8
 Homepage: https://github.com/cryptix/wav
 Description: Golang .wav reader and writer (development file)
  golang-github-cryptix-wav provides .wav reader and writer for Golang.
+
+Package: golang-github-linuxdeepin-go-dbus-factory-dev
+Architecture: all
+Version: 2.0.7
+Priority: optional
+Section: devel
+Source: golang-github-linuxdeepin-go-dbus-factory
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4500
+Depends: golang-github-linuxdeepin-go-lib-dev, golang-github-stretchr-testify-dev
+Filename: ./g/golang-github-linuxdeepin-go-dbus-factory-dev/golang-github-linuxdeepin-go-dbus-factory-dev_2.0.7_all.deb
+Size: 201640
+MD5sum: 83028f2ee3c7cd241ab171df5f325e12
+SHA1: 90b74496d83fc518867b0972df2638ab4619baad
+SHA256: d3279885bf57120efe6da64c20482b3800508d0119e8bde38a81c7e8bcbeffef
+SHA512: d8756b4acf61ef9f74267f985cff1b7c5b938847daf0724c33d4a6bec63af947e442dcee9776390609677bb3827202869206ce79c899eee54733c148ef451ca8
+Homepage: https://github.com/linuxdeepin/go-dbus-factory
+Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
+ Convenient go binding code for automatically generating DBus services
 
 Package: golang-github-linuxdeepin-go-dbus-factory-dev
 Architecture: all
