@@ -1,0 +1,18 @@
+Package: deepin-deepinid-client
+Architecture: amd64
+Version: 7.0.2
+Priority: optional
+Section: net
+Maintainer: Iceyer <me@iceyer.net>
+Installed-Size: 962
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libdframeworkdbus2, dcc-deepinid-plugin
+Filename: ./d/deepin-deepinid-client/deepin-deepinid-client_7.0.2_amd64.deb
+Size: 135656
+MD5sum: 8ea3e55800d6697cd295fee0fe59e7b6
+SHA1: 057b19898692f938d3a07450e3a5c921e27160c6
+SHA256: 05fe70ddee1bae68ccac51940b1494476accd0e3d47bae6902047df5b65d21f6
+SHA512: a23aa0ffc9f8e06af4f0e0add88a5b25c5c4badc611bd402bf13b09efa912334fabfded44ec4586245c8d6cfc8dad9924f33ee83605334f9efed6ea0011e094c
+Homepage: https://www.deepin.org
+Description: client to login deepin sync account
+ Deepin user can login with DeepinID oauth
+
