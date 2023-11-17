@@ -5,14 +5,14 @@ Priority: optional
 Section: admin
 Source: deepin-service-manager
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 59
-Depends: libc6 (>= 2.34), libsystemd0 (>= 243), deepin-service-manager
+Installed-Size: 159
+Depends: libc6 (>= 2.34), libsystemd0 (>= 243), deepin-service-manager, qttools5-dev-tools
 Filename: ./d/deepin-service-plugin-oom/deepin-service-plugin-oom_1.0.3_amd64.deb
-Size: 14932
-MD5sum: a50c5bb40a0e2254ed927e42cbadb341
-SHA1: 2e6c7270b750d37f53e7e4ec733058c034640ca8
-SHA256: 5b346e4ab04a7935f80b232cd953b804f19057501bf23901ea2696589a12ed57
-SHA512: 216899d312104eeaa045386b4c741102a3ec92352fd1e0f2783536bad4f0d9c9b6e49fa69476d930b3d4e82d6b7f320dafeb68fd1d9f2032f69da0bda1d45a1d
+Size: 21496
+MD5sum: 2d4697ac6ac83170346f7be91d9abb0f
+SHA1: 445e1e93840b3238aedae59553dbe2a66512960e
+SHA256: 22d405702f22e2d002d6a6979a01f1d40afe3e666e910734f00139645c819e23
+SHA512: 3e6a80e775dbfc162a0eb6e4b28babf1322de5c8a5608b7f63c5afadfbb65313a815c7f090f58d5b02911f4d441b37c8a282b18e15a588818846aba9edef5234
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - oom service
 
