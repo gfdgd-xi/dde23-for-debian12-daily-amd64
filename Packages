@@ -4405,11 +4405,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310292
-MD5sum: ac124a539c6ff06817b449e187307569
-SHA1: 6641e6c0954511cc34254598b181619e438935c4
-SHA256: 209c17c6bd9aec5928bc3d3b744d3f8257955bd1f13093f5f1101fba52be55f2
-SHA512: 82b3d189321d7ca719039c7945ee9240f7657f095f9517bfccf06275c6e813a70ab3eb9a7296ee087fbc8cebb206482c2f12686948ebec3ca455cc6cf696908e
+Size: 310232
+MD5sum: 9ace7731de8cba982f2777fe7f41746c
+SHA1: b899323846a995cc183598135a16387ee55fab48
+SHA256: 49624f40188e83aae5f1750d5a392848226e02076138259d9d8bd162d4c4cbeb
+SHA512: ec98daf0a4991f942a47a9142d5b7c27369a39fe2c15b5b8584eed504e88f455ef8fae49ac8bf3dd0b8d6ff039cd14b758de4f5844cbec0b54e14097d45ea8f8
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -5122,11 +5122,11 @@ Installed-Size: 8471
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.5_amd64.deb
-Size: 5145376
-MD5sum: baafad23ef7a2d2d8442dcd8d5e96841
-SHA1: 93f50b64549ab52867801bc42829025e33478331
-SHA256: 076dc5cb37aa79aa4394b8dea7d0e08fe97c334849eb64792738048b0d60ba22
-SHA512: 53368f92d5e994c1fa125ec000df98d9ed2f7882241955045d351d8c431faf7d6605151064e909217a42b5724992a0953c4aaf6c4b86698c995979d65184f044
+Size: 5145392
+MD5sum: c39a7471d04b6f2d9c8f833a10f972a4
+SHA1: 6df6632fdf6313c9bb2fa9915207678ba6e8ce9e
+SHA256: b6468a7c4e0495c73da8f53bc7a86e98209792d9b1f616b4546b1110440c6661
+SHA512: e4fb4164afe3c5d4ce4fa22d52fb9bfce7ccb9838bf3646f905a3304404e2ae66e5e024173ce160dc048a13422d7b781589d6f850d1be947b2bd28f0278cee3f
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -5499,11 +5499,11 @@ Installed-Size: 8538
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3899628
-MD5sum: 06c100bf9419af78a26bf2466e213a3e
-SHA1: cabcfaebe9778bd84b656da0a0a34c12534a0174
-SHA256: b14c541381c0e03118b85fab41306637c3833459b92f15a2559863313bbccb94
-SHA512: b9bd04438a1b2769f2f7572002d8cafa66cd82577522a706cc5197f3b7d311cb913ec9040790e7c91fa1be2af1bb3898e530508fffe9912702b1427db5dc437e
+Size: 3900528
+MD5sum: ebad33689b8670df4596f27f909ccf69
+SHA1: a895f1899a03dc851d2f136af7e92447f2723090
+SHA256: 0ab2ce5cfcb2262ee0b41f5395e7fd19b0b7da4b5b5783bffd2b94d9d69ccf2a
+SHA512: 2a07dd86dfb4da24b60485b6455b902439f0c4c60bfc7402030e07ed9a32d6be95e74265eb88dd9ee7e40d6a94da828cd7ef2c9d1d446774ae6b48f48b2cd28d
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -6308,11 +6308,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.2_amd64.deb
-Size: 2558428
-MD5sum: 5663986d894b19b7517cd115aef8fac5
-SHA1: 76c162f1d403ac67f149a3a28f51d7522d72b0e7
-SHA256: 9be731364cfa311307661b9bcfdd94368133978ddec49f934e9a4d0f5ee473ea
-SHA512: 84a628055ea1c7d33e47f2d738647d5fc51017f0854325b30679d7c808d1e7eb05cf48e182894d9af4d5548f3eb597df0e53379f982270f4e6d5d73083110f47
+Size: 2559048
+MD5sum: 3cefcb95893e6f18d223e6e2d4886c84
+SHA1: 9914fe979ceaf0ec573b41f38fce93d228d625e9
+SHA256: 0f3de2e72b5d777a1604809b75041a9b314b8de3f01b262883e3b53e93aea203
+SHA512: 5b2093c39e61fd4674053c99afb04270867c9f1ccbad7dbb04a456a9a79f5d817eca7691abd6d93f48c0531a4a3aef230c921d1e0ed32f522142580cc2c9ec6c
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -7344,11 +7344,11 @@ Installed-Size: 108481
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.20_amd64.deb
-Size: 72536252
-MD5sum: 390c940d90aed8c3a35ff0c17db8db10
-SHA1: fe1da64c3a48dee87b7f11aef8bf20664e413d45
-SHA256: 3c64412cfe21afedb86e4aec6be43ca8f38f8eef13e20386aa18a7f4bee96948
-SHA512: c5a99835009e507bdfb816e94f88f78e40ca035f81561043cf5fd7986accb28e9a547f2e0501e5a83ed1e01e813967acd84ecf252964a922f9eb4c7541bf1862
+Size: 72533628
+MD5sum: 49e091be3c521f4befba4775520aad1c
+SHA1: f4fb6116c6ee561a616c2d56513e2129cbe7c4b3
+SHA256: 334700f328e64f1ad89cb0572d7adb273e4af1b51eddaccbcd9788712c81c267
+SHA512: af58ec8c616aa0e7c073bdcc98112eca05fd8734692dfb51e356636dbe95c17717419c14c9ec100550f8782fb497cf257f73f7848577a90135a7b28f0a4f847d
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -8383,15 +8383,15 @@ Version: 6.0.14
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2748
+Installed-Size: 2784
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libqapt3-runtime
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.14_amd64.deb
-Size: 1050452
-MD5sum: 232c1ca25b19bad08341168fc1a479c0
-SHA1: 38d5ad1c7e0a54cca7a7198bad742ee508a1d7f0
-SHA256: a2ec61c071b003f6ef15af588d67ac89b1fecd47b3f0955844509778a75f0355
-SHA512: 567bf4048a99bd73f20243511ff2943904735972c07d66f32907ebdf9ffbc2744cb846952330afd9694f089c9aca63bedb517ed25134a62e8614b0508b9f2d59
+Size: 1060532
+MD5sum: de0c3a9e0d3c3f2b0e1e42ba08c34dee
+SHA1: 1cad87be6221980ccab08d7615c66e11483bdbe2
+SHA256: 618e42ab4f19220a239ab8a53054cb7f9fc3c4719a6e28791e2bae5a6f1ea531
+SHA512: 0da9778b6a88d4dfc4c0608b4c8c9aea5f0e4894c5e0fc1e35c68e8d813d57c2f8a2de03aa36805a41fd4dd6af70333b10e76f9cf930084ce3a316cdb11ec983
 Homepage: https://www.deepin.com/
 Description: Package Installer helps users install and remove local packages.
  Package Installer is an easy-to-use .deb package management tool
