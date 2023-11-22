@@ -4,15 +4,15 @@ Version: 1.1.20
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 108481
-Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
+Installed-Size: 108486
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.20_amd64.deb
-Size: 72533628
-MD5sum: 49e091be3c521f4befba4775520aad1c
-SHA1: f4fb6116c6ee561a616c2d56513e2129cbe7c4b3
-SHA256: 334700f328e64f1ad89cb0572d7adb273e4af1b51eddaccbcd9788712c81c267
-SHA512: af58ec8c616aa0e7c073bdcc98112eca05fd8734692dfb51e356636dbe95c17717419c14c9ec100550f8782fb497cf257f73f7848577a90135a7b28f0a4f847d
+Size: 72544284
+MD5sum: 1f83bd493c6d04a9c7ca432cdd30a775
+SHA1: de664080caa84a8be278908b237b9c24227edd10
+SHA256: 1c599d1040657c33be43bfa6c81f9458da9863a724b97d079721a4a3cc0b08b4
+SHA512: 6ea2813391527923fe6f358e753e21ef418309f3eab525b4bb5d1ff9e766fc8a52049788564e9d1c59c8799ce9d2b7a6ed9e412ba833c3f6043b2c19f628b154
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
