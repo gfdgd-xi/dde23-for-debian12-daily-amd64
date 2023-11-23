@@ -4,15 +4,15 @@ Version: 1.1.20
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 108486
+Installed-Size: 108562
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.20_amd64.deb
-Size: 72544284
-MD5sum: 1f83bd493c6d04a9c7ca432cdd30a775
-SHA1: de664080caa84a8be278908b237b9c24227edd10
-SHA256: 1c599d1040657c33be43bfa6c81f9458da9863a724b97d079721a4a3cc0b08b4
-SHA512: 6ea2813391527923fe6f358e753e21ef418309f3eab525b4bb5d1ff9e766fc8a52049788564e9d1c59c8799ce9d2b7a6ed9e412ba833c3f6043b2c19f628b154
+Size: 72554304
+MD5sum: e53dff0b2fbc6f43749f64db1c8fe9a8
+SHA1: 6b06f23265d23f1bd1c89f3356e16d166da4ffc5
+SHA256: 83510bda46995551935813bd9ad310ea96cae6a1c32c4d8e2ac942cb3ffa4e9e
+SHA512: 8b0661cb7a69a98b19f4442fa6247e471ea35389983e5dc034f03b6f623bd988e0d48957b87c4a49d949ed59282b3d5e5cf4b8824a175832db1ec756dd74218a
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
