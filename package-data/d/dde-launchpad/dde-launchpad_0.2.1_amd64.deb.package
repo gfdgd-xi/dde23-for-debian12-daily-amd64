@@ -4,16 +4,16 @@ Version: 0.2.1
 Priority: optional
 Section: unknown
 Maintainer: Gary Wang <wangzichong@deepin.org>
-Installed-Size: 968
-Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
+Installed-Size: 880
+Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.2.1_amd64.deb
-Size: 296624
-MD5sum: feeef4caa89d8dbc313952908777cac5
-SHA1: 34b1a99d1a966168e7a0e2b5367b1e7b1aee9bc2
-SHA256: 81c4c9c854f445653f79f0ba12357fd0219c72b4cc61593d406df797a5e3426c
-SHA512: 9de6321ce4a1c4ae231957c4b6918e2ae622f9c32e60afd288d04a87752cb1d669295e2442f8bfb205ec725b3b52147e2a14f8188c4eea04110b0a23969280f6
+Size: 280308
+MD5sum: ab08809b75acd304cbb7b3e3adfb297f
+SHA1: 547353ee319ba45558e7210dde43d9065edceb6c
+SHA256: 156854073a0f0d517f77ee79a0ee6487bc001d1e0698d2369e8e4a747ec84adb
+SHA512: 81d50cfb2ccacb69eda72a516224a996361f23a9adf27b725036356c2d5d90a55cb631b53d5186f18ac5509ff9ecef729e5e9e8a27508a2bfee65641ee75a230
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
