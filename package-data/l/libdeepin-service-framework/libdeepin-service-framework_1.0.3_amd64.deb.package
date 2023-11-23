@@ -5,14 +5,14 @@ Priority: optional
 Section: admin
 Source: deepin-service-manager
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 246
+Installed-Size: 255
 Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0 (>= 221)
 Filename: ./l/libdeepin-service-framework/libdeepin-service-framework_1.0.3_amd64.deb
-Size: 55956
-MD5sum: 4a965d327d6e32ba4693fef2adb4015c
-SHA1: 7b2f860e2ed73de055ee28d6c6082c81db74bed9
-SHA256: 9e8afcc2a5bd6c3a03ef2ef974efaf114e80326692d316d8bb786046595e8879
-SHA512: 921ec285b62c786825bd7145cb51271c56f67fc1921d9c2bce64e93f77bbdfd228be09dd7668f6307d4c3d906d90b714f4961aa8273c3e42ca7f90007dd9e3d8
+Size: 57196
+MD5sum: a8d104a208777238c1b8d6015c3e6e24
+SHA1: 48c39336332724390b864e9682d00a58a44da47d
+SHA256: ca90bbbbbf6259a6143d24cf708f1b6bc8fbc33b0c46de61bd536ba712ca40ff
+SHA512: c3f79d4d850deb773b479922eeceb103ee2f3de04437b8ef5e4422723d4fd6c0fd8a84fa4c5542e1faf29ce5b0b9aa9e75b332436d5a9c092e18e20e8404720f
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service frame
 

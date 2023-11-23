@@ -1204,11 +1204,11 @@ Maintainer: Packages Builder <packages@deepin.com>
 Installed-Size: 928
 Depends: libdtktemplate (= 1.0.1)
 Filename: ./l/libdtkbluetooth-dev/libdtkbluetooth-dev_1.0.1_amd64.deb
-Size: 646300
-MD5sum: ecf36591b923f09b3fff0ed3711a3995
-SHA1: 5f042b11bead42f2ac55465ca47348cc469996ad
-SHA256: 06fa0361cfc5805dea532b420bd180e803b8d6b42b918ec25e48f42389f93dff
-SHA512: 2b1dd9e962cbca88f9e3c071d1c8e6c199ccd625acc06cfca52ef5d9ac43cf8722ac37c9a743083568710f32f78023173e5e625e2414c457c0de8d0ba85929cf
+Size: 646572
+MD5sum: 768cc499c3e7c2d6352c123a9774136b
+SHA1: c6f894097644511f8a91c61a85ef0d7a7dea5566
+SHA256: cf983b112b3cc159f1269a38e957228a4f12770b39fe8dac737bd6d05e5383ad
+SHA512: 38aeeedc97643120f4ff6b1e75d61f2a33d85564db0e0628f43fd4e5d9e725157e24f4ae02d45729b9fd3dee34046325b7b614c780fe09b1cc7ac62ad1130c52
 Description: Deepin Tool Kit: bluetooth devel library
  libdtkbluetooth-dev is base devel library of Deepin Qt/C++ applications.
  .
@@ -2255,11 +2255,11 @@ Maintainer: Packages Builder <packages@deepin.com>
 Installed-Size: 435
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5bluetooth5 (>= 5.14.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5)
 Filename: ./l/libdtkbluetooth/libdtkbluetooth_1.0.1_amd64.deb
-Size: 103248
-MD5sum: e02f499fbb724641a87f94acc3887687
-SHA1: c0fdc28d4b15881d53b36592f341bd1968a7c4a6
-SHA256: bbbf597b256efe6ba41d1a9e141fca2c2a9d0594def05a0be9b1832b58eafa23
-SHA512: a483809db4c1c66fad945f2d7f8c8ba9148e46c9168eb377395fe28fa28745c0aa8c720e867ea956a84ed37c841a6375e829ec0d52836d0bbcc284e6d5d0bb73
+Size: 103416
+MD5sum: 2559600908ff16ddc9e248f062b7cab6
+SHA1: 64e2824f51b090e03711d69b71ad269036e543f9
+SHA256: 32a37d1e9168811351248d7206ab59aede27baac7ef07f74fe8b4ad001139bdd
+SHA512: 5781a229b9a8fa2463f172f240482c17d937c0871296cf9306ed74187e8e7aef13f59c721d67154440fdd2003e10024c84a3312117d75885982ca9a8312a3d52
 Description: Deepin Tool Kit: bluetooth library
  libdtkbluetooth is base library of Deepin Qt/C++ applications.
  .
@@ -2366,14 +2366,14 @@ Priority: optional
 Section: admin
 Source: deepin-service-manager
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 246
+Installed-Size: 255
 Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0 (>= 221)
 Filename: ./l/libdeepin-service-framework/libdeepin-service-framework_1.0.3_amd64.deb
-Size: 55956
-MD5sum: 4a965d327d6e32ba4693fef2adb4015c
-SHA1: 7b2f860e2ed73de055ee28d6c6082c81db74bed9
-SHA256: 9e8afcc2a5bd6c3a03ef2ef974efaf114e80326692d316d8bb786046595e8879
-SHA512: 921ec285b62c786825bd7145cb51271c56f67fc1921d9c2bce64e93f77bbdfd228be09dd7668f6307d4c3d906d90b714f4961aa8273c3e42ca7f90007dd9e3d8
+Size: 57196
+MD5sum: a8d104a208777238c1b8d6015c3e6e24
+SHA1: 48c39336332724390b864e9682d00a58a44da47d
+SHA256: ca90bbbbbf6259a6143d24cf708f1b6bc8fbc33b0c46de61bd536ba712ca40ff
+SHA512: c3f79d4d850deb773b479922eeceb103ee2f3de04437b8ef5e4422723d4fd6c0fd8a84fa4c5542e1faf29ce5b0b9aa9e75b332436d5a9c092e18e20e8404720f
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service frame
 
@@ -3568,11 +3568,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.1_amd64.deb
-Size: 814288
-MD5sum: a71a4fa475d5f9d24a0526bbdbc52eaa
-SHA1: 92b257de8adf9b98084cc38450bac1a10a2b7159
-SHA256: c4a1e7e0646c5db915a4b77424b066771e22a61d597b1f00ec3a86f791516350
-SHA512: ddf6b777916d23edbdb332d179a2de265b73ab637c7da28b2e81cb50b89a5c3e210e9a7ac5993a9e6ba1ec42278891bcbc8b57c9298c5c0d74ca974bd9d9de4b
+Size: 814740
+MD5sum: ea767e36ce909bda216b1d532e23b722
+SHA1: 11b3e90e412d9ea4ab06a28b698afcaebff25e78
+SHA256: af16b505c544d91f11c7506b31b1355e061a84df1efc14447f919039f215d3b6
+SHA512: deef5279de3e844c46432e4ffcc7bc9f4c0426cff6e875f4d01d7e0e3163da6af352c6d44c29688a4ae5ce069c475c69aa2c9a593e423803c9b1b3cb54d7066d
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -7731,6 +7731,24 @@ SHA512: 6ce7a9348a3bc50888a7ad2c54000238c3ae86cd597692c5ec66685b81487e6b2118283c
 Description: Qt platform plugins
  Qt platform plugins for DDE.
 
+Package: dde-qt6xcb-plugin
+Architecture: amd64
+Version: 6.0.1
+Priority: optional
+Section: devel
+Source: dde-qt6platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1001
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2)
+Filename: ./d/dde-qt6xcb-plugin/dde-qt6xcb-plugin_6.0.1_amd64.deb
+Size: 295544
+MD5sum: 2b64eefede04413f0ddab73e8e2aaa6e
+SHA1: f9a74e0911bf915a3bbb89566b70ca4f1c04c172
+SHA256: ac71e20fb6689b58093464036afbba981f0ea2c8046770429d7717160f242298
+SHA512: 859820f7479e5b270447016fdd115edec84e5540e8f05b604072ee35057ae9ffbb1e0ae1af810184114f2093fd9c3e72cd0e0ff29696b5993f97a8b6bbab33c4
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
 Package: deepin-terminal
 Architecture: amd64
 Version: 6.0.8
@@ -8630,15 +8648,15 @@ Version: 1.0.3
 Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 289
+Installed-Size: 293
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2), libsystemd0 (>= 221)
 Recommends: deepin-service-plugin-oom
 Filename: ./d/deepin-service-manager/deepin-service-manager_1.0.3_amd64.deb
-Size: 64460
-MD5sum: be7e98e8872fcb49bc17cb9a62b8dad6
-SHA1: b9cfa68dd601ac839e3d72f2b3d7a717414efffe
-SHA256: 200e439b1192c4d0130e12cf1938df56caf37d27c3b985ba455e2c1d926345ce
-SHA512: e51065cf4214a7563fc51ce7fd712e3de20ee100922efd95d353ad9ca5f9bd99f4d135e0f4b9e345f27d9963b6837e2a6f68264b4239ecf433dab35cbafbeb13
+Size: 65888
+MD5sum: adcdccf4ef03bae547f35351ce184d80
+SHA1: 8d31a02bf7c436bf504a50b2d0dba447ee121b0d
+SHA256: 904cfca1d6f28ac6971439db20bcc711d3733d2b28847d4a63845a7d41e94d7f
+SHA512: 9736f8f91da69f496086d9c4b3bb497fce6e8af692a44c8a44b449f033b907b8af55b02eb02cbb9ffce2e775375769ed6772d78b0913cb314e302a6afac9e723
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service manager frame
  Load system plug-ins for unified management
