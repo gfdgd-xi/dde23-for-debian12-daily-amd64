@@ -3568,11 +3568,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.1_amd64.deb
-Size: 815640
-MD5sum: 6181bc7edc7d9899de817824c934b69d
-SHA1: 3e0b58446a080e5110bb1cd7a88ec0ae56400811
-SHA256: b99ec06da2eb1a1c6236b72434b9fe9e615f4a8524176e09aa342c98b9611260
-SHA512: 93f616058dd015e74710c65ffc06cab666c815fb7e232109551a5e06c21d8047a4ff79d117fca30b84c70c8ddf4577d7198153e0a74cc8b25f5b8d2dcf307299
+Size: 813756
+MD5sum: a56355ee36c8144ffe53cbdaff911226
+SHA1: 0382b6c9e5a5f0820b7bb7036d36cb671bc7a054
+SHA256: ce0e5b238877f4d992ec65884baf98207c962c06c4ee83acfce8c11a76618eca
+SHA512: ad60c04ecf6dd67b7c274c0c47d08bae60bca21b1e861457aef157a1f65155ea61d986da9abe115d7eda6e6938ed0273de808374f2c102c6412febc7ed7fe244
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -3888,14 +3888,14 @@ Priority: optional
 Section: devel
 Source: golang-github-linuxdeepin-go-dbus-factory
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 4500
+Installed-Size: 4501
 Depends: golang-github-linuxdeepin-go-lib-dev, golang-github-stretchr-testify-dev
 Filename: ./g/golang-github-linuxdeepin-go-dbus-factory-dev/golang-github-linuxdeepin-go-dbus-factory-dev_2.0.7_all.deb
-Size: 201640
-MD5sum: 83028f2ee3c7cd241ab171df5f325e12
-SHA1: 90b74496d83fc518867b0972df2638ab4619baad
-SHA256: d3279885bf57120efe6da64c20482b3800508d0119e8bde38a81c7e8bcbeffef
-SHA512: d8756b4acf61ef9f74267f985cff1b7c5b938847daf0724c33d4a6bec63af947e442dcee9776390609677bb3827202869206ce79c899eee54733c148ef451ca8
+Size: 201736
+MD5sum: b261c64038877cc227856102b357976a
+SHA1: 7169a175aee6f91676a00b3997b38d2248340e7a
+SHA256: 19bc6c80a732550249f16c96dd413e84071434a11b6f66a970c6a309a0c2591a
+SHA512: 17a3b3caa4d4da88b667cd9b6f3de72d7bdb7543c1d8ca4921ff60d77190018398bfece44cb68eef0bfcae2f479dad04e768fe9ddc93d625e2159f879392e642
 Homepage: https://github.com/linuxdeepin/go-dbus-factory
 Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
  Convenient go binding code for automatically generating DBus services
