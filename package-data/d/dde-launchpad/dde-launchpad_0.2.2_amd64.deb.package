@@ -1,0 +1,19 @@
+Package: dde-launchpad
+Architecture: amd64
+Version: 0.2.2
+Priority: optional
+Section: unknown
+Maintainer: Gary Wang <wangzichong@deepin.org>
+Installed-Size: 886
+Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects
+Conflicts: dde-launcher
+Replaces: dde-launcher
+Filename: ./d/dde-launchpad/dde-launchpad_0.2.2_amd64.deb
+Size: 281024
+MD5sum: b6dbd92c0039d5f061dcc55976cd3a45
+SHA1: cdb10e7dec23672db1e36fe28349b64e6b1867ed
+SHA256: 40640d30bc38ef4a53390747b297ece09c7ef9788864872006f6b57b3b05ddd1
+SHA512: 56a18a0f0968e8f31ab7d1f68210ab8d5fa258d80b34ee87603dda3645ad54e29734d37fd7d22e2065f0030a7062d3cb9a6fe481753a84173e44359fcf9d05a6
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
