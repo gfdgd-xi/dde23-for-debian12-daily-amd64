@@ -5,17 +5,17 @@ Priority: optional
 Section: utils
 Source: image-editor
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 11926
+Installed-Size: 12062
 Depends: libc6 (>= 2.34), libdfm-io, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3)
 Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr, ffmpegthumbnailer, ffmpeg
 Conflicts: libimage-viewer
 Replaces: libimage-viewer
 Filename: ./l/libimageeditor/libimageeditor_1.0.38_amd64.deb
-Size: 796464
-MD5sum: 7e6d619ff59e4b486dd3a5024c584847
-SHA1: bf5f197fb2ef18b15d80c6d5c5b363529d40fa0b
-SHA256: 7dc2fc8a33e927dd45212ae50c679e75ba3b22cc3b59a28c8255957a84f7acb9
-SHA512: 3438e0b75e1b70dcede1cd1e89ecf4445d720d79383c768cd7460e627e02859ab8e575989baf829f08232ffaa3173efdde6c030de7cc8c402bad0955f977c098
+Size: 841056
+MD5sum: d12ffb7598b7720b4c6e2bc13a86cd57
+SHA1: 0cd7effb67faa2b50f090e8d11b5710a05e88f78
+SHA256: 6231cfaee2e7d9cc94c0e36eaf90a6b27886214c09c8a0ed91c3e7cc911715f3
+SHA512: c0c895d08a6c49e70314f0071754df468cd538e3a95e868287da90e1713c7b3cbdf2d2d5ecc3feb225c9f858ade8520105ea50559feadcef772cc61a797dcd1a
 Homepage: http://www.deepin.org
 Description: Image Viewer library.
  Deepin Image Viewer library.
