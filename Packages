@@ -4467,11 +4467,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310296
-MD5sum: 64472e6bd9d54ae859f10aa7645f9aed
-SHA1: db44cc7ecd23005eeff9c7b01ddc9285f2c3a963
-SHA256: c0ebc2e91e21868db43e905ecc26ddc05762a6e03db48712a39176d265ef7861
-SHA512: 04a2c80c0c9e69b0b767f3ccf919ac2b662137a1f545d34237d95c73d983574a1170b079f0f3258c93ea463f5c56d467869b990d2866392fc8e8b590300d0440
+Size: 310392
+MD5sum: 0648b81130f989146bbe5f5c65f22957
+SHA1: ec10fdd30a06379e5b45d4119ec4b05d403575d3
+SHA256: 22f2c3e5f52d33a13bbb3222b3aa20c35aa0934462d1f92b57d30a0281bc0e31
+SHA512: 273182a0d85539a3cc1424de984d0f572f05fef165f62dde2abb45a00fbbefff4f45a4900168f26016ff07ef7661fc6971fe4d1c49236dc20abb490f8cab17a8
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -5581,11 +5581,11 @@ Installed-Size: 8538
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3901584
-MD5sum: 7aae21162c1921e29d26b8a440bf29ab
-SHA1: 70b11fa7c81dda702f410440774b451c842f2313
-SHA256: 5439730dd1f8c8914fea6937de49db1278ab67f21ea725e6530098d2bb1b1126
-SHA512: 831ff00594715dea65c2165daeb2b33603ed39395a46c022fc362b87032f0c2ee914edd04084f5f9b1b43ecff2f4b8ee5e9ca311f6e49fcd404a5db4b54268f3
+Size: 3899884
+MD5sum: 6b2d9a28b1ef09a8a110e4437e91b94d
+SHA1: e86881f5f6fe814d84b8fdb0bb555f1f76a3334f
+SHA256: 80d6359d8082b2f80a0c84184348c817d1048e9aeb59ddabe5852321f7cc5d3b
+SHA512: 8f514ce8eae4f5dfe9b30a73a7ebf34e704a485f0a779a08f103cc0032451aa47230eea22496342af38b83428391aa7f8236d56fe00e53395330b62a15131081
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -6395,6 +6395,27 @@ MD5sum: 4bcaf5ca3c811eb0630c74ed34da24c6
 SHA1: 1e58294d57a734c515a6c3aba967975738cc5661
 SHA256: 53acc4a6cb27b56aa18b573b32c0156306b56af7ebd3e7a3525207e4e2c850f0
 SHA512: 4064f2c78b115e21ab9c0db355150150cd1d086af68eada12af342dad2e5496ac427d891466ebbcadb3b0eacbd7401d9083c3071e3c946799068a4c023d9601d
+Homepage: http://www.deepin.org
+Description: Deepin Font Manager binary
+ Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
+
+Package: deepin-font-manager
+Architecture: amd64
+Version: 6.0.3
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 4726
+Depends: libc6 (>= 2.34), libdde-file-manager, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.3)
+Recommends: uos-reporter, deepin-event-log
+Conflicts: deepin-font-installer
+Replaces: deepin-font-installer
+Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
+Size: 2559128
+MD5sum: 66adf948c391074cefee727914de15d9
+SHA1: 1bbf72077b9cc46e550b35e2b29cb0d6221fb78c
+SHA256: 6b0b33624904752c6f46baf5172624ce358fc2a1d84f0885c1c940c60d2d742e
+SHA512: 3b10636083b5e4765d2d5177ca93788627e34ea8e06787019cf509ff70a49f6ef296cb4788d14d302fab96190b4c743ed9f02b0e303005eb3122f0a3b53b7200
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -7691,11 +7712,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 5502
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
 Filename: ./d/deepin-home/deepin-home_1.5.1_amd64.deb
-Size: 1200188
-MD5sum: 3ce547b9c70b95e16612d296454b8173
-SHA1: 435ffc90896173f9481d70aa66fce88f7df8872a
-SHA256: 13f691ae38017f70a26750355e82fc3b759995ce238eccaf5ee5db58b8b93f52
-SHA512: cc49e9a3d1ff0b2f7f52d32b37822097d8cecdb0ae0c487b599093c323ba3e65913d315db58233cc70583dbba0cbb163bc3ffa9f5ebf561d35627e64a58c3539
+Size: 1200872
+MD5sum: ff9723bc26037d6fd85152b82565623f
+SHA1: bcfdd97366c8da64e0944af399171c7d1ca7794d
+SHA256: 8926ab3eaf616682c8895b7244fc9de7333dee2e4954c612480be02bd491f54c
+SHA512: d64e623a89d55e3e24bd4748b4ed7058393d2cce717d6de1a0e97d6c2589a72130d9ab0dd5f686739f1e4db634c36aa01b6f671daf828d344c6ad65597a89ea2
 Description: deepin home
  quick login bbs, bug report.
 
