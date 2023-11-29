@@ -292,11 +292,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.5_amd64.deb
-Size: 16896
-MD5sum: 0db5f41f426ee875892c591680fa334b
-SHA1: 00a3cd8fb49417157a2f22a0d641e910b8865356
-SHA256: cf66a2553e373d8ee2770bf971e6e4ef7406db3ce3fed6a467c82d00a8878961
-SHA512: d4d902dc9eb5dfe612b51e6d3c88a51e29ff61b2a87927812c57a76ca5cbbb69e8fbf77cce0250256550112791abc19c31e1685007b07833ceb6493317d8f968
+Size: 16900
+MD5sum: 425bc76a555c2dc7e2b4660d084be6dd
+SHA1: aedcc2edfc407ef13a5ccae3c46e8bda11c9b119
+SHA256: 8f16cb0e8ab5bf0a2a72239656f85bf5152eb1ceeff74f2f13e9f242a2f710e0
+SHA512: 5f1263204d2007fec4603765933363af5a78de92000efad511ffa0437c70a1a9cf96a85678b952792998608ad1ad1789c22bf9ab2f28aa2a02851656e84eb37f
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
@@ -2253,11 +2253,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.5_amd64.deb
-Size: 300452
-MD5sum: adb60b7131b1d5ae4a5051dff4ea3d30
-SHA1: 3fdc18effc4cbd908fe5bfd5686246c53ab0ca5a
-SHA256: 76c6ef3e58034e075a85f6ea9152ccaa610aeb17747aff66a1ea8d62c4dcace8
-SHA512: 8472188754bb40c8231f0e855593f5b6cc3070410af07f9c48e67ba6a21056c676059f7252a37a90f0112d6a15aa0c0fbc4bbbbb0c42990c0e612cd6c66327d8
+Size: 299824
+MD5sum: c9d4b1a5973642382765ef1f370eaebe
+SHA1: aa1ad0b099c24ec6430f8ddfff53a31720d27b04
+SHA256: 12d1e8f86c53c4a12db34a85a3cc41c3223754c027287c2dc67b2055dd2af55d
+SHA512: e652d48294898fabeb9e08169f9ad848de48667f2c7b2446f4fe637ac8b5e4ec42779c55d42f88b5d89b1e2b0f41f2dee3426723bf37ae3b6723c25f320c856d
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -4745,11 +4745,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310392
-MD5sum: 0648b81130f989146bbe5f5c65f22957
-SHA1: ec10fdd30a06379e5b45d4119ec4b05d403575d3
-SHA256: 22f2c3e5f52d33a13bbb3222b3aa20c35aa0934462d1f92b57d30a0281bc0e31
-SHA512: 273182a0d85539a3cc1424de984d0f572f05fef165f62dde2abb45a00fbbefff4f45a4900168f26016ff07ef7661fc6971fe4d1c49236dc20abb490f8cab17a8
+Size: 310600
+MD5sum: 53332da7a1886256f2814edaaa71216d
+SHA1: a441f46441f4bfc204c239002d9552bfe30a1068
+SHA256: c4157a74c5b4f43a159b8e1f96d925b1cf6991c72625e011e7e42b67f4c25c59
+SHA512: 283a87fa3a28afd8c6c5e728201d020e2a61103017be33c858711a27c7023f1c0ca8ecdbf89ea269c1e05b113985ed9bd0579a2645c981d015a1eaf639284b65
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -5517,11 +5517,11 @@ Installed-Size: 8471
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.5_amd64.deb
-Size: 5145392
-MD5sum: c39a7471d04b6f2d9c8f833a10f972a4
-SHA1: 6df6632fdf6313c9bb2fa9915207678ba6e8ce9e
-SHA256: b6468a7c4e0495c73da8f53bc7a86e98209792d9b1f616b4546b1110440c6661
-SHA512: e4fb4164afe3c5d4ce4fa22d52fb9bfce7ccb9838bf3646f905a3304404e2ae66e5e024173ce160dc048a13422d7b781589d6f850d1be947b2bd28f0278cee3f
+Size: 5143312
+MD5sum: e5b9f8a802aa5a0955cd4a81e6937537
+SHA1: da1feb58943ffbab47fbe7cffb88d18384e9d73e
+SHA256: 3fa3561656fb1bde6741f28756218c97474e1afd52c1746d0bbafb8ddb5f1e66
+SHA512: 133594ee69c5c93bc9060f6a293bec4976d70eabc47fccd49403e1cdce129d57145b9a6783a68a7fc9e953524f2a373c9306db40c57e4d0f4f46970d83f65b66
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -5914,11 +5914,11 @@ Installed-Size: 8538
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3899884
-MD5sum: 6b2d9a28b1ef09a8a110e4437e91b94d
-SHA1: e86881f5f6fe814d84b8fdb0bb555f1f76a3334f
-SHA256: 80d6359d8082b2f80a0c84184348c817d1048e9aeb59ddabe5852321f7cc5d3b
-SHA512: 8f514ce8eae4f5dfe9b30a73a7ebf34e704a485f0a779a08f103cc0032451aa47230eea22496342af38b83428391aa7f8236d56fe00e53395330b62a15131081
+Size: 3899824
+MD5sum: f31f377dc16fb07ca30f963aa13e23c6
+SHA1: 99fd00ca15b8dce9ba65310885d1600090feaf0d
+SHA256: e50320aa74ac34e2120f0bcad0ab4c76f32576a54b4d17380e1cb8344b5f907d
+SHA512: 2143f21759c6155f691b1ba5b2d2e657ad6cb9195b400fcb1a134dd359fd21707c16e054e2faebbd4d2be2732974d870fec9585a52daca7056f8932debd64a72
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -7429,15 +7429,15 @@ Version: 6.0.3
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 16593
+Installed-Size: 16589
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libpciaccess0, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-camera/deepin-camera_6.0.3_amd64.deb
-Size: 14940560
-MD5sum: 08a56934819a7d563c68f71f154dd40b
-SHA1: 29804a130a7af69e3a18ea26fbcb104da0cd9f9d
-SHA256: f0f253ca96f8d81fcebd7f66c7db274fdc98f330411056d7d897772f6c064ad1
-SHA512: 532c1086c259b1c7e471298486797c72b13c82d1aed68f1a1a52b707969097c89d3fb6f92ec76386307dcd5ea05cddb27b74d8b48ee31efd2db42caba75f47a0
+Size: 14941220
+MD5sum: f16db99b2187f4a09bfd4311fc99f80b
+SHA1: ee8279f6d3d98a7ae4e157dcee43ae8513a47754
+SHA256: 51d8cd456bbecc1a8c99c9c5e48c2f1d503db07505152929b42bb2995dc90560
+SHA512: b3c356fe6f74e8188a562363ef633209826752066d6f7bbc6b729e3af84465cf9972d4d28cf236ba03e529189cf8dc72ca943551647aa19cf3c47812dcc24f8e
 Homepage: http://www.deepin.org
 Description: this package software for  UOS
  deepin-camera is a tool to view camera, and also a smart take photo and video in life.
