@@ -4,7 +4,7 @@ Version: 6.0.10
 Priority: optional
 Section: devel
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 8789
+Installed-Size: 8785
 Provides: lightdm-greeter
 Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5test5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libsystemd0 (>= 213), libxcb-ewmh2 (>= 0.4.1), libxext6, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.27), startdde (>= 5.8.15), x11-xserver-utils, dbus-user-session, dde-session-shell, pandoc
 Recommends: onboard
@@ -12,11 +12,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.10_amd64.deb
-Size: 1311340
-MD5sum: e6a73a448297f5beee674c22eaa2cfbe
-SHA1: 9ee38eec3cf49f6955f165ef900b4a8ec503d5f5
-SHA256: 3c07dfbeb65a5af89696cd3d3ccb748e4b16148f3753342c384785eac54b73c1
-SHA512: 25de451bf00e5814e6cf04883071abe2828fd5870a7c458b8359953edd32edc8f83169c2003e811016c1ddbd40c858011ea91dabe6c3effef286885bda6d492b
+Size: 1310332
+MD5sum: 30d5c388759c3b51dea95e5c8303730c
+SHA1: 7bc64aa42110dc14ecc54e23fbcf88e391ae4be8
+SHA256: 64942e6114b73d683885d8ab8e3405e695753c8f65870a1488e5d30f851da8d6
+SHA512: a089169e488df51c548557a5f25e80b9f8a6b01f9c4d1974ed8089f8362cbe8311e036e958483164a98135907b49bdf63577262487ff7613fa269b49ec546e77
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
