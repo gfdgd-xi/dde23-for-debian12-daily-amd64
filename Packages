@@ -4763,11 +4763,11 @@ Maintainer: shenmo <shenmo@spark-app.store>
 Installed-Size: 1331
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
 Filename: ./s/spark-store/spark-store_4.2.9_amd64.deb
-Size: 715016
-MD5sum: 5399d196dc1a5c5d703f642bae2d4c8c
-SHA1: 5ba8330e00c7be58cae0c0f66647468e1d887e34
-SHA256: 0c7a4025ab9ba9da08015f11cfd44742104cfdb53b931767b96fc40312bda95f
-SHA512: 821cb1c0da352d45739dd8bcf07a41e2db07300e6da1c965adbd81a28b3298a31430b126dd88471fe250603c33f7a134dd264c5bfb50580c6fe0b6387ee12b61
+Size: 714616
+MD5sum: c24ab5c8cdef4969cf025aa08062423a
+SHA1: bc38328287c13ba6c07b851a0c279a0cb208272c
+SHA256: 5e9e048adc89f5276b8ab177f003dd61986f1676941ada268db07bf82ef1c3aa
+SHA512: 1527d2fac80ab785666c1193e25d96239ec31fefc5047044ed2f5b74c4b71fd60d098e932f80314c2ea42025064d4aeaaa5479a1f3bc2919a8a5c95d25b7eeff
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
@@ -5044,11 +5044,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310656
-MD5sum: f8b025a801b8bb9b7ee666e58bba576d
-SHA1: 14d4effc27f871d8afbb758038693f3ea8225637
-SHA256: 6247a5cde8f4e8a03c7e8174afcec2630b3f6822b5f4ba0b8b20b212f3ef840c
-SHA512: 4e65e0622aa820935f746ae60282f990cd3f7694e0b7aa668d79dda1c34bde6035c7170608f76ab820cc917f097d4eef19c5ca264585c0629968c63550cf2a9b
+Size: 310012
+MD5sum: a65263dd0e9ea48ae2bce62420e762fd
+SHA1: 4601594379d1e38f24ba964e4a42dc8a45d97688
+SHA256: bb532d0ecc123286e10ba2f64c96bc09f31149d93f4b21ef0aa36a035a22dc3b
+SHA512: 164becdd01207a8d40c26e06d90be049dbb224d5dd487ebd755d111ee107e860cd88de8b7d99f81a2017c699aaf8fe33393f8b2613ac539d76c882fb614e7ebe
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -6273,11 +6273,11 @@ Installed-Size: 8538
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3900176
-MD5sum: 35369993f16df330c83251c679f7add4
-SHA1: a34eae320eddcb4908d56cc7be07eeecb8474ee7
-SHA256: 28dd840c875980d34e25c62475a5df0b3b7d720ef431547cf513c5579425d185
-SHA512: 8e0ae024ae67ed46fa6ef9fa66c5a67c5133c8d4d1234df1d21d6612c63cc3999e731f761a6455a6e6a788fd3fe9c09024f136d53c7eb7e5903c1add5f0ad4a0
+Size: 3900720
+MD5sum: 81c6149b916f8a35d97f4b79b02850e9
+SHA1: 40fd4b2c8b5feb8bbb81cb96bf941c7825d4aa91
+SHA256: 4b817a7cc3002a8d5db95f6632daf4a0e0d0ed6e411d207bd5dd52da3aedc845
+SHA512: 656090d94c611f427fe685d09dfe0b90c46c2d37a5da0cc510b8de90faf5e3dce2db3c2eab0a67126738d3c5d845339f6409956593485db149bff6fde70d4b0c
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -7236,11 +7236,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558596
-MD5sum: 8209bf71d62f2813263ff6f40819588e
-SHA1: 18bdcc502176ecbaad660f64749111f423d8824d
-SHA256: f60e62319e8b8608eb68fb5a39d9323fcc258dae362d8d967500d119c0f0d759
-SHA512: 4163ea1aa56f2a69e4dddd208e2cf741c813a578b878c44199e1aa8971f146bdab9ee36071ac97391848fd7c8f5765aa12f8d0a5db030a5e58630a53e59feb3c
+Size: 2559044
+MD5sum: bf44fdc2cbba1de7139b1d0e37134573
+SHA1: cb078f2ee09c0bf165adf4778515160a82fac628
+SHA256: ec0a3aabb97fe794a9f77c98b33daedc29a36cf6f69fa0d1915185a653772fd5
+SHA512: 9c126c8a7a3a501a4dd99d3efa25302000b4288725bb4ffac332c882cef008430002bf785fe472e90eb3661a4a0c4fffa02d126d9b3a7d0effe3f29c1b31c3a5
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
