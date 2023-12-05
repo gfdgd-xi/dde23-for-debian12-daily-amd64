@@ -4043,11 +4043,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.2_amd64.deb
-Size: 814868
-MD5sum: 1b1efc46477a40ecaecf0255881528d6
-SHA1: 014df3e7808b150d4530690c4d552b5e1bc3cdf6
-SHA256: 43ca5772c0338cddcb6e581a67b6f9b230f4a822c52e0ff413a3ddd09abd9069
-SHA512: 12080b64ccb7e882d34d640af4631c8ad6e98ef8a0890973d384caa56d31067f6f31248c99122d17d39a613e7cc73ca034ea4850abc63e81f1f023a27734233a
+Size: 814764
+MD5sum: 163c94aafb5e03988789326b51a34ad9
+SHA1: 5340f453b5f44f7dbbfed45126ec273582997f71
+SHA256: 22ab284ff3f807ad52e01482abce4530b328d117a5adcacd93faafee893185cf
+SHA512: 2cb307e9bd904c55a741de88c29a23b7df5f10d45090107238adab1f2f4a99eea8b10a0afc9407c5244919f6f813fcb4f9f671c0140a0e18bb9a09b46d7be81d
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -5607,6 +5607,25 @@ MD5sum: 27c4744f3ae9d8876051aabf6dc28947
 SHA1: de32ea6c9fef69621bf2623339c6409bcad4b5d4
 SHA256: d4a173592051ce68bb4ff187b70a925a09c6538ffe501919fc0733d183b6e3c4
 SHA512: 3d16ea7eb1202053c7e8602bd83ce4b442917b3e57a2fab0efcc0b790df5f8c06060ceeb9ee236c4f69304b57046feba5a1d7a45c9e795146e831785c2d5a321
+Homepage: https://github.com/linuxdeepin/dtk
+Description: dtk development files
+ Virtual package that provides dtk development files
+
+Package: dtk-dev
+Architecture: amd64
+Version: 5.6.20
+Priority: optional
+Section: libdevel
+Source: dtk
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: libdtkcommon-dev (= 5.6.20), libdtkcore-dev (= 5.6.20), libdtkgui-dev (= 5.6.20), libdtkwidget-dev (= 5.6.20), libdtkdeclarative-dev (= 5.6.20)
+Filename: ./d/dtk-dev/dtk-dev_5.6.20_amd64.deb
+Size: 2028
+MD5sum: 3f9a35294aad778869fb8de076b9a234
+SHA1: 2a6b87776904802616d5d1d0a6f7a29d6d2fb17a
+SHA256: 7821ce841ef76b05f1c89bb106368bc20d569ea0c717588b511d73aa0e2f7e15
+SHA512: 3e8c49452aef5143df4f2f3927274ca24a374f961da3b6a0a5bada922dc2b14b1e6332914e2b57b95e9459ce68152b587812993d2ad2cfc56ad5070fa71ecd3e
 Homepage: https://github.com/linuxdeepin/dtk
 Description: dtk development files
  Virtual package that provides dtk development files
@@ -8978,6 +8997,25 @@ MD5sum: b83f013deb0da520b457063e021ed564
 SHA1: e2b538c0d5914c8702f376e995984f42bb808b1c
 SHA256: 2e4b70949fbebf58f47e00579742ffecf7e8b063db5b3555a3b4e75eab49925f
 SHA512: 2273561d6ce9c05c444bc42951a40a6776e1fbe3a70b489c1bdf30eb2df02fc9e5aa65cdcb9617387df1f1e10fed8a119a46603c2e6da0e1bb1f91f6cd9b15ca
+Homepage: https://github.com/linuxdeepin/dtk
+Description: dtk binary tools
+ Virtual package that provides binary tools of dtk
+
+Package: dtk5-bin
+Architecture: amd64
+Version: 5.6.20
+Priority: optional
+Section: devel
+Source: dtk
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: libdtkcore5-bin (= 5.6.20), libdtkgui5-bin (= 5.6.20), libdtkwidget5-bin (= 5.6.20), libdtkdeclarative5-bin (= 5.6.20)
+Filename: ./d/dtk5-bin/dtk5-bin_5.6.20_amd64.deb
+Size: 2028
+MD5sum: dab99ccff424ec5e8a6f42de9552b395
+SHA1: 61536cb4a19b543a1935e309fb6259b1f6efea9a
+SHA256: 2c397ade33325e344ff54ff08088cb64815e1b9fcf5b692d9960c50ce818a004
+SHA512: 7623cb3713c5d7b8556385858b5df4864ade097efb65b6cb04ce3fa018243a46ccc56d8c51f0a9f6faa2bea9ba58f93dfdffaa89ac8bfde6714bfea26a72c589
 Homepage: https://github.com/linuxdeepin/dtk
 Description: dtk binary tools
  Virtual package that provides binary tools of dtk
