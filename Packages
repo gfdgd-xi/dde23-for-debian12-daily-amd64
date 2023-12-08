@@ -4043,11 +4043,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.2_amd64.deb
-Size: 814580
-MD5sum: 37214b82c6672fb3a391be3c48cf2d44
-SHA1: 0971e5dd6b235ac6d185a81cd0d288d6e99ab64e
-SHA256: b04ffc001e5e82d1506bc1b28a82aaf1752fe7a68b1efb0ee450f94c5e8325c4
-SHA512: 4a549eb01a3a2fed386c76514b72bc184514b51472eb85c3167afcc77e23cd3638ecc2ebf00d6b1014ec7501f11a714f37bcb857752760c807823609c88fb511
+Size: 813380
+MD5sum: 8b8cacc33cf0781df75f290e224db1bc
+SHA1: aa3fa299c8a284d0715657e11bdcd9d777758188
+SHA256: b038f3c5a1d938177fcea2f269b74ea52a3ba1bb283fc9f7e253198e6d112a0d
+SHA512: b5950e83b5fd7d2f0f2558fad04a4d702feee7fd9502a5376a22688eee45b3cb78aaf473021d5d7a3e5b51c8fffe584ab93809ad4908789dcaf01821822e4c10
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -5541,14 +5541,14 @@ Priority: optional
 Section: libs
 Source: dtkdeclarative
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 21985
+Installed-Size: 21983
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5quickcontrols2-5 (>= 5.12.2), libstdc++6 (>= 4.1.1), libdtkdeclarative5 (= 5.6.20), qml-module-qtquick-controls2-styles-chameleon (= 5.6.20)
 Filename: ./d/dtk-exhibition/dtk-exhibition_5.6.20_amd64.deb
-Size: 9850192
-MD5sum: 7203b3eac145a565c177ce00e1303627
-SHA1: dc6183bf42e1f469ec3bd39cfe4667122ed8444b
-SHA256: 8e80fd33b79a3e3117db51dd38883b9d9a8e2b7aafcfd146d7a1de2c8e0c07fe
-SHA512: 31ae055230c351f22796bddd7c016aced551acd902abeb07b085f4bfdbfbae143c57fd4f2ac96abeced8485d74d284622b8d665c5b2cba3e8eb34040386346bc
+Size: 9849980
+MD5sum: 2798dace0b0f9415d266c3aae0156bdb
+SHA1: 49cc3bfe65dca23a19de03cdca3c264e191e76fe
+SHA256: 712beb06eec8e5550cecd56b045575e47e808836e8a1e57f3997a0b81a6a84ca
+SHA512: 9649294d4186b765afae518bcc0593332deb895c0ff4c4ae918fc2fae53a9cff5a453d969abd67668999c501b3c2ae477424b04af81f6d04e85aa580f80b3e98
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit QML Controls example.
  This package contains a applicatioin.
@@ -7189,14 +7189,14 @@ Priority: optional
 Section: libs
 Source: dtk6declarative
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 21976
+Installed-Size: 21974
 Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), libdtk6declarative (= 6.0.2), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.2)
 Filename: ./d/dtk6-exhibition/dtk6-exhibition_6.0.2_amd64.deb
-Size: 10557992
-MD5sum: bd22c4125777e54a315b5395918ff0a9
-SHA1: f5b489fb89520671827d519f31d361ffb82e87f0
-SHA256: be2fe35dc36b7ae7713ec072738433361a51e1fbe45de38493be09a49af49c96
-SHA512: 41b71e5d3b5b478c88b9548b23aa62aae709ee334e60bdc8f75ded87607c00d599d49d72b54c95fe70819dabf8e4c5c8e2df3cfe2c2523cffa96f7fbc717e1ef
+Size: 10557780
+MD5sum: c4fc66604d735a6cdc2e57bf86d9f1e5
+SHA1: 390cf589d3b72e746922e0eed6a1fe1177d876df
+SHA256: dcc69b8e049cd7fbb0b57b795763bb1a10fbd9b1184e9c6e429a228b2cdddad2
+SHA512: d755dca0834a70f3349b8268bda26e9f4efc449d98562c16fe99cd9c84d6b1988b103027e55d0b3dacf0e36ca7cecaa764c737f747bc13cbfbc21131060b539e
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit QML Controls example.
  This package contains a applicatioin.
