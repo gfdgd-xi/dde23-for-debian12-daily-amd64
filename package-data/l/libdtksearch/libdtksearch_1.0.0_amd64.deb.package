@@ -1,0 +1,20 @@
+Package: libdtksearch
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 607
+Depends: libc6 (>= 2.33), libdocparser, libgcc-s1 (>= 3.0), liblucene++-contrib0v5 (>= 3.0.8), liblucene++0v5 (>= 3.0.8), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtksearch/libdtksearch_1.0.0_amd64.deb
+Size: 159152
+MD5sum: 36127e2fe69bdabca6bc9612bc14e968
+SHA1: a4e89c6590abbea1f2e58bb24dba5784d355fe3b
+SHA256: 45652679eaf12df21095a6069e5d16f1b24f4fced25a4a878219e37eed2c7221
+SHA512: ce259f54643658c98c8da2e4d50270b19ea1b31c569c8ac7b06f8d83ea1f8041a90675cff18cb5f4b566543f4371bf7cdd63bcacd736ab836c3278b73989eee6
+Description: Deepin Tool Kit template library
+ libdtksearch is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

@@ -1,0 +1,20 @@
+Package: libdtkmultimedia
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 1620
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6)
+Filename: ./l/libdtkmultimedia/libdtkmultimedia_1.0.6_amd64.deb
+Size: 459756
+MD5sum: 3a5f6273680f36e26dfe4c99b4575096
+SHA1: b0818e21c55c7d755d002f87a6cbe88328576d1a
+SHA256: 62cde44f0943265ae60b9a84ec906a07b8f9e43bc3c9c840aefa2d57721a1032
+SHA512: dab6ba11e2feecdff03d72760e895109a66d112dbf3fa5d51ad151296514146c7d4b79f7493903381573f36177920509a4faed9b24ae26d93859a1423ecfb537
+Description: Development Tool Kit multimedia library
+ libdtkmultimedia is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

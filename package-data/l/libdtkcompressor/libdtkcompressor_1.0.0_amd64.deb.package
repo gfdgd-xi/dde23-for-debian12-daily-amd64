@@ -1,0 +1,20 @@
+Package: libdtkcompressor
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 1536
+Depends: libarchive13 (>= 3.2.1), libc6 (>= 2.33), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libkf5archive5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libminizip1 (>= 1.1), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2), libzip4 (>= 1.6.0)
+Filename: ./l/libdtkcompressor/libdtkcompressor_1.0.0_amd64.deb
+Size: 353768
+MD5sum: b68567f0eb2ccd4d40dbc313566b1796
+SHA1: eab089d7158c86e2ed4c1b1f1bbf95ba815db5fd
+SHA256: e71c5b7ea54ab2bd937c65e4c446b3dde447f3f3d360fa7fea9b4b48069d6c24
+SHA512: ae717729491a66071d1f5ae7d6510ff3de1ae09e79233a165be5541f7f0965dd6d7ce2be48e6ac80beb9a662541d5995898f9bdcb4f6ee40852f02c73df7c63b
+Description: Development Tool Kit template library
+ libdtkcompressor is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

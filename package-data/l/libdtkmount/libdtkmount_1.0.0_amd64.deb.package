@@ -1,0 +1,20 @@
+Package: libdtkmount
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 656
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtkmount/libdtkmount_1.0.0_amd64.deb
+Size: 161180
+MD5sum: 2a1e512df8172edfc6b79680d5474a9a
+SHA1: 7d0a14dde9f195ec4a7d8cb928ad1514ee26fbb8
+SHA256: 0a716cd479713e65b985349c8eace4d78bb5a7f46f9a13eb8be8c58b3264beb2
+SHA512: 9bb1e5647c07f4919c27c1ff9b2f94cf11c8a39e72bce51b6574fd2822598a59f0fde3624abbd9bc9413b9336d468fecab1b3550d4626a9b978ba4a1bf10ed39
+Description: Deepin Tool Kit template library
+ libdtkmount is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

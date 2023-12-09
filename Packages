@@ -514,6 +514,26 @@ Homepage: https://www.deepin.org/
 Description: download manager dlmcontrolui lib.
  downloader for deepin desktop environment.
 
+Package: libdtkmount-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 2293
+Depends: libdtkmount (= 1.0.0)
+Filename: ./l/libdtkmount-dev/libdtkmount-dev_1.0.0_amd64.deb
+Size: 1406428
+MD5sum: d47473568567d6e60fdf118bc5dbf6e2
+SHA1: 8997af16440fbd36ade1edba1247f58a21a0b8f6
+SHA256: 3ae23ac4bdb6c3d48bcf8f54a7d0c9aeeff86628fc0a409d7ed81f4168dc308a
+SHA512: f8f158f74945d68e5b3057049aba83a21fb22441b540701ea3d77d29397fd81a15efdc2a86fdd7920b2def43fd81f3b827b4ec5db963e6781d699491b87f5432
+Description: Deepin Tool Kit template devel library
+ libdtkmount-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+
 Package: libdtk6core
 Architecture: amd64
 Version: 6.0.1
@@ -719,6 +739,26 @@ Homepage: http://www.deepin.org/
 Description: OCR plugin manager for UOS
  OCR develop library and useful plugin management tool.
 
+Package: libdtkocr-dev
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 379
+Depends: libdtkocr (= 1.0.6)
+Filename: ./l/libdtkocr-dev/libdtkocr-dev_1.0.6_amd64.deb
+Size: 234680
+MD5sum: b972a6fb03ca24b9a76ab8f646d076a8
+SHA1: 2ac6c421466e584148a956a55afdd664bf4a613f
+SHA256: db28a589b0603275b79c579e5fa7ef58e94a28a33d5f0647370fb071fff3abfd
+SHA512: 35ad0ba77d43a58b370fe327207dbc1871c46d50a24dd9e92d73556b0fc3b76cda303e09da455692db6bf7f1e780b1ecb7f210a7671fad5d5be4a0e5be67d570
+Description: Development Tool Kit ocr devel library
+ libdtkocr-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+
 Package: libdtkgui5-bin
 Architecture: amd64
 Version: 5.6.20
@@ -820,6 +860,26 @@ Description: Qt library wrapper for Wayland libraries (documentation)
  the Wayland libraries.
  .
  This package contains the qch documentation files.
+
+Package: libdtkburn-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 2255
+Depends: libdtkburn (= 1.0.0)
+Filename: ./l/libdtkburn-dev/libdtkburn-dev_1.0.0_amd64.deb
+Size: 1402528
+MD5sum: bb4889f13e48b436ba258d41c56e536c
+SHA1: 524ae2e5900a509abd219515bb6f580c056d7a68
+SHA256: c7a176aace8af56254c2b2e03a5bfc5b619fc34b3a84463a46f8c741302281bb
+SHA512: 03856d34b88d63cfcecde6af7eefddee9d71aefd3359642cea257400ff4719daa1168bdf777a893f1c1e0569dccef6922efc0f65eecb73e2716046c2a9c887cb
+Description: A libaray about burning CD
+ libdtkburn-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
 
 Package: libdtknotifications-dev
 Architecture: amd64
@@ -1615,6 +1675,26 @@ Homepage: https://www.deepin.org/
 Description: download manager dlmaria2 lib.
  downloader for deepin desktop environment.
 
+Package: libdtksearch
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 607
+Depends: libc6 (>= 2.33), libdocparser, libgcc-s1 (>= 3.0), liblucene++-contrib0v5 (>= 3.0.8), liblucene++0v5 (>= 3.0.8), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtksearch/libdtksearch_1.0.0_amd64.deb
+Size: 159152
+MD5sum: 36127e2fe69bdabca6bc9612bc14e968
+SHA1: a4e89c6590abbea1f2e58bb24dba5784d355fe3b
+SHA256: 45652679eaf12df21095a6069e5d16f1b24f4fced25a4a878219e37eed2c7221
+SHA512: ce259f54643658c98c8da2e4d50270b19ea1b31c569c8ac7b06f8d83ea1f8041a90675cff18cb5f4b566543f4371bf7cdd63bcacd736ab836c3278b73989eee6
+Description: Deepin Tool Kit template library
+ libdtksearch is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
 Package: libdeepin-pw-check-dev
 Architecture: amd64
 Version: 6.0.2
@@ -1717,6 +1797,26 @@ SHA512: 83f1e1f850deaae32d9e5991c40ed1723e5da008bf6eb6263d084e9743b35450fa3a448e
 Homepage: https://www.deepin.org/
 Description: download manager dlmdatabase lib.
  downloader for deepin desktop environment.
+
+Package: libdtkmultimedia-dev
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 1859
+Depends: libdtkmultimedia (= 1.0.6), libdtkmultimediawidgets (= 1.0.6)
+Filename: ./l/libdtkmultimedia-dev/libdtkmultimedia-dev_1.0.6_amd64.deb
+Size: 1131616
+MD5sum: 9fb48f1da3919a348aff2572e3701768
+SHA1: bfa71550e8f347eb3f21a9e46e259112871938cd
+SHA256: a1e39543642f0f7a50496cf7e23cc466b3daeb7d12f305cc597e8a432ec76ea9
+SHA512: 4fca9051964ca8399759e3b441cd9efad67cfc9d0a1f098782322509e69eaea6d599c64c6aac6d18d837f06aac47ba1d4febee4771009a909e96516cabea751f
+Description: Development Tool Kit multimedia devel library
+ libdtkmultimedia-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
 
 Package: libdeepin-kwinxrenderutils13
 Architecture: amd64
@@ -1912,6 +2012,26 @@ Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui Devel library (Document)
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
 
+Package: libdtkio
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 259
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.43.91), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtkio/libdtkio_1.0.0_amd64.deb
+Size: 73340
+MD5sum: f7d168fc1a8e0afc3280faa6c4145dde
+SHA1: 0a84d2a1a44102e70ff8d70b3ac805a161bd158a
+SHA256: c0294452c30ff9ee4730f3e5c6de9a31f04e7229ecec2607d2d35dee3d63e79c
+SHA512: 7503c62db11816df292466b0ad4acccf46201642218ced7aeffa29106fc6befc7e49fa82fdf621ba2ee520b849f23a00e9126a0d5660fd8b0bc1cf8189944156
+Description: Deepin Tool Kit template library
+ libdtkio is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
 Package: libdtkdevice-doc
 Architecture: amd64
 Version: 1.0.4
@@ -1971,6 +2091,26 @@ Homepage: http://www.deepin.org
 Description: A libaray about I/O dev.
  A libaray that provides I/O interface dev.
 
+Package: libdtkmount
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 656
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtkmount/libdtkmount_1.0.0_amd64.deb
+Size: 161180
+MD5sum: 2a1e512df8172edfc6b79680d5474a9a
+SHA1: 7d0a14dde9f195ec4a7d8cb928ad1514ee26fbb8
+SHA256: 0a716cd479713e65b985349c8eace4d78bb5a7f46f9a13eb8be8c58b3264beb2
+SHA512: 9bb1e5647c07f4919c27c1ff9b2f94cf11c8a39e72bce51b6574fd2822598a59f0fde3624abbd9bc9413b9336d468fecab1b3550d4626a9b978ba4a1bf10ed39
+Description: Deepin Tool Kit template library
+ libdtkmount is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
 Package: libkf5windowsystem-data
 Architecture: all
 Version: 5.46.0-1
@@ -2004,14 +2144,14 @@ Priority: optional
 Section: libdevel
 Source: dtkcrypt
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 127
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
+Installed-Size: 109
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
 Filename: ./l/libdtkcrypt/libdtkcrypt_1.0.0_amd64.deb
-Size: 35316
-MD5sum: b1265b2a85d7932de0f73212f7fff196
-SHA1: 10e5a10fb63c4bfca5ac8d8710746438d2ba9e48
-SHA256: 990a08cd6530aec0694b69e71d0d7cc68569db2cabaf1d0d295286a6cd1aaf25
-SHA512: 4617cb16d4ca2b8e1588d662da1bd4f6956bf19ff1f7b118a86b7999cb001f2693607f0dfe860583e6bf9bd553b14416021e1b39519901f8e80b4b494eb53d62
+Size: 30704
+MD5sum: 228f1b79ef36cbd093d820bdf84c5164
+SHA1: 6478d7c9ce077dedf9fba5c638795a06dccecbb7
+SHA256: 8393b170aa58352567a062631105553a376d43718ad2a04d01ab6a36dc25e8f4
+SHA512: eab4359b06fd314c2b526c77ea989bb83d70be2ef27b71fc1fa9b15d13d09a181126053fcdb759199ace86e5f963b88472bd7264b5a2039d3586add192f58e1e
 Description: Deepin Tool Kit template library
  libdtkcrypt is base library of Deepin Qt/C++ applications.
  .
@@ -2195,11 +2335,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 258
 Depends: libdtktemplate (= 1.0.0)
 Filename: ./l/libdtkcrypt-dev/libdtkcrypt-dev_1.0.0_amd64.deb
-Size: 158808
-MD5sum: 59124b32e6b2e769a80ccfb3c04b6519
-SHA1: 354c2d69eb1c422c277bfd8fed63a21e7d9e6422
-SHA256: d59954fba3515930168d2ca9565adfe6465286816c96bf79220e1cc7181fb74a
-SHA512: ee511db560016768ed93e6be871b071864fca96b14f0ebf81e6512b4403ccfb4456323c8c66b30ee8b50e715625d2b720de36330d1bd184f809cb1598f98eed1
+Size: 158792
+MD5sum: 5d5ce1a0906f819525db0c63ccf1b1fa
+SHA1: f3e9e5cf151f391a14441c8956bbd3ea64b14d46
+SHA256: e644666b6a11ef45382efdcd734976281aeb065797290caff4d94b572d8ca11d
+SHA512: a6490969cb00c112e91cb76359d120b8921949304c51d4f46fba3ab937caa909399798dfc985dccd507be687ea6e2961c91d10ea4f8e42a8d75ea988f5ba78bf
 Description: Deepin Tool Kit template devel library
  libdtkcrypt-dev is base devel library of Deepin Qt/C++ applications.
  .
@@ -2505,6 +2645,26 @@ Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
+Package: libdtksearch-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 2249
+Depends: libdtksearch (= 1.0.0)
+Filename: ./l/libdtksearch-dev/libdtksearch-dev_1.0.0_amd64.deb
+Size: 1402116
+MD5sum: 485ebf28e193aa26feff2de748ff12e9
+SHA1: 9e7bd1ef83fba8ed33264acd40479765e437ae09
+SHA256: ed8fd7897d52a22f027c8c8860e2daf1ebf8b8446cd882ce9d80915e680ead53
+SHA512: e911eb928dffc052f0ee58d298225bdc0e08349e1f66151f3ea64022272df67180ec70fb04b603dcf209d47d4a8435a358ad550187b1f9ab4e7a3c307286d107
+Description: Deepin Tool Kit template devel library
+ libdtksearch-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+
 Package: libdtkcore5
 Architecture: amd64
 Version: 5.6.18
@@ -2534,14 +2694,14 @@ Priority: optional
 Section: libdevel
 Source: dtkcore
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1730
+Installed-Size: 1734
 Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.10-fmt9, libstdc++6 (>= 5.2), libsystemd0, qtbase-abi-5-15-8, lshw
 Filename: ./l/libdtkcore5/libdtkcore5_5.6.20_amd64.deb
-Size: 464868
-MD5sum: 323f710dbbed928fbd45f168c499fd20
-SHA1: ddc75f3ecd0e1e0232b696bb7fce1257adf23387
-SHA256: 285a721660be1dc49ea1522b534612457f24df6dd1fcbb98b59df6244b8c2285
-SHA512: 8b65e87cab9d3f85677e282f1688974160cdd1708127a027b6dcc2b7f16a582282afdab4d470383210d37d0110635a28a7a06385789f03b1b307e32241c4d5a5
+Size: 465452
+MD5sum: 425fd08b0f2f143435332a8cd3fae359
+SHA1: 0fd2a6c6d54c75827d13cd3bc46ae6fb25317b00
+SHA256: e7a16535fff509cb9988223fd2929e5fbe222840f800243828d11febf5e5584e
+SHA512: 7d0ea5990342d207ea4d576fdbe542e26ca5c7afb689e9464b036bd56538ccf3be21922d6d791fe1aa5683da3816da2fcdb30dde551e1b928cc8f87c2d8e3cfd
 Description: Deepin Tool Kit Core library
  DtkCore is base library of Deepin Qt/C++ applications.
  .
@@ -2784,6 +2944,47 @@ SHA512: 7bb3362096e18a8eeda8139df78b2216f05bf6a00106729bd07a80fa613296afbc330b71
 Homepage: https://github.com/linuxdeepin/gio-qt
 Description: Gio wrapper for Qt.
  A convenient way to bind gio with Qt5.
+
+Package: libdtkburn
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 126
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdtkburn/libdtkburn_1.0.0_amd64.deb
+Size: 35492
+MD5sum: 187fd426b9416d6a6b5b4aabb28d92a8
+SHA1: 3d30c1d4da8c69a775b0ffa1dced56d24a51fdb5
+SHA256: 35112a5505e774769411485b2a8e1fb31b6c4219a08c5d10eeccbaaf55095770
+SHA512: bc2b6639dd718d8fdd71d9cdaca3ed30d491087f0ffa273c7abb05ccc0edc038bc0532192e2440906314acd188d4bbddbe98a91eecbd759b9ced94cecf332673
+Description: A libaray about burning CD
+ libdtkburn is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcompressor
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 1536
+Depends: libarchive13 (>= 3.2.1), libc6 (>= 2.33), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libkf5archive5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libminizip1 (>= 1.1), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2), libzip4 (>= 1.6.0)
+Filename: ./l/libdtkcompressor/libdtkcompressor_1.0.0_amd64.deb
+Size: 353768
+MD5sum: b68567f0eb2ccd4d40dbc313566b1796
+SHA1: eab089d7158c86e2ed4c1b1f1bbf95ba815db5fd
+SHA256: e71c5b7ea54ab2bd937c65e4c446b3dde447f3f3d360fa7fea9b4b48069d6c24
+SHA512: ae717729491a66071d1f5ae7d6510ff3de1ae09e79233a165be5541f7f0965dd6d7ce2be48e6ac80beb9a662541d5995898f9bdcb4f6ee40852f02c73df7c63b
+Description: Development Tool Kit template library
+ libdtkcompressor is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
 
 Package: libdtk6widget
 Architecture: amd64
@@ -3300,6 +3501,46 @@ Description: Deepin Tool Kit Gui library
  .
  This package contains the shared libraries.
 
+Package: libdtkocr
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 17252
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 4.9), libncnn, libopencv-mobile, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libstdc++6 (>= 11)
+Filename: ./l/libdtkocr/libdtkocr_1.0.6_amd64.deb
+Size: 15871128
+MD5sum: be24f08c6929b30c5216d7ab6318f5c0
+SHA1: 6f319e92ca702bf8ed2d8c3c5485a004c6927b46
+SHA256: 3f8c0b49fee6227fe0dbe520c9142d2dab9dc17450a471c5fc599280de8fed3e
+SHA512: 061db55d827c88950355a497e6a2dd63d1c882d93e182d412105850d99b455fe86ad1cce6ab7677a9423dae89619f1d4526b7cc5b813d1894a3d34d5ebab439a
+Description: Development Tool Kit ocr library
+ libdtkocr is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkmultimedia
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 1620
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6)
+Filename: ./l/libdtkmultimedia/libdtkmultimedia_1.0.6_amd64.deb
+Size: 459756
+MD5sum: 3a5f6273680f36e26dfe4c99b4575096
+SHA1: b0818e21c55c7d755d002f87a6cbe88328576d1a
+SHA256: 62cde44f0943265ae60b9a84ec906a07b8f9e43bc3c9c840aefa2d57721a1032
+SHA512: dab6ba11e2feecdff03d72760e895109a66d112dbf3fa5d51ad151296514146c7d4b79f7493903381573f36177920509a4faed9b24ae26d93859a1423ecfb537
+Description: Development Tool Kit multimedia library
+ libdtkmultimedia is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
 Package: libdtk6core-doc
 Architecture: amd64
 Version: 6.0.0
@@ -3424,6 +3665,26 @@ Description: KDE window manager effects library
  of windows and switching between them.
  .
  This package is part of the KDE base workspace module.
+
+Package: libdtkio-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 2287
+Depends: libdtkio (= 1.0.0)
+Filename: ./l/libdtkio-dev/libdtkio-dev_1.0.0_amd64.deb
+Size: 1406652
+MD5sum: efebb1f859dfa59dd3f5c8beac3d7e48
+SHA1: 8d4fe350eaca36db2702b8e88dbc9349e259ad6a
+SHA256: 7cffe3a18a5dde9f9861132d92bcca81ede60eb7c125acc9df40aa64d7e22524
+SHA512: 490f6fb47919e3c652281f2c26e3e6689f91a19503253d9da95a18f0f82a5b919e42342ccf191e791251f6949225bed11d761de5b96112e1f6def02ef60acc70
+Description: Deepin Tool Kit template devel library
+ libdtkio-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
 
 Package: libkf5globalaccel5
 Architecture: amd64
@@ -3589,11 +3850,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.2_amd64.deb
-Size: 813380
-MD5sum: 8b8cacc33cf0781df75f290e224db1bc
-SHA1: aa3fa299c8a284d0715657e11bdcd9d777758188
-SHA256: b038f3c5a1d938177fcea2f269b74ea52a3ba1bb283fc9f7e253198e6d112a0d
-SHA512: b5950e83b5fd7d2f0f2558fad04a4d702feee7fd9502a5376a22688eee45b3cb78aaf473021d5d7a3e5b51c8fffe584ab93809ad4908789dcaf01821822e4c10
+Size: 814600
+MD5sum: 3c5a694039facad6b7c3659714f2f031
+SHA1: 287266777429a45679fa33880fc49f8dbd67bbc8
+SHA256: ba76f3d9228e14ab5d6565edb4050762a0e6b980b95eb03f524804410721d842
+SHA512: 87e07c617ada2005d929cf832edc4e0a008b6dca11289d30b9ff157371ff8b848777b0c9cb491bf5196dfda6bbb1315daef1b67efea0b0d77a58a201e42d09b3
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -3911,6 +4172,26 @@ Description: Deepin Tool Kit Gui Utilities
  DtkGui is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the utilities of DtkGui
+
+Package: libdtkmultimediawidgets
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 8
+Depends: libdtkmultimedia (= 1.0.6)
+Filename: ./l/libdtkmultimediawidgets/libdtkmultimediawidgets_1.0.6_amd64.deb
+Size: 1964
+MD5sum: f69e6b845f906cfe1eb2ae29eadd859b
+SHA1: 63c86e16c49ab6a72de9475cae61af23792bd62e
+SHA256: 697ce00a57825c58cbcd14685d38cb1c54e605d3a2c2d537dbdb9d291048aeb2
+SHA512: 4b4aa542691aea8fc2bc3c8cf7176001adbb713638fb646af027b16d405d04efb54aba6119204ac9f91b68434cb2ce9b9d53df170aca98b75f8fe228fbd61634
+Description: Development Tool Kit multimediawidgets library
+ libdtkmultimediawidgets is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
 
 Package: libdtknotifications1
 Architecture: amd64
@@ -4583,6 +4864,24 @@ Description: Deepin Tool Kit Core Utilities
  .
  This package contains the utilities of DtkCore
 
+Package: libdtkcompressor-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 2250
+Depends: libdtkcompressor (= 1.0.0)
+Filename: ./l/libdtkcompressor-dev/libdtkcompressor-dev_1.0.0_amd64.deb
+Size: 1402360
+MD5sum: 27dd2444cbfb586ebadcc5508db5e4df
+SHA1: 45643e9bc60f7ad62872c3b5f4f8ef7adecf5197
+SHA256: d28be862ce99d5700709da272025375149d8af5d51c861dc26e4b6447fd4960d
+SHA512: 6eaa403df4a77bace5419972824c000fad0e7f602e9b4aefa86860ac39985b2dd6c9967ee0f340ce872c41f98b877fdc363f42253516add794931b964463a5a6
+Description: Development Tool Kit template devel library
+ libdtkcompressor-dev is base devel library of Deepin Qt/C++ applications.
+
 Package: libdmr-dev
 Architecture: amd64
 Version: 6.0.5
@@ -5070,11 +5369,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 5622
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), policykit-1
 Filename: ./d/deepin-pw-check/deepin-pw-check_6.0.2_amd64.deb
-Size: 1783488
-MD5sum: f758565a7e8655be3d61a4db59fffbec
-SHA1: 8e843650f41b1cf513c61b58a7f14784d7b8830f
-SHA256: d0fef0a82facb0c7a78ec9ef71aae0553c3be298d5f39116afc02f596dd307df
-SHA512: d034a3e86019276891fea0b234d6b11ce3772f3145bd3f68646db6a2461afdc52bf90886d46820bd93679ae7eda86f7dcba35ad89ebc564235440b859e014489
+Size: 1783480
+MD5sum: 4f13bccb5ad5a7f8f77c2f97915b2df1
+SHA1: 5d2d6c53266ba6382ba8d20679400545e85375c2
+SHA256: abcaeb3333ff74973a037495b200fe0990497fc72d77c5f54bb0b8b155493173
+SHA512: 88b9266c93813089f8b31607c03726c28d82e8b8cd09c49ce1dad5ee4fd2e0d272a344afec3be517e6ce4f6b74b7c67b30c62437ed0114303f0e87679b6766dd
 Homepage: http://www.deepin.org
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password

@@ -1,0 +1,20 @@
+Package: libdtkio-dev
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 2287
+Depends: libdtkio (= 1.0.0)
+Filename: ./l/libdtkio-dev/libdtkio-dev_1.0.0_amd64.deb
+Size: 1406652
+MD5sum: efebb1f859dfa59dd3f5c8beac3d7e48
+SHA1: 8d4fe350eaca36db2702b8e88dbc9349e259ad6a
+SHA256: 7cffe3a18a5dde9f9861132d92bcca81ede60eb7c125acc9df40aa64d7e22524
+SHA512: 490f6fb47919e3c652281f2c26e3e6689f91a19503253d9da95a18f0f82a5b919e42342ccf191e791251f6949225bed11d761de5b96112e1f6def02ef60acc70
+Description: Deepin Tool Kit template devel library
+ libdtkio-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+
