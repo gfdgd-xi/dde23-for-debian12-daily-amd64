@@ -8046,11 +8046,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2559180
-MD5sum: 093aa82bc722afcf4ea39598ac96d41d
-SHA1: 61e0cfe32d606737410329ca4ea1a6a46a818582
-SHA256: 8b147c36622575b5f9bb0c82a80c457b28c65ec031f04064145a575b89da944b
-SHA512: dae7d460a1379142f4f7837136e223955a24463b5ca3c1ebc53e03692bc4351daea95a50bad9b427a27a0d0670df8585223c1c8961f6051871c029708179c484
+Size: 2557904
+MD5sum: 1e36ee4cc618392c72b677f366ac700b
+SHA1: 14bf344babd9088b7b4630de9c80d8f7e32adb09
+SHA256: a179f96479c4d0afe9df9daed10cf65731ecc3f761f4574fcebba5e04bbec717
+SHA512: 2806619c872fedc3bfb4dbfacf37ecddd90a262066d170c55b7f058e92f88f47c6e79473d466a641de34caa2a9c5650b247613f279aacc532063934842972e07
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -8247,11 +8247,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 24196
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 4.0), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5-0 (>= 5.0.6), libvlc5, libdtkdeclarative5, qml-module-qt-labs-platform, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
 Filename: ./d/deepin-music/deepin-music_7.0.3_amd64.deb
-Size: 19080428
-MD5sum: 3a44d18073c9e9db4cc047326fedbe11
-SHA1: 9110fd9e984152ee913197be85e8f9a29eb3a8af
-SHA256: 4ac552e817b4d200f9ae33553eb1f1ea569e2f092432254707acfa7611a6778d
-SHA512: e4b4899aedd33fc0371ba25eaa6d83b267041adb941bf6223cadf8c8a19ccc693f37d659dbc0032262f6d43616b73177b8fa702b53af2fea2a47e799ba889b34
+Size: 19080992
+MD5sum: 37e085e1342d48c9935e8a6cb564638d
+SHA1: ec72c0a15d1ecaea724341961852a4f6c78852c1
+SHA256: 88e65b75af56e7a2358c76ef4c494118cd2acde2782caa48265d900d4519d8b0
+SHA512: 949db7011d062b40ffc65984cfe3fe3ddaba25c1e9138742d0b3536a945d7f15efeb2318456ab3a832aa07368783a456e2d71c54347a773d0f971c37578f4e15
 Homepage: http://www.deepin.org
 Description: Music software for UOS
  Music is a local music player with beautiful design and simple functions.
@@ -10348,11 +10348,11 @@ Maintainer: shenmo <shenmo@spark-app.store>
 Installed-Size: 1331
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
 Filename: ./s/spark-store/spark-store_4.2.10_amd64.deb
-Size: 714704
-MD5sum: 45ab396aa60d354bd20c58054943796a
-SHA1: f36f8a21436330723feb72a173b2f6d23930515a
-SHA256: 3c842759aad02428ef460b8fdca14b1e31e4da1cec789fa4b6bdd9fd3757b55a
-SHA512: d688963383f2aeeab40a30a3cc713e14f68e15a1a1078be637fdaf05fc0e859f60124310df912367b07cad50df0b79ddb6f4f20de2fd30c4992b544951b043fa
+Size: 714892
+MD5sum: fd907c8e40aa9f9e33a5aeb227d49dd7
+SHA1: 77be255f2000f00e5418ed79d1f8ccd7eeeaf457
+SHA256: 4fb5a14561e879229543bd35c82ad1661801822d2a5a201093ad38649a2a578b
+SHA512: 20d1d220939816ee8b4a9c42e72492dea9168240f1a6fbc3bcae33f13271ddeb20e377ea80f0b30fceb8069e5660307ae37f1d5d9c2a8802d05242db615a71d1
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
@@ -10402,11 +10402,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310088
-MD5sum: 8cf35a9d78bbe1b25bcd7a09f374def2
-SHA1: d837fb5b27540b1c023b76e40f53100dd3174e3f
-SHA256: ef0869bf76144959e6aafa9ab53e636eb264559af80beaac4acab963a162c4ab
-SHA512: adb57edf57ea023c45b036be966fbcc10d20092687973ec9690e198b343f13e5c0d6991cdad7684af423900f342ab6ace972d3131e42a8ca9abbca4bd06d5b18
+Size: 310548
+MD5sum: ee4254fcc5107c9335028c428e2b5ca7
+SHA1: 83677f110449629a20f9cf4910dbc64b29a523f7
+SHA256: 284bcbb338d966c9f848cf26c0adff986180b50706f3284291e5bd24f0e7480c
+SHA512: 8bdedbea2c9a88fe1e87624c3e20add95452ff96b0cdf1805f06c2e909a5a270bbc83210a956a3daa61751f2a85395f38d8df2ab9069cc241c2f01c929fc41a3
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
