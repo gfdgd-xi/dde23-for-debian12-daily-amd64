@@ -6866,15 +6866,15 @@ Version: 6.1.6
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8479
+Installed-Size: 8480
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.6_amd64.deb
-Size: 5146176
-MD5sum: efdcf381ff65e27303791a9bb80d3d4a
-SHA1: 3d7a2344f29e64ba214bd766ee01a6c0468f0b94
-SHA256: 535852b6082df71c0e87535c54ed48d03f47b82491ce9e25764aed4889a3db2e
-SHA512: a960dbc288e6c32c0bd2be8a34db4788121ad7ab327af7cdb763b41a1376a25bcceef45fb4574c278244f82bdd2dc80ffcc8a33772c837f376043b4db27c2b1b
+Size: 5146440
+MD5sum: f1126a33d5cf8cfa6666fc25e582e0ae
+SHA1: 4c4fad8f0b934a4bbeedbad3d1f720e823c929aa
+SHA256: 7b223eb840e30996876df9ac7c87369368e58e4f4eaac5f348109fdbd593c5a0
+SHA512: 753840994f98a73c0d6908de13cc8bc23b17f7a00d5bad0caaca54280cb940780ab5ab628dd26ea12a1f653887713cfcfdb3169e2f11362280c6d9db478ad4c7
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -8066,11 +8066,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558624
-MD5sum: 18d6e417bce9b71effdf7055711d998d
-SHA1: 30cd72b778e29fb325072e88331905428abcda47
-SHA256: 9406d82c8adb92d474b1d13b7ea7cdf39585fb60a73f026c6fb93370f94175f8
-SHA512: 79e015e32c7fe256f430e778363b9a30ec4a5d7b43d4aac05fd3277b9943ace6c3758608406d671ae2439a94625c1db8bb79fb32d6861b1a8df1fdda8c909e15
+Size: 2557896
+MD5sum: 2f350c9519bdcb99165ee163574cace8
+SHA1: 7c002d097c0cc3c50a7c6a03508ccfda3b35caa5
+SHA256: b70ee9d07a7e0d1c0a523e53c6e5f1e966c1fafc459108a5eb027251dcb07a67
+SHA512: 06e54f67911844ebdd977462f4eb586d593cf3c01db8f570397750198c203448d76fdd42c4e68aa3019a50802a59f9f64b3c4e43d7b15db7fd615947f4e77749
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -10366,13 +10366,14 @@ Priority: optional
 Section: utils
 Maintainer: shenmo <shenmo@spark-app.store>
 Installed-Size: 1331
+Provides: spark-store-console-in-container
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
 Filename: ./s/spark-store/spark-store_4.2.10_amd64.deb
-Size: 714892
-MD5sum: fd907c8e40aa9f9e33a5aeb227d49dd7
-SHA1: 77be255f2000f00e5418ed79d1f8ccd7eeeaf457
-SHA256: 4fb5a14561e879229543bd35c82ad1661801822d2a5a201093ad38649a2a578b
-SHA512: 20d1d220939816ee8b4a9c42e72492dea9168240f1a6fbc3bcae33f13271ddeb20e377ea80f0b30fceb8069e5660307ae37f1d5d9c2a8802d05242db615a71d1
+Size: 714224
+MD5sum: 10c998dade2d772c9a5207cd6753cf25
+SHA1: 422e50fab21822c88032c28949c80bb75795399a
+SHA256: f397abb97d7233499753984951b0031de2645f801e4d2e785bd3f7563c5f758a
+SHA512: 7a8bc70bb28e90921f21162c99957efded05dbe98ffcc656e37296fc3aecf9c00863a6a4d06799e1859655ec6b7fc0cc04824515f627131cd2e2a6cb4473f0cd
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
@@ -10422,11 +10423,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310076
-MD5sum: 2d7e7378c735316dc53ddba9f746250a
-SHA1: ce8bdbb07369e9a9e34126cb4f0505c6860745ea
-SHA256: 4abfb44912a4a8056ba6c1ff96ab3da499224971df0be7797bc6818d2b9fad17
-SHA512: 437c68e2902cdc0301e97fffdb90194a57ef0ef66e4975c5b2d24a17db55f15e87023601837b1df7914cc51b5e96cec740a14922e88863a9f038d6f109496bf0
+Size: 310288
+MD5sum: 75ef1e981707c665bb0ce5540173deab
+SHA1: c5aff370a65940f9db092b2292cfaeaad03cedfb
+SHA256: 89debdc31bdd7909903fcd5307f15576039fe4b659de132db255a7d71fe7787a
+SHA512: 859cdead9dbc83e3dbceefd5f7816a9412fad7e948cfe8a407b65e087a2573dff6832b4bfcf340cde510f04635ccc1a553a6203e0a3a260332bb6d9b5261c4ed
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
