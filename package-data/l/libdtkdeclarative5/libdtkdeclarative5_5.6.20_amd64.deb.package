@@ -6,14 +6,14 @@ Priority: optional
 Section: libs
 Source: dtkdeclarative
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2838
+Installed-Size: 2842
 Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6.12), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.3), qtbase-abi-5-15-8, qtdeclarative-abi-5-15-8
 Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.20_amd64.deb
-Size: 689668
-MD5sum: 3e28223015d7ed3e4dd4810117a02487
-SHA1: 870596ab8e7bbd8661fc7335eab44d87c001295c
-SHA256: c68677fd5d4fcefe71c747a0c3b1a33e760b81ff6987b8f1b5a64de614a23e5b
-SHA512: 322ff340b5ebbebfd0eabc46eb49ba22563f75a59259883a586840b3a00bcb7f26801147514c2cbeec039953b4d24f7656ed18d453f7bd8f33bd981f8c789ec0
+Size: 689624
+MD5sum: f26389d420c8627e71dbee44203a6a96
+SHA1: cbe69b9acbe594bc0e5ea6f545ae6b6ba19a0a30
+SHA256: 7833cd6b28a549418c611aef8e8bd7f90a624b48fefdfa6482a77994f06d3eb0
+SHA512: 469f41b53f8bec70d23eeb47ba1c9bbd8b8c60540c833b727e8a7787e8892264d1b7a838e49dbd43b8798a3b1157ddcf67cebd582e04a003da0bf3c33048cc7c
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
