@@ -9,11 +9,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 848
 Depends: libc6 (>= 2.33), libcryptsetup12 (>= 2:2.4), libdde-file-manager, libdfm-mount, libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), tpm2-abrmd, libtss2-tcti-pcap0
 Filename: ./d/dfmplugin-disk-encrypt/dfmplugin-disk-encrypt_1.1.5_amd64.deb
-Size: 209632
-MD5sum: 73e873948d8aaa57b28db6a86010f3fb
-SHA1: 5a1aa82a8cbd23ffbd98ee40778c394121a361c1
-SHA256: 7ddc18f2b428915caf499a3585c009ce059276b6a86aaab87284d37660fb85ea
-SHA512: d0ed5172a83500f281b2b4cd34aab236488a5b6c1f54928384364810cee5fc565761e45f89c3aac5a83891bbd486fbfc1dd6f48bd06702690bbd439e11644f30
+Size: 210612
+MD5sum: 6b34a70723bb347b52ae9b72429258fd
+SHA1: c74dadb6dd43de5be2e6ec7205daa4326be78eeb
+SHA256: 3e66ea255eae5371514d64024deddaf8fc82ab23d3e5b18f0ac3e18f3d1b6fbb
+SHA512: 5a1c8366f2093edecdc3dfbd21d76f89205f96d0b4ad2783a53de33a57c748c818ed73ec6259d62ea3cb3933d2b64f7b91c944af82bb58f2ad6d4e724d45f6e5
 Homepage: http://www.deepin.org
 Description: Device encrypt plugin for dde-file-manager
  A plugin for dde-file-manager to encrypt disks.
