@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310016
-MD5sum: 62326e6a85093f5ae87d6932c683bd30
-SHA1: c198a506acd6fdd5521853eba652df8c1bda6591
-SHA256: f774249d01b292cc335641d8f04255db0ac8d8ebe04366a719974767db83956b
-SHA512: 807b19d804267ff8d626728ba9eefd22184460f0d6ecf5ef009c979734dd4c6623caf944ece6899bc0db0c320e878543e29e122a6f38e2672cea1cfe04133276
+Size: 310284
+MD5sum: db755ebd91e7a9fbf0e3ce7d03452693
+SHA1: 984676db41cf5e692fc682b1a351848f790caf74
+SHA256: 4ae15d542b754d92a890ec02590ce1a802a1cb0d90c659a25d53d5c08a00c980
+SHA512: 04a9b0f5a11965559756789a8ffb44b48261a6f54c3af028df1d6da6027ec1638ec352097eeeb1cc57288d43500d4fbe03f0ae10c8613bb6a6300e2fe3eab3de
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -5603,11 +5603,11 @@ Installed-Size: 108859
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.3_amd64.deb
-Size: 72386804
-MD5sum: b001756d0133fe475fa98b9e4266a849
-SHA1: 984c134c66a413e916bece6cb7baa0cb87918c0f
-SHA256: a1864b0bbc0f3869c9b2daee73f26f955175bcfcd90f6623f57371d996d889bb
-SHA512: 3241863a31ca1b2f77ee1cf23f089939e0e533ee80794b02935016147455d12ca5e79399afeddcb5cc819f59b0f87044f85094dd704ab93e0c53d7d992e01187
+Size: 72385844
+MD5sum: b233b1f5057700c068ce7c37481a1aa8
+SHA1: 8ad6457fa54821126ed7821779ec03ff554fc9ef
+SHA256: f7a3facc388f0e4a3c31c0dbf9528217a0970afbd8a45bb299f50e0432a39618
+SHA512: 90d28f37cc8df91881b13b5f42724107b94e6ed921b20cb806151c29387cd30698b29065e315f40db7e2e4bff12be3bbf6d9fbbcd0ce0b23ddcd458122b8c924
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -8068,11 +8068,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2557488
-MD5sum: 1a70aac26b270eb9c22872d5f44bf672
-SHA1: 8d9acd6374119a8ef0cd54d2c89a735e7f3fe15b
-SHA256: 78e1b35071f9be7d2d6223d7e96add3b8293bc44e2de30ac2fefed1dd0df0d8c
-SHA512: c33307872cf5906379d1bf8589e5e2edfcbbc7947288d4ff2ee1e91837e10d5b19e9dd48e65cddd9bc61c67ef17cb31eff578c6287c53692434ec0952bd9b41a
+Size: 2558900
+MD5sum: c5699b8bf1c34866d002ecbbdeebd306
+SHA1: 0a10d27ecb3b3bae89c00f9726a2e95d5a45b82b
+SHA256: 199f063597211343e208dd2a0939eaf4f482ee70a43650244076998339bee38b
+SHA512: 21837ce6ee6c3fe2a4626b8374de95a74355a4282dc81199f64323c392320168a9836c9cfe658274cb201c0a4faddc8d746a12963b5e62ea3d4f50cb3eddd679
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
