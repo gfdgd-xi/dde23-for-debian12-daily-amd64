@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310284
-MD5sum: db755ebd91e7a9fbf0e3ce7d03452693
-SHA1: 984676db41cf5e692fc682b1a351848f790caf74
-SHA256: 4ae15d542b754d92a890ec02590ce1a802a1cb0d90c659a25d53d5c08a00c980
-SHA512: 04a9b0f5a11965559756789a8ffb44b48261a6f54c3af028df1d6da6027ec1638ec352097eeeb1cc57288d43500d4fbe03f0ae10c8613bb6a6300e2fe3eab3de
+Size: 310416
+MD5sum: 738dd4ec09a7ee60992c525b5f8fe373
+SHA1: 2ffd57048df5fbf79f1213bde299a7aacb771a99
+SHA256: a73e6d61398295e741c065efc3cb8a600777742af916256e4db27cf52c3a227d
+SHA512: cca3a761e480f03a822ec8295395e86f22bcff8df0a3d415a31aba02aacd606eb0849cf1852e3fb0271ba77bd9dcaa6bc0f2612fcb259835a7e909e50d265814
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3130,6 +3130,24 @@ Description: IDE 'Union Code' devel library
 
 Package: libdeepin-unioncode-dev
 Architecture: amd64
+Version: 1.2.4
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.2.4_amd64.deb
+Size: 12720
+MD5sum: 43a620b40927b75842170e8bf866d322
+SHA1: c46a013cd3d447d52b460040f7da1bd91b2dd8ac
+SHA256: 5614a2da0217f7ac149042ad211829926d1bd925cb51dcd56d06cfceeb4ec035
+SHA512: 63453a184049710d8a36bc83319dfecf41acce7043a62792082ab89610ee09a973940899f7f0e63c21eb9b7a5d9e279faa5a254261295da14ef8d3cde7feb270
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+
+Package: libdeepin-unioncode-dev
+Architecture: amd64
 Version: 1.2.3
 Priority: optional
 Section: libdevel
@@ -3729,11 +3747,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.6_amd64.deb
-Size: 301460
-MD5sum: d497dbb466fc66f9d84b74e0b91d22e2
-SHA1: 13b67e68e3eec4a6edfc6fd248b9f8ec4fc874b1
-SHA256: 78573e1528dc01b503d44b116c3151f315ac3581cb8f4d3e882190d6a59cad67
-SHA512: 428952bf6bc0895187a6d5231064db257e52e08cd6f89dbb0c4ae0b41def802584cb91325273a69341d1ecf0df6f6b292afae451a2dace11587b95e795a16260
+Size: 300392
+MD5sum: 9d08e0a1b8ddd86d4d80c72c2ff79736
+SHA1: 3f5a07ab07e66f94feb8b571b0c7335fb4e2e511
+SHA256: b71bd81ce8535f7310650099ba6db7526fa8a7172c85210440d15dca3ce1e46b
+SHA512: fed263a0384c7a3ac51d9dc0d5f746d2006cba1824b674d691dc7b5f0671c063fdc92588fb3d2501b362db9739dd0ba9fc8a0bc6877c16a420e613a4eda2d404
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -5570,6 +5588,25 @@ MD5sum: efa002a276b6114614aef5fe5c32e8b1
 SHA1: ef6f6a339b931144b50432b07b9dcc558c493ed2
 SHA256: d92c61bca4df67f03dca71c9f68ea2f00b615993589c7b18593bb88817135579
 SHA512: 418496684b1b9de8cf1d60ccc7b248b813fd311d6cfb50e59e9f0081bd8565c7238529e0303dae47dce95acb13ef469f32efc6e2383d4abc69212b09a6c82f51
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
+
+Package: deepin-unioncode
+Architecture: amd64
+Version: 1.2.4
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 108831
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.4_amd64.deb
+Size: 72380288
+MD5sum: 4cb64a806d0ffea154ff4bb33064947e
+SHA1: 89b3218123e18f0faddf6b9572fd1174dbfa29d6
+SHA256: c62ff89360a8b9e8fe89f1c97cad1a26a8ca19de1c523a506c563d2f213fa78a
+SHA512: 78c055482fb50cd0c40b9558fc83f99fe50bd7d454ca8aeb0a580dd5bd874a66b7b5c8038d0c43d32e797521da0cae9a3323945dd197216b54a00225439e7081
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -7738,16 +7775,16 @@ Version: 6.0.9
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 26131
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.4.0), libpcap0.8 (>= 1.0.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libudev1 (>= 183), libxcb-icccm4 (>= 0.4.1), libxcb1 (>= 1.6), dconf-gsettings-backend | gsettings-backend, libcap2-bin, deepin-service-manager
+Installed-Size: 26130
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.4.0), libpcap0.8 (>= 1.0.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libudev1 (>= 183), libxcb-icccm4 (>= 0.4.1), libxcb1 (>= 1.6), dconf-gsettings-backend | gsettings-backend, libcap2-bin, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log
 Replaces: deepin-system-monitor-plugin
 Filename: ./d/deepin-system-monitor/deepin-system-monitor_6.0.9_amd64.deb
-Size: 10958408
-MD5sum: abd07dd82dc4255c6d71105480f9c469
-SHA1: dc2fe81b56d102c01156dcff43338b0f54b3e5b8
-SHA256: 7a3ec88c8f5f8f9f32f8d265a455dc068d16282621829adec98355169bd4d17b
-SHA512: 7344bca02c3034eb9afb3d03700ec154c622f637468eec3dfac3afe9ec49bf8112af99011100c61512c4e9dc95867d1ac8025d2c3f161d33d3ec0aef3c16971f
+Size: 10957584
+MD5sum: 12990fffaa9b1c01b7360fff5754ed17
+SHA1: c1dc959f414b35595c7dbebef8e1c1cb4ef809d3
+SHA256: d08a1a5d4348cd48f01715f6e82bae1f472822cc72fbd723efc5fb714e8a7ca3
+SHA512: d70029a03d7ab58eb931d64def460307f2fbba1aaee9036243a1ce1e0bd79ba2894dde3201e7a717660aaea1a341bfed56a0a5cc0734dca3978218632db75baa
 Homepage: https://github.com/linuxdeepin/deepin-system-monitor
 Description: A system monitor tool.
  System Monitor is a system tool monitoring and managing hardware load, program running and system services. It's capable to real-time monitor CPU status, memory footprint, and upload/download speed, manage system and application processes, search and force end processes as well.
@@ -8068,11 +8105,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558900
-MD5sum: c5699b8bf1c34866d002ecbbdeebd306
-SHA1: 0a10d27ecb3b3bae89c00f9726a2e95d5a45b82b
-SHA256: 199f063597211343e208dd2a0939eaf4f482ee70a43650244076998339bee38b
-SHA512: 21837ce6ee6c3fe2a4626b8374de95a74355a4282dc81199f64323c392320168a9836c9cfe658274cb201c0a4faddc8d746a12963b5e62ea3d4f50cb3eddd679
+Size: 2557812
+MD5sum: f787e5aa48dc4015797de82332b5ca81
+SHA1: 6e47e9890441e37d49088300388b8dca17219713
+SHA256: b2fe08a8797b8ecb230e55d4f65acbe0009b25ab18d5668fb9bbf4a25151a0fe
+SHA512: 2f928472e40029d8c81e41e78d11ebd7a89aa9afd073df359415e5d7f5fbe0622ad1d5223d88cf05afe0e633a301fe5d1f1bd4499e38bfa09b29b494528dca7b
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -8313,15 +8350,15 @@ Version: 6.1.6
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8480
+Installed-Size: 8476
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.6_amd64.deb
-Size: 5146436
-MD5sum: a4b4047daeb8126663e1bd9336a96e67
-SHA1: 7b6df4fe4de0baed6798e7ad1a38fcc8b01e0273
-SHA256: 21b048f604a02bc6ccd86bcde7721ef928e056fa452608ba3511f33657f4da04
-SHA512: 20ac75c3fbdef9acb00f9a58f4c6200d6102f3a26c253c2d33857f519c1b05b46b787ca473019a2ebc35b444ba72193d71f5b9761bd200bd042b86677a1986ea
+Size: 5146324
+MD5sum: 1b11877a46921ba32f85ab7064487c73
+SHA1: a60fa0e02289acf92bced122a4fcbbb4b6792d98
+SHA256: d88acbf3f4141a71a71a2a0ec5f9536a3c3bbc09ec5331bf30e09d5ca5333de4
+SHA512: ce3620c80915cd72fe834b9aadc09e47baae08a2cba15ee62440751354da3420d7299c58a4ccf115a40029fd2829491af1a9b159a69b23d4b8be0975ae19ea6a
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
