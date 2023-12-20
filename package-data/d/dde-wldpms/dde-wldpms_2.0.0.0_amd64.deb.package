@@ -1,0 +1,18 @@
+Package: dde-wldpms
+Architecture: amd64
+Version: 2.0.0.0
+Priority: optional
+Section: devel
+Maintainer: guonafu <guonafu@uniontech.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./d/dde-wldpms/dde-wldpms_2.0.0.0_amd64.deb
+Size: 11812
+MD5sum: f28b1570fde5a9af2eb35ffe14f41e64
+SHA1: 0187be816df372e1e6e0a464bb44bfc0b8db1b54
+SHA256: d5de604239b4716ac8fe2791d58e9e8a1b9242b1c8f432ff1b153e0cfb6fdb87
+SHA512: 9ad5ebca6391834b9d8d83464d5549344cc810d8c6b87d58dae9867f36bf71bd2ca1b715f79ef25effcf93da0a498b1c7762fec6de7a514f648ac413bc90b4bb
+Homepage: http://www.deepin.org/
+Description: this is dde wldpms
+ dpms for wayland.
+
