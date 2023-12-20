@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310336
-MD5sum: 4bf06dd95f927a5aa2b40b746fa2a389
-SHA1: f68f04319eeacf1040c199b742c42ab7df5f39c4
-SHA256: 85bb0d88e695909f6a1d392d00531c3f6abe570e82e0cb196e73fcbf53d13268
-SHA512: 9191eeb19122ca2931f1ff66a3e8fbdb7f8182131d423a6af14c0bf4ab25f7c5dfa66208e0ccef9e8f3fe33bfcfdffa498e38a086d68c8bc4ca16130ca5c42a8
+Size: 310096
+MD5sum: 80299390743813651cc8f06eb32bed46
+SHA1: 3517d75ffb15c8b49582b76604163848d9bfdcf1
+SHA256: 1edc400c84a55a2d748996ee85a7004b9b0d77de76eb00f5d84366689b62835d
+SHA512: f18de3872752f7b18f2fba9ba79b55c6d742fb54d19acb7b012ee92fc22aa4c62e78e2abe886599bdb85e8c3f240b9207709dec853b8607a90f102d65a486e6c
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3182,6 +3182,24 @@ Homepage: http://www.deepin.org
 Description: IDE 'Union Code' devel library
  IDE 'Union Code' development can be carried out through this library
 
+Package: libdeepin-unioncode-dev
+Architecture: amd64
+Version: 1.2.7
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.2.7_amd64.deb
+Size: 12984
+MD5sum: 556a6dce9f16185a895bf188567ba41c
+SHA1: adec448a2f3f2086340f2d3b075dccf93e04a789
+SHA256: 402d62f32c006d96ed9847b2c9eee58343d98be9d635604b049feda57240b11a
+SHA512: 4fb8619bc6bd7f8605598b028d189ef00ca8666d6377304ecf81447f1c4bd29dffc7f58e823cbbc2dd134601b9d7ca66cbee1915ce084453a45789b19c0e3a00
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+
 Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
 Version: 6.1.32-hwe
@@ -5571,6 +5589,25 @@ SHA512: 5fad274b7a8dbaf314a94652be466a975964288758998e849779fbe1a6b4cbcd2c74ea5d
 Homepage: http://www.deepin.org
 Description: Simple description
  A detailed description.
+
+Package: deepin-unioncode
+Architecture: amd64
+Version: 1.2.7
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 108856
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.7_amd64.deb
+Size: 72474456
+MD5sum: ab8318150655253d5cc9c71e3a385d21
+SHA1: 1bbdb98b6724b662f94d2b5f876fc970c168e0f7
+SHA256: f1dc8ba68403b1e6289ab27ffeeb178c82fb0132dbb7c00cac17d89e59548552
+SHA512: 0c78471068b622635e3f230e926c1544ab3f0132a38a36b60e2fcac9adcb39deb207a78282fcdb4b7aee7b4b2ecdf27c0454077eb30165b4de453c6e92bd136f
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
 
 Package: deepin-unioncode
 Architecture: amd64
@@ -8237,11 +8274,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2559704
-MD5sum: e62bde913d3c36661d936b5bafc73188
-SHA1: 66a5eb6882e79d821d6f5dd76d159e446e73368a
-SHA256: fdcde0edfff9c25bf0ccf30f6e26edc3a1846791108cec2f006437e0633944bf
-SHA512: e1e1e6a80a8657a81671cdc5dcf4ef0b89e64270046488cafa937eb569542edbbf0ccf668b5636375cf47620c721b4cc3c572ed5dfae95eca490fed1d540a31c
+Size: 2558632
+MD5sum: 1d12e67d13c58842960924b075877ec0
+SHA1: d79cd6a7e20f2df833c793e759ef74c9d7dd7f44
+SHA256: 619254a22b5da4e166d9b4f26a97bccc0b8237ff65cfadb8ace43e7071596d2c
+SHA512: 795cb9d2375c44b35c11f9aa056439da6eafef4d44aff00ec348e45458a28f319741b8341e98301991499f39ead92bb63c082a47db7fe5ace49f79e2c6934b9d
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
