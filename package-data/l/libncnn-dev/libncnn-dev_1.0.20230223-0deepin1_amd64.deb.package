@@ -1,0 +1,19 @@
+Package: libncnn-dev
+Architecture: amd64
+Version: 1.0.20230223-0deepin1
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 237
+Depends: libncnn, libvulkan-dev
+Filename: ./l/libncnn-dev/libncnn-dev_1.0.20230223-0deepin1_amd64.deb
+Size: 33056
+MD5sum: f3bd31faf5cb8747cdeb1ae57e2b7283
+SHA1: 1d98afa5e1581b71ca618164abe051afe439d0ad
+SHA256: ac11fe70c96a090388dec866a379c1a7326255ac46fa32ef2e19db7bb1671aa3
+SHA512: 44e21c40ee322daa5214bfd3ff9f20b056c4de19465a3e618e25dca9921a696bfa40fc180e9c46b1ba1e4ee94fa90a821f30ddcc1d01fced148e951a2ffb9e2a
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
