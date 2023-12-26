@@ -2266,11 +2266,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3816
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.2_amd64.deb
-Size: 815204
-MD5sum: a1746ae6f68c8b487a3c4b2bd1d3515c
-SHA1: eed991afa4005c0f85839219ecfbf65776adc331
-SHA256: 4602992ac3050a8e0b096cd5f556b415670167d16c492198add4cc5da0c167bd
-SHA512: 62bda44a43dda9b4188e012c5d0add718e06a6d4b0c8e70deb135dc0306317213f3f7c018f7c9e5e93b5f7a1075d231d82d53c07d22a2c5213b745118a85a9ca
+Size: 816364
+MD5sum: 9722bec0c4f7ed3321eb5438b375689a
+SHA1: cb742b8078c552eebf52e1dc39ad1f011020a1fa
+SHA256: eae6bcdc44604a47f1d380ddb4bad673557f238a2cdef9a3cb137e5fe2671e7c
+SHA512: 99941c0c0144cf024f95546e64f10ec87a8089454abaf4141b4783fa0d795aef941989ddf7fc8687eb26b355e224cac49d5c914a70078d31d96ed2d960e7e50d
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -4377,6 +4377,26 @@ Description: Development Tool Kit template devel library
 
 Package: libdtksystemsettings-dev
 Architecture: amd64
+Version: 5.6.20
+Priority: optional
+Section: libdevel
+Source: dtksystemsettings
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1679
+Depends: libdtksystemsettings1 (= 5.6.20)
+Filename: ./l/libdtksystemsettings-dev/libdtksystemsettings-dev_5.6.20_amd64.deb
+Size: 1037240
+MD5sum: 0554cb71aea74a9883db05c3d7b9c384
+SHA1: 040d7b3e52410270e1572f6c1c6142d08aa5c644
+SHA256: 380341b4f7746d80f1f3f95524ff818b8df74b1b8ddfc2ff75c508ec93d271e8
+SHA512: f6bb4f9292d83612bf9bb34b138d4a4c33c93029e35c313f6efccba69f447aff31df3bda92f6360db9023aa77e09df711ae46fc156f91ab9ff32f95461347043
+Description: Deepin Tool Kit template devel library
+ libdtksystemsettings-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+
+Package: libdtksystemsettings-dev
+Architecture: amd64
 Version: 1.0.3
 Priority: optional
 Section: libdevel
@@ -5314,6 +5334,26 @@ Description: Deepin Tool Kit template library
  .
  This package contains the shared libraries.
 
+Package: libdtksystemsettings1
+Architecture: amd64
+Version: 5.6.20
+Priority: optional
+Section: libdevel
+Source: dtksystemsettings
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1162
+Depends: libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtksystemsettings1/libdtksystemsettings1_5.6.20_amd64.deb
+Size: 236728
+MD5sum: c6d18db2ffa544bfaf6e33124b994707
+SHA1: 1ea8656762019db0923bbea36a290fef2163ca49
+SHA256: 6d8aac7e63db998b24595942d0561de93d88a19846a65bf81fac76c1e15bd29c
+SHA512: 4369cdaad3cebcbecb8ba0afd2e892945ec3a329921e6abf59e561c5586773e39848928dcf89567b9bae8780b4e55a0517814258be6de087f51ddbd349253853
+Description: Deepin Tool Kit template library
+ libdtksystemsettings is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
 Package: libdtk6gui
 Architecture: amd64
 Version: 6.0.1
@@ -6090,15 +6130,15 @@ Version: 1.0.15
 Priority: optional
 Section: deepin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 999
+Installed-Size: 1689
 Depends: accountsservice
 Conflicts: deepin-system-settings-module-account
 Filename: ./d/dde-account-faces/dde-account-faces_1.0.15_all.deb
-Size: 967320
-MD5sum: e5b3c93ce65a77da78260fe4b0feb431
-SHA1: 5d2da8e86ab906bb9d72546eaffd41545bd88e3e
-SHA256: dd84d58a0ed829cc9a8ee6caafe789feefc24960f978e6d998424afa501dc129
-SHA512: dc12994ebff7ce30885f3be52ff2cbb32758bf5b16155fefacadf58a9c4f95562dd94764bcdbfb0b31cad7474adec46b3134b37a6f2be425236c2be6b9e814ba
+Size: 1653684
+MD5sum: ea879d49377bf565065b4c44016b0479
+SHA1: 59629ea8a0154893a9bb1fd95dd2157d86bb36d8
+SHA256: 3d139acf76af3aa376f9142c360dc7c936bcb210ff97a19845ee57019d8aa570
+SHA512: 7f667d3f0072e3c6e93062e797f4906e931c5791941c56d2d78a3024a7cc417e9932e1f5fb84e142d2f66ad7642425a16c82a21148019616569d3cc20cb1cf26
 Description: When users are ready to set their own account avatars,
  Deepin Account avatars provide many beautiful avatars for users to choose from.
  It is part of Deepin software and DDE (Deepin Desktop Environment).
@@ -6779,14 +6819,14 @@ Version: 1.0-1
 Priority: optional
 Section: utils
 Maintainer: Clay Stan <claystan97@gmail.com>
-Installed-Size: 3530
+Installed-Size: 3505
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/dde-wallpapers/dde-wallpapers_1.0-1_amd64.deb
-Size: 3535932
-MD5sum: b0868a01b5bd857ac353218736c457e4
-SHA1: be4d464d484f3471cb85d0d929b40ee2e9092efb
-SHA256: 9106d0ce0b21da6d74ae5efb75b5a372317da36747b257ca7e7930febdd73a8c
-SHA512: 225673e9593789af1455fce0e070536e27fa597cc4590332edf4bc3874ce161ebebebb2ba6334ac0790fc14b415497c2f9d902d983963cb9437067636d474316
+Size: 3502688
+MD5sum: d6c662ce3ce17b756eb1a5ac146d4af3
+SHA1: b7dc9ad2eda76f4fcf7728f2ddd1055c09c3704d
+SHA256: 16d04cbec7be320f26dd2730856c8c9092733fceb6dbd57805e5681b5ec9a8cb
+SHA512: 9a86cb0c1b1ffbeaee9bcf5ac6b2473fa9024826a8d76f0a4be41efa1c360524fc27fd140b76e7f84736304dc26043bca24eaec6e9485278aa73a5f4b689c7c7
 Homepage: https://github.com/linuxdeepin/dde-wallpapers
 Description: When users are ready to set their own desktop background,
  The dde Wallpaper provides a beautiful background pictures.
@@ -7167,13 +7207,13 @@ Section: libdevel
 Source: dtk
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 9
-Depends: libdtkcommon-dev (= 5.6.20), libdtkcore-dev (= 5.6.20), libdtkgui-dev (= 5.6.20), libdtkwidget-dev (= 5.6.20), libdtkdeclarative-dev (= 5.6.20)
+Depends: libdtkcommon-dev (= 5.6.20), libdtkcore-dev (= 5.6.20), libdtkgui-dev (= 5.6.20), libdtkwidget-dev (= 5.6.20), libdtkdeclarative-dev (= 5.6.20), libdtksystemsettings-dev (= 5.6.20)
 Filename: ./d/dtk-dev/dtk-dev_5.6.20_amd64.deb
-Size: 2028
-MD5sum: 3f9a35294aad778869fb8de076b9a234
-SHA1: 2a6b87776904802616d5d1d0a6f7a29d6d2fb17a
-SHA256: 7821ce841ef76b05f1c89bb106368bc20d569ea0c717588b511d73aa0e2f7e15
-SHA512: 3e8c49452aef5143df4f2f3927274ca24a374f961da3b6a0a5bada922dc2b14b1e6332914e2b57b95e9459ce68152b587812993d2ad2cfc56ad5070fa71ecd3e
+Size: 2036
+MD5sum: 18915e5ceaf17cf044d26b414485346b
+SHA1: 4bdb69715bb1385c8ccefd6aa55b4c37f3d73f1b
+SHA256: 25429ad064b5f3bb71b92c618ddb4b78a1e655eb3f8dde5790eee6593e5e0f57
+SHA512: 599bccffeeb016220b7d719ccbf1a224295eed54218375cb9c43faafb6d093bb70ddbd57aabdf6c7915adb588e1898856e140aa071e69f865892ee35dab7e59c
 Homepage: https://github.com/linuxdeepin/dtk
 Description: dtk development files
  Virtual package that provides dtk development files
@@ -7950,11 +7990,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2138
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.15_amd64.deb
-Size: 508248
-MD5sum: 5942ea83e13982860f4259d8c1cafb20
-SHA1: 31d47ee570de3d32c0b277ec65f21d1f255f85a5
-SHA256: 5230eb98ad789ea16a9f58c61fa2d3897591587d987a36e05b70a727851eb19c
-SHA512: 110a6b9f601236318ffcf5efcc05befca45b13a3def93a6d8c3fa4be613f0766686e1a986f408b5981f809d7f934365849d201a949ba9b522d14fbac7a69ab74
+Size: 507740
+MD5sum: 444a87acb4f1219574a3d01f29a36ec1
+SHA1: 8f7a7c9a13f315462b8388799819b1f07577cf7e
+SHA256: b26e2c1c125cfcbae3ec3124bd8a430e12df22f42d81012abec718c402677eeb
+SHA512: 3a4289308b992bc753addf4aeb1aa49794dc40ab7ea8dcc2775b91d75d87994166ebcb530f276a68cb94bfa5de5b6173aac6d235acb0dbc6df4c528dc1df2ca4
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 

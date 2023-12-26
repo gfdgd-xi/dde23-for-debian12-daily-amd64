@@ -6,13 +6,13 @@ Section: libdevel
 Source: dtk
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 9
-Depends: libdtkcommon-dev (= 5.6.20), libdtkcore-dev (= 5.6.20), libdtkgui-dev (= 5.6.20), libdtkwidget-dev (= 5.6.20), libdtkdeclarative-dev (= 5.6.20)
+Depends: libdtkcommon-dev (= 5.6.20), libdtkcore-dev (= 5.6.20), libdtkgui-dev (= 5.6.20), libdtkwidget-dev (= 5.6.20), libdtkdeclarative-dev (= 5.6.20), libdtksystemsettings-dev (= 5.6.20)
 Filename: ./d/dtk-dev/dtk-dev_5.6.20_amd64.deb
-Size: 2028
-MD5sum: 3f9a35294aad778869fb8de076b9a234
-SHA1: 2a6b87776904802616d5d1d0a6f7a29d6d2fb17a
-SHA256: 7821ce841ef76b05f1c89bb106368bc20d569ea0c717588b511d73aa0e2f7e15
-SHA512: 3e8c49452aef5143df4f2f3927274ca24a374f961da3b6a0a5bada922dc2b14b1e6332914e2b57b95e9459ce68152b587812993d2ad2cfc56ad5070fa71ecd3e
+Size: 2036
+MD5sum: 18915e5ceaf17cf044d26b414485346b
+SHA1: 4bdb69715bb1385c8ccefd6aa55b4c37f3d73f1b
+SHA256: 25429ad064b5f3bb71b92c618ddb4b78a1e655eb3f8dde5790eee6593e5e0f57
+SHA512: 599bccffeeb016220b7d719ccbf1a224295eed54218375cb9c43faafb6d093bb70ddbd57aabdf6c7915adb588e1898856e140aa071e69f865892ee35dab7e59c
 Homepage: https://github.com/linuxdeepin/dtk
 Description: dtk development files
  Virtual package that provides dtk development files
