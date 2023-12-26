@@ -1,0 +1,19 @@
+Package: dde-launcher-dev
+Architecture: amd64
+Version: 6.0.19
+Priority: optional
+Section: x11
+Source: dde-launcher
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 23
+Depends: dde-launcher (= 6.0.19)
+Filename: ./d/dde-launcher-dev/dde-launcher-dev_6.0.19_amd64.deb
+Size: 9188
+MD5sum: 1c3067d8669523d56c3b9cbc984e2a74
+SHA1: dc412396df2f51cbb769d7298e51b075afddbc83
+SHA256: 70cf7c8875e9d8e09c769aa790736dac5fa1091c97090428491fec7e7784d83a
+SHA512: dcb27fc9b0fb5e7298ac40fa9dc3b3a346d1ce81dad95cc0d9c4a956e6b576049580edd0a9b6682bb18af5c104466fbcad4988bbbc499dd6a1012951d1c177a2
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module development files
+ Launcher module development files of deepin desktop-environment
+
