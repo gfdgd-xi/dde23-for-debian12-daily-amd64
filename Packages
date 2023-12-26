@@ -2583,6 +2583,26 @@ Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
+Package: linux-headers-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.7-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.6.7-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.6.7-hwe_amd64.deb
+Size: 1956
+MD5sum: 6457598b6b0e6ea045734080b71710be
+SHA1: c800349a1f733b9e0c12e9344f09d17d8d98333c
+SHA256: c4cf4167950332c98777bbfb6a561b88a636e0bd92f1dec24a7775e3aaff1227
+SHA512: a3f6a03f8fb346c730f1c5a019b5af60583bcfe2001c1e8ba24b8973fd4afa41517c74ca2f40e74f92eecbc6630d4898acad9e10569ed7dc4000e1619eb4aed4
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
 Package: libdwaylandclient5
 Architecture: amd64
 Version: 5.25.0-kwayland.5.24.3
@@ -3441,6 +3461,29 @@ MD5sum: 3ece94dd37df2308a3d4ed41008df377
 SHA1: 1cd9d39ee290ee5cfa4b82a66a9ef9abebb3a30c
 SHA256: e699e345a4d0ee79e2fc1ffd107806713921542d03bb5cd90e14dd9a94530d9b
 SHA512: b2cc354282533004adca1b421edcb9008c3c82ae917e662a1d2e286ab0d9014673fee9abcdab1b2bdffef4d22caca8d94ea78e3e9aa1531ef5628a10c946220c
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.7-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.6.7-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.6.7-hwe_amd64.deb
+Size: 2052
+MD5sum: b99f7751672df781dbef88159ba43d00
+SHA1: 6392fbced8011a5c772c93d4265c51e297ec4db8
+SHA256: fda2d4d257425e4168a41cf26d25a716315754657e5994c5e1723920ce1480d0
+SHA512: 2bbd6de5c664cc4a29862a72cc8cebef70164567143befa8f3ce6d8a8b59435bb47832511f781d45c03a33bdaa373b7e402f426a7e7e6604c683839c1a46212e
 Homepage: http://www.deepin.com
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
