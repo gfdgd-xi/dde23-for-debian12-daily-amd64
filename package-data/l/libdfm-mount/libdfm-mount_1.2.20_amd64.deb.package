@@ -1,0 +1,20 @@
+Package: libdfm-mount
+Architecture: amd64
+Version: 1.2.20
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 579
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libmount1 (>= 2.19.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
+Filename: ./l/libdfm-mount/libdfm-mount_1.2.20_amd64.deb
+Size: 144844
+MD5sum: ce8ec56d3805aa8fafffca9814f1c6d4
+SHA1: ce51b518d8dac5b4269e9ebc973cff097beff35d
+SHA256: 5894f129aa1b007b30cf8f71dfb4b0d57d3811993b43f958d57c7fcc162a644e
+SHA512: 176009a64f3dd6dfb1fe4792cb1988062b8bd597b0588c7213e12955d2d644547bc875f6132f19eb3dbb85d73577fea020412bd980ec5e379f743da0a122b8c2
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount.
+ A libaray that provides mount and umount interface.
+
