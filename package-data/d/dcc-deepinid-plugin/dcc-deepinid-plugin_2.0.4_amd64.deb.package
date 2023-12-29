@@ -5,14 +5,14 @@ Priority: optional
 Section: lib
 Source: deepin-deepinid-plugin
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
-Installed-Size: 23499
+Installed-Size: 23503
 Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2)
 Filename: ./d/dcc-deepinid-plugin/dcc-deepinid-plugin_2.0.4_amd64.deb
-Size: 6079880
-MD5sum: 5a5bf98e7c139faf9b801a63d71182db
-SHA1: f4112e9075158d820cdc7a333cc534ef9c085fe1
-SHA256: d5e233195713700ac785df14c66420d2f1b9e24362458503a594deac249b7273
-SHA512: 918523bda85ffbc53e27ba738feb8edc259aeaa7da487e3410d9baebdc928dd64d45614941e67513d835c8cbd71c0f0aa8d9ebe4a12136a675ce3ea77affb34c
+Size: 6080260
+MD5sum: c222d8598374bf4573fd2b1c5cf2d83b
+SHA1: 6024788ae1390e02e81ed350a5ad6ad0e5822c2f
+SHA256: 2f5f241bfba6b4c0e0c358a8782bcc46bb43c7664643e270b1cc31a5e1f2e9e0
+SHA512: d1c586b60323952b234359365ce73b476772022af8580abed77cb3e3dfb94acd46283bbe312601e8c5ea3c17df76dd9ad0732faed5f2b982423438adc52ca681
 Homepage: https://gerrit.uniontech.com/admin/repos/deepin-deepinid-plugin
 Description: the plugin of deepinid for dde control center
  deepin-deepinid-plugin module
