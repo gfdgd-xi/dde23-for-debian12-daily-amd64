@@ -266,11 +266,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
-Size: 159412
-MD5sum: 02d806e5dfc63f41d34a0b3c276faa50
-SHA1: 02a75c731a76281d6f045b7b6d3b978a6ff433b1
-SHA256: 272c3f74ea69f42645983d16f56f991c8f11f870e8ff7095965be43b632df81f
-SHA512: 7f4ab20eec4501448adbba93d79d6624856442daab8b612a1dc7022ecfad3afa3d5bda30fbf1f5c648aa0685605fa300492fdd7ad20cd16189deea1366a024fe
+Size: 160088
+MD5sum: 40524aa000d5916a59875320b743ac00
+SHA1: 74e93433138fa46266342669a7f75488b0ad8b2f
+SHA256: 4e9fd99e49329e5722b0f97ddb2f84aff09b72f6d840376ca00841114cb7fc50
+SHA512: bed01028ba9e8881c05d8dd28192938bfbf0a5205a94bbf261f8b3aca2f0a8cfc830da9ba1d8e618bb9814f0c158f3b0cc5bca588c4a4a671fa62dad4490a01f
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
