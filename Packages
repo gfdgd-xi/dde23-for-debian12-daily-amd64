@@ -629,10 +629,10 @@ Installed-Size: 17
 Depends: libdareader1 (= 1.0-1)
 Filename: ./l/libdareader-dev/libdareader-dev_1.0-1_amd64.deb
 Size: 2448
-MD5sum: 7d7c6230ea0c27c0d2f488b40d7456ca
-SHA1: 7bb6cbe0d74c6d0591a9cae2aa259b875bb8f3f3
-SHA256: c23e370f33f7518b29e24875bb366cd1b1df708acc7f575eff23d8fafabab1d1
-SHA512: 23dff619c074402b67c8514e25ffb07ed578ee47245e3a655fbd5744761e2dedb302c0a2978f314d4f57a3d8231bc31a3a38a10acf192ef6ba13f00fcec52a00
+MD5sum: 55f4647cecf7e22ac32b7933bbf16d62
+SHA1: 32ec57013127695a996acce2c116b9108791fbc8
+SHA256: e77fff9c3a44796fcb908cc52b38186faae84683e1f726e75329ed8e493915f2
+SHA512: 3edc9d5ac892ae01367875131866a61898693f380b4162d4ab7b599f803601257ad5e82f47fe54e510a30927a716eb4809d17202ef0fc6d985a5a278dfb4db69
 Description: dev lib for read image/video data from deepin-authentication
  this package is a dev lib for read image/video data from deepin-authentication.
 
@@ -1673,10 +1673,10 @@ Installed-Size: 32
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
 Filename: ./l/libdareader1/libdareader1_1.0-1_amd64.deb
 Size: 5628
-MD5sum: e66068ade36c359dbf19d3665db1353d
-SHA1: a204796c4ab70659c941b1034d4e8ac43fc4fe40
-SHA256: 0dcc662de0fa0f4bdec43737f21ec669e6e2ea9791aeceb5f78e9fab99079685
-SHA512: 4049ad723b098aaf5422ef75a47271178234440e550beafe585c452bb6e86ba14986e85ac27169f85c5f30fb5fe116e96acad9cc675d33f06e24be3202a3d6d4
+MD5sum: 0cfefd642a934d29c6e38116ec03219f
+SHA1: d9070e6ceac92e01fe4335e5f8ed9b1d6738b777
+SHA256: 7e4b1a19b638d8cb31b3142b62d5559667e9abb50a936181f21ffb6623de9339
+SHA512: 94e05d05783bdf17515756defc700c5b8bc63dc96cea17db0fe9f8fd5355eabbe4a82c4af3af272120e8bb4f937b34aee4134d2d29d01fb3956ab23a2249a1f9
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
@@ -8922,11 +8922,11 @@ Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.1
 Conflicts: dde-launchpad, dde-workspace (<< 2.90.5)
 Replaces: dde-launchpad
 Filename: ./d/dde-launcher/dde-launcher_6.0.19_amd64.deb
-Size: 759552
-MD5sum: 73da39e194f2bacd5af17c25276deff3
-SHA1: 10fe39112c17525000e654142dbf8f81351b5050
-SHA256: 823638b1d0c7b7e87f993857ff3e87c1d1c433ae3143a5d2ec96878c21f96822
-SHA512: 09d7afcefd5359a4dd538f00ce3042181f0a28fca43306a3413e26a629f9f4855918f81c7e345ef9e916d43ed9a5968846f5ca97ac8824ff93b6df47d959ed6f
+Size: 760056
+MD5sum: 7da8d7a618453120ccf709eacca1e0b5
+SHA1: 9834c71da753b876e5c6c9836bea9331dc1ed391
+SHA256: 4e1b14a7567028a3581f41c9db3ccf2a8815f524ab1a934890be5010bb700e3c
+SHA512: 5be95fd691c388d421ea602335b0be28f6f011eb298446070c37c7ca7a781f9bf1f38b98c4fc9d5eb4739bc2059171fecff03c0db7f7856e6c1e91935beae543
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
@@ -10171,14 +10171,14 @@ Priority: optional
 Section: libs
 Source: dde-file-manager-extensions
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 864
+Installed-Size: 865
 Depends: libc6 (>= 2.33), libcryptsetup12 (>= 2:2.4), libdde-file-manager, libdfm-mount, libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), tpm2-abrmd, libtss2-tcti-pcap0
 Filename: ./d/dfmplugin-disk-encrypt/dfmplugin-disk-encrypt_1.1.6_amd64.deb
-Size: 215412
-MD5sum: 5a58b1043a5f778d5dd69d7c553f4850
-SHA1: 21c892c41323f0782b5e39730e8b4db8a08f8410
-SHA256: 0e8da97c4a6ba27c0c668c0b8f73ed09321bbc7e882a27fe36424d05d66edded
-SHA512: d933cfe3ca56df7f9473c19c84368f765d78249e5d7c0a64120c3dd0394a7e7b5b92e31661bf9469d36f268874a7c2f595aa82f0704dd3e2bc5f50f47355316f
+Size: 215520
+MD5sum: 3be3825ba8fb7e84e884ebf832ca4642
+SHA1: 72716c1617a2d625e2f7e6725ec50159565cfd50
+SHA256: 876212e97e21da612a6654e203d2521e10ed87657c2051d584467d3fc0238e84
+SHA512: dbcb36baf198baef08f2ec2ff4f3197aa0fe82b54653809e12b2d598234d505fbdcd1f60073aa82fc9e237b3b21d6f68f41b28468b7189231f09b6325d34a6f5
 Homepage: http://www.deepin.org
 Description: Device encrypt plugin for dde-file-manager
  A plugin for dde-file-manager to encrypt disks.
@@ -10688,11 +10688,11 @@ Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin,
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_6.0.25_amd64.deb
-Size: 1487876
-MD5sum: b7cd3ffdacabbb470a6df79b3632f779
-SHA1: dd6e9be3b7b30ddd2696b7002c5c8e73a281169b
-SHA256: 9f49976b534acf91453c081bf3f5d9ebfd30d2dc6d94c3940f251714e47174f1
-SHA512: cbd16c80932e97e9c404ade4b8899072ac083c7e42a963b37aff747fe982f4467105e82b2e2af5b063bbcb50052af0b1e0d3fa8230298db0f595dcee8f1126e4
+Size: 1488260
+MD5sum: 4e11edeff976a9255b92617daed72c0f
+SHA1: 8d9ec1bef0a9e380871e4db674e212831b784171
+SHA256: bd17bdf23df4cd7469c0addcd36cd321037005052fe0513426fb0bfbe11fe514
+SHA512: 0d3ee98087fbef6c59796a8aea6d2904fd78bb44becd3f79adfae5c8ea273c20511e0bd226366bde6c4373a5ce4182ffb36d8b846393d5395622c4088035ca0e
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
@@ -10986,17 +10986,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51098
+Installed-Size: 51141
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48844616
-MD5sum: 18d9e4866ac212bd79f934c3a6f269e1
-SHA1: 34946fef1b9b88c3249ec9091ae02babd71d7de9
-SHA256: 447699e9f2d3a7181a502f1091e98af1a3f2c1a6fb9b370fd13a40943ab595d9
-SHA512: fcd1533d9ddcad83a8b20d340332514b137fb30140058b005c5ba2e59225823f9f39bc699d3b87df3a9debcf46999b8ad32df8a7ce0f9348e4a4f96f9564c0b1
+Size: 48893592
+MD5sum: b413e42c576bb9f21abf26eda7cb3194
+SHA1: d900e2b4b7284a49124e8523ec7f77c536766cd0
+SHA256: 69a9f8881b7b7be4e5b574d986907b91b6b98cb424d09a85a1da24aa25a97ec5
+SHA512: d470566e5e764072f0cfe40f40a403688c45bf55fb0cbd5cde317f424d4dce8cf78466a41d87f932e629ebf5c43d4f5b488313de08c7df2248b1fee066996346
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -11541,17 +11541,17 @@ Version: 1.7.18
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 28013
+Installed-Size: 28001
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.18_all.deb
-Size: 25522040
-MD5sum: 626bd34a7e2c3282abb8272497aab302
-SHA1: 7f058fc61c4810aa636eefb88208218c6aa51146
-SHA256: 060b7a76e4fbd80d94b3ca4082ba94b02e144cb538e78178a8294e8df409940a
-SHA512: 7d93b38e2f77ff68c8f463cfc7bc8fe8100552553d9de4a0a2dd599545f07d9a1835524c982ad0de9d014eeafe9c5bb13d07190f8de15c0195ded7e7174a7f0a
+Size: 25508852
+MD5sum: 2773510da573ee474ab3807af9fe277b
+SHA1: c039b07f52a7e606bfab5ba029084b08d09edfec
+SHA256: f509ad9b7188e93cce5dc99def3ff638322212a7a3e012721499c42167e67b98
+SHA512: cccc63f835bdbc63727010e6d0d74ce24d716e540da6d639872ea34c9b589d47f8a6e4d6f4a88e26713feaa7ceee3b7b4bb9b59d5c5704f0c0f5c698d8980d6f
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
@@ -11768,14 +11768,14 @@ Version: 1.7.16
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 26277
+Installed-Size: 26314
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/deepin-wallpapers/deepin-wallpapers_1.7.16_all.deb
-Size: 25277144
-MD5sum: bface3437b6887badefa3f8af4457318
-SHA1: 4738a8735e3fcf1eed7551e614bf0314e79ec098
-SHA256: 2bd2b1bbecbc563253640ce59b3414ecbeca03aacc8c142529fd3553ff54396c
-SHA512: a210e66207abe62aa376f1051d8cfaa78d21f0a4f7d7c09f72b55d0c30d931f844b634b748545a4a1d092cad7fa182f80d73894cfce9483585403c0e481798b9
+Size: 25323484
+MD5sum: 23e424baa5ab8b29c0a7416c892fc1dd
+SHA1: a48dae721cfb25459a0748324d1df9146feae795
+SHA256: 057621054556ce8a21e0f9d490e9923e21effb5e0d77258c348310b4fd79a586
+SHA512: 22078e3e4ac3457f321de879450132fa9a7c3adb6fa6f88e317c7d656bd88edc2b41a6364010b59e2eb192a4b4b58d37dc21aeb62f82adec1aa8ac5354682404
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for dde
@@ -11863,11 +11863,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 734
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
-Size: 176088
-MD5sum: d19d2880bd6da4965430ba388dfd5762
-SHA1: a501d6fd3d879c1247abf338dde94a522adbc9d8
-SHA256: 7cfeeda8f54a4beea235d13f72570ffc7359fb91a456a7bda5cbee7c6f15dbbb
-SHA512: ddfe1b1cb1c15e45cf886dbcc4e1a82c53a217fc039df7a715e8a768ec52507cc069f2e77f459a5d9bc978175fb03e07659be36eadcdac24e7e3d6034105d24d
+Size: 176900
+MD5sum: fe1b915e7f6c4e76ac4cb34cd7c892ff
+SHA1: 1002221a7fbe37a39ef943a219c7d770305dba61
+SHA256: 8cd13bf6cf2ae4bbf507948a165c8a823df780c55aad8267de1e3b937a426296
+SHA512: e0320b9d530a69cd75dfb4c1ef694c29bc4bd92e01d82d50f98ea3fb60ee49b822b5f06679d7681a7cbfeb1b2cdfcdb2f94c75c7ed040fad4f5ca995fa90cea8
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
