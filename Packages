@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310172
-MD5sum: 9d6858cd58c63bc35b8102fb3b02cdeb
-SHA1: b6784debcfe244caadfd508b59b71554c53dfb76
-SHA256: 69b8502f995bd2c8f6f414fff87baaf209f02199043d34ad83a1d66030244c05
-SHA512: d864ffd5046f1f89f005fa33c7cc55c2f3ab54d7d524be352baf9c91ae07c400a1b0ec95c8a88529306732a0e686172936066910c4bdb9a4511bd2cffec802d5
+Size: 310248
+MD5sum: 5a4486ab9556459634937c65a9cb21b6
+SHA1: cb10543b5df2d2962174310f8cf22626d7518e52
+SHA256: 4794f84e3460883ce22d74e4ff503ba4e59153604d4ba0d66db2bbb247f40eaa
+SHA512: b2088bc4abda30dfdd57d79508f736bfd321de34c5a229ed4292472ff3889361fa0a42a693cadf7c23ef70d98d7c6667fabc78be9043d1314dafc07e567c5d91
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3487,6 +3487,24 @@ Description: libudisks2-qt5 developer package
 
 Package: libdeepin-unioncode-dev
 Architecture: amd64
+Version: 1.2.9
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.2.9_amd64.deb
+Size: 13028
+MD5sum: deef6608e800e1554af1e3a3be901141
+SHA1: 6e99693cb29a6007c3358666dd0887222a159e13
+SHA256: f844293ca44759bf5abbf79506fc418f1c4b5333fb043fc7c1591340ee409115
+SHA512: d24347d6e18a623da2b8b7e115dcb7be6d532f5a8e081ab0067eb3ceec3e001fe8ec16fafb49941050d15f1f4b3974749e6ecc80518b672dc46a8308c872ea72
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+
+Package: libdeepin-unioncode-dev
+Architecture: amd64
 Version: 1.2.0
 Priority: optional
 Section: libdevel
@@ -6453,6 +6471,25 @@ MD5sum: e53dff0b2fbc6f43749f64db1c8fe9a8
 SHA1: 6b06f23265d23f1bd1c89f3356e16d166da4ffc5
 SHA256: 83510bda46995551935813bd9ad310ea96cae6a1c32c4d8e2ac942cb3ffa4e9e
 SHA512: 8b0661cb7a69a98b19f4442fa6247e471ea35389983e5dc034f03b6f623bd988e0d48957b87c4a49d949ed59282b3d5e5cf4b8824a175832db1ec756dd74218a
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
+
+Package: deepin-unioncode
+Architecture: amd64
+Version: 1.2.9
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 108906
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.9_amd64.deb
+Size: 72485608
+MD5sum: 9db0fb0d49b3228d71f3a0dc0ef2debe
+SHA1: 4ca81c61d7cccb61c9088326da1ae850e97f1a50
+SHA256: 90872497240576f04a19f5490893cf7386f382747a99a96ee3c4e5a53e55f05e
+SHA512: 46d0bb4b28a0de0be3434248f065b577c48602beb9fa50d7d472d23964fa522e680641c63c6ebd495bb001924f7669f737c7207ac26677711c4b830564a99172
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -9493,11 +9530,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2560328
-MD5sum: bb3d1878e4d08c1f7cf1b51d1218e347
-SHA1: 77de0b3b44a54894e6200d8bc6bddee327ee1257
-SHA256: c110d2abc3edbed462e7c377377ea72a058c17e6243cf5196a790582c558f8b0
-SHA512: c6c773bc4659bdbdc8518a1ff72c6172640c5b3f24be32644c0ab43957c18ef5bd63ee91f316e42fea1f2a2b92e11891f422c8303fcc06fe94821b8a2cff9217
+Size: 2558348
+MD5sum: 5b2abb15fb84fbde3c3a4593274c3be2
+SHA1: 113dc66c47739ea0119dbc4e2bc69ccc72ebc37e
+SHA256: 17e8446b8dc88bc0e84adf47704791ab32e97f43a6616c2f5d7c1f9ad8ca6f1f
+SHA512: b98969cb63e0ec55601552bdf85adf7b7ea3c81c6a25a77ecf2de5b8fd9205b0064617763a99403d9a83a02181437707a8c363d05e52e5bc6bfb3687c02153a3
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -10334,14 +10371,14 @@ Version: 1.5.3
 Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 5502
+Installed-Size: 5514
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
 Filename: ./d/deepin-home/deepin-home_1.5.3_amd64.deb
-Size: 1200340
-MD5sum: cb57d818afe6515b3f4b4206b21182cb
-SHA1: de456ef08f0ec1407b46859060e896e276930736
-SHA256: 88eff7b74122ec7993b7313d74767ee0145ce1e60938470ff9401f135e773795
-SHA512: a5ba3d913e93ed30b9c659f8d0b6a81180d32a963fa9ecdc0e7e712c0977d3ae78442b0e725604a612edd0f9936743072d8092fff37b6b178405ec48ed72ba8e
+Size: 1201372
+MD5sum: 0e486b8990dc33b5946f204a928c7582
+SHA1: 9fc9fe768825988845eaf4872b54ddc5c822e280
+SHA256: d57fd1475e7b1b45da673c805e0659b92ba0e8909eb94d3e0a86b17605086b50
+SHA512: 7ea0e112fc2e13b04bb85630fbab72aa78083674262dac8ca8f70b3af99a91161d8a661d8ce7acdd045c22a75a1213966967b578ca02b5f7e7b7cf651713aa19
 Description: deepin home
  quick login bbs, bug report.
 
