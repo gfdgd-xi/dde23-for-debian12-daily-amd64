@@ -8,11 +8,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2340
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_amd64.deb
-Size: 447396
-MD5sum: ff583059fb3585c445e624222e863259
-SHA1: bb789461f523f86ce77e03144d3b0d1a1eb7ccde
-SHA256: 0fe0093d596d690a1be2a1d08328e360d0e1227c81ec3a63efee546681a787c8
-SHA512: bced682a379b96514cd9ff71f309fe845a4b398105b63c173754a6220da78ca1cb55589f3a39e3f076cb5633ecd1f7946a33941766145b706c6f00998a057b5a
+Size: 447440
+MD5sum: 3e5a1e660131468ae085416cce080aa2
+SHA1: a03eb4ab169f6625a1f2447b3689db65b21af4a2
+SHA256: 4223a3b9e01c125ea6ebd9ad2a2b03e5e09e98475ed5b964716f054818bd0cb8
+SHA512: 22459038dbcee1fcbf6cb97e9d31f99d73880808c61f51add0414aacc28e467a243ac6084d07f47b1fd9a517267f7a394758a35baa4b2ec30934ca01fb7cbcb8
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
