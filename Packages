@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310248
-MD5sum: 5a4486ab9556459634937c65a9cb21b6
-SHA1: cb10543b5df2d2962174310f8cf22626d7518e52
-SHA256: 4794f84e3460883ce22d74e4ff503ba4e59153604d4ba0d66db2bbb247f40eaa
-SHA512: b2088bc4abda30dfdd57d79508f736bfd321de34c5a229ed4292472ff3889361fa0a42a693cadf7c23ef70d98d7c6667fabc78be9043d1314dafc07e567c5d91
+Size: 309920
+MD5sum: 2433e2a414ecf3add9587e2bfc30e162
+SHA1: 0b797e790005f68a1ed1148f202d5bfd2a6c4a3c
+SHA256: b9e5f719e4a96deb867203ccec81f4f95c7e9ebf108e681192a750161e7dc6bc
+SHA512: 8b53ff4835f24b891d65bf6e3ae242afd466904dc75baac92d08da56fcef4a9dbaf4c67da625e2e88f4b33f817e5f13faf901c38f47e5a772281b3bc1bfa9d5a
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -6481,15 +6481,15 @@ Version: 1.2.9
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 108906
+Installed-Size: 108910
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.9_amd64.deb
-Size: 72485608
-MD5sum: 9db0fb0d49b3228d71f3a0dc0ef2debe
-SHA1: 4ca81c61d7cccb61c9088326da1ae850e97f1a50
-SHA256: 90872497240576f04a19f5490893cf7386f382747a99a96ee3c4e5a53e55f05e
-SHA512: 46d0bb4b28a0de0be3434248f065b577c48602beb9fa50d7d472d23964fa522e680641c63c6ebd495bb001924f7669f737c7207ac26677711c4b830564a99172
+Size: 72484152
+MD5sum: 2a0c8848503abbdbbf17649d1888bb30
+SHA1: 7620bd078603c6c431b4c6b977be909637cd6f4f
+SHA256: 5c640a264e15f10045bc325984c5080627d1223a62c5e363868eb91eea7b7ed8
+SHA512: 34af86fc0efede114d27c0906054b46211ed68ee27a9bb582c158430c261994f690872e662f2613141c3340d185b5027df9d4a58c9d17c87c949edfe123d88c6
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -7729,6 +7729,25 @@ MD5sum: 79a9a696530282068df8ee56c09808cd
 SHA1: 30c2b8cc2b002f1aaa535cbc953e34cf9f02e845
 SHA256: f9aead084a7d887426929ad97f34e068ab6eeb1692aa7a78aa089645771d11fd
 SHA512: de770f073345863fc7c85fddb89119d40868bff94b2031f491c43497474442c66e71a2c7d95b6ed9e886cb93e1a44d8a65c3a37f71b061b20805e70876efd092
+Homepage: http://www.deepin.org
+Description: this package software for  UOS
+ deepin-camera is a tool to view camera, and also a smart take photo and video in life.
+
+Package: deepin-camera
+Architecture: amd64
+Version: 6.0.6
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16582
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libpciaccess0, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-camera/deepin-camera_6.0.6_amd64.deb
+Size: 14932704
+MD5sum: 7e26e7054553ada25b5e4c4031346bd7
+SHA1: fef74815fe14427343c622c4bedf5a541796ea9d
+SHA256: a152d12004fabd1f8b5da4a35b6c13b258b7ef00f934ef47ca8e9e484f213ebe
+SHA512: e03fc5412d2fa0a393f8fd2bbbfdfcde1c1ca0209633b4699b23b70acce73f2862c810bfa7c961a0f8ecddae59786028d7e0015e83ae639892c069319b6a21ec
 Homepage: http://www.deepin.org
 Description: this package software for  UOS
  deepin-camera is a tool to view camera, and also a smart take photo and video in life.
@@ -9548,11 +9567,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558348
-MD5sum: 5b2abb15fb84fbde3c3a4593274c3be2
-SHA1: 113dc66c47739ea0119dbc4e2bc69ccc72ebc37e
-SHA256: 17e8446b8dc88bc0e84adf47704791ab32e97f43a6616c2f5d7c1f9ad8ca6f1f
-SHA512: b98969cb63e0ec55601552bdf85adf7b7ea3c81c6a25a77ecf2de5b8fd9205b0064617763a99403d9a83a02181437707a8c363d05e52e5bc6bfb3687c02153a3
+Size: 2558256
+MD5sum: 0f0aff9bd77bbcf0b5ca135f82f23a59
+SHA1: fdd8b8d7188b7589ed04ac0b6d6bfff20424ca97
+SHA256: ddda9cfcd5d43d18332ae7b87f01f5b1bda59b367a501fa4fc0192d87724351a
+SHA512: 00ee6abc3392bd3e8a520c7db85e784976c0302e83e6ff182fcc609496973e5db7a6d2af179bfefab134350b935bf7753a74398f4dd2972a212ac51c6d026e65
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -10392,11 +10411,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 5514
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
 Filename: ./d/deepin-home/deepin-home_1.5.3_amd64.deb
-Size: 1201372
-MD5sum: 0e486b8990dc33b5946f204a928c7582
-SHA1: 9fc9fe768825988845eaf4872b54ddc5c822e280
-SHA256: d57fd1475e7b1b45da673c805e0659b92ba0e8909eb94d3e0a86b17605086b50
-SHA512: 7ea0e112fc2e13b04bb85630fbab72aa78083674262dac8ca8f70b3af99a91161d8a661d8ce7acdd045c22a75a1213966967b578ca02b5f7e7b7cf651713aa19
+Size: 1201820
+MD5sum: 94d178909be63f6224bb7d436f23e023
+SHA1: ad15356e55f5f2e58b72076fb5b63be5def87532
+SHA256: be2daf5a98753a1b79e41e3ac5c71e5b55da101e4549e6dc46a8432c57657c09
+SHA512: 4a4528489e59656523cb08883406922d91ce964498bc1a751071d1363e4b9cee9b4e86145b4a7eaf859306bcbb5d00617840a89ad2884de38550df474b3ae057
 Description: deepin home
  quick login bbs, bug report.
 
