@@ -5,17 +5,17 @@ Priority: optional
 Section: utils
 Source: deepin-log-viewer
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 66
+Installed-Size: 67
 Depends: liblogviewerplugin (= 6.1.8)
 Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.8_amd64.deb
-Size: 17484
-MD5sum: 230c3bee2abe038cfa86919e0ea24c13
-SHA1: 8a8636edf2dd920aa9af5297c478dc879d071539
-SHA256: e45199061b561028e7bf5e48043f1947959c2cbb16e660672b86b92c2305c576
-SHA512: b4dacb612ada71ce6b8f8938a201e1dccf14d52bd6d310f07f2337e389f8aa6864dc894731b0a0ae4f100a50e947068e7c87b443523e6798febcad0710b0cf68
+Size: 17556
+MD5sum: d49400320b696cbad25f6badb2367899
+SHA1: 5ef130e80420d36f20d92c431fe6a0a160356f61
+SHA256: cfbd8cf7c6103bd048bb7383e38390e6dc93124a37e4f42b1613b1b3a70e9d12
+SHA512: 21c91778ea5a28487b8bbf2559af52cf1ef54774810c348186b77ce8c2fd38e9613f692db09d2cd452aec000e099f53560893130634ebef9a1c24dd845da7cec
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
