@@ -5,17 +5,17 @@ Priority: optional
 Section: utils
 Source: deepin-log-viewer
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 1076
+Installed-Size: 1084
 Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
 Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.8_amd64.deb
-Size: 303936
-MD5sum: e5504444dbdc79944392a4c022038e31
-SHA1: 234544c5d549d1f7e523b687e9f98e6c70d69a7d
-SHA256: a3ee35cb74010d6646f4da28a15c9d50daa037e90fcb2bb0adc95186e2321aec
-SHA512: 75edb3559d2a43a1c19a85b5bd0b46dfdc60e52d4d9e3637f3964ac520f9a643b3ddad9a1e67a12bbeb63f8ec2b60ea81f25d97e50f292be883d4b4ebe3dd1b1
+Size: 306304
+MD5sum: c67320baee84ad332e3f413b7fe21625
+SHA1: d79de0ff2bcff32a140f1f543b1099997c61e43c
+SHA256: 37b72f958270e2be8565208c9677925d64b267b239c1e062940ceff047ecceca
+SHA512: e6c057f51319dbb3f08a8af224c9f4599a8a707d61f4a9a655aa985bb09f2f233341f4d1aa0894192d5e277a0076f50f3b17730ec3d1b09581ecc939743e5e24
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
