@@ -7,11 +7,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1245
 Depends: jq, sed, startdde (>= 6.0.11), systemd, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-session/dde-session_1.2.2_amd64.deb
-Size: 215376
-MD5sum: 2c27aa24372bf9ec74c544294b9c4643
-SHA1: 3dd1220f0ffa8735c9e04bc8b01755a0bfd9f609
-SHA256: 63c366d735d831040b95475af994588a99abb448cc7c5f69e5938d557e806b86
-SHA512: 26ae85664cd3688bcb10b3320812617ae751dffb9c06745c961ece7b7f1c2c1a86b80763ca93f991eb7131213fa5f1ae48f1a032d475c260bf6bc376a552781e
+Size: 215900
+MD5sum: 147843a562edb9a3f7f12755149a4c56
+SHA1: ce6f9dd4144b39d61c07b5f3f4baf68a9d3fefaf
+SHA256: 675e4db8609fb28f755c4b8abe06b3ace0e6c966d4580556467208af0ba23fcb
+SHA512: f2b0a3a6dd696edcdc14abaaa91c243d9b1e849060e47e4500364d43ad37e8ac25395ce4de67c350cec4ef83ca24171ef584f2bf1564ff1acea1e975c197c7c7
 Homepage: https://www.deepin.org
 Description: dde session module
   dde-session is used for launching DDE components systemd service project.
