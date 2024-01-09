@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310320
-MD5sum: ef830940f7ab3be0da885ba414830738
-SHA1: 179468563093fb79d467daa6f6052cf5df6da89a
-SHA256: 097537eec19336f945238550e744703b0c9c06b842c9eea69f89b5b570dcbf6b
-SHA512: e896b8fa00a0954d352d146c75115ca29b2f4f6b6876d17bb293f5e2870c721689fa028d83dd4a7d5e62f530363660cfd7504a70905e6f0b40cff01d1da91613
+Size: 310084
+MD5sum: 1818c6210de38021269d15a0ee2973ec
+SHA1: bc2695914df682ee5e247123ba0586bb25aec761
+SHA256: cf3b5f503da9ab6e55f5e4ad87308503b82a20afbb95e1fb0c4d45958c9ce382
+SHA512: c8d4e1f3cf513ca689b5560e806ec20f17dee914477af3b6cc890c1f3111dc1327b1793c857b5312a93b96e308e0279fa78c6305ecf984c46cd3107abeb90f1e
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3119,11 +3119,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.8_amd64.deb
-Size: 17556
-MD5sum: d49400320b696cbad25f6badb2367899
-SHA1: 5ef130e80420d36f20d92c431fe6a0a160356f61
-SHA256: cfbd8cf7c6103bd048bb7383e38390e6dc93124a37e4f42b1613b1b3a70e9d12
-SHA512: 21c91778ea5a28487b8bbf2559af52cf1ef54774810c348186b77ce8c2fd38e9613f692db09d2cd452aec000e099f53560893130634ebef9a1c24dd845da7cec
+Size: 17596
+MD5sum: 72c8956d1add3997a5d607f96a1f8963
+SHA1: 5f516621f20e829a2dc051ad84f8eb8122b4ce25
+SHA256: 8d9aa0dceffc51667591c4da51eb96623d2a7454a12e17553889785d08fb629c
+SHA512: a16727551666ea31efacb0e3bf7a70ffb79053cdc6a4ce0d44d1b3431fc3418c7a8f645e46ff6c7c683ca22a9b1b2dd9eed6f939a13ff00e8961cbe3762f6240
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
@@ -4357,11 +4357,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.8_amd64.deb
-Size: 306304
-MD5sum: c67320baee84ad332e3f413b7fe21625
-SHA1: d79de0ff2bcff32a140f1f543b1099997c61e43c
-SHA256: 37b72f958270e2be8565208c9677925d64b267b239c1e062940ceff047ecceca
-SHA512: e6c057f51319dbb3f08a8af224c9f4599a8a707d61f4a9a655aa985bb09f2f233341f4d1aa0894192d5e277a0076f50f3b17730ec3d1b09581ecc939743e5e24
+Size: 307000
+MD5sum: 7bc1782604dbdb41be8807a1b423b3fa
+SHA1: c18296a612c5069f9822361a0d38821f92b82cc2
+SHA256: cc970b6ede24fe6a7f61ff9d9de0c5ac960495acc8417770dd2d509940b3dd43
+SHA512: ead89ea49992a07d33e6567e3e2ce449106d7b5b2f770660cdd28a0f94ce0041a9722b0efeb6f76c12e5d2ef0fb500b4c07fccdd9c05307fb3cac2f926148c31
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -7069,6 +7069,25 @@ Homepage: https://www.deepin.org
 Description: GNOME keyring extension for dde-polkit-agent.
  DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
 
+Package: dde-cooperation-daemon
+Architecture: amd64
+Version: 0.5.5-1
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3849
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5network5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libsystemd0
+Filename: ./d/dde-cooperation-daemon/dde-cooperation-daemon_0.5.5-1_amd64.deb
+Size: 1049296
+MD5sum: c35538f83725c0aa06475284a5a29e0e
+SHA1: 80ce91ae1355ca09434be8d5ca5633592a1fbbb9
+SHA256: aa5b731764333706a85522b4950132d4169b938aa25d8a560ed8cd3e12dd3737
+SHA512: 3437c106700c2741db456591ee9c04eae8f777ec286ba4a11eafbc7070514c8506b79f49e6e79df98ac5e4e31a41a95706d0083306d66779db0dad1f6f8b1755
+Homepage: http://www.deepin.org
+Description: Deepin cooperation backend
+ All cooperation related application's backend server
+
 Package: debian-dde-desktop-environment-core
 Architecture: amd64
 Version: 2023.10.13
@@ -8683,6 +8702,25 @@ Description: KDE window manager, wayland version, PREVIEW release
  project, and is available as a PREVIEW release. Don't expect the same
  stability as with the x11 version.
 
+Package: dde-cooperation-dev
+Architecture: amd64
+Version: 0.5.5-1
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 80
+Depends: dde-cooperation (= 0.5.5-1)
+Filename: ./d/dde-cooperation-dev/dde-cooperation-dev_0.5.5-1_amd64.deb
+Size: 11500
+MD5sum: f9b14e7c4659e7c1a9f6805e2ef37b9c
+SHA1: 03b72e927b2fa6033d00d19722ef551573e4bfe0
+SHA256: 3417955de639e084c56cb63c8efffc81dc45094f3653757e0c543806f7118e44
+SHA512: 7c358c0b391b37e2f283dbfd62ecd17472507f2a55969fea53e3fd93fa6bef1fc253276edf74801354116983eae44bcdf4f2dd859eb742614f39e8e9047774a6
+Homepage: http://www.deepin.org
+Description: Development package for deepin cooperation frontend
+ This package contains the header files and static libraries
+
 Package: dde-application-manager
 Architecture: amd64
 Version: 1.0.20
@@ -9794,6 +9832,25 @@ Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: dde-control-center (document)
  This package contains the doc files of dde-control-center
 
+Package: dde-cooperation-transfer
+Architecture: amd64
+Version: 0.5.5-1
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 1592
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 6)
+Filename: ./d/dde-cooperation-transfer/dde-cooperation-transfer_0.5.5-1_amd64.deb
+Size: 438856
+MD5sum: c4a338679dc3dd22d6b4211af1781973
+SHA1: e5f687d858fb96cff88d576dccfb9fc44fa2ded6
+SHA256: a6500249f56c5470e17188be62beb34a592ee1dcc6d005b3ee2be6a40f270573
+SHA512: 2cdce6291fa2d745d3232826b1e8429a83ddadfbc02f5db95cde38b16f2ef0ef88c97f50aef4731200e1fde94b8afc3bb108b50917c98e7b4055f91798973e40
+Homepage: http://www.deepin.org
+Description: deepin file transfer frontend
+ Deepin Desktop Environment (DDE) - file transfer frontend.
+
 Package: dde-launchpad
 Architecture: amd64
 Version: 0.1.0
@@ -9882,11 +9939,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558948
-MD5sum: a85367e391f365e52393d25b4e52f71c
-SHA1: c756c6a1de60eb7747732fd806d4e10ea5f883ed
-SHA256: 45cccc6970acafc72b51ae570b0441752c93045c98adba76d4f9857f6c527ba7
-SHA512: cc6483c1774ff3d652d9a27bfe66d763fdd6cfdb4c82b92d1fc671e6fa79f070cecfb826d8239e4516784d8fdb6392b8816404ebf934b8a15720d22dcad5eabd
+Size: 2559700
+MD5sum: aeb46d2eba4dbba5f579358e74f58978
+SHA1: 115e82b09d2bfed5efe0d1cff545cac65eb7a311
+SHA256: 7cb3fa74f2cedc81c29606d365223020fbd1d920fd8a27ab846f575570d3b285
+SHA512: 7bb45a4bf643e1ff98628b8ab7bd60474915b6df688709922943dd8d8e303459193a58eefc56d7ad9f5eb6c5bcbc9b8f6443eb234decf535e0a1a20d09a89565
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -10177,15 +10234,15 @@ Version: 6.1.8
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8770
+Installed-Size: 8774
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.8_amd64.deb
-Size: 5163556
-MD5sum: 953cd8cd6968669a384ecce0745e2624
-SHA1: e879a1df4225b7713fb4af4e0624fc26c9505cc2
-SHA256: b1db9406cde835fa4386cfd639fdda461873c4b8c3fdd3c139b67c733d4327ce
-SHA512: b6925e3f138053a51b82160c5df9898252da17f10eba158884b296c85e54376b1d4e6fe6b8225cce696056655c04118fdc208ef577f8ff8bd5006a4fbca78cc5
+Size: 5165940
+MD5sum: 5eb37ab686a45db989a76e50e2cafa09
+SHA1: fe8a2067732eb1624f5eaf00862eb7a83ac187aa
+SHA256: 8204d5fd0f96a94e3f38452e18de39bb9b191df8a5e633a5400a071f8aa5c1ce
+SHA512: ab2dc45f6f6b5672120c200d1564b54f09d1ecae62b89564459bcdeb8fc735928479edc68128e749e8701f85ac6edcddef33e2b45a7fbae0559826f8b852933f
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -11670,6 +11727,24 @@ Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment - development files
  DDE Control Center is the control panel of Deepin Desktop Environment.
 
+Package: dde-cooperation
+Architecture: amd64
+Version: 0.5.5-1
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 1741
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2, libxtst6, dde-cooperation-transfer
+Filename: ./d/dde-cooperation/dde-cooperation_0.5.5-1_amd64.deb
+Size: 380288
+MD5sum: 9e4891ea71061f4eb1d8e054ac0ffe25
+SHA1: e6ab53cd2815967832732b3c48b27a2c2f27732a
+SHA256: 666e94e2e8fd7b1a995f4c2cbd8152e329c3a52173e35562e22eac3dcf5e6ecc
+SHA512: 1c8122e88f72529da12d59cf7ccafe3560f6fba227b2da05d9ec29c3609e2624789e24f3daa04cee41e1ca9d4fed61f66076a7cf9c676a7878b95588c6e5c883
+Homepage: http://www.deepin.org
+Description: deepin cooperation frontend
+ Deepin Desktop Environment (DDE) - cooperation frontend.
+
 Package: debian-dde-desktop-environment-cli
 Architecture: amd64
 Version: 2023.10.13
@@ -11848,6 +11923,25 @@ SHA512: e434caa40be06a7ae80b745f848706910767e463edd5b3dca084c0751aaccc2bd4364bba
 Homepage: http://www.deepin.org
 Description: Calculator for UOS
  Calculator is a simple and easy-to-use desktop calculator. It supports addition, subtraction, multiplication and division with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
+
+Package: deepin-data-transfer
+Architecture: amd64
+Version: 0.5.5-1
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 4338
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), libzip4 (>= 0.10)
+Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.5.5-1_amd64.deb
+Size: 3493540
+MD5sum: d129f74f6c25911ea5a2306257545a8b
+SHA1: 51ef14650093f57240d34142095da2ed55dbcb36
+SHA256: a54c40a19e0bd89356a7ca2b1c474c147136d3947da6fa59cd3186eed5187872
+SHA512: 0d03650854753a474a3dbbfc9536f6b5c6eb8e842af396bfd812eb5b3cdf5f88617a5ff21b940686a4ae519be14c43fe6fa390234a377bc26ff95d4b2f94ce99
+Homepage: http://www.deepin.org
+Description: deepin data transfer frontend
+ Deepin Desktop Environment (DDE) - data transfer frontend.
 
 Package: dde-kwin
 Architecture: amd64
