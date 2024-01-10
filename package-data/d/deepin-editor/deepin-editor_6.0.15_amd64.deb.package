@@ -8,11 +8,11 @@ Installed-Size: 19504
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-8
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14029300
-MD5sum: 0d892f8740371dd7595c5d7a251b134d
-SHA1: 3def7046a4e1cefceaa156c38a58150e452fceeb
-SHA256: 35dec0ada1b2dc053b45bd7933fe1521aa91fa7fa73b9e3b0caf0cd152d0c1bc
-SHA512: 81d4090f0c8059cd49a1330d971077e06b3daff2b051bbf615d30d19798dbaabf144313f8b83722321f60db9ab446cb24528f3fe22530653051dd86187d0fe71
+Size: 14029260
+MD5sum: 4a58170c67a2d3f947fe6490f59e124f
+SHA1: 4b77b3a10d5c5f853b4cffe20f3bf5cf72d49b02
+SHA256: d3ce33ddd47243961ac7a8a1572ba0577ae4aa5283a28b3a970c31406fe3a87f
+SHA512: 5f6b41f1536c4b2afe9fd8c0ca8d24f0ad6525f4d7a07acba4888ea25b77f4e7ba97ea776412e84dc1173cac84aa50be7a85b8e29181496e7a620ed61dbba9b7
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
