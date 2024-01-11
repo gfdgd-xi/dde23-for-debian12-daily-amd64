@@ -1,0 +1,19 @@
+Package: dde-cooperation-dev
+Architecture: amd64
+Version: 0.5.6.5
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 80
+Depends: dde-cooperation (= 0.5.6.5)
+Filename: ./d/dde-cooperation-dev/dde-cooperation-dev_0.5.6.5_amd64.deb
+Size: 11528
+MD5sum: c718e2105043113e4ac3143a8a787205
+SHA1: 18550fcb8766ca67bc3fe586a2aab808e9074cc5
+SHA256: ebb2a4bc1f76a60b069d54fe73e1b4f3b7cea8f0999e903b503cd4208a8035dc
+SHA512: 6d70146b7b9bf53c985135a26a5829d291f48311edad24d94089c31219fe331db176fa07f08f42d61e1966664c52f1be76403761dd1df658232b94e5b68fbc8e
+Homepage: http://www.deepin.org
+Description: Development package for deepin cooperation frontend
+ This package contains the header files and static libraries
+

@@ -1,0 +1,21 @@
+Package: deepin-log-viewer
+Architecture: amd64
+Version: 6.1.9
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 8774
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.9_amd64.deb
+Size: 5165408
+MD5sum: 6f4879487c38ea7d36851d3bc8008166
+SHA1: 11d0016e56f6a613bfeac084da2cde5f4a567a0a
+SHA256: 11e2000ac260e123841dd5f9b360052cc3098fa1f9bad767c4fec6f539bfc500
+SHA512: 8f8dc618d4474475b89e042b07e34cd10170a169d85115f783a62bd538654ea779b79ccb5000ee6a85f08268e2fb59ca95f39dc827fe41d2a1fe980713da1398
+Description: Log Viewer is a useful tool for viewing system logs.
+ Log viewer is a tool that collects logs generated when an application
+ is running, for example, logs generated when operating system and
+ applications start up and run. You can do trouble-shooting and solve
+ problems quickly by analyzing logs.
+

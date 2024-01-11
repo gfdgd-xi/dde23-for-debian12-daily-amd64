@@ -302,11 +302,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310148
-MD5sum: d680fc089e6df8235f11b3d69d6e3b52
-SHA1: f75496cfdc1578dcfb80a720c40d35e972336852
-SHA256: 00ae86254bd15b8b24ffae228ce79fc09ab86460e2c10f3e8560b05403806d1d
-SHA512: 384d92978f51c4a45c3337a94ca94876da252e771dd4ec78165dd272922c678e26881849cb85c05b23f4a55e2211ff2b612131adbfeadf4329f2953a63bad4a7
+Size: 310104
+MD5sum: 68ee8a5727710b5cf6ecd5f79d2c5a98
+SHA1: 257e4bd8a51838e02cb740e22a86efc9d0ae9f50
+SHA256: 97e6466dcc65642b4b5a15da77672dad15cd7bc4d75be98d3f73a77f3344d9eb
+SHA512: 5e8494024940e63cdfab35e998153416337062d1a92d42a4762af108e623384efed6277f5c2d4fed0fe0de68a3a8c89327ae03074d64926ca2ad70d277e2c039
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3410,6 +3410,27 @@ Description: Log Viewer Plugin library development headers.
 
 Package: liblogviewerplugin-dev
 Architecture: amd64
+Version: 6.1.9
+Priority: optional
+Section: utils
+Source: deepin-log-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 67
+Depends: liblogviewerplugin (= 6.1.9)
+Recommends: libqt5libqgtk2
+Conflicts: liblog-viewer-plugin-dev
+Replaces: liblog-viewer-plugin-dev
+Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.9_amd64.deb
+Size: 17796
+MD5sum: 7e0e6b88e0ebe8ef069a6fad9db91466
+SHA1: 95a951dbb2099c765036cd92e6f1812a2815c2d5
+SHA256: 68e18225f24203888ea8d7d0bfedae556edadee48c11fc29f37880c6c5f7b116
+SHA512: c34a8f664d084458cd40213195a7bf99d42c3d1575f57eea330bd4ad612eadf1ad6b62af7f3bee88bff3e864ad058edd9db1cdc9073c7c52b2ec9c6caafdb206
+Description: Log Viewer Plugin library development headers.
+ Deepin Log Viewer Plugin library development headers.
+
+Package: liblogviewerplugin-dev
+Architecture: amd64
 Version: 6.1.3
 Priority: optional
 Section: utils
@@ -4765,6 +4786,27 @@ MD5sum: eac2dbd8f8f28e55e8798529939b8e3a
 SHA1: f10035d68f55454411ceb9bad8f24ebc3f0eb9ce
 SHA256: 6c3112f38bc936447e17874fc8597954a1a536ea619c25ee4224fc42079b4166
 SHA512: 09e7633f354a5dffd87bbe47c7d45af76c0e8a4f7511a2cbf512ea0c1e0f28b28492af9385dff964e5157ae7b4e4ef0f4270b3d54bcfcaebbf9876bf74ed69bc
+Description: Log Viewer Plugin library.
+ Deepin Log Viewer Plugin library.
+
+Package: liblogviewerplugin
+Architecture: amd64
+Version: 6.1.9
+Priority: optional
+Section: utils
+Source: deepin-log-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1084
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
+Recommends: libqt5libqgtk2
+Conflicts: liblog-viewer-plugin
+Replaces: liblog-viewer-plugin
+Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.9_amd64.deb
+Size: 306828
+MD5sum: ff71865face0d7f5310214c8aa73cc0e
+SHA1: d4033d0dfb848b00146ec80213d621248f1721b2
+SHA256: 048644e950db5049d306d04914e50585587ac3d0864973db6ce3d8dc05168e20
+SHA512: f92e53886dfed2707107c5eb8c4531e45a86779fd96687a050b21c270d02a9b094883dfc9ef01c83d2b7afa81cde29bf49a7a016f5e64d44feab3fc7aaf90ec4
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -7181,11 +7223,11 @@ Installed-Size: 108910
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libunwind8, libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.9_amd64.deb
-Size: 72488764
-MD5sum: e65e675bf2e63f3fffc08448b1dbe44d
-SHA1: 394a4426a16dd6e8681959c47669723b0890a730
-SHA256: 53772c9c9aee99dfa8dbefaeb764d83a28fde792d467136e5b0ba5edeb3cac1e
-SHA512: 95c048c448406920eaec6e6cc0151420e3fa00f1ada8ab92aa796c8223f1ff3f18d7e313fdbd12d39bae1bf5def09375dbd3fa88852a4b6b25d897188e307a37
+Size: 72488188
+MD5sum: 9b62021a065d2db294f90d16fa162e70
+SHA1: af7a9f15411007408aad696dc286400f5a0bac94
+SHA256: 957dd218f2bebb1362f3b286a4ebdcfbe7d0cf1a99eae56150c6972901ac6c2a
+SHA512: cd1c45ef34e18981c827fcbe4584e4f08b9bda8187d7f70e6401de9acca8f312b664ed24c4652055576da83a30fdb0faaf4bbc997a16fac69f7b6b1dabef3b50
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -7702,6 +7744,25 @@ MD5sum: ab20152da0b593854f42605825542d11
 SHA1: ff23cfbccd5788766356581e46d4426e84d1f4d1
 SHA256: 62508aaafca1fd8d39fe72a061b7cdfe79a7a4ccbf65d3115a676895af28b35b
 SHA512: ae5e455633890ffce08cbb1a922e6d951e4bc48105ff6c2bd712aa43e9d78bcbbef55d9eea1be522191461895155b0c6d58078abe55db2166bed9ad9be356250
+Homepage: http://www.deepin.org
+Description: Deepin cooperation backend
+ All cooperation related application's backend server
+
+Package: dde-cooperation-daemon
+Architecture: amd64
+Version: 0.5.6.5
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3882
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5network5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libsystemd0
+Filename: ./d/dde-cooperation-daemon/dde-cooperation-daemon_0.5.6.5_amd64.deb
+Size: 1056340
+MD5sum: 605cf886352588d377173f867aaaf87a
+SHA1: 13c097fd61c1f2276cf5f226ca77e8278e3aabcd
+SHA256: 09d21cee4b41f6611ee3b47b82d7bc36182ebe88253888f179265a65b80fb215
+SHA512: 8852b58886e03a19e81a58d381510f71f39c6c19f4a6bd586146ff03ac21e360d4283a1fb98f259cd74d438046dedd724eda23b5cf5ad164b6e8b7d0dce2ca53
 Homepage: http://www.deepin.org
 Description: Deepin cooperation backend
  All cooperation related application's backend server
@@ -8282,6 +8343,25 @@ MD5sum: fb852739d0d8b64bafad4267573296ac
 SHA1: f158e7f2a420445eecac253c0f0993f19f161cbc
 SHA256: e7a759de606a08bbb8de275374b241ffec263732fd2bfec95c5e0d27096cc914
 SHA512: 4183fc7e36e34b14d8967ed42f9a4d02a608cac6093f5c151675a8f11b360230f2bcbdc6111a8b6a21ea1c4173096eca90f1b28a02bbae94080b0fef10c0c0eb
+Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
+ Device Manager helps users manage hardware devices installed on computers,
+ through which users can view parameters and export data of all hardware devices running in the system.
+
+Package: deepin-devicemanager
+Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: devel
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 8541
+Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
+Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
+Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.18_amd64.deb
+Size: 3900116
+MD5sum: 599d32cac062244d421843c6f68e9ea1
+SHA1: 95804e847d55634bb38e9e65da559425d9bb0796
+SHA256: 7e53221b9d240d51800a14a543f4196617d5e11612390cbb41d325f6b177ad6a
+SHA512: e1d2f640c244cdc55eb8525f8e84b33a1e9b5d8f71eb5df934158b4b4cf50263c955056ee83c6b877e1a0901f79be2fed736681c15fd88709f5ff4221df3cf7f
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -9394,6 +9474,25 @@ Homepage: http://www.deepin.org
 Description: Development package for deepin cooperation frontend
  This package contains the header files and static libraries
 
+Package: dde-cooperation-dev
+Architecture: amd64
+Version: 0.5.6.5
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 80
+Depends: dde-cooperation (= 0.5.6.5)
+Filename: ./d/dde-cooperation-dev/dde-cooperation-dev_0.5.6.5_amd64.deb
+Size: 11528
+MD5sum: c718e2105043113e4ac3143a8a787205
+SHA1: 18550fcb8766ca67bc3fe586a2aab808e9074cc5
+SHA256: ebb2a4bc1f76a60b069d54fe73e1b4f3b7cea8f0999e903b503cd4208a8035dc
+SHA512: 6d70146b7b9bf53c985135a26a5829d291f48311edad24d94089c31219fe331db176fa07f08f42d61e1966664c52f1be76403761dd1df658232b94e5b68fbc8e
+Homepage: http://www.deepin.org
+Description: Development package for deepin cooperation frontend
+ This package contains the header files and static libraries
+
 Package: dde-application-manager
 Architecture: amd64
 Version: 1.0.20
@@ -10198,6 +10297,26 @@ Description: A system monitor tool.
 
 Package: deepin-system-monitor
 Architecture: amd64
+Version: 6.0.11
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 26130
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.4.0), libpcap0.8 (>= 1.0.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libudev1 (>= 183), libxcb-icccm4 (>= 0.4.1), libxcb1 (>= 1.6), dconf-gsettings-backend | gsettings-backend, libcap2-bin, deepin-service-manager
+Recommends: uos-reporter, deepin-event-log
+Replaces: deepin-system-monitor-plugin
+Filename: ./d/deepin-system-monitor/deepin-system-monitor_6.0.11_amd64.deb
+Size: 10956576
+MD5sum: d421d82b48e2f85e3c5aef35edda8e33
+SHA1: 625dee2bc2a34da7d52e31690228bc6abcef9599
+SHA256: 9e1bdef9742b6e1fe1ed5ee610aafa80e982b497b7d4941d4a014e1c4f2ccbd2
+SHA512: d03210152967199d043c64081cc0182b4952ab6666b018a9d46c4a0850b9e3311eebc539dc6c3d73ced4285feb6edfdfd527471944bb202682ced988bc45a0ac
+Homepage: https://github.com/linuxdeepin/deepin-system-monitor
+Description: A system monitor tool.
+ System Monitor is a system tool monitoring and managing hardware load, program running and system services. It's capable to real-time monitor CPU status, memory footprint, and upload/download speed, manage system and application processes, search and force end processes as well.
+
+Package: deepin-system-monitor
+Architecture: amd64
 Version: 6.0.8
 Priority: optional
 Section: utils
@@ -10543,6 +10662,26 @@ Homepage: http://www.deepin.org
 Description: deepin file transfer frontend
  Deepin Desktop Environment (DDE) - file transfer frontend.
 
+Package: dde-cooperation-transfer
+Architecture: amd64
+Version: 0.5.6.5
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 1600
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 6)
+Conflicts: dde-cooperation (<< 0.4.2-1)
+Filename: ./d/dde-cooperation-transfer/dde-cooperation-transfer_0.5.6.5_amd64.deb
+Size: 440400
+MD5sum: e8c714766be89a901319e856e0bcc882
+SHA1: e3cd8afecd3118a2b9f7279ef2a27e9e8baae882
+SHA256: f82451281e37d075faab098aecd5dea21b6854aef08bcd5e8f0863d93582e99c
+SHA512: 36853521f2bc1c9315687ae227357f69383b1ac77cbf8a98992a050977b2de6e60cdf38e89432acf6679cd74e1c2de2925e2e130b3a032a441d825bbb8e668d0
+Homepage: http://www.deepin.org
+Description: deepin file transfer frontend
+ Deepin Desktop Environment (DDE) - file transfer frontend.
+
 Package: dde-launchpad
 Architecture: amd64
 Version: 0.1.0
@@ -10631,11 +10770,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558860
-MD5sum: 95b4bfa8086a64654fe3b7e0d54cf709
-SHA1: 1b4d8195cf5d3b1e6b7fa4ef57265d82c7b1739b
-SHA256: 1cfd701b7834fb78125380508638c1cc0d58588b7571ec8d82b5709ede2aea68
-SHA512: b4dc781ab457c10f817d8d887d8d2f1ea4fbcb2539ba483745ed297382f1ab19f70eac07c6b7f39897e0d1e0b2e3f8407207327490a7d75958aefa09c917bf9e
+Size: 2559588
+MD5sum: 313a34eaecda35652a6dce4e43a72b09
+SHA1: 9b11e9a488febafb8aa127dcbe432f770f95fb8e
+SHA256: 39ee7a5aa419b563fc51c7b87b323caf145658a51d872e2ffbc04c613b700b3b
+SHA512: 1a3635811259ba746a95ba8bed08f0c0be45ec5ce5d00f099f424bd5aae5b90f4fb58a3b8a0b9a6042f4249b3a0321931124b5fb0601f0899d3884d6eba6cbaa
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -10956,6 +11095,27 @@ MD5sum: bd9d83d0a416b3cab2d9a79130761d92
 SHA1: aad7de1888f1eaf5779aee8f648b71a9a09d3fb2
 SHA256: e5c4d4c0849ff114618d63d4c89680cf2ab9b24c2ccece79800a191cae1ec781
 SHA512: d1559ed25614714f862b9371ecc9c224fb325e8b464263760202d3c975c34e0a3746518a39f90a8b2c8708d85c1d2c07d2c8da47666f39e95afd36e6be0e34da
+Description: Log Viewer is a useful tool for viewing system logs.
+ Log viewer is a tool that collects logs generated when an application
+ is running, for example, logs generated when operating system and
+ applications start up and run. You can do trouble-shooting and solve
+ problems quickly by analyzing logs.
+
+Package: deepin-log-viewer
+Architecture: amd64
+Version: 6.1.9
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 8774
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.9_amd64.deb
+Size: 5165408
+MD5sum: 6f4879487c38ea7d36851d3bc8008166
+SHA1: 11d0016e56f6a613bfeac084da2cde5f4a567a0a
+SHA256: 11e2000ac260e123841dd5f9b360052cc3098fa1f9bad767c4fec6f539bfc500
+SHA512: 8f8dc618d4474475b89e042b07e34cd10170a169d85115f783a62bd538654ea779b79ccb5000ee6a85f08268e2fb59ca95f39dc827fe41d2a1fe980713da1398
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -12476,6 +12636,25 @@ Homepage: http://www.deepin.org
 Description: deepin cooperation frontend
  Deepin Desktop Environment (DDE) - cooperation frontend.
 
+Package: dde-cooperation
+Architecture: amd64
+Version: 0.5.6.5
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 9384
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2, libxtst6, dde-cooperation-transfer
+Replaces: barrier
+Filename: ./d/dde-cooperation/dde-cooperation_0.5.6.5_amd64.deb
+Size: 4250756
+MD5sum: f7aa950999dd94a71899293ad5a58126
+SHA1: 965b949d91d1ce208b60be7bf51751b212f7388d
+SHA256: 7bb159d7f7d8aa6ff758b96e419c2336ec8db0eb71e6c58c4b6a0017b8979e2d
+SHA512: de776a1151eaad52d096063398dde3b90d502434ffbca2cfba42a24d57470542ea3f34eac63fbb99894a148d05ed8254b80168b61b79b6c44771e4b30c66671a
+Homepage: http://www.deepin.org
+Description: deepin cooperation frontend
+ Deepin Desktop Environment (DDE) - cooperation frontend.
+
 Package: debian-dde-desktop-environment-cli
 Architecture: amd64
 Version: 2023.10.13
@@ -12670,6 +12849,25 @@ MD5sum: e0d1ea8e69514c5dce074d6d8d3aa964
 SHA1: a3a6780f721fb924b1b130ddf0a6cbde42314062
 SHA256: bf987909981fd05711c46a99cd85cc5e6e921296b60c868074660d98ea607f71
 SHA512: 9605f8cbbd72701fe20e05be043874b0acc7a09a81cd68fd8771dcb3f70489ddcca75eedefa8765c42768d5f206a6fbe03f58c403647e46c5ef016a97379ed1f
+Homepage: http://www.deepin.org
+Description: deepin data transfer frontend
+ Deepin Desktop Environment (DDE) - data transfer frontend.
+
+Package: deepin-data-transfer
+Architecture: amd64
+Version: 0.5.6.5
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 4342
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), libzip4 (>= 0.10)
+Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.5.6.5_amd64.deb
+Size: 3494280
+MD5sum: 066528987e413fb747736591343353a0
+SHA1: 6023a2295a17f0b401d58981f5e85bdbc1ffbf21
+SHA256: 20b0bcb2b31532f9a3c1977737a453e0de35f98725e66c747c946ab5b3cef026
+SHA512: 54ea65984c80cb86329e1e5c64963dd30f6e5ba32b11328dc47902c4033111d078fe9f94082d275ab6fb59bd088e0401f05eeb10d668a832bd6ea6218a1b0d74
 Homepage: http://www.deepin.org
 Description: deepin data transfer frontend
  Deepin Desktop Environment (DDE) - data transfer frontend.
