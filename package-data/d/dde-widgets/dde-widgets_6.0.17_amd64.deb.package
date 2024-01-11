@@ -1,0 +1,17 @@
+Package: dde-widgets
+Architecture: amd64
+Version: 6.0.17
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 2138
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
+Filename: ./d/dde-widgets/dde-widgets_6.0.17_amd64.deb
+Size: 508412
+MD5sum: 7a523fb32acba30ec1bd03ff8177042e
+SHA1: 73b7afbc1f3f57438681c9a2f30cbcb345be191a
+SHA256: 3d2e6ee1ecf839bb06b29a095d2359205ba769956c9afd7c168c8190a7b06ef3
+SHA512: 20e2cee337607861b01b6ef076dd87fc0bf2456f19906bca80a68a2c3db5235257ac1282258d73e4b87cf345ea8b1f9ad4c50a4348df223f8f76da44f034f65e
+Description: deepin desktop-environment - widgets module
+ widgets module of deepin desktop-environment.
+

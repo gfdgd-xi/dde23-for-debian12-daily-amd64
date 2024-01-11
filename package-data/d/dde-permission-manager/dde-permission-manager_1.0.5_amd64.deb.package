@@ -5,12 +5,13 @@ Priority: optional
 Section: devel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 400
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
 Filename: ./d/dde-permission-manager/dde-permission-manager_1.0.5_amd64.deb
-Size: 88616
-MD5sum: 79e5fa13781c18947d0dee87f4949d62
-SHA1: 9b20deea035dc7c424c5b1b8892fe9ec837f0bef
-SHA256: 8bab0d9cf8e74efe3cf06da8c295f61df35174a551ed31f4846449cdf72deff7
-SHA512: a7f4682b50f2e0d326244396ef787de158fe0cf0c890ea142eabde337d2ab6c43d12cfa132572166db9d7ea5af95bf9d5e3c07ffb1c90e59a16d03dc9364cc01
+Size: 88732
+MD5sum: 3bfb277488c44f7dbcf3356e8520bad7
+SHA1: e6b32cefecb7f29ba0a5c6c13b02d4ca13ec8706
+SHA256: 513bc54319ade7874f1168e96b351b41d4546b964bb269d11fa9513425f37e26
+SHA512: c165d021fc720eda48d93f491d479c9a872eadeb2b0d3155e4ad8af4d7233dafb897636ab7e857eace409a0b17c16b8d3156236de3cbe07a93ec88dc3e0cf7f1
 Homepage: http://www.deepin.org
 Description: deepin permission manager
  Provides application resource management and control services for the dde desktop environment.
