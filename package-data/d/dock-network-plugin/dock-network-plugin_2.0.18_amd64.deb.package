@@ -1,0 +1,19 @@
+Package: dock-network-plugin
+Architecture: amd64
+Version: 2.0.18
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 914
+Depends: libc6 (>= 2.14), libdde-network-core (= 2.0.18), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dock-network-plugin/dock-network-plugin_2.0.18_amd64.deb
+Size: 197364
+MD5sum: 58bba7239d70c547bfa33add9b7e62af
+SHA1: cd28281c85cc4f9da600ee53b08fc05bec472199
+SHA256: 9fd0f96fc41326ee349007963db2bd2d9eb5f3895613306ccdd98b328e5d77d6
+SHA512: cbaa0191c92a60593f769ea26096a5520be359fe2e9ffe7278f3bf045ac4a395a9ed64242b74fea23532637d6312d5f92b069af15fe7e102de92b44f1f59ac6b
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-dock
+ dock-plugin module
+
