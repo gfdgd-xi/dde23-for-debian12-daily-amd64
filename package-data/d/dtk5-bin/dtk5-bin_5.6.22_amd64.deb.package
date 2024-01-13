@@ -1,0 +1,19 @@
+Package: dtk5-bin
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: devel
+Source: dtk
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: libdtkcore5-bin (= 5.6.22), libdtkgui5-bin (= 5.6.22), libdtkwidget5-bin (= 5.6.22), libdtkdeclarative5-bin (= 5.6.22)
+Filename: ./d/dtk5-bin/dtk5-bin_5.6.22_amd64.deb
+Size: 2096
+MD5sum: f7870d99e5c5a686b1e4d4b4f58f7b33
+SHA1: 17f8bcfd3c7a715ed1519de1543fac2b3398211c
+SHA256: 1eb8a072f14f0e67683a30e6724dabf8a13987628b6a7b7f917f76909abc403f
+SHA512: 7b4996577973c332d2a7cfd30732559b16fbc29d974e2ff6264b2be37e19738a91124314e8f2e5c5f4e8cae122d5f08147337a278e91409c196ccf53e042ae65
+Homepage: https://github.com/linuxdeepin/dtk
+Description: dtk binary tools
+ Virtual package that provides binary tools of dtk
+

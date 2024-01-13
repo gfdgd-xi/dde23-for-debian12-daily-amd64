@@ -1,0 +1,19 @@
+Package: dtk-dev
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtk
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: libdtkcommon-dev (= 5.6.22), libdtkcore-dev (= 5.6.22), libdtkgui-dev (= 5.6.22), libdtkwidget-dev (= 5.6.22), libdtkdeclarative-dev (= 5.6.22)
+Filename: ./d/dtk-dev/dtk-dev_5.6.22_amd64.deb
+Size: 2092
+MD5sum: 16e70ab6ff5c902899694f37f2520d70
+SHA1: faa510efa3d5c91b716f1fdbe550633001a765c2
+SHA256: b1e32ef9ecb30fa3f9cbafabc981c9be73ae89ecd57663c0211fa8d80ef7d45a
+SHA512: 2544dcd3421204fa73e7bc2ae1651bbabe6913acfb356d6c2167c7375ba102f0be63adeb841814d8ed3fc92c8ceefc9286a7928b7a58d860d2a3c59011b72989
+Homepage: https://github.com/linuxdeepin/dtk
+Description: dtk development files
+ Virtual package that provides dtk development files
+
