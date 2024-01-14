@@ -8,11 +8,11 @@ Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 1125
 Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.18), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
 Filename: ./d/dss-network-plugin/dss-network-plugin_2.0.18_amd64.deb
-Size: 253464
-MD5sum: 7a7b177e78a926898531ba7fa8d60e2a
-SHA1: 6b81536fe42786c16ad2646c0e6bd50f49c2acf5
-SHA256: 9361d47ff0debfabfacba488bb5cf4247ccb3773e9b95b620fbf71622e5b2725
-SHA512: d56955ef5e7c38acaf1a4099eb22c381ec955af2c1492ccd9d289b3f0f0370a8c2b2ad744fa1ef52681dac9412c2db3344befef8eddc2d58777ee4aacdecc9a4
+Size: 253636
+MD5sum: 8e40476dde39ccb74e00810db41d38ca
+SHA1: 46cdcfc7d373ca299413381abe9ecdbe45871fbc
+SHA256: 0b679a01d4fa488f853e97b1679d896ee007b1fa1a0d1c85603868f97f1b88c7
+SHA512: edcbd873d07769ab57d0358bb57dfbb4d3d1e5e704e1caf9815094b5897d0e549315f195f8a90659ebec401ce006677cbaa7b5d320e7cb3ce87a5fcf70d97ba3
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde-lock
  dss-network-plugin module
