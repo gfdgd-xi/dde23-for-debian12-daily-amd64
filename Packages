@@ -321,11 +321,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310432
-MD5sum: b4b323a360c18e72a04c6a5d6928df8b
-SHA1: 18bc2440736caef013eda05465b152f55418ad7a
-SHA256: ebfc4caa62e14a06fc4fd1c6b191b2dd17066d38090c0af4af3ffac14ef1fc7c
-SHA512: 3b7a49433434bfa6d7e1f70d51d254214adbeccad39c549d4cfc5cadf45e81d2d75ff67074378d31c6501e4ee55298db0d328f144cc7c266849ca896e0b27ab6
+Size: 310240
+MD5sum: 333d4c925acf1a45d410c6a5d4ccfc25
+SHA1: ca26dac3529f522eac27e9f2ab3c1da527f1e78e
+SHA256: 71b3e5add0cd66dd390335395f9460506974e05c34cfcbd87567a3f792162556
+SHA512: 08ab62f076784c827a10426f573254dce8fe53dea0874e2be4d4ddc0c8bd768d013fe49e518580c9c1055ce472223c55cda63b73fb15a61c8088192e3ac9e535
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -11656,11 +11656,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2559736
-MD5sum: faf496752ea3d871747b645c89cecdca
-SHA1: 73f3b40b605efad48c7101374112b393ae38a757
-SHA256: 954f899125043bb255ea6b3689cbc3292c79a69ea6b369f9160a130472c8576e
-SHA512: 166e9ef41d7eec4987de3fe526bd45e8f2c9d516aefb0d63ae025e46654d333a87e20b9abb4269a355251b8fae68ba622aff76a24e8c487763b00f4e541b0a27
+Size: 2558764
+MD5sum: 535a877c9ec1593b305bfa045930c166
+SHA1: e561cc4929e392b312c45986b46ed3c7f330597d
+SHA256: 9c3c0856a94bac9c723f429e68c671f6726e4ef26782c38c606af7cdf7bbf8d9
+SHA512: deade40fcd132b9cc19dec27b1390c6e253e59cfaa98451f0dbfdb245544c64ea83c1ba53c75942b827f460b32a8d83a2759221a1a65cfd47f49e0e738b8ba0e
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
