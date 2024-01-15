@@ -8,11 +8,11 @@ Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 914
 Depends: libc6 (>= 2.14), libdde-network-core (= 2.0.18), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
 Filename: ./d/dock-network-plugin/dock-network-plugin_2.0.18_amd64.deb
-Size: 197280
-MD5sum: b89e4a48f03407f055f23fb158a13fe8
-SHA1: 2894c8d84972032f9dc206cd6a05cccaff948545
-SHA256: 7a43f3f7e440a767a59e817d7204e74bfe478972bbaf426c1403b248f5a6597e
-SHA512: ac6076afb28bd793eb38324992e83b5c0e125604bc366ad7b1577e89d5670738bc4599b92e1e9db1ea79426f20ebb89402a77a6e89237de34a1c4226dc8be308
+Size: 197068
+MD5sum: ae701db332d7f61a5b90f2fc8307ef27
+SHA1: f5c7953216e97ed94fa83c46a67242a67ff2d7fa
+SHA256: cb5d46f98a6d4e82667088c9ef746e6b2b9b7cd786c25c25b996fbfef6b92654
+SHA512: 55baae2435f8fa50f371cb80c94eae70e6d71dae23b12351df662a6d6143490f1eada5c1b220dfd6b1ddc1c24b52e058461739b77140dea031bc4483cda8e7e5
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde-dock
  dock-plugin module
