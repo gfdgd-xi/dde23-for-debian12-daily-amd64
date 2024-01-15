@@ -321,11 +321,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310240
-MD5sum: 333d4c925acf1a45d410c6a5d4ccfc25
-SHA1: ca26dac3529f522eac27e9f2ab3c1da527f1e78e
-SHA256: 71b3e5add0cd66dd390335395f9460506974e05c34cfcbd87567a3f792162556
-SHA512: 08ab62f076784c827a10426f573254dce8fe53dea0874e2be4d4ddc0c8bd768d013fe49e518580c9c1055ce472223c55cda63b73fb15a61c8088192e3ac9e535
+Size: 310368
+MD5sum: e0a2686810ffa14c246c71b6c5ca33f4
+SHA1: ae08c8698b7b0863100de25435202218a8233e66
+SHA256: fdf774342806de7340c0e4ba7ea5f6e264e364733b3c282a7f90aebe0e053b49
+SHA512: e7541d6b8287706c262c24d3b4645a3e021dde25ff258a590ae45386b4d6d42b8ffe184c9e7fd8b6cecf82cbeaf3f17e92f71661ca412e73b13186f7f628ee7c
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -11656,11 +11656,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2558764
-MD5sum: 535a877c9ec1593b305bfa045930c166
-SHA1: e561cc4929e392b312c45986b46ed3c7f330597d
-SHA256: 9c3c0856a94bac9c723f429e68c671f6726e4ef26782c38c606af7cdf7bbf8d9
-SHA512: deade40fcd132b9cc19dec27b1390c6e253e59cfaa98451f0dbfdb245544c64ea83c1ba53c75942b827f460b32a8d83a2759221a1a65cfd47f49e0e738b8ba0e
+Size: 2558864
+MD5sum: 03e132508095fdc7c53d2073264c3f10
+SHA1: 10366bf09855837a573da02ee04fe36c8c3b56d8
+SHA256: b07e41bddecaa5443456ccd5f7655550a049e99d18b0e6619e67b1ccd8c53df0
+SHA512: cda8f6cb40633b378618ae9ee3a7422e03057ee1a3f85725156690408e2b5b285139c21c6612b97fe6d7ef1a0bd7fc2896a692127d628737aa14605e228c386f
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -12018,11 +12018,11 @@ Installed-Size: 8774
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.10_amd64.deb
-Size: 5165336
-MD5sum: a2289df66de24a0de8d942f20251b9bd
-SHA1: b5c93be7f6d481186796151ea2681628115bf968
-SHA256: ca9fcb1bf3e012c4fb2e37e5f2655fa3e1b0641ee48b3f8f41eb09418ea4b5bb
-SHA512: cd9da1c6e5c74b41fcbf47ff061b458733f216f8b5071d0b50c5c804c517bd136f9d1b84ba690c028ff6ac173ad2959af502b7dc3fa7cf4fbf310c3dc5da98ce
+Size: 5165248
+MD5sum: eb3da4845f339f7b5c45c2cc7db0e0da
+SHA1: f2f7cf0bfaa317dbe7a87336ecb82171f86bbb81
+SHA256: 0ec3a134cdef5ab965457db3aede00638c10c8719d6e0e93c9dc0c0224066353
+SHA512: eb12815a905aad5272629d8d6a92fe7c33abed7667580a121df4557eb8fb2aeb8cbc83009ccf1c1941f6b8fda7381d6e9ac8c66dc925bb23dc7306cb98a2b9c8
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
