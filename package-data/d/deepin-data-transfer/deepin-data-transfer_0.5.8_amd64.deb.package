@@ -5,14 +5,14 @@ Priority: optional
 Section: utils
 Source: dde-cooperation
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 4415
+Installed-Size: 4411
 Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), libzip4 (>= 0.10)
 Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.5.8_amd64.deb
-Size: 3501992
-MD5sum: 19245c3fe2ea648bdafb402b4113d0d5
-SHA1: b33005c550ed0e57cc777e10101f36a8dc71ed4b
-SHA256: d574eba0dfe68765bb85fdfdf7e2c0fcf0b5798d48f18edc4a17ee0a684972b1
-SHA512: 04232f82482626bf507cc9ea104bb4a4a576e03e6f0c800f720345f6d59f92834e99f05b73dfd82701fd23d154df2f010ec7140fe194bb49fbf5c82cf52baeaa
+Size: 3501540
+MD5sum: ccee0c4c98a36271065e3bddae571c67
+SHA1: b95a4224c2e3a30354065206383b6e28883dbe70
+SHA256: 4313f2be10c4e1d4adaa6aae3af4a94aa7bf5b0332fd4a1f909183b2a944ae62
+SHA512: 3cbfb9dea4a90c0fd81d1d31189c818f4ec5addb508380d5c75bc23c581d5dde27b874b5f96a35cf4b2dd502fce49bf179aa9b47fd261aec00a422f385d24776
 Homepage: http://www.deepin.org
 Description: deepin data transfer frontend
  Deepin Desktop Environment (DDE) - data transfer frontend.
