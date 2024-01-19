@@ -359,11 +359,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310292
-MD5sum: 6baef64cd8b068c2b5ea09f2afd2b3dd
-SHA1: f93128fb7def94f4df81d2900c6c7647c841ce77
-SHA256: d8b8fde70a1171148207049a9878b62e9a6f602f421cf0baae34cd64dafb9fb4
-SHA512: d9395795435c192c952797f052e256983adedd2ef719740c12884c794f1aa6849cece16e9725939408cb4f0696db0927e65fe48f3a1454972841c103c1dbe179
+Size: 309876
+MD5sum: 313fb39ee4dea46795e5be08fa240780
+SHA1: 27a59f1816d304a5eb403337352226c0bbea34cb
+SHA256: 172601e4ecce5a7823022675953b0c3feb1466eed094e89819bb34f7e1f30ca4
+SHA512: 3f46d658596b142274ce8ffc178f4e312058360e022017f0e637a686fca63bd742bbe9fb70fe5cd3d4555bab74c76293db11acd74df968f8fd7c6c81115e943a
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -12607,11 +12607,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2557636
-MD5sum: 78428299c729af95a50b1ecf1a62e160
-SHA1: 412d659dfa00815bd81221ea3453bb1d4f77e4ba
-SHA256: 72caa7a664013c6b9f74a5c3bbeff7aee0053903bf1ee582ee02b96ae47a0729
-SHA512: 561e059ccd572471b701a1bfbc931c1c35ebba6409805370507c2bbddb15e47a872d30dc6c63d6b425b179bae7ac0e5e251fa3b8ad7a820ec6ed19b4739c70a2
+Size: 2559212
+MD5sum: 9bd021dcc330420129b8e60e25ea1575
+SHA1: 11cf9f049b60cab038f4367631bdbc718a2dbee6
+SHA256: 627b292e4528339f51de5e62314450af70d43f6de41b0fa56f084b52876bec2b
+SHA512: 3bc883711601148423fc19aa9710079bd4c6e0b05cca17c42beb209fc224d3515656eaf9e6e9d7d097e1b6b449de63dd3f9bde233ce947e8655ebc9b690a8e40
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -15042,10 +15042,10 @@ Installed-Size: 8929
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), smartmontools, exfat-fuse
 Filename: ./d/deepin-diskmanager/deepin-diskmanager_1.3.31_amd64.deb
 Size: 4662892
-MD5sum: 3aa0826acb76c1f8a258afab5dbe9b20
-SHA1: a53a170d57dd6b14b6748605ea39c18720aa50cd
-SHA256: 5e7a07dfee1218676277a867060cda83305c2cb77cd517cddbf437ef8f311c3f
-SHA512: b9bd9ecf9cafd28cca9f8fdbcd13fc20817e69dcb60d87bc4d79851019106322ef2e9a2b9e6bca27225bd3e8a2b711012825caf8482fb1d3782a7e1c7ca4a704
+MD5sum: 29c648215cc659384af38147ed30193e
+SHA1: 1e6b4bf2d05c4b935dbdebf08f797cc4f83b1a38
+SHA256: 6b0c2916826b1e710740a9f5ea8417c9d267778f78aaccb46384745b44552bd0
+SHA512: 3d7fb374754430fbf0a691798de73c714e07e78f72b3340d0dbcda2fc7bd632bba76699cac46b992b6797e37cfeda397808e661babf2e308ed5541a7f4bd1b19
 Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
  Disk Utility is a disk management tool for disk.
 
