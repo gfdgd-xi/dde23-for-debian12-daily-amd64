@@ -1,0 +1,19 @@
+Package: libdde-network-core-dev
+Architecture: amd64
+Version: 2.0.19
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 61
+Depends: libdde-network-core (= 2.0.19)
+Filename: ./l/libdde-network-core-dev/libdde-network-core-dev_2.0.19_amd64.deb
+Size: 14412
+MD5sum: 7191651380d925e56184e670a4dce4d2
+SHA1: b42332df3def78a8ac2406fe550e665dcd27a552
+SHA256: cafa92757f45ba146dd30aae3856cf31a0f9d303fbbd421ccdcb6336fb665cf3
+SHA512: 6f2c84f121f597982923d965abab75afffa15f66c82e648f7d3eaddfeed3c3a1862edb12e26ffa144f39c37d7dfbd36ec5a1414ee29d32d5ea8100d6a78bdf95
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the interface of networkcode,used for developers
+ libdde-network-core-dev module
+
