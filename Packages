@@ -3204,11 +3204,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3823
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.5_amd64.deb
-Size: 818744
-MD5sum: 01ba3882dbd60fe0542e3011fd055b9b
-SHA1: f9128e3a5ff52d7cc8707a4a73ac94c9c518d1a3
-SHA256: f7761688ce097838f311020435815f612737ae8583da8562ed36c2c3d33f4745
-SHA512: 91fd53af261378adbb167eef35d2137b4c93afe96f3682baa7afcdc98a98c07b9092a209ea9936d50b505a4fcff09ff9566ed46a36d7d57193099a12d6d68990
+Size: 818404
+MD5sum: 6d07c5d754b00d6bdcc9ecdf0d9e44a1
+SHA1: 6e1f41a74e24a05048cf62fc13975aee8b07ff85
+SHA256: 34b6627e60f35cfe35b0772f2ccd48dc5f65c67fd3c6b2b8f75a180cb623ed8c
+SHA512: e9104ab8b998f39cb26785bfb409113974e7794b94af6f368d65a3520b3633ddda48eb9b69912809f1e52fb5d6acc6f57a03165a0ac0ea45f15b0116dd770765
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -9189,6 +9189,23 @@ Description: deepin desktop-environment - widgets module development files
 
 Package: dde-widgets-dev
 Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: libdevel
+Source: dde-widgets
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 25
+Filename: ./d/dde-widgets-dev/dde-widgets-dev_6.0.18_amd64.deb
+Size: 7968
+MD5sum: 3f9626c4d83f83a380324ec32dc5a513
+SHA1: 8fb8a3e9a05d57fccb55fc2fc84bf015ee96df52
+SHA256: ff187caf766bbb1e18859089b52b003e3c047ea6fe2128bd61b8f497f32267c7
+SHA512: 8c3d795b36a89855354664732305d29dad7e06e3c5c1da3ad6f9b525494db7a9e4af28e27b679b2c7d2738556b17f2e68fd25d2b948d7a35478cf497bb7736d2
+Description: deepin desktop-environment - widgets module development files
+ widgets module development files of deepin desktop-environment
+
+Package: dde-widgets-dev
+Architecture: amd64
 Version: 6.0.14
 Priority: optional
 Section: libdevel
@@ -11577,6 +11594,23 @@ SHA512: 3fe1734722c46d0f0248bb88bd49ef30a3eba08412909b375ff887a5672b812c1e784538
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server application and lib
  anything server package
+
+Package: dde-widgets
+Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 2142
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
+Filename: ./d/dde-widgets/dde-widgets_6.0.18_amd64.deb
+Size: 509752
+MD5sum: a31295e1c2f8f2b5a7573f6d2eacb276
+SHA1: facb7db82be3653758d80c010a7aacde3a0f89b8
+SHA256: 9c3c9c098192e13ddb096b4455a49ef87af4c2dbedc4be47b6a1245b22364f15
+SHA512: aefff2388025ff894075640b909f26561d86b777bf55ab02542b521543e295668f5cab98f9e70be567f183d3a4230e4ebf75aa77e467d2d3344d4de1d90c68bf
+Description: deepin desktop-environment - widgets module
+ widgets module of deepin desktop-environment.
 
 Package: dde-widgets
 Architecture: amd64
