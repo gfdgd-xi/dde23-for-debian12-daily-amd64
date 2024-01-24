@@ -359,11 +359,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310188
-MD5sum: d15f9dbe6a4aecba9d6d517076e8f9f4
-SHA1: 95cb9de206f06c4f179b5a4cbbf0fc2ca519c93a
-SHA256: f6988549ea13d1e970323891cbc51cb031115855e40ab86dcc34d51d872e12aa
-SHA512: 601ace445ef142102225af946a0d0736beb8830e4de8a0ad970331ece16e28d6da048efaeeed2deebae0cf5e46fde0684a116bc9845dfde65734d361303db4cc
+Size: 310100
+MD5sum: b8c4bbac6e5a98eb98eb14d8607f0f4d
+SHA1: dbe679bc7ea9eaec6a82f6acfb52f2de1684e711
+SHA256: edd7e62f4b4476a9201d355480610f01eecfadb93753942b84d3ffe9c049c9bd
+SHA512: 8760afe8cecba956af3b222e538918f61da52c2089a464beacaba8763f05acfd23c2466557a69c4a0dc46f97172389072d51e783535b61709c66b16254be1cee
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -9128,6 +9128,25 @@ Description: Deepin cooperation backend
 
 Package: dde-cooperation-daemon
 Architecture: amd64
+Version: 0.6.2
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3886
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5network5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libsystemd0
+Filename: ./d/dde-cooperation-daemon/dde-cooperation-daemon_0.6.2_amd64.deb
+Size: 1057940
+MD5sum: 588156238a6b7b84aed57686b0320523
+SHA1: 46f6dd768bde7d0d92de5ca93975343076a41a44
+SHA256: 8f6d0a398182d19e0255b3ffc3efba39ad534f2066d254b17bd948b310ace841
+SHA512: d66933ac83e48887fb828694642b5b83263ef5dbd157edc1ab0c55cc08e82f16f28251eb91385493ba1a50fa4f6d3b0783f52d0eb057ff08d66a8237e27b4c06
+Homepage: http://www.deepin.org
+Description: Deepin cooperation backend
+ All cooperation related application's backend server
+
+Package: dde-cooperation-daemon
+Architecture: amd64
 Version: 0.6.1
 Priority: optional
 Section: utils
@@ -11530,6 +11549,25 @@ Description: Development package for deepin cooperation frontend
 
 Package: dde-cooperation-dev
 Architecture: amd64
+Version: 0.6.2
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 80
+Depends: dde-cooperation (= 0.6.2)
+Filename: ./d/dde-cooperation-dev/dde-cooperation-dev_0.6.2_amd64.deb
+Size: 11668
+MD5sum: a3097bcb9cf69772fbbe64e13cd92700
+SHA1: 8188959de1b64d87f165ee48409392858eaf2820
+SHA256: c137b0e02b158c5a922beca18df3d34c5d974cfa34f770904482bf41373f64ea
+SHA512: f78cd0e6e31d4c94b879863ccac2407d12eefcdf228083353e20694982b05e10c8998a3b26c63cd029dca601abe25a2113df4d85bce478a1d4ad385cfc1fae75
+Homepage: http://www.deepin.org
+Description: Development package for deepin cooperation frontend
+ This package contains the header files and static libraries
+
+Package: dde-cooperation-dev
+Architecture: amd64
 Version: 0.6.1
 Priority: optional
 Section: libdevel
@@ -13033,6 +13071,26 @@ Description: deepin file transfer frontend
 
 Package: dde-cooperation-transfer
 Architecture: amd64
+Version: 0.6.2
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 1659
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 6)
+Conflicts: dde-cooperation (<< 0.4.2-1)
+Filename: ./d/dde-cooperation-transfer/dde-cooperation-transfer_0.6.2_amd64.deb
+Size: 447352
+MD5sum: 70919b8f61aa836f5b9cf2194275e209
+SHA1: a052b1c5422c501266c51954a5ab6d27776ae847
+SHA256: 9d4b24adb651f17b2965b48f7672f9989cfd4427347c8bc6f1dd4a7d270b0520
+SHA512: 3282da497b8189008f37e4ac1f202ad688dbad8b2720e4264440915609b781286c8fd3cb18081d273b93324f67613dab60f6405ed6e87412be504e2e463099b2
+Homepage: http://www.deepin.org
+Description: deepin file transfer frontend
+ Deepin Desktop Environment (DDE) - file transfer frontend.
+
+Package: dde-cooperation-transfer
+Architecture: amd64
 Version: 0.5.5-1
 Priority: optional
 Section: utils
@@ -13199,11 +13257,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2560080
-MD5sum: 18acc4c72daefdd298bd11d7d49f0c09
-SHA1: d297fe58438456f095b9f7fab3970edc2ceb7260
-SHA256: 25c6f7cf94833485ac451dc27ad3c1f8cb8ba12dcd6de2d241af96c72533aa3c
-SHA512: cb42564825a37039896606741e4f89fe14328025263f1f0e802091fb9fc79c97a26a23f726cfe38c08501c4e1a74eb20e4933a277028eec9d7674c5ddd07410b
+Size: 2560512
+MD5sum: 5f7a948beb63a592b96c8f2329d5bb53
+SHA1: a0f5b7be00a7df9c2c5c0645fb7526de0a3511e0
+SHA256: 46643fe5eeb93b056e7518a75e2c1871075a215724f1240eb804843e7f4957f5
+SHA512: 0a210eca0c47ce4ca1d4f45e34828c7652e8d91c59ae8354d18f2067372c15d1949e696e4406481c351f5f99674d715c665bf22975855913cd9a43b6f5c97367
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -15656,6 +15714,25 @@ Homepage: http://www.deepin.org
 Description: deepin cooperation frontend
  Deepin Desktop Environment (DDE) - cooperation frontend.
 
+Package: dde-cooperation
+Architecture: amd64
+Version: 0.6.2
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 9384
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2, libxtst6, dde-cooperation-transfer
+Replaces: barrier
+Filename: ./d/dde-cooperation/dde-cooperation_0.6.2_amd64.deb
+Size: 4250892
+MD5sum: c53bb1836eaa162d09822f1599ae4b9d
+SHA1: 723d20d1c12591efc7167431970b25626bbbd462
+SHA256: 09d5b565608c5f343815d5499538fa987bbc339688254db1e5b788a1fe094a6b
+SHA512: 87285ba3b92ea6ef9379497df1005869bbec2cf475dbaa9289875a755b033ad4737b1ac80a18cbb11e707c87b1127fbe69ce0cce7e1ed3246847684049a10a8d
+Homepage: http://www.deepin.org
+Description: deepin cooperation frontend
+ Deepin Desktop Environment (DDE) - cooperation frontend.
+
 Package: debian-dde-desktop-environment-cli
 Architecture: amd64
 Version: 2023.10.13
@@ -15753,11 +15830,11 @@ Maintainer: deepin <packages@deepin.com>
 Installed-Size: 8929
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), smartmontools, exfat-fuse
 Filename: ./d/deepin-diskmanager/deepin-diskmanager_1.3.32_amd64.deb
-Size: 4662696
-MD5sum: 2b3c32295d40821ca1cf646c4c0ffc56
-SHA1: 08a263369e09708427e04ba760362aa9ed771a9b
-SHA256: 4d0e8c0ea854fe4580cd9ebd6a1c2000f28ee166b2143b20db123de0933ae306
-SHA512: a394c2ad974b9af787641d68b9c5ee3e6f72342dca12aae7fa3ef88922294b1284c3f1f90b773c5d37735facbc8b0acc175ba04cf66868f32e5edd282a9d17cd
+Size: 4662604
+MD5sum: a6d98dd5f9c75fd3442b6994ad7f0e79
+SHA1: a812045b9f2f8b4f2c370dfd12d62ba5e096ec65
+SHA256: 52e7d4cebedc359f282e0617ac7e33e3ae481e5bf681a5b892a7663851e18a83
+SHA512: d1afc58d51061115544245a8a27144333b79679fc60c23a1514af438a5f3df5c3d782143f41051e508684092223c82ba22456f05bfc7bcd376194a4df06bd073
 Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
  Disk Utility is a disk management tool for disk.
 
@@ -15886,6 +15963,25 @@ MD5sum: e0d1ea8e69514c5dce074d6d8d3aa964
 SHA1: a3a6780f721fb924b1b130ddf0a6cbde42314062
 SHA256: bf987909981fd05711c46a99cd85cc5e6e921296b60c868074660d98ea607f71
 SHA512: 9605f8cbbd72701fe20e05be043874b0acc7a09a81cd68fd8771dcb3f70489ddcca75eedefa8765c42768d5f206a6fbe03f58c403647e46c5ef016a97379ed1f
+Homepage: http://www.deepin.org
+Description: deepin data transfer frontend
+ Deepin Desktop Environment (DDE) - data transfer frontend.
+
+Package: deepin-data-transfer
+Architecture: amd64
+Version: 0.6.2
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 5344
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), libzip4 (>= 0.10)
+Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.6.2_amd64.deb
+Size: 3699916
+MD5sum: e3dd3b2eed0c2e19f392e24c5d54d90a
+SHA1: 0e9c6244d12f610174eb6d5adb711389004171b4
+SHA256: f63cc60165efb9bda9ebd2f2929dae01b126290e9cb8b98ab2c3448caa8399d2
+SHA512: 1dc3bf19337bf0a31ccfb079c966503fdfd1beb31103699c0a409fe3a93f4ce716077e12bdeb0152582e610766f97c37a7627a7c2c90a67492d562e85858f06e
 Homepage: http://www.deepin.org
 Description: deepin data transfer frontend
  Deepin Desktop Environment (DDE) - data transfer frontend.

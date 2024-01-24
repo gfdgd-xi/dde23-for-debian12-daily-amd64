@@ -1,0 +1,19 @@
+Package: dde-cooperation-daemon
+Architecture: amd64
+Version: 0.6.2
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3886
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5network5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libsystemd0
+Filename: ./d/dde-cooperation-daemon/dde-cooperation-daemon_0.6.2_amd64.deb
+Size: 1057940
+MD5sum: 588156238a6b7b84aed57686b0320523
+SHA1: 46f6dd768bde7d0d92de5ca93975343076a41a44
+SHA256: 8f6d0a398182d19e0255b3ffc3efba39ad534f2066d254b17bd948b310ace841
+SHA512: d66933ac83e48887fb828694642b5b83263ef5dbd157edc1ab0c55cc08e82f16f28251eb91385493ba1a50fa4f6d3b0783f52d0eb057ff08d66a8237e27b4c06
+Homepage: http://www.deepin.org
+Description: Deepin cooperation backend
+ All cooperation related application's backend server
+
