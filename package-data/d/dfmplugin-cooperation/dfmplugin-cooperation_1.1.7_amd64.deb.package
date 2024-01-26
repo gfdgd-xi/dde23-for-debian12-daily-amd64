@@ -1,0 +1,20 @@
+Package: dfmplugin-cooperation
+Architecture: amd64
+Version: 1.1.7
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dde-file-manager-extensions
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 248
+Depends: libc6 (>= 2.14), libdde-file-manager, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), dde-cooperation-transfer
+Filename: ./d/dfmplugin-cooperation/dfmplugin-cooperation_1.1.7_amd64.deb
+Size: 67996
+MD5sum: b5de83f838695e6913be9a98db98024e
+SHA1: 41d0900473ea0cbcec34d247d28785fe8397add1
+SHA256: 6092814b02fe88aa769f1ef6e6440695941237f1d5a2f901b5279287019ed2fa
+SHA512: 35b7a02a4f35abde94fc49420e283c511333217dc3b7a0a6a3716ec8263998a3f6577af18fc004819a2caf57d4c49982f6376e1c2afad8e81b7796b74921842d
+Homepage: http://www.deepin.org
+Description: Deepin file manager deliver file with cooperation
+ A plugin for dde-file-manager to delivery file via cooperation.
+
