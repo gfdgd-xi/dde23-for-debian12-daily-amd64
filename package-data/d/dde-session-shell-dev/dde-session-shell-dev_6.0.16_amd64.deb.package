@@ -1,0 +1,19 @@
+Package: dde-session-shell-dev
+Architecture: amd64
+Version: 6.0.16
+Priority: optional
+Section: devel
+Source: dde-session-shell
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 23
+Depends: dde-session-shell (= 6.0.16)
+Filename: ./d/dde-session-shell-dev/dde-session-shell-dev_6.0.16_amd64.deb
+Size: 6360
+MD5sum: c5d1891016f39752c6ec29c37ca3ae1a
+SHA1: 911b49b3605e7ab76eec20e83b8a06e121e80b8b
+SHA256: 01af68e8b43c4ef1e3954531b2a86f34c5bfc7a56074d950f69660b39168a05c
+SHA512: 41cdde8e0220ae638c7bc7da18397b5d32b15847aa3462f7f808de605a7dde5cd7eb7f5e0a3e55d61f06715730ebb5a4652cd8cd4a7c3911f996a1849d630755
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module development files
+ DDE Session Shell module development files of deepin desktop-environment
+
