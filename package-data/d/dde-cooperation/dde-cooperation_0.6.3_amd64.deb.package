@@ -1,0 +1,19 @@
+Package: dde-cooperation
+Architecture: amd64
+Version: 0.6.3
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 9386
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2, libxtst6, dde-cooperation-transfer
+Replaces: barrier
+Filename: ./d/dde-cooperation/dde-cooperation_0.6.3_amd64.deb
+Size: 4251224
+MD5sum: 945a5f2513908a340aba5e91338f8451
+SHA1: 0662125f32df78c2a83c708529f8de3ba57fb268
+SHA256: 08ec6334ff7cd93a5d74ba026f0d8c750fd6627a8be62c05c40d8f21f88ac5bc
+SHA512: 0e93c19edde9f2375f0c4889dfd1d37ceb14c7af25f67a085b640bdca10e19af0c982e290662c615296b55d3d906fd5453288cb60eef4fd4179ddf58e775893a
+Homepage: http://www.deepin.org
+Description: deepin cooperation frontend
+ Deepin Desktop Environment (DDE) - cooperation frontend.
+
