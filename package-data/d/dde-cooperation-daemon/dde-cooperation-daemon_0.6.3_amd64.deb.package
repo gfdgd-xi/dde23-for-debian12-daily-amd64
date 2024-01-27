@@ -5,14 +5,14 @@ Priority: optional
 Section: utils
 Source: dde-cooperation
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 3886
+Installed-Size: 3898
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5network5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libsystemd0
 Filename: ./d/dde-cooperation-daemon/dde-cooperation-daemon_0.6.3_amd64.deb
-Size: 1057804
-MD5sum: fad1145da657d30fafc225eda09e7381
-SHA1: 090f0848e28786cdfd24a078a8845b7bfb3db6b8
-SHA256: 65cbfa5bd958e50408a29e74f90efcd14876912869f55e872673f5a3985c4eff
-SHA512: e1f4a7773cba4f2178434e8ebcebaf32254d52e9797138e045b7320780ac5a394fb11e73092ec11e4c9734df7ce79153ed871ba9e224d7d51e01632fe6ed90b3
+Size: 1060684
+MD5sum: 268b15fa910aa63a4168d9193c19e50e
+SHA1: 088b39e2b255adeb8458aa305d3241a79d307dc7
+SHA256: f37cf06c14a942cf73608d1dfc3f91e77b8f10493cdec3773c335e9ae526c125
+SHA512: 20b6f08983712da4860f226b3c919774275a1c09d1f00053729f4cd0b23cf29e4734896654a017eda6ef89a7b0bb5bb3948d892b2922a7a7c78e9dbaf73b9f91
 Homepage: http://www.deepin.org
 Description: Deepin cooperation backend
  All cooperation related application's backend server
