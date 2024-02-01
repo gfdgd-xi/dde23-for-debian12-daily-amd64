@@ -8,11 +8,11 @@ Installed-Size: 6858
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-terminal/deepin-terminal_6.0.10_amd64.deb
-Size: 3391564
-MD5sum: a843c6371c7ee0ebd3aabacf61256afb
-SHA1: f818da43ee1fc2614eaefe14939d9beb92d7526a
-SHA256: 0549250bad20933ffd4542b28c3d7c6260d371883824ad755c5da5066051dd59
-SHA512: ba154fbe20733bff18ec614b87e859d989b3db93c53fe5ec65c54d66863842d2b3e4baa6c30e3061223975801730da8646ca7824286898a429a7ea28b046e664
+Size: 3391252
+MD5sum: cc4f57ac17eb1ec172200e4b68038f13
+SHA1: f0e4f3b7969e60ca66c60805e25559653848eb8c
+SHA256: 9b0d9c430a5046b869c3ddebf972799c92e2077e3e267b0531b62d6b36a3f3f6
+SHA512: 76eac57bf34780a81f26e5be913188abb9444f251896ef3a19413788ddcd78ed4ac7ea1ab7dd3de9265a4c2ce334a747aadc71f743ed2fbb5b626ab181c8ef21
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
