@@ -1,0 +1,19 @@
+Package: libdde-network-core
+Architecture: amd64
+Version: 2.0.21
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 677
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdde-network-core/libdde-network-core_2.0.21_amd64.deb
+Size: 175468
+MD5sum: f946b18f708152fbcc3fadc9288f481a
+SHA1: b0642129a8a248071cb27dff2878e623031c4827
+SHA256: 23c8ed8aed98e20294ca25368253926dbbc2e4b3d3cef09043ba4ccc31d51c6a
+SHA512: 7dc39efe96981f3d96f70ee240d104fea9be9caf20363cc09d6e653b6e0086fd1491ade3d27b038b0253f00963eb7422556034e08007521c1ff8a5f0e0812bef
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the library of network
+ libdde-network-core module
+

@@ -883,11 +883,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 734
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
-Size: 176408
-MD5sum: 75758e5e74a3984e49d977c32f42c4a8
-SHA1: 8c2b9606771dc34ae68b81b0ecbfa67f29818503
-SHA256: d6e2639501061b673a3c62bd6b290c585a1fd7f6527961c4f41acf49808714c0
-SHA512: fc704b7f311c0c2825f0d45dc0de91368b19ab7079ae6ddecd9a871dcd71d58a8789239c49a64f46f885643b5cbae2b186c9904adbdd6d8bf3e08056b64554da
+Size: 176856
+MD5sum: 86086c31bbb90b0274bad2bd090af020
+SHA1: 5107c68b49a1b87a74a16eeb77908a9b912e0661
+SHA256: 91aae30ad2c9fb88825d4135e7c1a203896982a465c8f890f83f1b03692a4711
+SHA512: 2b4899a70ea1e94a2ecd8cb7a27510c62aa3ec47ee7abee37c413d8fe03481f9cdaa62f598a6f1345f17525193b91e5a2ff9fbc698acda5f0bc7b1fb1c1904ac
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
@@ -2151,6 +2151,25 @@ Description: the plugin of network for dde control center
 
 Package: dcc-network-plugin
 Architecture: amd64
+Version: 2.0.21
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 5300
+Depends: dde-control-center (>= 6.0.36), libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.99.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), network-manager-integration-plugins, libdde-network-core (= 2.0.21)
+Filename: ./d/dcc-network-plugin/dcc-network-plugin_2.0.21_amd64.deb
+Size: 1026328
+MD5sum: 06aa4f3a9d8504f2f1aafba242c8ae98
+SHA1: 0fdf98774d46d42eb826533f9b6d8ee4dc794ea8
+SHA256: 344b6b670af255b19cd6f4f6da8b14c30ff58a65ce771d437ea44050664ab209
+SHA512: e649a2e49cb5a6418f9c37ff277914233f80fa2f251b17a773123777de56c564a714a6d1f939b7651055b208a23f2e99512260c92de8d034561bdbd6c1148911
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde control center
+ dcc-network-plugin module
+
+Package: dcc-network-plugin
+Architecture: amd64
 Version: 2.0.19
 Priority: optional
 Section: lib
@@ -3047,6 +3066,25 @@ MD5sum: eb972b8fa2bdb012cdbf6ca0e16067d7
 SHA1: 2dc80a3229b984f79799b83d08c7313656a790a2
 SHA256: 0426fa05480f18d853d8c2f07e2a66bda40eb14867068c0dc79e071c804ed310
 SHA512: d3ea2c8f71ef9459843f36cfad313cec7c123369511eb226a20a56ec5ef0b1c59183500c168ec3996ecdef29ecdede4b134dde407f4a63ea65cd39dc50c03bc5
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-dock
+ dock-plugin module
+
+Package: dock-network-plugin
+Architecture: amd64
+Version: 2.0.21
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 922
+Depends: libc6 (>= 2.14), libdde-network-core (= 2.0.21), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dock-network-plugin/dock-network-plugin_2.0.21_amd64.deb
+Size: 199420
+MD5sum: d8a1fefebee365aba46f5d9af5bd7a82
+SHA1: 55b4132c44e22ae9a0b7aff585511e51dc82db35
+SHA256: fca12ba15a93904997b0154664d6661769a92eb0ae9d2bbe94eafd3e65561fb9
+SHA512: 1fe78e153c45cb4486ba01461dcff4203bbf2ae3dca1eb9ef39cbf0c5ab1e2725a6e69592bd44aada6bbdc719b7512ed1dbd7ad75ca04e6d3fef1548b28d16cb
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde-dock
  dock-plugin module
@@ -5376,6 +5414,25 @@ Description: the plugin of network for dde-lock
 
 Package: dss-network-plugin
 Architecture: amd64
+Version: 2.0.21
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 1133
+Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.21), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dss-network-plugin/dss-network-plugin_2.0.21_amd64.deb
+Size: 255264
+MD5sum: b522d421053092a580e158f8055b9c69
+SHA1: dedb929d14dd237d51d1d57ab2eb29a1e44505fa
+SHA256: ec68e41436179b7771fdc44b1a211050a7f2c92e130864b4b28a479b3615c63c
+SHA512: 4011bcde9dc086666b4f239d7b01f027f3723b3406fa71d72292680bab503b03ba6f832436b550401d8d6247db565606f4b886d6125f67912f138479a75856c2
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-lock
+ dss-network-plugin module
+
+Package: dss-network-plugin
+Architecture: amd64
 Version: 2.0.16
 Priority: optional
 Section: lib
@@ -5658,6 +5715,24 @@ MD5sum: d7a7d25c8607864447bd3f6633418ffe
 SHA1: 70cae8eb9e34116a9c53bae7d0017f9ee41a9f86
 SHA256: 66d3c4152916d103ece6e618095c9ae5a39332209094418572c6df50b76b6b8e
 SHA512: 44372c71156bed169d3089ca4eb8f6717eb150a8c5d17a7625f780e305a97f3de3faf0dd6d817fc6c15c2d6241e6cf4293b477c63ea455e22be7c5a3a0c396b0
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Dock module development files of deepin desktop-environment
+
+Package: dde-dock-dev
+Architecture: amd64
+Version: 6.0.35
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 47
+Filename: ./d/dde-dock-dev/dde-dock-dev_6.0.35_amd64.deb
+Size: 17996
+MD5sum: ef878e492767e90b1eb15485ef83e081
+SHA1: fba895c432a891fb89de355e02d266223fd4c17a
+SHA256: ae58aa3509e3c144a09cfab2d0d20bd874f1a5d7771f29888316d5c5c4a48e1b
+SHA512: 2eb9957f43315687907f25ba5f27922aadbb00efbda8a81167a42302cbdc42b1d22b7a793ed94d8aee55808aac85de806da95087dc48290b349e0eeb7daac323
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Dock module development files of deepin desktop-environment
@@ -7186,6 +7261,27 @@ Description: deepin desktop-environment - dock module
 
 Package: dde-dock
 Architecture: amd64
+Version: 6.0.35
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6917
+Depends: dbus-bin, dde-daemon (>= 5.13.12), dde-qt5xcb-plugin (>= 5.0.25), deepin-desktop-schemas (>= 5.9.14), lastore-daemon (>= 5.2.9), qtxdg-dev-tools, startdde (>= 5.8.9), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxres1 (>= 2:1.2.1), libxtst6
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dde-network-dialog, dock-network-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_6.0.35_amd64.deb
+Size: 1481192
+MD5sum: ff8832ae5b88ee969578e0fd30681f5e
+SHA1: a529ddc5ac7973561375783f24f4c69d2cdefcfb
+SHA256: b70a91ac3c87c662b3f408365a13ca6e10525befb63a39465863da8b10735643
+SHA512: e69235246ed7a56d489875a0b2e540ed169f39df6311fcf437a4418f68604527eed6e273ab5ea2541df62a7563bdaff4aead89e708375f021429744a9e711a80
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Dock module of deepin desktop-environment
+
+Package: dde-dock
+Architecture: amd64
 Version: 6.0.25
 Priority: optional
 Section: x11
@@ -7478,11 +7574,11 @@ Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.1
 Conflicts: dde-launchpad, dde-workspace (<< 2.90.5)
 Replaces: dde-launchpad
 Filename: ./d/dde-launcher/dde-launcher_6.0.19_amd64.deb
-Size: 759584
-MD5sum: 57760e16b47b21596f5832706138be2f
-SHA1: 87b1b385544665c985de2f4daf7e8815e6cdc0c4
-SHA256: 50b9a643307a3cc2b2dd259d0b7453f255bbc057ce6fb316b4f69da185c52bf3
-SHA512: 8f1f4a91f5dd2f747986ef43df928ca17af653b19d28652546e537e2b6a2635e26621282b10d9d19238e8d1be48ce52ed27dd2631af291303d1f80dbd61aeaa5
+Size: 759012
+MD5sum: 69e2ab2eac81e720fcae46e543755bbe
+SHA1: b43dac31523f6e6d91ca76a6f8a64e3a4e143773
+SHA256: 22f7d4743ae1688be5f509a5895007711c7d680c08d3308b455ac70e10941192
+SHA512: 182e6557b066923291f56985a490c1f0c0d368d56b7638e356d790beacd6141aa3c2dfa400f7d9b9e98042dca97f7bc263910cb875499f0b21f319e52bc99127
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
@@ -7659,6 +7755,25 @@ MD5sum: d211227907b3469d99bc5d2ec5c97225
 SHA1: bd5f2c08c36a1957f858b28746f06da113210335
 SHA256: 35226ed0a7f1e7013948fcd614a8d8085377d8faa6be49109f98b8ea4cbc51c3
 SHA512: c279c74309817fc192af8a73537d44e1896ecf8f33cc50ee544fb11b521b7923a80735cf3e4497127455ac13660f96d80e5ac64d4bd1402858aeab488ee97fdd
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin for onboard
+ Dock plugin for onboard of deepin desktop-environment
+
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 6.0.35
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 98
+Depends: onboard, libc6 (>= 2.4), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_6.0.35_amd64.deb
+Size: 33764
+MD5sum: 36f1c6f7669b6dd780b615d14860ceb6
+SHA1: 46007b7f0b0d9a9de41c7f9f1d8070e0f4163fa8
+SHA256: a6442322ab3cb9f7ab214c7420145cac7d54c9a74e0876dc33c4c368d4d09b3f
+SHA512: 499a15b276c02e0ac4839b2e6a245dfd85f4b5a3dc0430113728bae41245990ed36dbbf46393277820b8d2d9697f96a7ff940ad1d0fa4fe894c74fff975d6ba5
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin for onboard
  Dock plugin for onboard of deepin desktop-environment
@@ -9408,14 +9523,14 @@ Version: 1.7.16
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 26277
+Installed-Size: 26314
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/deepin-wallpapers/deepin-wallpapers_1.7.16_all.deb
-Size: 25277144
-MD5sum: bface3437b6887badefa3f8af4457318
-SHA1: 4738a8735e3fcf1eed7551e614bf0314e79ec098
-SHA256: 2bd2b1bbecbc563253640ce59b3414ecbeca03aacc8c142529fd3553ff54396c
-SHA512: a210e66207abe62aa376f1051d8cfaa78d21f0a4f7d7c09f72b55d0c30d931f844b634b748545a4a1d092cad7fa182f80d73894cfce9483585403c0e481798b9
+Size: 25323484
+MD5sum: 23e424baa5ab8b29c0a7416c892fc1dd
+SHA1: a48dae721cfb25459a0748324d1df9146feae795
+SHA256: 057621054556ce8a21e0f9d490e9923e21effb5e0d77258c348310b4fd79a586
+SHA512: 22078e3e4ac3457f321de879450132fa9a7c3adb6fa6f88e317c7d656bd88edc2b41a6364010b59e2eb192a4b4b58d37dc21aeb62f82adec1aa8ac5354682404
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for dde
@@ -10891,17 +11006,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51000
+Installed-Size: 51066
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48743992
-MD5sum: aa7f34c7a781b6fb00427db88101380e
-SHA1: 34f67562e530a007092fc80149f0419ec553983c
-SHA256: 5436143f059eea7e01454304249bda8e34cc20c3815c68fb71719111a44abae6
-SHA512: 1292f528b2925d2bc29645d531a74018a032f63c9d26164cdbbcd05675dd0ab83c8ee2c39c5aacd42b5128722bca57fce662ec87dd4a84a23d4beb0f39cbc659
+Size: 48808152
+MD5sum: 4fee281112564c7e5f358bfcfdb9cd68
+SHA1: a9d9f957bb01ba2c2291cb3c04eb141a5a33af10
+SHA256: b27057be80ce3169a7fae6dd9ac78daf11533b92052fa34b6de29730f478ec39
+SHA512: 882c9c460ea77402f3d1dad1018579534d9cd19dc93b7ca43de2df1bdf2384357eb786d29aedb2074e33bfb285659f462073416612ca7b9edd363af5a25138e8
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -11022,14 +11137,14 @@ Version: 1.1.8
 Priority: optional
 Section: utils
 Maintainer: He YuMing <heyuming@deepin.org>
-Installed-Size: 824
+Installed-Size: 841
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libstdc++6 (>= 11), libsystemd0 (>= 237)
 Filename: ./d/dde-application-manager/dde-application-manager_1.1.8_amd64.deb
-Size: 235800
-MD5sum: f72d54b75d1adb2062f108a44f32588f
-SHA1: e3a4742170578dc1794a8d20447f59d8b9eaf978
-SHA256: 3d21b0fa61c4cd2065fc912d960feed47c98f5009386f437cac2a8907ee0da42
-SHA512: e4926dac7f532d92f1ac7e935803278bb6dddeea8087cf490aadb85c0d441faf46ef9ff596cbe598ddd025060c44f336ca369828cb070e0527eb97bfa225a7be
+Size: 239060
+MD5sum: f90419dbc40d7969e8fa40fb723f55ca
+SHA1: 434a5a328700488756680b11ed3ae898157a30e2
+SHA256: d4d1ca84501fd767538b18406428d35aa05fa76aaff89e703aad48e03ecb1ed2
+SHA512: 87a0741aea742a0e2b67839b8d63b6b5de65c378c063753539ea88bdd1700feb84626d9415505dae959cfc141fb51cb6664de1b3a08f01cc8da01de044783a03
 Homepage: https://github.com/linuxdeepin/dde-application-manager
 Description: Application manager for DDE.
   Launch applications by systemd for more caps.
@@ -11823,6 +11938,25 @@ Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the interface of networkcode,used for developers
  libdde-network-core-dev module
 
+Package: libdde-network-core-dev
+Architecture: amd64
+Version: 2.0.21
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 61
+Depends: libdde-network-core (= 2.0.21)
+Filename: ./l/libdde-network-core-dev/libdde-network-core-dev_2.0.21_amd64.deb
+Size: 14512
+MD5sum: 398a6edeb062d3e94a933cc7af23e01f
+SHA1: 08acc1502d5399437d7e38c4aa8e205d1ce571c5
+SHA256: f9f6cbb6c5c6a51e122add1147dab7a48dc82caa20d5850f83952d4124546b83
+SHA512: 2d1da07482e8698ae246354840e4cd54d8f4452b7ad170cc39ea03775ceda2d372eac6ccf2c4cd4515ed739b41b9d8ea21d1fa208dfd3eade853e3bf2c42d7ed
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the interface of networkcode,used for developers
+ libdde-network-core-dev module
+
 Package: libgio-qt
 Architecture: amd64
 Version: 0.0.12
@@ -12495,11 +12629,11 @@ Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
 Installed-Size: 32
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
 Filename: ./l/libdareader1/libdareader1_1.0-1_amd64.deb
-Size: 5628
-MD5sum: f6e878a5918f879a06cd8a4fd621335e
-SHA1: 97caeb84875e5489fbea1933bcbe9c63527268a8
-SHA256: 82132400ce161f1ed9646287e32e1d451424c75146fcf34c8c420880b8ad0fd7
-SHA512: d51bf9f9f6461da09752b93bb69eb096a8425105cf120425b68cddcd4617caf5013e1923ed12eea52d3aa1e1d5c7e7e48ef657e4aa378b39a4e916fe355dd16a
+Size: 5632
+MD5sum: bc36df2f2f0a6e4f6c791cf6e9c8667a
+SHA1: 5918f54e40d1281202596acfa61676637463f95b
+SHA256: 8f69b5250662e2f664f86395290d2fc46a62721ea043096a5283fb9484811401
+SHA512: d9c4f7a091058fddaa3cc1d3b0f2b12faa7a5a64cf876aa8ace1e451e27c777ee9ceff0ae405d1b45cb3d27323abcaa544819c23a80ef783094364e1d98d8da3
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
@@ -15035,10 +15169,10 @@ Installed-Size: 17
 Depends: libdareader1 (= 1.0-1)
 Filename: ./l/libdareader-dev/libdareader-dev_1.0-1_amd64.deb
 Size: 2448
-MD5sum: 9d6032a65de2330889e543176bbc91fe
-SHA1: 42d06a90689928dfba5406c4d2165f632da3a77a
-SHA256: fc7ce3e0c60b7c1c93290f33de8e4fa8c8695bdf841ec6c2cb57284e638b08eb
-SHA512: 33d28d2f64f59a7429343729e165a07a79d728eb0485fa853e0fe1b3063b9d11f99146ca4e97e68d87934f6baf664acc7f498e63e103ce07d6b279b4fbfd2570
+MD5sum: a09932f51dfc9c12b4012b20ec23f8c4
+SHA1: ae35edd1d92479a025d39f69f819842753be769d
+SHA256: 26b113379d6cb656c64bc44c481610614f0315cc27e6499f202cacf88fe16dee
+SHA512: 2ecb3e4d9aa7d428b7eda69344980f9dcddbdff3df0a2f7924a2cc9af93b8ce7b5d253742f10e7d3066c39ccabc8e22f8e966f7a8c7384d7c05164ab64018057
 Description: dev lib for read image/video data from deepin-authentication
  this package is a dev lib for read image/video data from deepin-authentication.
 
@@ -16452,6 +16586,25 @@ MD5sum: 5c21fef914bfb28bbfec90b96a6f6ca5
 SHA1: 593ae49d99ad783fb5ec9b8ed57e94810d4eeb11
 SHA256: eda41a7ab25e01fea7e0114bc5270706eda8c889d5356220e0a96d32c856566a
 SHA512: d5f39e10384a5df4ed20c068f39a61630e3637943403803f50610a8501bcae397eac59a9876355c9a75ab86e36a9f04d877a94a56df7948d501927662158dc55
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the library of network
+ libdde-network-core module
+
+Package: libdde-network-core
+Architecture: amd64
+Version: 2.0.21
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 677
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdde-network-core/libdde-network-core_2.0.21_amd64.deb
+Size: 175468
+MD5sum: f946b18f708152fbcc3fadc9288f481a
+SHA1: b0642129a8a248071cb27dff2878e623031c4827
+SHA256: 23c8ed8aed98e20294ca25368253926dbbc2e4b3d3cef09043ba4ccc31d51c6a
+SHA512: 7dc39efe96981f3d96f70ee240d104fea9be9caf20363cc09d6e653b6e0086fd1491ade3d27b038b0253f00963eb7422556034e08007521c1ff8a5f0e0812bef
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the library of network
  libdde-network-core module
