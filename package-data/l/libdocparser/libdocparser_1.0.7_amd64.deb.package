@@ -1,0 +1,18 @@
+Package: libdocparser
+Architecture: amd64
+Version: 1.0.7
+Priority: optional
+Section: libdevel
+Source: docparser
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 1002
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libpoppler-cpp0v5 (>= 22.12.0), libpugixml1v5 (>= 1.8.1), libstdc++6 (>= 11), libzip4 (>= 0.10)
+Filename: ./l/libdocparser/libdocparser_1.0.7_amd64.deb
+Size: 306420
+MD5sum: e6bb1787a1fa1d0f6b2cecfe334c7d72
+SHA1: 76a50ee498b9acfbc535c783b2b1c86f9c704942
+SHA256: 12ee55c53410ed80507bded6b99ec0579e3d5b84de4bdcba513778c551e8c676
+SHA512: cfb89ff827a0f8f751aa7db3dabc211fa81dd389c5d8e71ac853b26a60a4ac468e12243318e61e6fa6284393f1e47dc306a9a7fb2259c4c190e20c9bccb10378
+Description: Document parser library.
+ This package contains the shared libraries.
+
