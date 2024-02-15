@@ -4112,11 +4112,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3831
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.7_amd64.deb
-Size: 819276
-MD5sum: f9259d148db2c5a1f40b5ba1d5221348
-SHA1: de8718bfeb740d48666d7357c21077c539d33421
-SHA256: 755f6bc6659e3793c04cac7bce53729366a234e485478ac4b1ea44be0498795a
-SHA512: 29b43fc571310222eb96f5dcfeaf2509036c8b40604bcb39ab6e88e80b091996be8f471153158b8256d849dbf17bdf9de864acbbc9f6eaca5435751d1dbb3b66
+Size: 820616
+MD5sum: 600e8cf1b7e91ba52bc610d25f7493f9
+SHA1: db937d0fcbbe7f73dfb860189ea4ad848601b834
+SHA256: d372162adfae3d89c3dabb5625b4e9a1cf9fe2b0f1adbb20bac3b9f23a09d6ab
+SHA512: 490174df82d83000b861234ad5f1d7ce6ab3b7c60f2807209637cc0cbd5aea800417f08623be4f6db491cbdb55253fc6ce1b241866f4a92f6e87715cee033cb5
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -14336,11 +14336,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2146
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.19_amd64.deb
-Size: 509804
-MD5sum: 5aab1d84a318425c40848c6c5a32eeed
-SHA1: 8d3afa4b7eb2671f9c4a4f8893d81b783bbdb808
-SHA256: d000f8613ef8e5913a63cf29861437b1e974be575af2a4642a2194cba6cb110f
-SHA512: 873b600b2179a89e2afe4ee9b9f624792067c6fb4379c01d2c4db00fa19dff3ee57938ddf9856f69edf743686e92b6be80b000e05ce9af4c9a78bb6c22a018e9
+Size: 510148
+MD5sum: 85cf393a67fa58b179ae966bdca165b9
+SHA1: 4354ab712acfec17bdd6d3256c877bd99bfd1ac7
+SHA256: 7b398cb15140c707b3358d903d17894d6867bc0e647b0ca43ac23ad987b6d836
+SHA512: bf3a125ba128fc8fe24d1a1517aded4908c9de902f52ac0d21edd47e55c857b4c689ad1a4b99978536346105291433719eafcf33bd0775d04997ce8cde6ad0f9
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
