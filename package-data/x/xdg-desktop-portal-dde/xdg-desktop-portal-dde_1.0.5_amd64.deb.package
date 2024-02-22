@@ -4,14 +4,14 @@ Version: 1.0.5
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 612
-Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libkf5i18n5 (>= 5.50.0~), libkf5notifications5 (>= 5.50.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~) | libqt5gui5-gles (>= 5.11.0~), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
+Installed-Size: 464
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
 Filename: ./x/xdg-desktop-portal-dde/xdg-desktop-portal-dde_1.0.5_amd64.deb
-Size: 161476
-MD5sum: f7fd8ab3ceca458542f0425932118375
-SHA1: 32781d1df46019350d89e45ad68c266ad2043052
-SHA256: c1c2910606c68a0fac67b4292731069bd3bf359fd0731d9426f2aa0430c6f776
-SHA512: 5923395057775536124a6d6db52ff971dc65b0123a172544c9885176179f57929229ff54b6ff81d3a8230962c236629fd1ba53d3e00fbc34008373a411ed605d
+Size: 130616
+MD5sum: 68fc2376d70277a5523dc11988320779
+SHA1: 755a1cd27403131ac82f639b546c99a676e1bde8
+SHA256: bb445cb961ca8cd4aa2edb04dcfe73b226c0c6cdce6dc5350c82737f8c505f99
+SHA512: d036c01629a4f390f9c4e1d7a53ac3570566645b537e33bfe416bc8e01eb96dfe026306c0d3d25666fe6e160b2b7a2029003f23b3c771f7aa9b8b9a67da27448
 Description: Dtk poortal backend for xdg-desktop-portal
   xdg-desktop-portal-dde provide a DTK implementation for the
   desktop-agnostic xdg-desktop-portal service. This allows sandboxed
