@@ -1,0 +1,22 @@
+Package: libimageeditor
+Architecture: amd64
+Version: 1.0.43
+Priority: optional
+Section: utils
+Source: image-editor
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12149
+Depends: libc6 (>= 2.34), libdfm-io, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr, ffmpegthumbnailer, ffmpeg
+Conflicts: libimage-viewer
+Replaces: libimage-viewer
+Filename: ./l/libimageeditor/libimageeditor_1.0.43_amd64.deb
+Size: 867772
+MD5sum: cb93578556e567b3c352a7f5db1fd553
+SHA1: 2c4ed22396e6ac88928c56883de99df652339fa1
+SHA256: 678f61b01168831050d1fe6efe72831125fdcabbb1095d80c794d29966a7a3bc
+SHA512: 7a0162b2d92b58411e3fad957036c6aebec54016fc5e3060a77debb43a628116d2bc8b0f1e673722a89dbb52951d5a37bfb199ad00e657aeebf35ee520a5d233
+Homepage: http://www.deepin.org
+Description: Image Viewer library.
+ Deepin Image Viewer library.
+
