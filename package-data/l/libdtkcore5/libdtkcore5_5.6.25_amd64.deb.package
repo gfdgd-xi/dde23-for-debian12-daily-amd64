@@ -1,0 +1,21 @@
+Package: libdtkcore5
+Architecture: amd64
+Version: 5.6.25
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1734
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.10-fmt9, libstdc++6 (>= 5.2), libsystemd0, qtbase-abi-5-15-8, lshw
+Filename: ./l/libdtkcore5/libdtkcore5_5.6.25_amd64.deb
+Size: 467424
+MD5sum: 0c388964bbaa10396c630095f993e690
+SHA1: e6b9a9607b3304aca5855b0e97b404abc6e29b08
+SHA256: 858679cb96cffea1c881fe8dc85b09b52d5feec09bad83718b1db64b2ffd56dd
+SHA512: 5e42a06f33431a2b4400e1744eb6f30423180a6a19912b7c77b858b79e50b7e0723841cb2e9aefd1ac38e8b64e3dc21ef40e90af31fae39c1f210e242d40381b
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
