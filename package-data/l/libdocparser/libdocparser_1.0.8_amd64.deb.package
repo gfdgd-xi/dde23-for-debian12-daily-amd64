@@ -5,14 +5,14 @@ Priority: optional
 Section: libdevel
 Source: docparser
 Maintainer: deepin <packages@deepin.com>
-Installed-Size: 1002
-Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libpoppler-cpp0v5 (>= 22.12.0), libpugixml1v5 (>= 1.8.1), libstdc++6 (>= 11), libzip4 (>= 0.10)
+Installed-Size: 1564
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libpoppler-cpp0v5 (>= 22.12.0), libpugixml1v5 (>= 1.8.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libzip4 (>= 0.11.2)
 Filename: ./l/libdocparser/libdocparser_1.0.8_amd64.deb
-Size: 308544
-MD5sum: fef55a420501438d338af7a3a840cef2
-SHA1: 34780d80749c0bafd98fba0424d3a66408381ae1
-SHA256: 7f19cdd79d909adcc995b49de1c0f0a2b824ce70c3045717cee0f9c5740ad3ea
-SHA512: 7c3e2940c9dc9b7fa8742a54d45770c674d2907ce4e15297ad0be198fbb41df291c43821146d5eac386956d81aa23a2887df6e63e328e695c17ba82ccd4ad555
+Size: 450568
+MD5sum: 713b8038650f380b1ad5ce1acd179d20
+SHA1: 42d1f3cf4d2a2eb0348ff43bc6b3a2511b021d70
+SHA256: 6021564a2f38849972b227ff386a2acac78265c7a72a90ec2993749b4ca3161f
+SHA512: b3697643a0ba4a51ab3e38a3d4da37daee5436a807e16d2db5e42d543792c59a27efe59cfead8a07f2fd2500336b993d00c06168753eaf28df1a235c1cdb6c68
 Description: Document parser library.
  This package contains the shared libraries.
 
