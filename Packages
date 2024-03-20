@@ -4056,14 +4056,14 @@ Version: 1.0-1
 Priority: optional
 Section: utils
 Maintainer: Clay Stan <claystan97@gmail.com>
-Installed-Size: 3530
+Installed-Size: 3505
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/dde-wallpapers/dde-wallpapers_1.0-1_amd64.deb
-Size: 3535932
-MD5sum: b0868a01b5bd857ac353218736c457e4
-SHA1: be4d464d484f3471cb85d0d929b40ee2e9092efb
-SHA256: 9106d0ce0b21da6d74ae5efb75b5a372317da36747b257ca7e7930febdd73a8c
-SHA512: 225673e9593789af1455fce0e070536e27fa597cc4590332edf4bc3874ce161ebebebb2ba6334ac0790fc14b415497c2f9d902d983963cb9437067636d474316
+Size: 3502688
+MD5sum: d6c662ce3ce17b756eb1a5ac146d4af3
+SHA1: b7dc9ad2eda76f4fcf7728f2ddd1055c09c3704d
+SHA256: 16d04cbec7be320f26dd2730856c8c9092733fceb6dbd57805e5681b5ec9a8cb
+SHA512: 9a86cb0c1b1ffbeaee9bcf5ac6b2473fa9024826a8d76f0a4be41efa1c360524fc27fd140b76e7f84736304dc26043bca24eaec6e9485278aa73a5f4b689c7c7
 Homepage: https://github.com/linuxdeepin/dde-wallpapers
 Description: When users are ready to set their own desktop background,
  The dde Wallpaper provides a beautiful background pictures.
@@ -10789,11 +10789,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2146
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.20_amd64.deb
-Size: 510592
-MD5sum: 8220dc390f0c9b3dedb2da1d3e04c1b1
-SHA1: 2c15d120edc7cd1cc27068536351385d8a81bb89
-SHA256: 44a96407f6030c0345c981b878cf3d098155f2ffab28a300a70b51605ea1771f
-SHA512: 3d3ed73d1f0477015151db7c8032b3a1aac0ff8646fb0673eeeafa1e73d086c549207b4d18d969be06187eb8f4f64164a816691285ce211814a5d2ccc3a21cae
+Size: 508636
+MD5sum: 5d8421538b85682527fe07de9ee2dace
+SHA1: 5739532a948572bd372873f6e645aee88f6ce595
+SHA256: 42f668f743d3608d7f9c8e00e5a3b1f474e73c0fcccbbcd1f5626492a2a032ef
+SHA512: 56b1900bf2779acdac3e2011e365586e3d28132b0d8c61cdb6acfbda9210a47e65274e55bedb420438eac377f365561053b01103d719d749e71b11a324fe96f8
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
@@ -17283,11 +17283,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3841
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.8_amd64.deb
-Size: 821432
-MD5sum: 602ee684e0fb02caba05f270d95df182
-SHA1: d5dd2545001e43a47bf7f4f8c496a9f682b9ac8d
-SHA256: 2add4c058bb2e6b2c10fc03949e0bb643f3649c24ba3ccb643089d494d5d4620
-SHA512: 5e8e43604a2b5c20cef43f15f1ef38e84f336abc52782825f1b54fc6aa6d9825eeee6f0ce24876872c835a90b9de8f234f77647aa919d11c80ed2bf8e4c1147c
+Size: 822172
+MD5sum: 57166a59a9976c4448eabd01005a2d1c
+SHA1: 959c501e24ddf9953cde34f070b0363f641e80d3
+SHA256: 130c61fc868ef3068a7428319192d8bcbc2f14af5ce2ad5a42bcf595152b4f58
+SHA512: 93cf67a44366e5cfe161e1a3076090805275006eed6de696ff59bf6b5205f9cd9708ad43ce472a9cbf0c69ec2e05684e46926442fba30a26f6b63bfafc479fb9
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
