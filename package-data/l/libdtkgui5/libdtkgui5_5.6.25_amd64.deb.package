@@ -9,11 +9,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1157
 Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 5), qtbase-abi-5-15-8, libdtkdata, qt5-image-formats-plugins
 Filename: ./l/libdtkgui5/libdtkgui5_5.6.25_amd64.deb
-Size: 331588
-MD5sum: 3cccb2257e83e58326fb3ce409c609c6
-SHA1: 0b72c2bc30602e70acc3e70344497ae0240ce906
-SHA256: 3b7708422739d329c25d56985be96b9f3797b4470ad362e20358c0069c625bf3
-SHA512: 40b16fb49525e9d7d181258677ff4a3aa0b468d44f7abecc3142885dc4bb930aa1131adb7395008b6f132376a60f50dac05b159b8622d250383940f64ba6e1e5
+Size: 331444
+MD5sum: b4a33d8c187a190ea5763875979f0506
+SHA1: 484a288ea5ec17c5fae5578ee471703fc0f090ae
+SHA256: 989936f5a037f00aa1d58233334b7a8fd1e4875693a580e34e501410b563b08e
+SHA512: dab2ff606aa24f722128b99f5f788e01091e155961f1d2a8ffed021ad27f7fda203777eb6a3480080966d8fdd3d7f967d780c7eff444caa1c21c6d752895e0e1
 Description: Deepin Tool Kit Gui library
  DtkGui is base library of Deepin Qt/C++ applications.
  .
