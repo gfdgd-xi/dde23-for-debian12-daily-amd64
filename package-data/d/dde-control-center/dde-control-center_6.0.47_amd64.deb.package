@@ -1,0 +1,26 @@
+Package: dde-control-center
+Architecture: amd64
+Version: 6.0.47
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 17329
+Depends: libc6 (>= 2.34), libdareader1, libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0)
+Filename: ./d/dde-control-center/dde-control-center_6.0.47_amd64.deb
+Size: 4386660
+MD5sum: 5a8c7d641abb208bbdc2653c7dd722b2
+SHA1: 2eee61b7208b45a7b609b5e799f1e2eb6728cf56
+SHA256: e6bcd79b21262b3124224be56d87945d3d012731b70e83e9a3b26336d49b3096
+SHA512: 32860322960cc96ce93df6e26fcfa7d3df761b869f1a82e3d2de69744b5739dffa05a6c46da32337ad6d824a80fd3cd71ab8bdfbe7a801b858557c90cd4097af
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment,
+ Integrated control center with rich functions,Besides providing rich
+ system setting items, the function level is simple, the logic is clear,
+ the user can easily set the system, and the learning cost is low,
+ Provide users with automatic update system and developer mode to meet
+ the various needs of users for the operating system.
+ abrecovery -restore system, Determine whether the system is restored
+ reboot-reminder-dialog -Update restart, Confirm whether to restart the system
+ after the completion of the update.
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
