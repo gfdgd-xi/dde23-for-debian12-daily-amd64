@@ -1,0 +1,20 @@
+Package: libdtk6gui-dev
+Architecture: amd64
+Version: 6.0.9
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 133
+Depends: libdtk6gui (= 6.0.9)
+Filename: ./l/libdtk6gui-dev/libdtk6gui-dev_6.0.9_amd64.deb
+Size: 20968
+MD5sum: 5642325be5a9cc209078df709add130a
+SHA1: 7560806d9483a564a9ce6dfcefa46e087bfc6d19
+SHA256: 028d47811496d435f7fd34ec87acbf8e2c1a7c1d64cff05a0ba7a6cf7917e2ad
+SHA512: 79a014c76c9927d0ed0744c30607ffb2c34530eaeeef50eb25f3b8abd21662e22d9b028acd1a69405f91528be0624bfa1ed77fe1798d03881c7302a764f527f2
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
