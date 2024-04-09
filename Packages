@@ -5836,11 +5836,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2859
 Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6.12), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.3), qtbase-abi-5-15-8, qtdeclarative-abi-5-15-8
 Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.26_amd64.deb
-Size: 695988
-MD5sum: c72591618c27c3f86335f1702efe1ff8
-SHA1: e093eb7afaa7d943840480957b185052d7c9050b
-SHA256: 7c7071f378b2081144117f2a85a60641e3479bff1771743412d0ec474680a1ef
-SHA512: bacb84ef33cc1a286a365b21978579d64ff1821035bc4e00c743e7fb03e870330787299f8aa901e44749fbd0010c78d5e6fed731fedd0fceae2a960c15a086ea
+Size: 695040
+MD5sum: d1420607730402bd17ab1b49a65e70a2
+SHA1: c923b56b7a7b026447ea2bc4c3114e7d34f5d582
+SHA256: ce132242f53a8910d852a95cda295b955821cb0ffac7952f85bf20e3d6ac43c0
+SHA512: 9db7f278c4feb060be2776f32c02ca7d61d8c45f673b9dde502c20d004466b2a10a194cebffa81727896fc5061284478e5221f650054f4894b2d0c0c84f60985
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -12867,6 +12867,27 @@ Description: deepin permission manager
 
 Package: deepin-default-settings
 Architecture: all
+Version: 2024.04.08
+Priority: optional
+Section: admin
+Maintainer: sysdev <sysdev@deepin.com>
+Installed-Size: 2064
+Depends: deepin-default-settings-tuning (>= 2018.1.23), deepin-wallpapers, iw, python3, python3-gi
+Suggests: binfmt-support
+Conflicts: chrome-default-settings, deepin-default-settings-network, deepinop
+Replaces: deepin-default-settings-network, deepinop
+Filename: ./d/deepin-default-settings/deepin-default-settings_2024.04.08_all.deb
+Size: 1927748
+MD5sum: 948f0d859d4bb8c18232fec0ff52bcf1
+SHA1: 0f04b9daa894392851fe20335bbc2cd91ca7fdf7
+SHA256: e8f018e900a1d06048fb21cc8ffc3216fb3b77b01e0d80ea0dcaa131dc4bbcd8
+SHA512: e8dcc4b7ddfcfdaed74880664e7f50b98eb614a6e837c2e546919c38c013b68cd42d3756ec0c13b3f2602fa321baa757ddea22a106d5f7b4967433f299cc6706
+Description: default settings for deepin destkop environment
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
+
+Package: deepin-default-settings
+Architecture: all
 Version: 2023.08.07
 Priority: optional
 Section: admin
@@ -14587,11 +14608,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 5622
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), policykit-1
 Filename: ./d/deepin-pw-check/deepin-pw-check_6.0.2_amd64.deb
-Size: 1783480
-MD5sum: a8a508caa6c78b3a86d756a23a3bc3c8
-SHA1: 2b07ff0752a581eefe9e733521f5e81d238b8c92
-SHA256: 025d699fd88b1519b03a0596f2b3cc4cd1de121b90e20f678f427514d6b19539
-SHA512: 6173cda58cfa68e3ba8e2d20a9314fec9abf7627b56e5db33d2529eaf573eb3e87df54c9a8361275613f7ea2596015276ebfcb8186c4f93de98fb86555ef0db9
+Size: 1783484
+MD5sum: 59ab2b034335e55d60bc96daf4662e11
+SHA1: 39fff5af4e262e33d95d61f05f80cae048c51631
+SHA256: 46c6e3dc2b8df8904b785b18bd34ec7d1bf78c73e60252ffc19786203ba48b38
+SHA512: 1649f9ffc00fe07b9ca8e1174d5a03099cb5c49d9147e101af271bd612f28ea21b1693b37a3957c6fbe1f07d0ea16dc79dc99c85f88e4fff0b057297b8f9ad8f
 Homepage: http://www.deepin.org
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
@@ -21217,6 +21238,27 @@ Description: deepin desktop-environment - square theme
 
 Package: deepin-default-settings-tuning
 Architecture: all
+Version: 2024.04.08
+Priority: optional
+Section: admin
+Source: deepin-default-settings
+Maintainer: sysdev <sysdev@deepin.com>
+Installed-Size: 37219
+Replaces: deepin-default-settings (<= 2018.1.23)
+Filename: ./d/deepin-default-settings-tuning/deepin-default-settings-tuning_2024.04.08_all.deb
+Size: 10658288
+MD5sum: 9719c3c3430d6576fe0883eb74c8aee9
+SHA1: 373dbd043f5f1aee87693063e381660b42512491
+SHA256: 7190f57c103ec1939adb402306c0f72f17b14c1c7c5964864f114c9bc2d149f9
+SHA512: ccb7847eb179f0f0e97a7666bb81089b4de1306d26cae2a2d7d922a47876d4af0c4922d0c65451e1587810ba54c2b6e3e588b893da1fdc4cb57a6958357a968a
+Description: default settings for deepin destkop environment - misc overrides
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
+ .
+ This package includes files to override cups default page and fcitx icon.
+
+Package: deepin-default-settings-tuning
+Architecture: all
 Version: 2023.08.07
 Priority: optional
 Section: admin
@@ -22709,11 +22751,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2150
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.20_amd64.deb
-Size: 510088
-MD5sum: 2289d6589d78d39404e3284893c7cf6b
-SHA1: c0440b6ad0f01f45689ed520aeb0072197a3141f
-SHA256: aaebd849de148a89f909783844ec19813c57f70dbc8ca6ca0c87d7ded4820e82
-SHA512: f1a80fa5f7bdfc914d4ffb4d73abb64cc2c4315a5228c28776ea6e3eda1a231badac96d8b6b9e9a5406a865be333a198c60bbca591805f1265e13cd6ba0d0384
+Size: 510584
+MD5sum: e959a2fa2cc0de58e5d7a88e52bab998
+SHA1: f97c86d0776d347c2f0201141138b55dfc7a4579
+SHA256: 5ffb45de87882540b9402fe58cc302c8d4fe6ce1a033596e9a4045f1b8f6a271
+SHA512: 15fb7963eceb8976a08f4ab03930d21af1d2c6c4d686e41ad893d4a1d2a861967de1836abb34d8ea0c22871185774aeaa0eefd67a03e6fb289544b76d6d91102
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
@@ -23713,11 +23755,11 @@ Provides: libqt5deepintheme-plugin
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-8, dde-qt5xcb-plugin
 Conflicts: libqt5deepintheme-plugin
 Filename: ./d/dde-qt5integration/dde-qt5integration_5.6.26_amd64.deb
-Size: 266548
-MD5sum: 1254b491c2dddf4f724c040bc467da99
-SHA1: 196bb7e3985add4ec82d0eb28b419508c9353be3
-SHA256: 59f0b31bb682594c4c935d41783faca37e5934f310a96667e4939246c6cbdbb1
-SHA512: e3c25ac63e801b7b3016666e71292290b5fee09bed7eb3a15303447c04557411da5a660a50bfd6d40456565308e34d4c7c55cc52186185b75e02f2f20198178e
+Size: 266788
+MD5sum: 3cdd5aeb166a1bd7b9546a00a2e89c38
+SHA1: 873f92c10df442eb9a3e30ba9669c95ba41b079e
+SHA256: 24cd68855a631be7b6aafb352ca31bd71470f06682a87ceeb1b17ae8c47ac94b
+SHA512: 7421bf0af877afc2092f84afc68e7b6255e9a94ab0edf8c898ac9ca07c773d854ee79eca849429c5f4cc214655d10642a091ed45c0d16ab71a303110cb947338
 Description: Qt platform theme integration plugins for DDE
  Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
