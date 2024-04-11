@@ -11196,14 +11196,14 @@ Version: 1.0-1
 Priority: optional
 Section: utils
 Maintainer: Clay Stan <claystan97@gmail.com>
-Installed-Size: 3505
+Installed-Size: 3530
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/dde-wallpapers/dde-wallpapers_1.0-1_amd64.deb
-Size: 3502688
-MD5sum: d6c662ce3ce17b756eb1a5ac146d4af3
-SHA1: b7dc9ad2eda76f4fcf7728f2ddd1055c09c3704d
-SHA256: 16d04cbec7be320f26dd2730856c8c9092733fceb6dbd57805e5681b5ec9a8cb
-SHA512: 9a86cb0c1b1ffbeaee9bcf5ac6b2473fa9024826a8d76f0a4be41efa1c360524fc27fd140b76e7f84736304dc26043bca24eaec6e9485278aa73a5f4b689c7c7
+Size: 3535932
+MD5sum: b0868a01b5bd857ac353218736c457e4
+SHA1: be4d464d484f3471cb85d0d929b40ee2e9092efb
+SHA256: 9106d0ce0b21da6d74ae5efb75b5a372317da36747b257ca7e7930febdd73a8c
+SHA512: 225673e9593789af1455fce0e070536e27fa597cc4590332edf4bc3874ce161ebebebb2ba6334ac0790fc14b415497c2f9d902d983963cb9437067636d474316
 Homepage: https://github.com/linuxdeepin/dde-wallpapers
 Description: When users are ready to set their own desktop background,
  The dde Wallpaper provides a beautiful background pictures.
@@ -13159,6 +13159,23 @@ MD5sum: 89be451bce51cd529a2164e51240f65f
 SHA1: acb81837e95bace1421102c2df0cf2173e9a5b7b
 SHA256: 2ae27fcdd1cda46b1ee7bde123d1d44bd80514926923029ca8fc0c392cf25f68
 SHA512: e435036702f8733b049b7ed9d010bdbcb5fa163dab356fa1c9ccaedc7ea3415d4773df2b7cfe9c3205926b22ea606c25727ce5ac983df54d5ff93afff9da278b
+Description: deepin desktop-environment - widgets module development files
+ widgets module development files of deepin desktop-environment
+
+Package: dde-widgets-dev
+Architecture: amd64
+Version: 6.0.21
+Priority: optional
+Section: libdevel
+Source: dde-widgets
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 25
+Filename: ./d/dde-widgets-dev/dde-widgets-dev_6.0.21_amd64.deb
+Size: 8304
+MD5sum: 51be08ce7b9d1e205811d8e4e7bc4c6c
+SHA1: b7335abc1490ceb83faeaa0f8a1ea204d06b4e93
+SHA256: c5773fe5173a4080f873cbfcbf5962b525712edb2f08d5d3fc15b03481209ca4
+SHA512: 6877b7a683e0b9bca6f03c1088fff7d921bd47f97a51d2cac7c649aedce376b169462b7bf3038fec7b44fbee5fa30d7225d272dee5e9579e4e1d32edb690fb67
 Description: deepin desktop-environment - widgets module development files
  widgets module development files of deepin desktop-environment
 
@@ -22758,6 +22775,23 @@ MD5sum: 50d5627ebf8bc8b1a4089c86cca2d527
 SHA1: c2a7171758411d27702ea0a8fb61e00acb980a94
 SHA256: 67e9fee8497cc583e5a0116fb303fda523a0d13ebd52bf8671e75ff130b217ee
 SHA512: ae9a479aa8e5bdaed5a77c3eedfbb80f4a02076e622e69177bc186cd0d87de970b0acb6f8c9d5a4fb8f15a9a7d431c21cb544917468fae3058741b0d8724956a
+Description: deepin desktop-environment - widgets module
+ widgets module of deepin desktop-environment.
+
+Package: dde-widgets
+Architecture: amd64
+Version: 6.0.21
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 2150
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
+Filename: ./d/dde-widgets/dde-widgets_6.0.21_amd64.deb
+Size: 510864
+MD5sum: 778f65697f64868811ab14920789c33e
+SHA1: 7dfa3af7ed996ab979b5e4fb7d7263af2f8b953a
+SHA256: c00a991e33694cce7419cf703b1214aad0f449ad4bffdc63e090f1ff095a3208
+SHA512: 4dee918424b527ecb4eeb994e2b054d38deb37b31f7651c202e2942cf49c1a85bbb42bfe3303f362065ec3ae5b57948fc5c800ec3de6cab778f7ba1af4f40ab2
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
