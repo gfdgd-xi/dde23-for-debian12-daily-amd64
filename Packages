@@ -11196,14 +11196,14 @@ Version: 1.0-1
 Priority: optional
 Section: utils
 Maintainer: Clay Stan <claystan97@gmail.com>
-Installed-Size: 3530
+Installed-Size: 3505
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/dde-wallpapers/dde-wallpapers_1.0-1_amd64.deb
-Size: 3535932
-MD5sum: b0868a01b5bd857ac353218736c457e4
-SHA1: be4d464d484f3471cb85d0d929b40ee2e9092efb
-SHA256: 9106d0ce0b21da6d74ae5efb75b5a372317da36747b257ca7e7930febdd73a8c
-SHA512: 225673e9593789af1455fce0e070536e27fa597cc4590332edf4bc3874ce161ebebebb2ba6334ac0790fc14b415497c2f9d902d983963cb9437067636d474316
+Size: 3502688
+MD5sum: d6c662ce3ce17b756eb1a5ac146d4af3
+SHA1: b7dc9ad2eda76f4fcf7728f2ddd1055c09c3704d
+SHA256: 16d04cbec7be320f26dd2730856c8c9092733fceb6dbd57805e5681b5ec9a8cb
+SHA512: 9a86cb0c1b1ffbeaee9bcf5ac6b2473fa9024826a8d76f0a4be41efa1c360524fc27fd140b76e7f84736304dc26043bca24eaec6e9485278aa73a5f4b689c7c7
 Homepage: https://github.com/linuxdeepin/dde-wallpapers
 Description: When users are ready to set their own desktop background,
  The dde Wallpaper provides a beautiful background pictures.
@@ -16566,6 +16566,25 @@ Description: Qt platform theme integration plugins for DDE
 
 Package: dde-qt6integration
 Architecture: amd64
+Version: 6.0.8
+Priority: optional
+Section: devel
+Source: qt6integration
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 853
+Provides: libqt6deepintheme-plugin
+Depends: libc6 (>= 2.14), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 11), libx11-6, qt6-base-abi (= 6.4.2), dde-qt6xcb-plugin
+Filename: ./d/dde-qt6integration/dde-qt6integration_6.0.8_amd64.deb
+Size: 212308
+MD5sum: f7589437180e17c7a4322ef29123f9d8
+SHA1: 8abd3e9266426a4e0c8ce4569db1afdd533399a4
+SHA256: 368dc8ee64218c56f70c82b455ae2b99f59dee75e7bc50091a1f9b9b1fcc964e
+SHA512: 43ab6bc1fa985f5ffc50f4bfbbc4fe126e824099043445eea70d52316dc90bcad316dab09dca9ace0d012966546703267665454922609fd7dbb39372858742c8
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt6 integration for DDE is included.
+
+Package: dde-qt6integration
+Architecture: amd64
 Version: 6.0.1
 Priority: optional
 Section: devel
@@ -21125,6 +21144,24 @@ Description: Qt platform plugins
 
 Package: dde-qt6xcb-plugin
 Architecture: amd64
+Version: 6.0.8
+Priority: optional
+Section: devel
+Source: dde-qt6platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1006
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2)
+Filename: ./d/dde-qt6xcb-plugin/dde-qt6xcb-plugin_6.0.8_amd64.deb
+Size: 297848
+MD5sum: 216701ea56074b0774837d3e7581ac3b
+SHA1: 7ce3f1672db476c21415a1990d0d974ea0030e04
+SHA256: d2909fc407e341c54deef8def5a4d72df1f6c2599324455081bfb6be1ae45ea8
+SHA512: c96a81dce04bdb0a4717ca682759239e403ede266f5efd0d8c68bf8fc80c6e9d9217fe636207f931dfbf7bf77a59bf6a53a632773abe212312ad3810dad30523
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
+Package: dde-qt6xcb-plugin
+Architecture: amd64
 Version: 6.0.4
 Priority: optional
 Section: devel
@@ -22787,11 +22824,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2150
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.21_amd64.deb
-Size: 510864
-MD5sum: 778f65697f64868811ab14920789c33e
-SHA1: 7dfa3af7ed996ab979b5e4fb7d7263af2f8b953a
-SHA256: c00a991e33694cce7419cf703b1214aad0f449ad4bffdc63e090f1ff095a3208
-SHA512: 4dee918424b527ecb4eeb994e2b054d38deb37b31f7651c202e2942cf49c1a85bbb42bfe3303f362065ec3ae5b57948fc5c800ec3de6cab778f7ba1af4f40ab2
+Size: 510416
+MD5sum: 42544c4d10b9e4ba851410387aeb8738
+SHA1: cf7e29a15ad87097c8580fd0851488502d04b4e1
+SHA256: d6cf6d8b497bbb132f58f29b0446ef9b4a71ef42501ac34e95b584e61f48f94a
+SHA512: b643b243c3a72ed840f7b3ba3a06b4da468403c47c45d2e262d5385c92b5e4e86ac649ea095fa2ae9660ca8c755f2f89ddacf1d32b7c6eacbc435e786bae3451
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
