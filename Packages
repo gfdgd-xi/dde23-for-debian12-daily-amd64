@@ -389,6 +389,26 @@ Description: Header files for Linux amd64 configuration (meta-package)
 
 Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
+Version: 6.6.25-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.6.25-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.6.25-hwe_amd64.deb
+Size: 2040
+MD5sum: 1218c4d8df19b735afe3fb372d0ff3a6
+SHA1: fa8d35612bb75ab01931ec89eee991a2492fa32a
+SHA256: 23c361c944d67e7daa341d561f2230349cd86547ea361d0b6d1c8bff6f8073d2
+SHA512: f67df7df769a4bd306fc5509b043257dec7acee8e050b5bab8eef27bf34d83eae27aa308e487fc1a6a680443956598d15f48f92d2868dba29d119c5e8b232a5f
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-deepin-hwe-amd64
+Architecture: amd64
 Version: 6.6.23-hwe
 Priority: extra
 Section: metapackages
@@ -7353,6 +7373,29 @@ Description: Development Tool Kit ocr devel library
  libdtkocr-dev is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the header files and static libraries.
+
+Package: linux-image-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.25-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.6.25-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.6.25-hwe_amd64.deb
+Size: 2136
+MD5sum: ceedfe8aeb91b223fad0cfccbdd8129f
+SHA1: aa19a4ca8a3a4bc361129e4f67751c39ba482da2
+SHA256: ecb2640ba16277a218964646df53fcaae6d1c5199077b07cee69266a935c03ac
+SHA512: 9e217d92fbe68db165a2fb21b865d8c9bf8c024b08ba3170333458cc30d837d8b5cf0709a3871cf725b46ff0d90fcb19ce37d24520c67554ba55e586ac774612
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
 
 Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
