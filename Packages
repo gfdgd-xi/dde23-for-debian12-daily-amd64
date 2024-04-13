@@ -1937,11 +1937,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3950
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-8, libdtkdata
 Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.26_amd64.deb
-Size: 929740
-MD5sum: e49d82d7a45328cd3fa72d545397ae6b
-SHA1: 7b45a259cfd49ac0113d292ddf69bfb66d79d8e3
-SHA256: 8ae4e7587f8afd0372734325b64b534d0c3ace4ad57037149db97fd716c22dca
-SHA512: ca91c8cd8111907ab64579d30b7e809b9dfa2b92a2e04f05be603864d7571fe41dd33852077cacb4ce3bca4d077bad9952c12435cd61db0b3e28b2d06dd489f1
+Size: 929188
+MD5sum: 0456350ab194dfb893b2ed7fe63217b4
+SHA1: 63caa086c539edee2e83f2214d6a24fba681b051
+SHA256: 9418cde2063089d7fee5c40bedb0c0dcb23c70e583acd98cc40847fc68b0edc7
+SHA512: 1dfb8b87ce39a6e97fc6f83643dc719a2bc83c352021396bd43512d5a77b234ac91426a9ff4b77d76e747c1990a18e6a44abfef3d28731390ccf52b98962c441
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
@@ -22824,11 +22824,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2150
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.21_amd64.deb
-Size: 510416
-MD5sum: 42544c4d10b9e4ba851410387aeb8738
-SHA1: cf7e29a15ad87097c8580fd0851488502d04b4e1
-SHA256: d6cf6d8b497bbb132f58f29b0446ef9b4a71ef42501ac34e95b584e61f48f94a
-SHA512: b643b243c3a72ed840f7b3ba3a06b4da468403c47c45d2e262d5385c92b5e4e86ac649ea095fa2ae9660ca8c755f2f89ddacf1d32b7c6eacbc435e786bae3451
+Size: 510420
+MD5sum: 4731abc63c741199a4027879a8652470
+SHA1: 8140df5bbe44111c3eca2e3ba1afd30dcae06e89
+SHA256: 62535bc9d23e218eba375c7b57d5562eddab3016199caeb93eb72cb19a728683
+SHA512: 86ac3bfe83cb1a212c12aeb0735a361eab9d00b96069db0d1759d1be64c787cf27b50c1a2dcf40847c63089a444a382ccfc79e0291bce014b9dd7713ffa02039
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
