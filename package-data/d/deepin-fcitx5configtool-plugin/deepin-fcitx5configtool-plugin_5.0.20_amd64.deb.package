@@ -5,13 +5,13 @@ Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 795
-Depends: dde-control-center (>= 6.0.36), libc6 (>= 2.32), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfcitx5-qt1 (>= 5.0.16), libfcitx5utils2 (>= 5.0.21), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.5.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libxkbcommon0 (>= 0.5.0), fcitx5-module-xorg
+Depends: dde-control-center (>= 6.0.36), libc6 (>= 2.32), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfcitx5-qt1 (>= 5.0.16), libfcitx5utils2 (>= 5.0.21), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.5.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libxkbcommon0 (>= 0.5.0), fcitx5-module-xorg
 Filename: ./d/deepin-fcitx5configtool-plugin/deepin-fcitx5configtool-plugin_5.0.20_amd64.deb
-Size: 181544
-MD5sum: 400dc4e8b48279a77aecaaf96513fe50
-SHA1: 951928def4cf09852d793aa4a21320f06f1bdf31
-SHA256: 2723c7a242a55ba3a7934b565094a5177c2fda536a290e7aeebe3c5b5e5b9524
-SHA512: 20cbf932764cfd21b5f7526b6108581968cb7ecabafc3661f2ee409c18b24af179cc3b4375450f93a96cd7601f04eb7e95f4dad5acfb486c182fa50c4ef6ff27
+Size: 182232
+MD5sum: 93abacf48877b098b747934ff323c4f1
+SHA1: 1d903ab36bec944a87a43e85375215a283e1a46e
+SHA256: abd39571a5dce49b38c33b66d18f9e044987ff2382aa94cc4dc04626729c97d2
+SHA512: a2380eaf4b97f79c15a78e6c6a52f995ffd7f705e89ddc92e34074630f2dcd3d4bbd0a7c67edbef96e0dd795f49eb08fd045c4e33b70c94cbcafd4c530943045
 Homepage: https://www.deepin.org/
 Description: New Fcitx Configtool for Deepin Desktop Environment - development files
  Deepin Fcitxconfigtool Plugin is DDE Control Center plugin for Config Fcitx.
