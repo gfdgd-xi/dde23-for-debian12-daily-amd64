@@ -7311,11 +7311,11 @@ Source: dtkdeclarative
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 7434
 Filename: ./l/libdtkdeclarative-doc/libdtkdeclarative-doc_5.6.26_amd64.deb
-Size: 5594560
-MD5sum: 454adfcb0f1b4d0c61beec2c3ea26e93
-SHA1: db47dc8d2dc70e2e5a19772739a9d30dd326e8ab
-SHA256: d2e4c7e9b8de1214714c0182e1ca91f2b2ea44ad550f8a07629429f2818cd486
-SHA512: d35914e356c158c0196193e33a050e1df6606d98345686a29e8bd083afe3bd72d1dab58c7e418c136c143f8eae165de270ab7a2e9a67263d3486200a23d65675
+Size: 5594704
+MD5sum: a546953fc4a4aaec9ccdef37a167bd51
+SHA1: ce4602554a2339739539f13fa75f8a5ba062003f
+SHA256: f59ee92f320793012d58ed9bc8a98e2502a02d00315f7910c50369f3ff92a58a
+SHA512: 4cc7ff0e263c4d9d96614d0d0fe0f1c2f8cc1525163affc7309e46f04ac9e56dba3dc3bd569bd910bb4eea1366b139a2b3e183cafa4d309c969890d3df9bf6e8
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui Devel library (Document)
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -10493,11 +10493,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2863
 Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6.12), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.3), qtbase-abi-5-15-8, qtdeclarative-abi-5-15-8
 Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.26_amd64.deb
-Size: 697032
-MD5sum: b3a5c9459ab059bd646df37f4522a807
-SHA1: 20d90004e25a29e12fb3394b6117aad9b81af27a
-SHA256: 5720a2083bf4a9ef649fb2a1b311b16124b69443c47cb91175623fd750e0cf5e
-SHA512: c383b89a6b984ff36f1d6dfe40bdcb0dfeb8f433f0d83510e84e7fec08f55e6c37291fa236f0ec69ea8bbc7edc8a52f567568d018fdaea1890f9926e2511cb41
+Size: 697196
+MD5sum: 4588e3edeee5087133209e52c5b3f44b
+SHA1: 9f6b790efc18887d0ab253e3597ccf875859b119
+SHA256: 745f88ef8f25abead335b4564293116437c06582bea68cbc13a99ec1164ff42e
+SHA512: a7fab70ac381556f6e59dab52f8abfd3af4e98c36dcacb88f0f638034c94829d0538a8011f92098362edcad074add7beb84acef347eb3307b97562451721695d
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -11095,14 +11095,14 @@ Priority: extra
 Section: devel
 Source: golang-github-linuxdeepin-go-x11-client
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1395
+Installed-Size: 1404
 Depends: golang-github-gavv-monotime-dev, golang-gopkg-check.v1-dev
 Filename: ./g/golang-github-linuxdeepin-go-x11-client-dev/golang-github-linuxdeepin-go-x11-client-dev_1.0.2_all.deb
-Size: 149568
-MD5sum: 78065fcc8d9ae16112297bdc049670d3
-SHA1: 63a6edc364561f442caefa49dd28ad390dd221f1
-SHA256: 70684b47f97484d87ef6b339689fea13dbb13ba7f8b426d3c4b51718b1f43c93
-SHA512: 938cc3c069b68dac75df5bceaf85347becdcf1750f222a0b83baa76e6996f553509d00c45bd107f7b04909deb6a3c7868f17f27c840754a9dbbfaf9c438933d9
+Size: 153416
+MD5sum: 9d7345ccdb4c32792433318c1fbd1514
+SHA1: 4063e29aaed078f99bc4fa36f45d14a85891e821
+SHA256: 6b206dda2440bfad3ff156f6806772111cad1e23e27b946f1b58575233c35fff
+SHA512: 533c50ef804b3eb68eefa19176aaf81dd692278981e618387aa864491bf72a2466ffb2f7e4301aeae592411f676c50fc62b28a0275656931ac41fd8ffd8e7bfc
 Homepage: https://github.com/linuxdeepin/go-x11-client
 Description: deepin go x11 client
  mirrored from https://cr.deepin.io/#/admin/projects/go-x11-client
@@ -18369,11 +18369,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2150
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.21_amd64.deb
-Size: 509484
-MD5sum: 2afc2bd646a7a292cc986b3490174707
-SHA1: 8cbfd6427b5b60106f4973365583b23c92d73ae4
-SHA256: a8625d39fbbd2be1752e9a7f09b71756c3375a2d5da04e729d81621323a5b780
-SHA512: 4cdbc14ca08474c3212534ba2cde6bce00f31f7bfaadd9758abe2b2b1ae5da3af63a4deaa02754dfcccfcdf378caf8e479185ec3802fa9b309bbf5751c49d247
+Size: 511052
+MD5sum: 362d2a85ed0276a10aafbae9df548ba7
+SHA1: 1358e9e01531043c1acf5067aa48b97db051f5be
+SHA256: 62fdf4695a297054d45598d4459d85d1c12acb44326838b31f4ff5948ee959a4
+SHA512: 638cf6834afb17282d91965f3d62978a330110adaa3be078b6dca3c0e1de4263c8ab0d568cf1172eb4c70868bab8df51bd83bfbc9be89030cc1e877c6c5ba76d
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
