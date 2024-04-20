@@ -1,0 +1,19 @@
+Package: dss-network-plugin
+Architecture: amd64
+Version: 2.0.24
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 1146
+Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.24), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dss-network-plugin/dss-network-plugin_2.0.24_amd64.deb
+Size: 258072
+MD5sum: f14d8cd08b3c82c6c41f55d0f990047d
+SHA1: ca7bf21c05520805198fa47a69e4edaa6335e4dd
+SHA256: 705c37cb4a40f97563973fddd15520748ca8da6d5ce1ca32aa95dc4a2477f691
+SHA512: 73bd2ec23688981e8b2f3beabb97be3de741805715cd8e07893883a4ac4e386b764590b5bc19bbdc2228e09619aa530e6c6b665aa7ac11ef4af2350ac05c5b0a
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-lock
+ dss-network-plugin module
+
