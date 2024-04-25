@@ -4,14 +4,14 @@ Version: 6.0.50
 Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 17340
+Installed-Size: 17332
 Depends: libc6 (>= 2.34), libdareader1, libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0)
 Filename: ./d/dde-control-center/dde-control-center_6.0.50_amd64.deb
-Size: 4385768
-MD5sum: 5e9a73c083441dbad6595c608e3c3c53
-SHA1: 0d933b521d7200508de117695af5096b4cd9d30c
-SHA256: f10426cee0b0b137d50f452c3152422e626c5378ee1867216e6071d2ba454ced
-SHA512: 66a9fecaa315f0a0ab9a807e84e314134405269e228c57c91741300400d3a7b74ba7550ccf8339c2682bc929367e9862de040902eee10af0be12ad3826feb11a
+Size: 4385572
+MD5sum: 875d28e3b28ed890c313f8da0e52bf55
+SHA1: 9871f92981735b9610666756b54d34ae0d88f5c8
+SHA256: 5296bd3f600c9c6155ab2107c7d00a02e0f74506edb5b38851244f3f91a44178
+SHA512: 42c92de4b635022f711f2dcfff15c5a6046c9fb091e9779632c1c9657d32fc677b56a612e5ba6675195cd8f043126f5070f109eab4c9412b6698f3661a7b8f7b
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment,
  Integrated control center with rich functions,Besides providing rich
