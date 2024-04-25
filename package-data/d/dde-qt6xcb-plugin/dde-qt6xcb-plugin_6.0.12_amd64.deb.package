@@ -1,0 +1,18 @@
+Package: dde-qt6xcb-plugin
+Architecture: amd64
+Version: 6.0.12
+Priority: optional
+Section: devel
+Source: dde-qt6platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1006
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2)
+Filename: ./d/dde-qt6xcb-plugin/dde-qt6xcb-plugin_6.0.12_amd64.deb
+Size: 297672
+MD5sum: 160ccb21b08cbdd1918b9c764f55af23
+SHA1: 41364958cf53ce720c3e992f01d689619452dfaf
+SHA256: f8db539d856c32d1c4abe0bb5841e295dbedcdaa3939aeac44f8ec39cdc39d11
+SHA512: 9acc616b133437193ac9391f4278e540f8ab7deb1825a90279635367aaead8512042098c4617dca20b03e0e4373e4d5bc4d78cc86ffe695dbb0bbbe35d039974
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
