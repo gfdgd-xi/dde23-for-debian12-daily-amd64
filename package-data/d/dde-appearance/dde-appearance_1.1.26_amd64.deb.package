@@ -4,15 +4,15 @@ Version: 1.1.26
 Priority: optional
 Section: devel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1064
+Installed-Size: 1072
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libgtk-3-0 (>= 3.0.0), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), libx11-6, libxcb-randr0, libxcb1, libxcursor1 (>> 1.1.2), libxfixes3
 Conflicts: dde-kwin
 Filename: ./d/dde-appearance/dde-appearance_1.1.26_amd64.deb
-Size: 293228
-MD5sum: bb9cba07a040bc9b4b51673df8570433
-SHA1: e9746472f3551b5febeddbc447e600482b5779a2
-SHA256: 131d0e3377d13d1c3369a6ea437d79535b3ac3a4d7b9bf731ff6d1eb85442691
-SHA512: 5533195751b9294c4ec1125f253db7db17bf829587246b9e7c96256df34e348b39cf3d7a3003af2fe8d9807eaa60f5ecfc063c98562e526543cc0adb77375b1b
+Size: 293800
+MD5sum: 51305c08ead736a0af848bf3fbadb06f
+SHA1: 64c0f28291070882ac41a999fc72233e32bdd0f5
+SHA256: 265a5dfe2c8430e1d9a7ad9090b87cdc51b46b21bf854b2ce7f95150e5010859
+SHA512: 1bed3229f8ce5033bcd9c022a843ecb3e36b2331b1504471bbff4bdab13e41f308484d566e9a1c8022b6e7b840cf5551b49feec1709721fb386c5ba210adc3f9
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - dde-appearance module
  dde appearance Provides application resource management and control services for the dde desktop environment.
