@@ -6,14 +6,14 @@ Priority: optional
 Section: libdevel
 Source: dtkcore
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1734
-Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.10-fmt9, libstdc++6 (>= 5.2), libsystemd0, qtbase-abi-5-15-8, lshw
+Installed-Size: 1774
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.10-fmt9, libstdc++6 (>= 11), libsystemd0, qtbase-abi-5-15-8, lshw
 Filename: ./l/libdtkcore5/libdtkcore5_5.6.27_amd64.deb
-Size: 466200
-MD5sum: 769a2facc08460132e20c69675e2fce3
-SHA1: 3c94130415acddfabe2ef79f539e36ffb083d441
-SHA256: 8da5cacf7316c8ba8ce4e74ed8f04232981aec0e2c0208f970cd07e34a5d2319
-SHA512: 8f9367a8ba49797386ae9dd4c6292da272de29b5a786c6fa308ee88a6e3d0b080a56d557571c53056e11a9f008f02354d997f951cb8827416b822af40121da34
+Size: 478008
+MD5sum: 1f57f17745ace9dc8d1b25d71d17ae21
+SHA1: 403a5ad6885597832350b4625fa9c1ebe9b4f629
+SHA256: c6eef93ace5125400c32f3c958756fa1ab69f9c32faba879c2a4859d00e5b63c
+SHA512: 8d0f025788dff736b9c3f84a3f976b2b4e0003ce2427dc7af875f0c11b942b410945b31d2736a80b458ab121cd4fe3489fedef4ecdcea7510e88f557bd02c156
 Description: Deepin Tool Kit Core library
  DtkCore is base library of Deepin Qt/C++ applications.
  .
