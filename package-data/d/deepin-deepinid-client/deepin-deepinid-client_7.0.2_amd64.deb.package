@@ -4,14 +4,14 @@ Version: 7.0.2
 Priority: optional
 Section: net
 Maintainer: Iceyer <me@iceyer.net>
-Installed-Size: 963
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libdframeworkdbus2, dcc-deepinid-plugin
+Installed-Size: 1039
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.4.0), libqt6webchannel6 (>= 6.2.1), libqt6webenginecore6 (>= 6.2.2), libqt6webenginecore6-bin (>= 6.2.2), libqt6webenginewidgets6 (>= 6.2.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5.2), libdframeworkdbus2, dcc-deepinid-plugin
 Filename: ./d/deepin-deepinid-client/deepin-deepinid-client_7.0.2_amd64.deb
-Size: 135768
-MD5sum: f251677db686fdcbf492350348e13bc4
-SHA1: e41520a66bdae7686181237c3a420688dd1d6f29
-SHA256: 5f988d7894ad809be891fec5f45b339348e1ca7db7cb40e330a7401e988144cf
-SHA512: 46eab514cc343f46c255b7860fa71cc970bfd60682832c6bf8bd146ab0fc9af2ca05d8dab8604ccfda06de2235e4b95c8d9724279346290ba99d10f30c1727df
+Size: 153408
+MD5sum: a7be6a0bcece10bc7a87041e3ae8ef1e
+SHA1: 2d8b568c871462362cdcbaffb5a5d7246cbaf1f6
+SHA256: 425f0cefe48e3a7831c28b7a3e75bce0257ab05837e238fa5c8dc81c44e10424
+SHA512: 7c13f6c6b02b3edc90c82e10b3e5a97f5bbcba61a09d384206697dfc48ab87ed971df6e2898bce74213c2ac837a5b4a2a89c3fae72921fa0aae50ac1100cafa0
 Homepage: https://www.deepin.org
 Description: client to login deepin sync account
  Deepin user can login with DeepinID oauth

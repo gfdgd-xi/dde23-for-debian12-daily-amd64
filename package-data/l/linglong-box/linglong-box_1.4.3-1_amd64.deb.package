@@ -1,0 +1,19 @@
+Package: linglong-box
+Architecture: amd64
+Version: 1.4.3-1
+Priority: optional
+Section: admin
+Source: linglong
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 459
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.1.0), libstdc++6 (>= 11)
+Filename: ./l/linglong-box/linglong-box_1.4.3-1_amd64.deb
+Size: 150928
+MD5sum: 672960c1aea22eebf861c90e26c1a1ee
+SHA1: 28015931e0a31cccf4683976ea89afbd405cdc44
+SHA256: 2b4d0cfecc95a2b0d67c843a47bb18689ba8750726bba9f079f6eaf31b23ba0d
+SHA512: ba3fd6c4222453e057a07007ac8fc557f00dd444c7f2db5503b86054960d8895ca63dca156a3c6326fc29236089bb9d05f6c543c9b9dcc6e86f829abfa7c2534
+Homepage: http://www.deepin.org
+Description: Deepin sandbox with OCI standard.
+ Deepin sandbox...
+
