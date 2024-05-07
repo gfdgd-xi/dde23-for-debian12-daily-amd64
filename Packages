@@ -953,17 +953,17 @@ Priority: optional
 Section: utils
 Source: image-editor
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 39
+Installed-Size: 41
 Depends: libimageeditor (= 1.0.44)
 Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
 Conflicts: libimage-viewer-dev
 Replaces: libimage-viewer-dev
 Filename: ./l/libimageeditor-dev/libimageeditor-dev_1.0.44_amd64.deb
-Size: 10100
-MD5sum: 76c82319868aeefbfbc69c5842c863d9
-SHA1: 5b8df7d610a4e8768ee2e5e338c8e67c0267605e
-SHA256: a332cbaaaa075e3dbcd433ca134a9eaffa8561a0ef01d0ff336e2e1b24bf0466
-SHA512: 3d837cb7412a232aa53bba4408b2382dc99e9986822e6f30844003ab2136dc93559e0a0f3e72d013881a0a66969c570fa41a57fbe9fba7593191798e83c3f595
+Size: 10488
+MD5sum: a5947ece92c4594950af36781fcc2564
+SHA1: a05c05843a55a42b541b2f05eeb4933056cf64a9
+SHA256: 9e480564947b226dd2f94bb5376571e770777f53359af6f5d4aa45ede8ac805f
+SHA512: 177c98c0c094742efcd70248f3048cbece0212198a25d42891d5e5c92b024f9b62b788b3a5e8500c8b0fc48031405953eb6a98c74a95ba6aaf0425deffb1b9a9
 Homepage: http://www.deepin.org
 Description: Image Viewer library development headers.
  Deepin Image Viewer library development headers.
@@ -1384,15 +1384,15 @@ Priority: optional
 Section: admin
 Source: linglong
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1768
+Installed-Size: 1780
 Depends: erofs-utils, erofsfuse, git, linglong-bin, linglong-box | crun, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libostree-1-1 (>= 2017.6), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.14.1), libstdc++6 (>= 11), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
 Recommends: devscripts, linglong-loader
 Filename: ./l/linglong-builder/linglong-builder_1.4.3-1_amd64.deb
-Size: 551140
-MD5sum: 8a1d2deba98d166e021f9a57e49704b4
-SHA1: 8bb20130aac045f2703997c3efacf5e9f616637d
-SHA256: 4c2a12affd717a424d54ac80d808e1ddef4efc756006ef189c024ddc285fdbcd
-SHA512: 0d7cc4303883e8e6b92e48da7ac3a910bcf10d7732ae51dd958d7d90fe3c833bc7dc1e5c5a3427794cda7e2acfb27203497a15e2dec70f5795296e16857e6f94
+Size: 553768
+MD5sum: 1f036e22fc68f7ef19fb0c0de00e70d1
+SHA1: 6c95236688cfcce2663062f5a5c126b24e1b53cb
+SHA256: 1edba09b0f472a013a6be0d92143c887bbe370b700a4761e3691b234f6c3fdd6
+SHA512: 43504096192d16e223064c7bc7161491ae6995fdb299ec19ad232f591aa07b096b6f01418d86e5f2bd0eba84366633eb8bd774793b00f535c721eb58db1aa82b
 Homepage: http://www.deepin.org
 Description: Linglong application building tools.
  ll-builder is a tool that makes it easy to build applications and dependencies.
@@ -2759,11 +2759,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3676
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_amd64.deb
-Size: 700708
-MD5sum: 53fa5ed4e66cd7a858e4de090a9952b3
-SHA1: a3b7bc7d0aab92255434a5f9abeb584a8b81f5b2
-SHA256: 6e4d2cfbde92a686407a72b419a66a6a9bfe06808a6f3ee513d4252b2797da3f
-SHA512: 7798206886e8ac5734576403da017fa51527476f17ebbcbbef52f3ab2e39094f08fdfe627f1d39fb2422281e88026b2109dc0c5182e09fe7b805b3ddc35b80c3
+Size: 702400
+MD5sum: f6b746cae0cb74b5ffa8e4243f4453de
+SHA1: d94059b1d86d14093007953600891f1e4b7c44a3
+SHA256: c259ab767fa144eb02e548e83607ddae454e2175f927319aa1188e3d6a2e8b67
+SHA512: c6b87a1bff9d50a71f429fad1ee5c44179d701d00fb69f332ea673296b106960fe336d79411d2008565336d984e51c0cdeee6f644bc0459409d5d3e50764dee9
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -4347,11 +4347,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_amd64.deb
-Size: 63296
-MD5sum: 913b67bc98eb43271af938aed7be06bb
-SHA1: 51f4d04d281072ca1793b264b79920afddf8c623
-SHA256: 35f8411cbff4c2f4e44225b655647e8cb85f933be7dd808424ca36e5619e1f8b
-SHA512: 535ae05aa3393a7b3a9143b26c22eff2fcb141cf9a91fc01a3050663e3f27af586769ae71ed8c04a140e1ae4a8cd35ef68565a787c17ce57f9abbbb928aba4bd
+Size: 63272
+MD5sum: 8e652937deebe3e74c6cf20daaafdaa4
+SHA1: 535aa1256a3c20b2e43f2985fdfb0ee3c69e8ea9
+SHA256: ed744dfd6f86b11689cdc8d5a9927f22c6bbfdd67d4d5890d4a8f53ee2a9abde
+SHA512: e7e7a97c6519651927dd10d5f9e6ef0a33c258991983757dc4bf9e659d2c81a8b33dd56b63103b0b24983dea54853aa5244b9acf76c704c0745d751651c70eeb
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -10063,17 +10063,17 @@ Priority: optional
 Section: utils
 Source: image-editor
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 12153
-Depends: libc6 (>= 2.34), libdfm-io, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3)
+Installed-Size: 12266
+Depends: libc6 (>= 2.34), libdfm-io, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3)
 Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr, ffmpegthumbnailer, ffmpeg
 Conflicts: libimage-viewer
 Replaces: libimage-viewer
 Filename: ./l/libimageeditor/libimageeditor_1.0.44_amd64.deb
-Size: 864488
-MD5sum: 45817f6487f81de45bae388e363e464d
-SHA1: 10444e62a469c98b562aba4b7cf823e8fbe046fb
-SHA256: 98aebf4bb61d70d179e8ea09106a3c4d987c6d65608573ce4e8a8f5df5f595be
-SHA512: de466bcb89fa27489ba705aea46bb85624cef5f81d89130e7b7f81f1c685e38a7127e95d1dcd56cbaa34c6459264f648a408330b3418cbcb6859e164c0102b2b
+Size: 901780
+MD5sum: b7c22149b19e86ce2f0cff8d5787aa01
+SHA1: 0ed33e9600dbc5212f6188c2121d78ec0092a4ac
+SHA256: fa27c5e263c8e972c9af910bdbf876c89b1aaed1173b0df8f1bf7c5b883f84f1
+SHA512: 4b590029ff4b6412d257441b78fa369914df044065250b3f37308817ea40edacd712e5c104ce16c8a8bab3ca0c2495564eb50782c304477587f3122aee9cca46
 Homepage: http://www.deepin.org
 Description: Image Viewer library.
  Deepin Image Viewer library.
@@ -10633,16 +10633,16 @@ Priority: optional
 Section: admin
 Source: linglong
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 4029
+Installed-Size: 4049
 Depends: desktop-file-utils, erofsfuse, libglib2.0-bin, linglong-box | crun, ostree, shared-mime-info, init-system-helpers (>= 1.52), systemd | systemd-standalone-sysusers | systemd-sysusers, libc6 (>= 2.34), libdocopt0, libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libostree-1-1 (>= 2017.6), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.8.0), libstdc++6 (>= 11), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
 Conflicts: linglong-dbus-proxy
 Replaces: linglong-dbus-proxy
 Filename: ./l/linglong-bin/linglong-bin_1.4.3-1_amd64.deb
-Size: 786996
-MD5sum: 5434aece8f0218e6dad4fbd61b5a4e10
-SHA1: 0d655bf7be470927a9bdfd59d410408923adec7a
-SHA256: 510a9be54cbc19692aadede1b1ac3c60cf69a0f287a31fc3ed0199d7fa3092e5
-SHA512: 7c5c71c46c80a2406b668cded8db2d1249f03119c51e08d0eca95d952af8ff31e2f1b129ff5934b5819e50eb2218f086ba2b3dbc3d1207a4b0435fa4b18ce576
+Size: 794544
+MD5sum: 9ef6688dcc1e7e2b2a9008693572b972
+SHA1: d3708e5c678542d1e8b12cf9f8d330d91ea0329f
+SHA256: e9a3a492e0bcf78bde26b396b36bd5eadd45592bc251f99db2e1d48d1098c666
+SHA512: 1065282beac1bc44a9a9a031ddde7dde1011c5872ef4aea3da00016d8c243c60b354fa441ef3f267e62848aa5daab0ec991a29aff3c4df11eddb8184ce98eb63
 Homepage: http://www.deepin.org
 Description: Linglong package manager.
  Linglong package management command line tool.
@@ -13091,11 +13091,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2340
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_amd64.deb
-Size: 446848
-MD5sum: 8d43a774d8f4811e9e1d46e97f80b7d4
-SHA1: 3fac05bd69959bee6a3c10229907a85ae7c8191f
-SHA256: 7d49688e48c928799a5f5284d73f5713dd078bc592d7dfad964e38c71893d99f
-SHA512: 0204727ae9082e0ffbc4075d01022d2a94ba3aed30aae9c3fc25fdaa0d949c50420e36f07d387b67ab807501f8fbbfe48954e286b2d4d73a7482891e062ee76e
+Size: 446784
+MD5sum: 6d0c1c3a435062668c25d85f8016ea94
+SHA1: 61a0f2e2744e4263cee4dcc85117a7452b0734b1
+SHA256: 74fbdb3742a77f926e292316e72696e86524c327a4dfd16d70ad1ec2ebfc85da
+SHA512: e95593121336350d5b1b0582cd598b885501fd433abfd6dacb3634e952f17d320a3b600e3a9707792c2e02987b3e6959aad8ba2e5859df53030183d3a203c850
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -15585,11 +15585,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.18_amd64.deb
-Size: 1181312
-MD5sum: cff8146a31336aea6679723b0a9c68f1
-SHA1: a418de72f956479923af35fca5035aab79a8455a
-SHA256: 2fad435c98e0bfd42360a418fd366de5f33543ef6d80f9e8762eea5d0baecb90
-SHA512: 9662a443289d3caf239a026fe8a298d07e855e7873a6a1066749fb5aa2ed155abd2ae681fb7511b3e5185570175bfd9dff0b6211b7600f0278885ddbf7771392
+Size: 1180140
+MD5sum: bdc9569ef1291d01811092d8deb35f13
+SHA1: 4b20f061172cde2c30197e321f6f2780d2e3313a
+SHA256: a51ad2e12bce1b67e1103e64dda28b80c5f9c1789033fd797661343b5d7fbb54
+SHA512: 2574370b7f7205a9d0391bfa740ba6dbfde67084219a3456fb11b634352a51e707b7b7b1bfe18e414b1d74602f0d7258ef2a2bf0f7f4c7dd8eb1de1f4921fb57
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -22815,11 +22815,11 @@ Section: doc
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
 Installed-Size: 107916
 Filename: ./d/dde-manual-content/dde-manual-content_2.0.0.0_all.deb
-Size: 92984012
-MD5sum: 19c6a5a851ed04f7e9b872fa69da7be8
-SHA1: 50cfa8be3bb0b4d25db2dcd45ce04b7e875e0e12
-SHA256: 1a2334e6965e32b0cf895460ba63dc12772c39fe79b82cc96e3c53e8cad08743
-SHA512: 927cd2632fdfde3a392e739726de09640aa8e546505c4010897779ba7822e98fe2e7cde78ef19aa57bc5b0a8a8b02e90d4a62a68bb915e38ed0658322889eb52
+Size: 92984372
+MD5sum: 3ce63d7e2d8a6f2a2a2eaa8d8451db0b
+SHA1: 5fed33394a866803eabc844aa5b0075841bcf39c
+SHA256: 218bca28360aabf2ec6803a3697beeb7c43b7a9cd15538af992d1be5f0f4af85
+SHA512: 7d233ca6e743bfa75033cb8b23352d3640f17c3af7e93f8f49e04e636fa414715ad0c7f48949cff33664efa38f475eb4b1326ba061a50df5e7330b80200495f3
 Homepage: https://github.com/linuxdeepin/dde-manual-content
 Description: protocol files
  Deepin protocol files
@@ -22838,11 +22838,11 @@ Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notific
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Filename: ./d/dde-session-shell/dde-session-shell_6.0.18_amd64.deb
-Size: 1074140
-MD5sum: c509c18e9729e69d357222ee76b34b60
-SHA1: bafa8f5afdcf8dbacc25996e834a90582cacc11f
-SHA256: e1312427b930e6ba03e74cf8c3c0ae984cd9ff24d006a9c9a4e15587765c2cfc
-SHA512: 8dcbef41d67c8c649dd837e2bbf734af239f9d02b0f609b57757802a44e2a97c23da861e1cb83a0e68b80e5ae486b120b65f5e1420593f271896fa5b32d28dfa
+Size: 1072568
+MD5sum: a1af9ece3ecc5770f960b10fd0a4b2bc
+SHA1: 2994a9cbc42fa120eea775f136dd32b80b5f07a1
+SHA256: 23504d336958f39b3ee2f31a53bb11b3850474b6154320809031afa086116d49
+SHA512: e5239ed1dfc6a4e4ce46ef8faa1682b53df8a0e15aa157121f0b3a8e2c2dfb937c85ca23715a927a7cf9ab0b5ee6cd2e8995306f8ae840e29f20bb748703749e
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.
