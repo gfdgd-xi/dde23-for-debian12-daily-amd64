@@ -1,0 +1,19 @@
+Package: qml-module-qtquick-controls2-styles-chameleon
+Architecture: amd64
+Version: 5.6.29
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 145
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5qml5 (>= 5.14.1), libstdc++6 (>= 4.1.1), qml-module-qtquick-shapes (>= 5.11.3), qml-module-qtgraphicaleffects, libdtkdeclarative5 (= 5.6.29)
+Filename: ./q/qml-module-qtquick-controls2-styles-chameleon/qml-module-qtquick-controls2-styles-chameleon_5.6.29_amd64.deb
+Size: 20624
+MD5sum: cd96a189894c2c544c4712f7f41c9618
+SHA1: bcbb8002ab2aa77ef367135224b2cecc950db7d3
+SHA256: 3d22c0cbba90a586f82600fc9b012268f7749e873bd0e75c3c2310ee400bca72
+SHA512: 6cda2bacfd713707a4a20a720974cafa91b2a712955573af3bae9c7ae02e099dc1ab8a54765fbe1ab1b25773f1df5c76c21bb16253f82e2ec86aaeb75c9d3433
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
