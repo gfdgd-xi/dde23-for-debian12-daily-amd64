@@ -15220,11 +15220,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2114
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.22_amd64.deb
-Size: 504908
-MD5sum: e72082ced1db52651105be50c9462b45
-SHA1: 95bb67adbffc762213105b8a6f6d8b26f23fda0f
-SHA256: 9ed6a839639d60d91324db21b8645a43f512955f89509c6939dfe693503cd500
-SHA512: c1de3e487d05a323313c7b399ccb8d2a03d28759d5941522bfe28b44b0cfc6b11a4d29a0ca11f2d24c61a7daecdd968743f0880fe6ec42bc1c165b29e2e2ef37
+Size: 502836
+MD5sum: 49a82cd048e346a74a12ffe568171999
+SHA1: 06ebdd0f23ede6c7307e76ca40709bb1b3f5b15a
+SHA256: 99ac331abeebba0d4dc5444ad3b07b20553bce8e1814d9799331a41b88c1eb77
+SHA512: d18b918fd6f93e5ba1bde6468381a23bb0a6eda14ebadd3ae013351794a3deb19bf589c15420f111ba05fe4cdb0b12163534e3745ed54cf2da15436853823b69
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
@@ -19635,6 +19635,25 @@ Description: Development files for libdocparser
  This package contains the header files and static libraries
  of libdocparser
 
+Package: libdocparser-dev
+Architecture: amd64
+Version: 1.0.11
+Priority: optional
+Section: libdevel
+Source: docparser
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 16
+Depends: libdocparser
+Filename: ./l/libdocparser-dev/libdocparser-dev_1.0.11_amd64.deb
+Size: 2732
+MD5sum: 29b9844fd66a930207f3b30c9e8bdb40
+SHA1: 37243724b9f9d8deb3b59ad0bfd4f319fd89cf90
+SHA256: 8ee01f3c3f669494f2b30c9289e1fcb89d97e74861d322eaf84a2c22f3ae179a
+SHA512: 117e13a8450fb64059bd499844ca9a20b7f408d2d2e9d7aac575ecc94b55b57c5c956b1a20bc95be5d59ec0114395051ad6a9cb14cf3c8f69deb5755a8e8307d
+Description: Development files for libdocparser
+ This package contains the header files and static libraries
+ of libdocparser
+
 Package: libkf5globalaccel-doc
 Architecture: all
 Version: 5.46.0-1
@@ -23222,6 +23241,24 @@ MD5sum: 8f35a8922f9f2e517fbaf0b6d6c8ec63
 SHA1: 003df329ad471d6f5488402d6c89e08d08dde1b2
 SHA256: 18c77f3dbfa92b87c91c47b47f54e2a6684c10e83515c72e25ef02ace02abc7c
 SHA512: 7d142a8f391a4d5a3e9fbe8a261884a782cdd5147b83b9b205114268a0c52d90d72549cef3ee6cc52ea9ca83d1bebc120d5c2fab822cacfd058d1b60322e0a88
+Description: Document parser library.
+ This package contains the shared libraries.
+
+Package: libdocparser
+Architecture: amd64
+Version: 1.0.11
+Priority: optional
+Section: libdevel
+Source: docparser
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 1296
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libpoppler-cpp0v5 (>= 22.12.0), libpugixml1v5 (>= 1.8.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libzip4 (>= 0.11.2)
+Filename: ./l/libdocparser/libdocparser_1.0.11_amd64.deb
+Size: 389288
+MD5sum: 52b420196a9a5797702338314fc9ea89
+SHA1: 42901b2a54cc6ea34d817df278aedaf4707d3c00
+SHA256: 57dcc18598a84bcabe18fba517589e7fb467ffcd79fdd09379bb35da2282bf81
+SHA512: 9d0e38acf5275a4b38894906dd14bfed0a588109e8e896e809ac0a9ba50624cb531b329b03498c1c4450614fb5af3ecae1f0846f9da432c86dbe521b9af39867
 Description: Document parser library.
  This package contains the shared libraries.
 
