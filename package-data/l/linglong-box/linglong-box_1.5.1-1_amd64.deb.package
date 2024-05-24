@@ -6,13 +6,13 @@ Section: admin
 Source: linglong
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 487
-Depends: util-linux, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.1.0), libstdc++6 (>= 11)
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.1.0), libstdc++6 (>= 11)
 Filename: ./l/linglong-box/linglong-box_1.5.1-1_amd64.deb
-Size: 163128
-MD5sum: 1870dca74ecd74c086616fca6cdc7af7
-SHA1: a1d15ed823962994323f870d03ea3fa85fa22331
-SHA256: 7383fba2f2cf8ed607e62ad32fa78a1ee927870e07d3f723b2d91cd50c9b1f4b
-SHA512: b880133cf81c3501c7815b3857e50a6391b5619e5a9c445e1cc69180705a25adb9f6074d22d896614514299aa0321131adf6b8657e3a45da0c755b3688318a2c
+Size: 163404
+MD5sum: fc71b8a8f46732e9d1c7354af9670ddd
+SHA1: 33f4d39c66d38f79e410a9750210b55504e84d9f
+SHA256: 7eb9f9c3cd5719af09dd28abb44a272cf725ecdaf08df33199990b1ec9ca3a5d
+SHA512: d0075cbceea83c7edcbb01e155f4fec9bfb1b7f55952a4cd78aaaa215296ccb9c0f8d0253a84fbaf4910bde0215cf62117d86bde0ae9ca460758cb70210c99c9
 Homepage: http://www.deepin.org
 Description: Deepin sandbox with OCI standard.
  Deepin sandbox...
