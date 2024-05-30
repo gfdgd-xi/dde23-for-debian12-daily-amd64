@@ -10,11 +10,11 @@ Provides: libqt5deepintheme-plugin
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-8, dde-qt5xcb-plugin
 Conflicts: libqt5deepintheme-plugin
 Filename: ./d/dde-qt5integration/dde-qt5integration_5.6.29_amd64.deb
-Size: 266972
-MD5sum: f501d7b6c0fa2f105425086e5cd5d00c
-SHA1: 14bb6d2b665638c1340137a7c8fe44ed8978ae18
-SHA256: 8a5bb669974414bd73523fa5b3c8bc03b81c56010abfaf3b04147eb2b13d3c8a
-SHA512: 006640e52da010c7a4ab2577ff6e06e73778a2f66e4b4ea2bd6ca1d91785c95967d7ff7cff8fe333db325cc2e159958898c509bfadac0ef2508ad0d5028e9fe7
+Size: 266980
+MD5sum: 2900b534dd9e6bde79e6f4f912a6328f
+SHA1: 2a9bf2e47a74e06f2c6b768bda5059b357af6d77
+SHA256: 6060940a07d9bc2da80e2bca792cafc8145488e8e37d25b593e88d516c4c0f54
+SHA512: 783ecf689c44acc70f69f32b5af6f7366552364099240da531fb79288fc67c0a107fdbc7005c2abc8be72a1be0cec9a1ef62fb965f8b1b6cf721cfe1399b6d15
 Description: Qt platform theme integration plugins for DDE
  Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
