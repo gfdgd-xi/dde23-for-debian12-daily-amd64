@@ -4,15 +4,15 @@ Version: 5.4.9
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2781
-Depends: libavformat59 (>= 7:5.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
+Installed-Size: 3232
+Depends: libavformat59 (>= 7:5.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), liblucene++-contrib0v5 (>= 3.0.8), liblucene++0v5 (>= 3.0.8), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
 Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), deepin-anything-server
 Filename: ./d/dde-grand-search/dde-grand-search_5.4.9_amd64.deb
-Size: 626228
-MD5sum: 72ff58972d706c0915a39db21c0508e1
-SHA1: b0a2718e4c67f369dffdbaf6c550d4f3f65c1d6f
-SHA256: f32a1b6b437b5473320985a7f9e7ac6311e9c834aefc371c017cc0d645f51df5
-SHA512: 873d92ce63dfcac63da6fe81703697284c1d2b818cd6d05cabb01bf7adbf8d4f2b456f65170d6dacdb6b7c318fa21930f73b0ce54c0c0dccb7526a2f1f8bf9c7
+Size: 746904
+MD5sum: 2a2a7759c1d7847bbf183e833ffc8eb0
+SHA1: a55554311d32334801bf4b6528028f915ebccf8c
+SHA256: 676f101e1bfec48c44a5f4e024bcf40870ad2edd7dc420f34880ad2b913c633e
+SHA512: 52cdc6f81a9876a4043511f616be45bf21e4095d5288f876aaef94524aed494da6a965a7ad3510ae8dfdd02b0e6bf676d9cc99d02a42abc018659a2cf2c031eb
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - search module
  Search module of deepin desktop-environment
