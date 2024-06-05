@@ -8311,11 +8311,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1006
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2)
 Filename: ./d/dde-qt6xcb-plugin/dde-qt6xcb-plugin_6.0.16_amd64.deb
-Size: 297872
-MD5sum: f348aa24b5889d7e17f7931d2400f5d9
-SHA1: 7c79776efa10faf81ce4533e85901ca055dd28a2
-SHA256: 09230894b8f997b46355b4e95f8075f2498be0896dbadf38640b59d8e2ece87b
-SHA512: 46a69c3e4e07070b957b00b81bbd47f8228e8b817bb8d9fb9bb8f59847603fe08d8f1cd1464df953e6b3926c0391b2f9d0ab7e2762aab2995234ef7b4147c120
+Size: 297628
+MD5sum: 8ceedb62b0614d9493e290c280f7dba8
+SHA1: b13a53b3a8ccbae0c4e4b02729bab652b8a2983d
+SHA256: cbeb60fc90b593aa5f1c530f1069b87b736479316f6bf912a37b845e1035b628
+SHA512: 99054fdf59e66a6c7e7e4ef90279671704daa8a99cda3d4b71d1dc13ad3a7f34d5d687d4a887ff54a134e56b193b1145621eb6375525d6705182b53d801c1515
 Description: Qt platform plugins
  Qt platform plugins for DDE.
 
@@ -15656,11 +15656,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2114
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.22_amd64.deb
-Size: 504124
-MD5sum: 6ae9d08db17bc84a5f7d635fe0fc78e9
-SHA1: 5e0b8a0d53eacb6908ee2f936c3bb639651cb15d
-SHA256: 42ea47d6424bb3370f66be11c088cd620e59c771d9838bcc778761217b0fea7b
-SHA512: 28044535542df808961a610be1380ee5cb7a4995fe33214f1c9bd8ff4359939fee0fb09f6691eb40b7f0be292b4b15c38182b011ff7247ea9fb9d2b654f288ce
+Size: 504568
+MD5sum: 158944eb1fe51dcfc422d419da0bc893
+SHA1: 2e75271e4e928851a4d4b95339cb1574e9f262f5
+SHA256: d7a1864f17298b2bedc52f0ce3c01ffed7f0f1852fa536609694c8aedd08368b
+SHA512: e478b100c4862ad050d8c98dfd836214056d347a439839183b94f521a957bb0d8d146060766634a22f215c431ad586bd0127acd93ce86e723104770d587b85c6
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
