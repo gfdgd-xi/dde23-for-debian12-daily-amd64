@@ -5,14 +5,14 @@ Priority: optional
 Section: admin
 Source: deepin-anything
 Maintainer: Deepin Package Builder <packages@deepin.com>
-Installed-Size: 373
-Depends: deepin-anything-libs, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5), libudisks2-qt5-0 (>= 5.0.6), deepin-anything-dkms
+Installed-Size: 397
+Depends: deepin-anything-libs, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 11), libudisks2-qt5-0 (>= 5.0.6), deepin-anything-dkms
 Filename: ./d/deepin-anything-server/deepin-anything-server_6.1.9_amd64.deb
-Size: 103064
-MD5sum: c0c7afbebbf71b9f60f9996b4377d693
-SHA1: e473c4a4cdd825ae4c1a2a3ee0b37c06079b547c
-SHA256: 3c5a8b6318b6c20ae936c6c98bce17ea7ac98fa04de292b4f4f629c4435b1306
-SHA512: 886bb6d6bc8ddc5115ce69292eac7a2dea910146afc67fa478e675888cc123a8dd3800ed07b3253ff88074ee34ec89da44f44fcdf74b8d8107976eee7d0b431b
+Size: 108944
+MD5sum: 4dba9c9dc6d9b4e562480b94ff79474f
+SHA1: 64414a70caea5d2df1c171d31ebdca056f9d0c54
+SHA256: 52e65b517a9ae3ae10eb2e5b459e39876692ca3042bcd779bef0017aecab30ae
+SHA512: 6d8ec7c46708ad0910bfa7ff265e8d176edceba0cd2cbca113542a65fcc0c937253a7d4c6d81ecd931aa8ff6ad5b8fb1353a43154f82e308e67b345ef84dea0f
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server application and lib
  anything server package
