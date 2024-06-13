@@ -6,14 +6,14 @@ Priority: optional
 Section: libdevel
 Source: util-dfm
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 418
-Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.55.2), libmediainfo0v5 (>= 0.7.56), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), libglibmm-2.4-1v5
+Installed-Size: 443
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.55.2), libmediainfo0v5 (>= 0.7.56), libqt6core6 (>= 6.4.0), libstdc++6 (>= 11), libglibmm-2.4-1v5
 Filename: ./l/libdfm-io/libdfm-io_1.2.24_amd64.deb
-Size: 122384
-MD5sum: a45bcb1e3ba16c286f996f9ce78a7bc2
-SHA1: 469945d42d8eb603e01e47027585f3c28fdf66a3
-SHA256: dbf82b3e3f1d1c9db0157d40c749c14009a366722d5d2b700dbeebc8eacef91f
-SHA512: d5b3fa43bbc59ae12b057f35d404d54640480e119270a214334af88687e722a9ecac597e4adc1ac4db3c7fe83f1c4d9a01f7760130829a5bcd73b7896ce26baa
+Size: 128032
+MD5sum: fe25fa8a3b73fa4288230fa953defb00
+SHA1: cd13ded9fb911e12fd87360c5b9d93a421fb805a
+SHA256: 412c3bd1ff79fbaf37a5d53b5317b08049091a3263479647198f97086f51b623
+SHA512: 58419eab6b59df89f6dd0e34de1a20970252ff74784eb4ff654b5162f43c7c2cd2d6eed808c845c41e9d39edbe1102ea671ec4535eb3f505e3eb3a740a1d3660
 Homepage: http://www.deepin.org
 Description: A libaray about I/O.
  A libaray that provides I/O interface.

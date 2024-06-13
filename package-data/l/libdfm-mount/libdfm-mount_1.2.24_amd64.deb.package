@@ -6,14 +6,14 @@ Priority: optional
 Section: libdevel
 Source: util-dfm
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 583
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libmount1 (>= 2.25), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
+Installed-Size: 621
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libmount1 (>= 2.25), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 11), libudisks2-0 (>= 2.8.1)
 Filename: ./l/libdfm-mount/libdfm-mount_1.2.24_amd64.deb
-Size: 146120
-MD5sum: d41562836ef93d67a981e3dd4d77da98
-SHA1: 36236bc9aa1f36199b4bdc60c35a12dbf2518458
-SHA256: 1de6341b79a9a951e1d954b77e30bfa5687acc6b470276ff3a4dc113e39496b2
-SHA512: fba58e676d0ca7d306d0cfd850aab763cb1c0e100896f999906ab87e7421d2cf012ec556577753a63ccc520326d44b39113a76b49384a3482be72642abe18ea6
+Size: 159404
+MD5sum: 04a8ab7ceca0412c11c2588ab3f70e5f
+SHA1: 446df3bd1a45292408f7f52638043bb9b75c5929
+SHA256: ec561dfe337474d2394a7a2511e8adff76aa74bd4e10efabcc50678f60fc5920
+SHA512: 4d1a51c1faff9850e822835d17c07d01a12024a2de45d6419df86058079e82aeff43cd2fb3db2ad3f200787d230d1d9e5de9960a298d1e1589afe65a74337d82
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount.
  A libaray that provides mount and umount interface.

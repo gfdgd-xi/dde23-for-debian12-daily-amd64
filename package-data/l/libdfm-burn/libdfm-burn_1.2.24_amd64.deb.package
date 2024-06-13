@@ -6,15 +6,15 @@ Priority: optional
 Section: libdevel
 Source: util-dfm
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 373
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Installed-Size: 386
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt6core6 (>= 6.4.0), libstdc++6 (>= 5.2)
 Recommends: libudfburn
 Filename: ./l/libdfm-burn/libdfm-burn_1.2.24_amd64.deb
-Size: 126064
-MD5sum: 25534f026c487165b36449c0feda5b0c
-SHA1: c840a2be88ca2719f67a608ae44c0b6abf407899
-SHA256: b65ed3d9653c670c1ecd30fc2c997e89dcf56798f3a49d64def40c5f35e81bc0
-SHA512: 4b1ce663b172a4ab2bd28b3e8fb62b9d38da11a6bf88ffe9c200196b33759bc4e7499c512fdb490dd3b310a428d6337cde12034c8cf4dbf848e3c682d9f69801
+Size: 130336
+MD5sum: a8872c68b4917c81f87b0faac21321d8
+SHA1: 1e52fc0f5dabd3848da5e724ec57d61b36e3d2e1
+SHA256: b5745cee40773ca62b80c6591a59b0b378b476a459879c687cf1360dcd09e30a
+SHA512: a7ca0ca5e6fc3b2ff12d1718ad2b3bc25f45f79918f09c337cc14a829feea15e37f3296988f2bde1678f5871d9497664b7fd9bec09ca5029d082d1f9b828ed92
 Homepage: http://www.deepin.org
 Description: A libaray about burning CD.
  A libaray that provides burning CD interface.
