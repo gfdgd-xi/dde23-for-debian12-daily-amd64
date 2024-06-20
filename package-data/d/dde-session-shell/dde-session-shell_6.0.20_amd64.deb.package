@@ -4,19 +4,19 @@ Version: 6.0.20
 Priority: optional
 Section: devel
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 6606
+Installed-Size: 6610
 Provides: lightdm-greeter
-Depends: libc6 (>= 2.34), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, deepin-authenticate (>= 1.2.27), libssl3, libxcb-util0 | libxcb-util1, xsettingsd, onboard
+Depends: libc6 (>= 2.35), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, deepin-authenticate (>= 1.2.27), libssl3, libxcb-util0 | libxcb-util1, xsettingsd, onboard
 Recommends: dss-network-plugin, dde-network-dialog
 Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notifications
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Filename: ./d/dde-session-shell/dde-session-shell_6.0.20_amd64.deb
-Size: 1077532
-MD5sum: fc1b746d3a93b64fe966eb3d53dc0bbe
-SHA1: bc3b071fc2da9a7765aa71b16fb043245b2a1fdd
-SHA256: 78a6f4360d648fff076d8d3a29e2a24e61012e8d8bca66dab7d3e6d1602c6470
-SHA512: 5169f9f01c6398960895ed174731f47a0a81be318f1a4964bbccaab84f68e21fba33c4ffb2259985b87b0ca3aa2f385580de5218c684c40d6dedef21eae36761
+Size: 1074316
+MD5sum: 4ef923b3a2944c87c6796a84b882f174
+SHA1: e344ceb0f6b6a24357df963beef19bebd97aec2d
+SHA256: 4d6a49755bb332a92b20badf8c3f78dc7c8fcc90ab929fa2a9cd39eb3dd03482
+SHA512: 89aadfff3ea0746be1e4e34e6213b413c1ade052900b9c4bceace8321699353bcb2815d96e16383e85c43641861d0cf41ec5d09cf961c1ad5d1fa007142451e3
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.
