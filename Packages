@@ -1149,11 +1149,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 258
 Depends: libdtktemplate (= 1.0.0)
 Filename: ./l/libdtkcrypt-dev/libdtkcrypt-dev_1.0.0_amd64.deb
-Size: 158808
-MD5sum: 59124b32e6b2e769a80ccfb3c04b6519
-SHA1: 354c2d69eb1c422c277bfd8fed63a21e7d9e6422
-SHA256: d59954fba3515930168d2ca9565adfe6465286816c96bf79220e1cc7181fb74a
-SHA512: ee511db560016768ed93e6be871b071864fca96b14f0ebf81e6512b4403ccfb4456323c8c66b30ee8b50e715625d2b720de36330d1bd184f809cb1598f98eed1
+Size: 158792
+MD5sum: 5d5ce1a0906f819525db0c63ccf1b1fa
+SHA1: f3e9e5cf151f391a14441c8956bbd3ea64b14d46
+SHA256: e644666b6a11ef45382efdcd734976281aeb065797290caff4d94b572d8ca11d
+SHA512: a6490969cb00c112e91cb76359d120b8921949304c51d4f46fba3ab937caa909399798dfc985dccd507be687ea6e2961c91d10ea4f8e42a8d75ea988f5ba78bf
 Description: Deepin Tool Kit template devel library
  libdtkcrypt-dev is base devel library of Deepin Qt/C++ applications.
  .
@@ -9571,14 +9571,14 @@ Priority: optional
 Section: libdevel
 Source: dtkcrypt
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 127
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
+Installed-Size: 109
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
 Filename: ./l/libdtkcrypt/libdtkcrypt_1.0.0_amd64.deb
-Size: 35316
-MD5sum: b1265b2a85d7932de0f73212f7fff196
-SHA1: 10e5a10fb63c4bfca5ac8d8710746438d2ba9e48
-SHA256: 990a08cd6530aec0694b69e71d0d7cc68569db2cabaf1d0d295286a6cd1aaf25
-SHA512: 4617cb16d4ca2b8e1588d662da1bd4f6956bf19ff1f7b118a86b7999cb001f2693607f0dfe860583e6bf9bd553b14416021e1b39519901f8e80b4b494eb53d62
+Size: 30704
+MD5sum: 228f1b79ef36cbd093d820bdf84c5164
+SHA1: 6478d7c9ce077dedf9fba5c638795a06dccecbb7
+SHA256: 8393b170aa58352567a062631105553a376d43718ad2a04d01ab6a36dc25e8f4
+SHA512: eab4359b06fd314c2b526c77ea989bb83d70be2ef27b71fc1fa9b15d13d09a181126053fcdb759199ace86e5f963b88472bd7264b5a2039d3586add192f58e1e
 Description: Deepin Tool Kit template library
  libdtkcrypt is base library of Deepin Qt/C++ applications.
  .
@@ -22714,10 +22714,10 @@ Installed-Size: 5622
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), policykit-1
 Filename: ./d/deepin-pw-check/deepin-pw-check_6.0.2_amd64.deb
 Size: 1783484
-MD5sum: f8cc0ec59b05b2e032761600760aa34d
-SHA1: 7c94cf579d290849df960d4e10a5a92da9c993bc
-SHA256: 72fca3a70be1e1747fa67430d71b1377b74b70924b33e507a799fb9e55926358
-SHA512: 1b53abd6f3fea6f6ef84f873003ba24e43ea72cfcaf96367192fa071a28d16cca6f7ea4ac8f6c14f30fe44f534a535731c6bf823ecd0e92b603eef1255308b52
+MD5sum: 77b2ac661f22645f8652312557a42b83
+SHA1: e54a4a6a9d4804ba18b7b75a2e10f208ae7de464
+SHA256: fc3555f3f6586f95a0eed4e16e48bfa7eae8d2e727067d4f5d5b9723a50a90d0
+SHA512: bfd93d049d53d822a297bb15fa7becb9d0598867cbc22fdcaad99b5826d9dc583c0c676e35b262cf4ba455a8a5b4e469cd11225237095287dd0f990181932aea
 Homepage: http://www.deepin.org
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
@@ -25155,11 +25155,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2114
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.22_amd64.deb
-Size: 504176
-MD5sum: 49fa9661d6dd58e664a6b299a13dc290
-SHA1: 623597f92820409a35e3b5356a8a2b9121e2955b
-SHA256: c163cb6200b7445429cb690ff1cdc0b4c9bf003891db8dab9d7df1b6afd1028a
-SHA512: 3154ac4ff51f48729faaf8b8d2957aa99311272ff45ca759f5d71e80a81a62e411e4b0cb2f7365abc57051d9d28bc7e7f246cc533ca80c2d9fccfacc623de50b
+Size: 503644
+MD5sum: bb9a54e97b8971ffba7ccc2905a1179b
+SHA1: 83295d2b86df5b4524128a7fb820dc351332b5eb
+SHA256: 4eb0ef5684d785169f534c78056fcb47aaf32eb3f7fcdd0bc38afc5f6bdbcb49
+SHA512: 16764a143494576671a1b8e2828ee7df99cebc5e68526775f6423007dad7f76d0dfd3f78a62f87c6a4fd24db50a1af0c7f7a826f96b9f4387f4830ecf4dbe0c4
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
