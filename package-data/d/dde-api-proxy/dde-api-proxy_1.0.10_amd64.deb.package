@@ -1,0 +1,18 @@
+Package: dde-api-proxy
+Architecture: amd64
+Version: 1.0.10
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: dde-api-dbus-proxy-v1
+Filename: ./d/dde-api-proxy/dde-api-proxy_1.0.10_amd64.deb
+Size: 2652
+MD5sum: 3dc05399e385cd5b6ad34d07744b01a9
+SHA1: 59f4dadc828eb947f99ca07c2c12eddd903aa9cf
+SHA256: 713a8992117a9c9e9b91ae62b0ada034bdfefbfc213b71562ea61d7419b9bccb
+SHA512: 0017090cf3c9159b345da4cf44ae2bb2283542715317c921290c93707d75bf741825632cbd44f20dc8854568a7c03d569852ca80b540cd692f728089fcb04fac
+Homepage: https://www.deepin.org
+Description: dde api proxy index
+  dde-api-proxy is used for compatibility with old APIs for DDE.
+
