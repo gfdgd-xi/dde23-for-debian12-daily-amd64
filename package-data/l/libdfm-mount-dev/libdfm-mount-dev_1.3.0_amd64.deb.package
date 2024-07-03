@@ -1,0 +1,20 @@
+Package: libdfm-mount-dev
+Architecture: amd64
+Version: 1.3.0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60
+Depends: libdfm-mount, libsecret-1-dev, libudisks2-dev
+Filename: ./l/libdfm-mount-dev/libdfm-mount-dev_1.3.0_amd64.deb
+Size: 10924
+MD5sum: 069a8666f1c94b608f8b4dbb65b2b228
+SHA1: bb150b74584e0f457544c8d23ae0b450231b6e28
+SHA256: ffd376066c01dcd2a144386a5e33b03bdec9deaac36ded9d97466e0f205f6cb1
+SHA512: 8cedb96d447749a4723a28362ce3f8acfc885b021cea868a69437a48796aa9b2863f13462df5799c34012ee1961aae460bae84eb0b68786dce5edbf9d2de3882
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount dev.
+ A libaray that provides mount and umount interface dev.
+
