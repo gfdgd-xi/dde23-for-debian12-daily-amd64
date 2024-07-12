@@ -2985,6 +2985,29 @@ Description: Linux for 64-bit PCs (meta-package)
 
 Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
+Version: 6.6.36-1
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.6.36-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.6.36-1_amd64.deb
+Size: 2280
+MD5sum: 58ef41a19b5579bc116d815dcd278b2e
+SHA1: 3fdcbdc734a229d053d51e48c9a877dccac30521
+SHA256: e0ede158512339eb614b4c65422d5a48f870b0bfe6b9c3c20ee21a2e6ec27e40
+SHA512: fb6a4a99d0cd718410dbb158fff147c82983fdfaf6ce90cd7a6b8cdf2bf6d137cdd76b9536025049b27ae43e1b6a003097ef5fa90d55f2beede74893ceff1127
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-deepin-hwe-amd64
+Architecture: amd64
 Version: 6.6.7-hwe
 Priority: extra
 Section: metapackages
@@ -9294,6 +9317,26 @@ SHA512: 24f069604b5757f7489d40e51512d687eb1ad3bb5b79b157570650a22cee35271f09877e
 Homepage: http://www.deepin.org
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
+
+Package: linux-headers-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.36-1
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.6.36-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.6.36-1_amd64.deb
+Size: 2184
+MD5sum: c1cec533d5b4d02ab95817394c0704f0
+SHA1: 325102f750299a82e787be60f44776182172c80b
+SHA256: c400490062791f94f8a4f6fcb52210b0f32aeb12b567bf4ee51db404767d3b71
+SHA512: 072fe403bb39fd08da258b1feee25253cd3a71fdccdef4940366dff2bc84b9848b4d6726ab3e60edc0843b9033e6c3f0befd25c3c8a99b05249b2b7b51aeaaa7
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
 
 Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
