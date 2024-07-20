@@ -2985,6 +2985,29 @@ Description: Linux for 64-bit PCs (meta-package)
 
 Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
+Version: 6.6.36-2
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.6.38-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.6.36-2_amd64.deb
+Size: 2304
+MD5sum: ba54e463f2bce0acf5f04e5ed6508b13
+SHA1: 5680f752c01438342a7637c4dcd197f05659dd2d
+SHA256: 90444b2082232be1308f38eae96ecc477750f29a3c492cc8d450440d6738ba18
+SHA512: 6963635355e5c6f05567490e4e5227fa90c6418c86648eba3b92701971ad2e0165683004dd70d1496c8965521e5667b2dad0ae2bc9e1bd1adeef679170c7a0fe
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-deepin-hwe-amd64
+Architecture: amd64
 Version: 6.6.36-1
 Priority: extra
 Section: metapackages
@@ -9373,6 +9396,26 @@ MD5sum: af99cf65979626001904b64d6dc7430b
 SHA1: 93618b8202910316a6613ed13f474eea2680a332
 SHA256: fa83c6199df67d9b4a639b73104f7c1bcff40f9dd52072a2dc3dd60faf31526d
 SHA512: 5fbf97c95a55c2e2586d6ca2730cd47bedb3793a1a0ed0445bb4617eecaf41aeff630462a6fb99237359bda3ea3359fa460860c3145c8d0945ac2613cd857398
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.6.36-2
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.6.38-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.6.36-2_amd64.deb
+Size: 2208
+MD5sum: bdf36bd52111f9064bcc895a2463205d
+SHA1: 8c40de935a826ef1c27167224ca3c9eaf4d3c000
+SHA256: 6d61ec54d1d51f8efdfbec09dc319a2019ac6ab615800ce7c88a771f17cdbd6a
+SHA512: dff73560a052067f3dc8ee35f9ebbaebb950bba9c93da7af8715ce91eb1cc54990c4c2519a3d8164ad1b973dc5757b914de6e4a2f8bb7e5f26e2c4cb1f9d2408
 Homepage: http://www.deepin.com
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
