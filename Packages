@@ -3519,11 +3519,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1250
 Depends: jq, sed (>= 4), startdde (>= 6.0.11), systemd, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-session/dde-session_1.2.12_amd64.deb
-Size: 216288
-MD5sum: 493b49593e7807ac7ed6897f893bd8c0
-SHA1: 47157dae526274ae3822f88a471b6a46c1c2052d
-SHA256: 7fa6ae6ba6da10f4bfbaf165930b3657fff07e24360f5a1c6e2e17a1d283c484
-SHA512: ee0f7e171388753a08df12946d55cdc0e746579a0496d9f07b6722cd90e5a57d39127059975ef12a9fc667a473ea8259c53f1803075a31236e819f6bd40b932b
+Size: 216256
+MD5sum: fb02e9adafaf976899b11a3cf1eedbc5
+SHA1: ff83a74ff18d1d111d66f680c889bdab5f44cb2a
+SHA256: ea7f8b1329a6f6708de1f355d39792c7fd9e20f83a14e37fa4962fa00a2198da
+SHA512: c2b98656e9447320d268bfdb61fb40cce02663255210e14c5eec19b30a5bcb800a631fe787a94574974214725fe21388e2f429ae855ff7383a8df5c798e2f630
 Homepage: https://www.deepin.org
 Description: dde session module
   dde-session is used for launching DDE components systemd service project.
@@ -5425,11 +5425,11 @@ Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notific
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Filename: ./d/dde-session-shell/dde-session-shell_6.0.21_amd64.deb
-Size: 1074000
-MD5sum: 2044da89ef25db2bcdd242d0e498d783
-SHA1: e5011a9be04d9ad9384f522803756bb64a1bf330
-SHA256: e2e63d309f5ffd06bc573d079820f2c1c827a49d4fc3c9c50ff3da26f5a9e361
-SHA512: 5b31ff56218e9f3bbd3db478059874b408b84790cf653e0bb13a4b28885bf5064184752cc296e6190a998f496abab6e95d96ad791b5d746a781f528e118e0bf8
+Size: 1074976
+MD5sum: 5d1a8f148fe1262e72f5db056de0069d
+SHA1: 476ec042a732ae167cdbf2f7b552b8f18ac43e6b
+SHA256: 2eece4a20303863aa81e0831cb1aed53645b62de426c1a31af2f3ada3a5c08f9
+SHA512: 71c649c26d3ad1c00cdb4b8f319c25c71b89a169c4b4aab5d2786b12c7fa9882aacb5007d29d88b3eba5a33cb6549c2ee809fa09326144bf98095dfe9b661250
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.
@@ -8451,11 +8451,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.20_amd64.deb
-Size: 1186092
-MD5sum: b2a432be3f431cafa14b3e6309555e79
-SHA1: 5021381ccd2d1a5ab4a7206d2c91b3be14d62b56
-SHA256: bfe683d9b3a71c13c1681789cca4ef2938c18cc8a8d2194c60f3b3d94dc02afa
-SHA512: e6d9270680fba25f5e52b84cae3f6937dbb9b2d5437b11f66bd423a7a6767a93b77fe63dbbc7dc65cc74059e2e7ac08893adce059591ced4e77f6d0c0fafdde4
+Size: 1183964
+MD5sum: b1aead899500cc663aae99f08e909f79
+SHA1: 7210758744f6b4490ba4364b3563d9313f17b47c
+SHA256: f0d85765a1be5647fe760d9ea0166e644c13d93a94147899b05e9415f7a759ef
+SHA512: 2b46f734ffc857f60d0fe82343e4efda15a70b66a88fce801720568b500c9097ce5920b3ea36a01fd5f08b44031680a73803cb8c8bc154fb8dc43653f7aa19ea
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -11886,14 +11886,14 @@ Priority: optional
 Section: devel
 Source: dde-api-proxy
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2503
+Installed-Size: 2481
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.13_amd64.deb
-Size: 477660
-MD5sum: 137c16c51ace24e3a81f23379ed2200e
-SHA1: 36ffcfd40a2f916d38ce7d11d689ac80e17784ae
-SHA256: 71b06044daf1d9fed76611ac1061fb72aa2d37d7adcd9c1ad81f5f04b5e4039b
-SHA512: 074e783bfa39905bb4f6e489794ce40cdf142794fab98587cc1a06ee7a2b1472044150b0c6816384f7248572e2d8ba68f173512fd45de7852e8495f7bb2d7815
+Size: 470844
+MD5sum: 20145ce4e5f6d678bbcdc8d04f74a767
+SHA1: 3999bc4767d7159a21434bae83d148421c302ab4
+SHA256: 13ed467bfdd4a6b142bacd4e6b70c48522e819475e83dac32b37dfb2753616b3
+SHA512: b394a1c59a0c09412320e3f244375bbb9c59b389a5e4fb725111468444aca2e4b18159dfde87a453f372cfa23a50ed2e83af4ec1a7610829bded8408d5efcd41
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -12399,11 +12399,11 @@ Section: doc
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
 Installed-Size: 107916
 Filename: ./d/dde-manual-content/dde-manual-content_2.0.0.0_all.deb
-Size: 92984320
-MD5sum: 6ace6952d1c69f4142b68072d37ce498
-SHA1: 8e04bd3a58e0d2678009593240b10f11cf6694af
-SHA256: 831e48c5b1b45c0de4dc1111a4808b69923c3dafaef24bae8f5a34a568dceba9
-SHA512: 5976a351875b7e839be2ead2bd367e033fdad0f77299efa2e2ff14ba9d12eeafe9a8ddf7253ad4d7e72a2ea92b39fd1eed99d8a812b9926988e5c140823704b4
+Size: 92984120
+MD5sum: 1aa3a8ff7bd8993402546347dc19a46e
+SHA1: ddec9020da7807c1d336f29c85e8b94d6054739b
+SHA256: 1e1f143bd33a2461014215fb71168348efc6cb7ec99ac5da785cbc6e31b6512e
+SHA512: 117e8d30bfc41706b620f47883226622febc76cf657280ac8b694c1cd59309dda85cdad5a2ec111b1bbe6f2bc524d6ae7b7dffaf41ebccca12b3a63974b75539
 Homepage: https://github.com/linuxdeepin/dde-manual-content
 Description: protocol files
  Deepin protocol files
@@ -19641,6 +19641,26 @@ Homepage: http://www.deepin.org
 Description: A libaray about mount and umount dev.
  A libaray that provides mount and umount interface dev.
 
+Package: libdfm-mount-dev
+Architecture: amd64
+Version: 1.3.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60
+Depends: libdfm-mount, libsecret-1-dev, libudisks2-dev
+Filename: ./l/libdfm-mount-dev/libdfm-mount-dev_1.3.2_amd64.deb
+Size: 10988
+MD5sum: a151e55677e794880a55a48bf32ba153
+SHA1: e4815e3c76f9f4dff15e991ee96c8305a082aaa9
+SHA256: e8d067aae4c5226c8e913e68b4b26c6436a0314e2a2c0a5e3714bba26dba7325
+SHA512: b7796fcf15cb9b53572f2b79285c97027094836c02b16f7b735248dce95ad5bb8d6109c98c8d4194d78cd7dbee62f4f6bc6aa9384d67ad697156e53b7dc33070
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount dev.
+ A libaray that provides mount and umount interface dev.
+
 Package: libunrar5
 Architecture: amd64
 Version: 1:5.6.6-1
@@ -21158,6 +21178,26 @@ MD5sum: a3515045db34a3dc8f2e94de7cff00eb
 SHA1: 21a570cf54afdaf97449397d835ba49947c922fd
 SHA256: 2788ea74aac69f9e07f23950135574d59225e187640c91fa58d35c6fd0c74297
 SHA512: 9f0648f6ff8efce8ee894d1b2ac921ca5033fca7a80f1c2d513c8695872e75e5de92610a626de646766aca7d01343d038847e4b33b26e2b0910bec9bba6f3f93
+Homepage: http://www.deepin.org
+Description: A libaray about mount burning CD.
+ A libaray that provides burning CD interface dev.
+
+Package: libdfm-burn-dev
+Architecture: amd64
+Version: 1.3.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 27
+Depends: libdfm-burn, libisoburn-dev
+Filename: ./l/libdfm-burn-dev/libdfm-burn-dev_1.3.2_amd64.deb
+Size: 4432
+MD5sum: 813622bbe3cd524fdfcc48875ffc0fdb
+SHA1: a71454ef43bec06a05b298517d5e4221e4cad1fe
+SHA256: 4a25cfb3088e36ad2638618ce468dd2cd90333ff3ac366250b72b792be18551c
+SHA512: a6db777ebb02be8b619a854454b1cd8b64088f005da39b546688bad9704ba4bf715093057f925bf33d53db744a6b1dc2e8473a0b3964e1272ac6b3336f9a26d2
 Homepage: http://www.deepin.org
 Description: A libaray about mount burning CD.
  A libaray that provides burning CD interface dev.
@@ -26274,6 +26314,27 @@ Description: A libaray about burning CD.
 
 Package: libdfm-burn
 Architecture: amd64
+Version: 1.3.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 373
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.4), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdfm-burn/libdfm-burn_1.3.2_amd64.deb
+Size: 126144
+MD5sum: c785b15596ac396fb54437e40e8b80bf
+SHA1: 91fd6f784b0d0b6770a7cbacfcc3c3ae31e67b27
+SHA256: a21ebae929c1cc3a4d9d1c7f68c1dc51555c7afef1a9db45cefddd5f08bf1669
+SHA512: 87e2678c9c4ea561ac90b9927ef858412398081089dccfba110b2b5861ee160b2890ea5a9ef27aeca9c803b89dc3695fc0fa59d5b66de6af9bbe851a7971229c
+Homepage: http://www.deepin.org
+Description: A libaray about burning CD.
+ A libaray that provides burning CD interface.
+
+Package: libdfm-burn
+Architecture: amd64
 Version: 1.2.22
 Multi-Arch: same
 Priority: optional
@@ -27511,11 +27572,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3676
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.1_amd64.deb
-Size: 703052
-MD5sum: fd93cb7038d490b7dccf2286cc1b17d1
-SHA1: 4d8723c8474bfef13a5fcf83cfff0beabc7fecfa
-SHA256: 57d1b07ed9cfd6ffd6249cc913b5e0c0a96b6ff3423ee8b77876bfd6994666cf
-SHA512: 4eb034774410ff600328bc47c1bd942c24680aa26c7643d10c6f1c98d6aeda7f9e8d3ea5c33305054252df45dc037011f1801528c9607709103a77ec97abf253
+Size: 704444
+MD5sum: c0df829b30767e2b8f0083094dc1e510
+SHA1: 814f76dbda9781de63b9f809b0d55e42f5661991
+SHA256: 742ff0871609625bb41f951a74e451445c30177180924d78179811a2858522f3
+SHA512: ebf46fc002608baa961926f0ccb19cc3279ad3e2519cbe552b82ad79d45b42c7247d508de590d92fd988fb74e55644e418cd7b2c7037c4e272dabc800151c4d4
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -27721,6 +27782,26 @@ MD5sum: f712699d952253d2c4b2ce852153ca98
 SHA1: 1a3ab2e8d1ba13cd4acd40462537d277f625328a
 SHA256: d8c78a189f4280971c350fc1bb5ae7b21151909411715601dba5709b4809aae5
 SHA512: 18dff2bf58d11d5a8d179e3df959cfae5a3d49c5bdc9d2b4ace559d9377c9d6354aa7ba9b11512a0444c2da37323214f210541ac4edceb19ceb5b09f1898ca63
+Homepage: http://www.deepin.org
+Description: A libaray about I/O.
+ A libaray that provides I/O interface.
+
+Package: libdfm-io
+Architecture: amd64
+Version: 1.3.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 418
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.55.2), libmediainfo0v5 (>= 0.7.56), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), libglibmm-2.4-1v5
+Filename: ./l/libdfm-io/libdfm-io_1.3.2_amd64.deb
+Size: 122444
+MD5sum: 1547a771f3b37e7f1f430c57199cc77e
+SHA1: 94a3a20ac21175265e913d7a6f32bae6f599fd74
+SHA256: 33522a70123674ed91cd134335bf9ffd7cd777f83cfb2c202b80c7c11548b399
+SHA512: 41667f4407b22aa1f6123cba324d994740ea2c749e6c4162acee777e124fb6a0c896111c0c6e994268d9e1ef778671cfecaf179024b31c784b7ea5e7e81f0de6
 Homepage: http://www.deepin.org
 Description: A libaray about I/O.
  A libaray that provides I/O interface.
@@ -28199,11 +28280,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.1)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.1_amd64.deb
-Size: 63332
-MD5sum: 723b7547370975b1f16bd34d13a26419
-SHA1: 3b0fed92eee82e2cf1268d1c4dc38156dc6b3115
-SHA256: 7a50434e4f7f7c71a9abbff502ba0ca9b3580942054f443ddd6189ec8f511446
-SHA512: ccc55e57b99dc8190f35d84176025b26dce7f7ecb25044191ddb8547cc9760e38900c8bccb416487cc014565974cae7a2a3742d5bee33204c742375d17fc4585
+Size: 63316
+MD5sum: 45d3988bc5909e95c6c7f1b0da462f14
+SHA1: 65d7342221a0e2fc3365f12af8727c6c53c9fe59
+SHA256: 3e93b8bfb521bd653c701794ed36959b7a99181bbca9de58f087cd6a90825aa7
+SHA512: f2c1c72de9494cda3d7bd383440b13c84c8d0e39abc86c07c92b2d30da7ed73042665908800f46c417d57e5eddf61b6d37d5a5d4e448ebcb5a52264348763f98
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -29025,6 +29106,26 @@ SHA512: db8be5e5e6d5e362a4a0f2254a82875d0221f3c47243f21eef20337f87a65838e2d939d8
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui Devel library (Document)
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: libdfm-io-dev
+Architecture: amd64
+Version: 1.3.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 68
+Depends: libdfm-io
+Filename: ./l/libdfm-io-dev/libdfm-io-dev_1.3.2_amd64.deb
+Size: 11804
+MD5sum: b870f2980823d78fec90f2b94143459d
+SHA1: 73086585d521b146af26945b27d8baf3dd8936f5
+SHA256: 378d2b4e61b2df7218ed1a7b99ea7338a4c45bf5f34e066bbd28ff5f36bf7d36
+SHA512: 1f924d4acd9500c1febf4cc799347be2b47a445b63d326f5f67e020d355134325711576461b1156ceabd01f10be3057fab11ebbd09405c9c5eba12cc0b4d3797
+Homepage: http://www.deepin.org
+Description: A libaray about I/O dev.
+ A libaray that provides I/O interface dev.
 
 Package: libdfm-io-dev
 Architecture: amd64
@@ -30567,6 +30668,26 @@ MD5sum: b97ed0385c8ffb2d64531fde388dcc17
 SHA1: d5e8ec8273535971510cd097cb13488002f2b2f3
 SHA256: 912d3b54d94983192ddf7197b9e6ba4a1e89cf9c63eb5106fbf773ff82b45f5b
 SHA512: 4578185d5affdb32078ce9f906df63cf5d5c99f7b187a4010572f97c6cea42bc724c5631f489095d3cda1c2eadf13a838e936434395483b35bc2d4a990889208
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount.
+ A libaray that provides mount and umount interface.
+
+Package: libdfm-mount
+Architecture: amd64
+Version: 1.3.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 583
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libmount1 (>= 2.25), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
+Filename: ./l/libdfm-mount/libdfm-mount_1.3.2_amd64.deb
+Size: 146668
+MD5sum: 6824f2ccdf60bbfd29741ef474b794a5
+SHA1: 17d14ba9ecf2448f819079e1e86ea15b27a95e6f
+SHA256: 887ca44d2857796eaafc4ce4e55ef0870c990a753dac0f90b927d78b076e6b2b
+SHA512: 8f6a8a4cb9337cd69a836bc5804ba37641b497ee5109dbb50bf053a83b4970abc28130b432d33782338fe234304099cea329bffc73ba3dfc8c7c45354e2e5c02
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount.
  A libaray that provides mount and umount interface.
